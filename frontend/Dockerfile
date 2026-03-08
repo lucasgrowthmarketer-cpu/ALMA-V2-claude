@@ -7,7 +7,7 @@ WORKDIR /app
 COPY package.json yarn.lock* package-lock.json* ./
 RUN if [ -f yarn.lock ]; then yarn install --frozen-lockfile; \
     elif [ -f package-lock.json ]; then npm ci; \
-    else npm install; fi
+    else npm install --legacy-peer-deps; fi
 
 # Copy source and build
 COPY . .
