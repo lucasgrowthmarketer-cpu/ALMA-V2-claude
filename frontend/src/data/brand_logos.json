@@ -1,0 +1,106 @@
+{
+  "cmz": {
+    "nom": "CMZ",
+    "logo_url": "https://i.ibb.co/pvdqp2MH/CMZ-logo.jpg"
+  },
+  "geminis": {
+    "nom": "GEMINIS",
+    "logo_url": "https://i.ibb.co/5gjvbPrn/GEMINIS-logo.jpg"
+  },
+  "zmm": {
+    "nom": "ZMM",
+    "logo_url": "https://i.ibb.co/x83Mw942/ZMM-logo.png"
+  },
+  "xyz": {
+    "nom": "XYZ",
+    "logo_url": "https://i.ibb.co/FLbKHsnq/xyz-logo.png"
+  },
+  "tornos": {
+    "nom": "TORNOS",
+    "logo_url": "https://i.ibb.co/Gv0zCHTY/TORNOS-logo.jpg"
+  },
+  "hartford": {
+    "nom": "HARTFORD",
+    "logo_url": "https://i.ibb.co/m5NmBgMM/HARTFORD-logo.png"
+  },
+  "akira": {
+    "nom": "AKIRA",
+    "logo_url": "https://i.ibb.co/BHnbdWQM/AKIRA-logo.jpg"
+  },
+  "axile": {
+    "nom": "AXILE",
+    "logo_url": "https://i.ibb.co/F44NzdcS/AXILE-logo.png"
+  },
+  "soraluce": {
+    "nom": "SORALUCE",
+    "logo_url": "https://i.ibb.co/C5z0CQCt/SORALUCE-logo-png.png"
+  },
+  "toyoda": {
+    "nom": "TOYODA",
+    "logo_url": "https://i.ibb.co/G4DGB8Qg/TOYODA-logo.png"
+  },
+  "ger": {
+    "nom": "GER",
+    "logo_url": "https://i.ibb.co/Fk5kbB18/GER-logo.png"
+  },
+  "danobat": {
+    "nom": "DANOBAT",
+    "logo_url": "https://i.ibb.co/1tZgCKtw/DANOBAT-logo.jpg"
+  },
+  "ona": {
+    "nom": "ONA",
+    "logo_url": "https://i.ibb.co/4RM6hcsw/ONA-logo.jpg"
+  },
+  "lasit": {
+    "nom": "LASIT",
+    "logo_url": "https://i.ibb.co/WNjM5qBh/LASIT-logo.png"
+  },
+  "spaleck": {
+    "nom": "SPALECK",
+    "logo_url": "https://i.ibb.co/vxvw5cvQ/SPALECK-logo.png"
+  },
+  "everising": {
+    "nom": "EVERISING",
+    "logo_url": "https://i.ibb.co/G4dG4Hyn/EVERISING-logo.png"
+  },
+  "unitech": {
+    "nom": "UNITECH",
+    "logo_url": "https://i.ibb.co/bMvkwdb8/UNITECH-TROYAN-logo.png"
+  },
+  "wenzel": {
+    "nom": "WENZEL",
+    "logo_url": "https://i.ibb.co/ks7Yh3xJ/WENZEL-logo.webp"
+  },
+  "haco": {
+    "nom": "HACO",
+    "logo_url": "https://i.ibb.co/pBJQKL7W/HACO-logo.png"
+  },
+  "phenix": {
+    "nom": "PHENIX",
+    "logo_url": "https://i.ibb.co/7dn1SK4L/PHENIX-logo.png"
+  },
+  "imet": {
+    "nom": "IMET",
+    "logo_url": "https://i.ibb.co/d0CCsp9p/IMET-logo.jpg"
+  },
+  "kaltenbach": {
+    "nom": "KALTENBACH",
+    "logo_url": "https://i.ibb.co/pjN0Vv3M/KALTENBACH-logo.jpg"
+  },
+  "cincinnati": {
+    "nom": "CINCINNATI",
+    "logo_url": "https://i.ibb.co/8g7KSyWN/CINCINNATI-logo.png"
+  },
+  "kingsland": {
+    "nom": "KINGSLAND",
+    "logo_url": "https://i.ibb.co/wZBgs1k0/KINGSLAND-logo.jpg"
+  },
+  "tyro": {
+    "nom": "TYRO",
+    "logo_url": "https://i.ibb.co/jZgQdW9c/ROTY-logo.png"
+  },
+  "logitower": {
+    "nom": "LOGITOWER",
+    "logo_url": "https://i.ibb.co/FLNd8wmS/LOGITOWER-logo.webp"
+  }
+}
