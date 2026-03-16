@@ -10,9 +10,9 @@
       "Usinage"
     ],
     "sous_categorie": "TOURNAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Tour numérique à banc incliné de petite et moyenne dimension",
+    "capacite": "Ømaxi usinable 460mm, Lg banc 400mm / 640mm / 1.100mm",
+    "description": "Tour numérique à banc incliné de petite et moyenne dimension\n\nLes tours CNC CMZ de la gamme TA sont conçus pour les applications de tournage de précision sur pièces de petite et moyenne dimension. Leur architecture à banc incliné assure une excellente évacuation des copeaux, une bonne ergonomie opérateur et une stabilité mécanique adaptée aux environnements de production industrielle.\n\nAvec un diamètre maximal usinable de 460 mm et différentes longueurs de banc disponibles (400 mm, 640 mm et jusqu’à 1 100 mm), ces machines offrent une grande polyvalence pour la fabrication de pièces unitaires, de petites séries ou de séries moyennes. Elles sont particulièrement adaptées aux ateliers de mécanique générale, de sous-traitance industrielle et aux entreprises recherchant un tour CNC fiable et compact.\n\nChez Alma, les tours CMZ TA sont très appréciés pour leur longévité, leur rigidité mécanique et leur capacité à conserver une précision constante dans le temps, ce qui en fait un excellent investissement industriel.",
     "photo": "/images/machines/cmz/ta.png"
   },
   {
@@ -26,9 +26,9 @@
       "Usinage"
     ],
     "sous_categorie": "TOURNAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Tour numérique à banc incliné de production",
+    "capacite": "Ømaxi usinable 550mm, Lg banc 800mm / 1.350mm",
+    "description": "Tour numérique à banc incliné de production\n\nLa gamme TD de CMZ est destinée aux ateliers orientés production industrielle, avec des besoins accrus en cadence, répétabilité et fiabilité. Ces tours CNC à banc incliné sont conçus pour fonctionner en continu, sur des cycles longs, tout en maintenant une qualité d’usinage constante.\n\nAvec un diamètre maximal usinable de 550 mm et des longueurs de banc de 800 mm ou 1 350 mm, les machines TD répondent parfaitement aux exigences des secteurs comme l’automobile, l’équipement industriel ou la mécanique de série. Leur conception robuste permet l’usinage de pièces complexes tout en garantissant une excellente stabilité dynamique.\n\nChez Alma, les tours CMZ TD constituent une solution stratégique pour les industriels souhaitant augmenter leur capacité de production sans investir dans du matériel neuf, tout en conservant un haut niveau de performance.",
     "photo": "/images/machines/cmz/td.png"
   },
   {
@@ -42,9 +42,9 @@
       "Usinage"
     ],
     "sous_categorie": "TOURNAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Tour numérique à banc incliné de grande capacité",
+    "capacite": "Ømaxi usinable 550mm, Lg banc 2.200mm / 3.200mm",
+    "description": "Les tours CNC CMZ TD Long sont spécifiquement conçus pour l’usinage de pièces longues et de grande capacité. Ils conservent les caractéristiques de robustesse et de précision de la gamme TD, tout en offrant des longueurs de banc étendues de 2 200 mm à 3 200 mm.\n\nAvec un diamètre maximal usinable de 550 mm, ces machines sont particulièrement adaptées aux pièces longues utilisées dans les secteurs de l’énergie, de la mécanique lourde, des arbres mécaniques ou de la sous-traitance spécialisée. Leur structure rigide garantit une excellente tenue géométrique, même sur des cycles d’usinage complexes.\n\nSur le marché de la machine-outil neuves, les CMZ TD Long sont recherchés pour leur capacité à reprendre des productions lourdes tout en offrant un excellent rapport performance / investissement.",
     "photo": "/images/machines/cmz/td-long.png"
   },
   {
@@ -58,9 +58,9 @@
       "Usinage"
     ],
     "sous_categorie": "TOURNAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Tour numérique multi axes de décolletage",
+    "capacite": "Ømaxi usinable 120mm, Lg banc 638mm, Axe X3",
+    "description": "Tour numérique multi-axes de décolletage\n\nLa gamme TTS de CMZ est dédiée aux applications de tournage multi-axes et de décolletage, nécessitant une grande précision et une forte flexibilité. Ces tours CNC sont conçus pour l’usinage de pièces techniques complexes, avec un haut niveau d’intégration des axes.\n\nAvec un diamètre maximal usinable de 120 mm, une longueur de banc de 638 mm et la présence d’un axe X3, les machines TTS permettent la réalisation d’opérations multiples en un seul serrage. Elles sont particulièrement utilisées dans les secteurs de la micromécanique, du médical, de l’aéronautique légère et des composants techniques à forte valeur ajoutée.\n\nChez Alma, les tours CMZ TTS offrent une solution performante pour les ateliers cherchant à internaliser des opérations complexes tout en maîtrisant leur budget d’investissement.",
     "photo": "/images/machines/cmz/tts.png"
   },
   {
@@ -74,9 +74,9 @@
       "Usinage"
     ],
     "sous_categorie": "TOURNAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Tour numérique bi-broches bi-tourelles",
+    "capacite": "Ømaxi usinable 220mm, Lg banc 800mm, Axe X3",
+    "description": "Tour numérique bi-broches bi-tourelles\n\nLes tours CNC CMZ de la gamme TTL représentent une solution de tournage hautement productif, intégrant une configuration bi-broches et bi-tourelles. Cette architecture permet l’usinage simultané ou enchaîné de plusieurs opérations, réduisant considérablement les temps de cycle.\n\nAvec un diamètre maximal usinable de 220 mm, une longueur de banc de 800 mm et la présence d’un axe X3, les machines TTL sont idéales pour la production en série, les pièces complexes et les environnements industriels à forte exigence de rendement.\n\nChez Alma, les CMZ TTL sont particulièrement recherchés pour leur capacité à maximiser la productivité, tout en conservant une excellente précision et une fiabilité reconnue.",
     "photo": "/images/machines/cmz/ttl.png"
   },
   {
@@ -90,9 +90,9 @@
       "Usinage"
     ],
     "sous_categorie": "TOURNAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Tour horizontaux de grandes capacités",
+    "capacite": "Ømaxi usinable 3.600 mm / poids pièce 150.000 kg / Lg banc 24.000mm",
+    "description": "Tours horizontaux CNC de très grandes capacités\n\nLes tours CNC GEMINIS de la gamme GT sont conçus pour l’usinage de pièces lourdes, volumineuses et de grande longueur, destinées aux secteurs industriels les plus exigeants. Cette gamme s’adresse principalement aux acteurs de l’énergie, de l’aéronautique, de la mécanique lourde, de la construction navale et des industries de process.\n\nAvec un diamètre maximal usinable pouvant atteindre 3 600 mm, une capacité de charge jusqu’à 150 000 kg et des longueurs de banc allant jusqu’à 24 000 mm, les tours GEMINIS GT permettent l’usinage de pièces de très grande dimension tout en garantissant une excellente précision géométrique. Leur structure mécano-soudée de forte rigidité assure une stabilité optimale, même lors d’opérations lourdes ou de passes importantes.\n\nChez Alma, les GEMINIS GT représentent une valeur industrielle stratégique. Leur conception robuste et leur longévité en font des machines particulièrement recherchées pour des projets de reprise de production, de renforcement de capacité ou de modernisation d’ateliers spécialisés dans les grandes pièces.",
     "photo": "/images/machines/geminis/gt5i.png"
   },
   {
@@ -106,9 +106,9 @@
       "Usinage"
     ],
     "sous_categorie": "TOURNAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Tour multiprocess de grandes capacités",
+    "capacite": "Ømaxi usinable 2.500 mm / poids pièce 80.000 kg / Lg banc 24.000mm",
+    "description": "Tours CNC multiprocess de grandes capacités\n\nLa gamme GEMINIS GM regroupe des tours CNC multiprocess conçus pour répondre à des besoins d’usinage complexes sur des pièces lourdes et de grandes dimensions. Ces machines permettent de combiner plusieurs opérations d’usinage sur une seule plateforme, réduisant ainsi les temps de manutention et améliorant la productivité globale.\n\nAvec un diamètre maximal usinable de 2 500 mm, une capacité de charge jusqu’à 80 000 kg et des longueurs de banc pouvant atteindre 24 000 mm, les tours GEMINIS GM sont particulièrement adaptés aux pièces techniques à forte valeur ajoutée, utilisées dans les secteurs de l’énergie, de l’aéronautique, de la mécanique lourde et des équipements industriels spécifiques.\n\nEn, les machines GEMINIS GM offrent un excellent compromis entre polyvalence et capacité, permettant aux industriels d’accéder à des solutions d’usinage multiprocess haut de gamme tout en maîtrisant leur investissement. Leur fiabilité et leur rigidité structurelle garantissent une performance durable, même dans des conditions de production intensives.",
     "photo": "/images/machines/geminis/gm7.png"
   },
   {
@@ -122,9 +122,9 @@
       "Usinage"
     ],
     "sous_categorie": "TOURNAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Tour conventionnel",
+    "capacite": "Ømaxi usinable 940 mm / Lg banc 6.000mm",
+    "description": "Tour conventionnel de grande capacité\n\nLes tours conventionnels ZMM de la gamme CU sont conçus pour les opérations de tournage lourd nécessitant une forte capacité d’usinage et une grande stabilité mécanique. Ces machines sont destinées aux ateliers industriels travaillant sur des pièces de grand diamètre et de longueur importante, dans des environnements exigeants.\n\nAvec un diamètre maximal usinable de 940 mm et une longueur de banc pouvant atteindre 6 000 mm, les tours ZMM CU sont particulièrement adaptés à la mécanique générale, à la maintenance industrielle, à la réparation de pièces lourdes et aux applications nécessitant une machine simple, robuste et fiable.\n\nChez Alma, les tours ZMM CU sont très recherchés pour leur simplicité mécanique, leur facilité de maintenance et leur longévité, ce qui en fait une solution durable pour les ateliers souhaitant investir dans du matériel éprouvé.",
     "photo": "/images/machines/zmm/cu.png"
   },
   {
@@ -138,9 +138,9 @@
       "Usinage"
     ],
     "sous_categorie": "TOURNAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Tour conventionnel à variateur de vitesses",
+    "capacite": "Ømaxi usinable 940 mm / Lg banc 10.000mm",
+    "description": "Tour conventionnel à variateur de vitesses\n\nLa gamme ZMM CUXXRD regroupe des tours conventionnels équipés d’un variateur de vitesses, offrant une plus grande souplesse d’utilisation et un meilleur contrôle des conditions de coupe. Cette configuration permet d’adapter précisément la vitesse aux matériaux usinés et aux dimensions des pièces.\n\nAvec un diamètre maximal usinable de 940 mm et une longueur de banc allant jusqu’à 10 000 mm, ces machines sont particulièrement adaptées à l’usinage de pièces longues et lourdes, dans des secteurs comme la mécanique lourde, la maintenance industrielle, l’énergie ou les ateliers de réparation spécialisés.\n\nEn, les ZMM CUXXRD offrent un excellent compromis entre performance et simplicité, tout en conservant une grande robustesse structurelle, gage de fiabilité sur le long terme.",
     "photo": "/images/machines/zmm/cuxxrd.png"
   },
   {
@@ -154,9 +154,9 @@
       "Usinage"
     ],
     "sous_categorie": "TOURNAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Tour cyclés",
+    "capacite": "Ømaxi usinable 690 mm / Lg banc 10.000mm",
+    "description": "Tour cyclé pour production répétitive\n\nLes tours ZMM de la gamme LS sont des tours cyclés, conçus pour répondre aux besoins de production répétitive tout en conservant une approche simple et robuste. Ils permettent d’automatiser partiellement certaines opérations tout en restant accessibles pour les opérateurs.\n\nAvec un diamètre maximal usinable de 690 mm et une longueur de banc pouvant atteindre 10 000 mm, ces machines sont idéales pour les ateliers cherchant à augmenter leur productivité sans passer immédiatement sur des solutions CNC complexes.\n\nChez Alma, les ZMM LS sont appréciés pour leur fiabilité, leur facilité de prise en main et leur capacité à s’intégrer dans des ateliers de sous-traitance, de mécanique générale ou de petite série.",
     "photo": "/images/machines/zmm/ls.jpg"
   },
   {
@@ -170,9 +170,9 @@
       "Usinage"
     ],
     "sous_categorie": "TOURNAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Tour avec commande numérique",
+    "capacite": "Ømaxi usinable 940 mm / Lg banc 10.000mm",
+    "description": "Tour avec commande numérique\n\nLa gamme ZMM LT regroupe des tours à commande numérique, combinant la robustesse mécanique des machines ZMM avec les avantages de la programmation CNC. Ces machines sont conçues pour des applications nécessitant précision, répétabilité et flexibilité, tout en conservant une structure lourde adaptée aux pièces de grande dimension.\n\nAvec un diamètre maximal usinable de 940 mm et une longueur de banc pouvant atteindre 10 000 mm, les tours ZMM LT sont utilisés dans des secteurs comme la mécanique industrielle, l’énergie, la sous-traitance lourde et les ateliers polyvalents.\n\nChez Alma, ces machines représentent une solution fiable pour accéder au tournage CNC avec un investissement maîtrisé, tout en bénéficiant d’une machine conçue pour durer.",
     "photo": "/images/machines/zmm/lt.jpg"
   },
   {
@@ -186,9 +186,9 @@
       "Usinage"
     ],
     "sous_categorie": "TOURNAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Tour pétrolier",
+    "capacite": "Ømaxi usinable 780 mm / Lg banc 6.000mm",
+    "description": "Tour pétrolier\n\nLes tours ZMM de la gamme CXT sont spécifiquement conçus pour les applications pétrolières et énergétiques, nécessitant l’usinage de tubes, raccords et pièces cylindriques spécifiques. Leur conception robuste répond aux contraintes mécaniques élevées et aux normes propres à ces industries.\n\nAvec un diamètre maximal usinable de 780 mm et une longueur de banc de 6 000 mm, ces machines sont particulièrement adaptées à la maintenance pétrolière, à la fabrication de composants énergétiques et aux ateliers spécialisés dans les pièces tubulaires de grande dimension.\n\nChez Alma, les ZMM CXT conservent une forte valeur industrielle, grâce à leur spécialisation, leur robustesse et leur capacité à opérer dans des environnements contraints.",
     "photo": "/images/machines/zmm/cxt.jpg"
   },
   {
@@ -202,9 +202,9 @@
       "Usinage"
     ],
     "sous_categorie": "TOURNAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Tour par apprentissage / semi-numérique",
+    "capacite": "Ømaxi usinable 780 mm / Lg banc 3.000mm",
+    "description": "Tour par apprentissage / semi-numérique\n\nLes tours XYZ de la gamme RLX sont conçus pour offrir une transition idéale entre le tournage conventionnel et le tournage CNC, en combinant simplicité d’utilisation, flexibilité et productivité accrue. Cette gamme s’adresse aux ateliers souhaitant moderniser leur parc machines tout en conservant une prise en main intuitive pour les opérateurs.\n\nAvec un diamètre maximal usinable de 780 mm et une longueur de banc de 3 000 mm, les tours XYZ RLX permettent l’usinage de pièces de taille moyenne à grande, aussi bien en pièce unitaire, en petite série qu’en maintenance industrielle. Le mode par apprentissage facilite la programmation directe à la machine, réduisant les temps de réglage et les erreurs de programmation.\n\nCes machines sont particulièrement appréciées dans les ateliers de mécanique générale, de maintenance, de sous-traitance industrielle et dans les environnements où la polyvalence et la réactivité sont essentielles. Elles permettent de produire rapidement des pièces variées sans la complexité d’un centre de tournage CNC classique.\n\nChez Alma, les tours XYZ RLX sont très recherchés pour leur excellent compromis entre performance et budget, leur fiabilité et leur facilité de formation des opérateurs. Ils constituent une solution pertinente pour les industriels souhaitant gagner en productivité tout en maîtrisant leur investissement.",
     "photo": "/images/machines/xyz/machine.jpg"
   },
   {
@@ -266,9 +266,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Centre d'usinage 3 ou 4 axes agile",
+    "capacite": "Dimensions tables maxi 1.600 x 700mm, charge maxi 1.000 kg",
+    "description": "Centre d’usinage CNC 3 ou 4 axes agile\n\nLes centres d’usinage HARTFORD de la gamme LG sont conçus pour offrir une grande agilité en usinage, tout en conservant une structure rigide adaptée aux contraintes industrielles. Ces machines sont idéales pour les ateliers recherchant polyvalence, précision et fiabilité dans un encombrement maîtrisé.\n\nAvec des dimensions de table pouvant atteindre 1 600 x 700 mm et une capacité de charge jusqu’à 1 000 kg, la gamme LG convient parfaitement aux applications de mécanique générale, de sous-traitance industrielle et de fabrication de pièces unitaires ou de petites séries.\n\nChez Alma, les HARTFORD LG sont très appréciés pour leur facilité d’intégration, leur robustesse et leur excellent rapport performance / investissement.",
     "photo": "/images/machines/hartford/lg.png"
   },
   {
@@ -282,9 +282,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Centre d'usinage 3 ou 4 axes à fort enlèvement de copeaux",
+    "capacite": "Dimensions tables maxi 2.250 x 1.200mm, charge maxi 3.000 kg",
+    "description": "Centre d’usinage CNC 3 ou 4 axes à fort enlèvement de copeaux\n\nLa gamme HCMC est destinée aux applications nécessitant un fort enlèvement de matière, avec des cadences élevées et une stabilité mécanique renforcée. Ces centres d’usinage sont conçus pour supporter des efforts de coupe importants tout en garantissant une précision constante.\n\nDotés de tables pouvant atteindre 2 250 x 1 200 mm et d’une capacité de charge jusqu’à 3 000 kg, les centres HARTFORD HCMC sont utilisés dans les secteurs de la mécanique lourde, de l’équipement industriel, de l’énergie et de la fabrication de pièces massives.\n\nChez Alma, ces machines constituent une solution robuste et productive pour les ateliers souhaitant renforcer leur capacité d’usinage intensif sans investir dans du matériel neuf.",
     "photo": "/images/machines/hartford/hcmc.png"
   },
   {
@@ -298,9 +298,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Centre d'usinage 5 axes",
+    "capacite": "Ømaxi plateau 800mm, charge maxi 850 kg",
+    "description": "Centre d’usinage CNC 5 axes\n\nLes centres d’usinage HARTFORD 5A sont conçus pour les applications multi-axes, nécessitant une grande précision et la capacité à produire des pièces complexes en un seul serrage. Cette gamme permet de réduire les temps de cycle et d’améliorer la qualité globale des pièces usinées.\n\nAvec un diamètre de plateau pouvant atteindre 800 mm et une charge maximale de 850 kg, ces machines sont particulièrement adaptées aux secteurs de la mécanique de précision, de l’aéronautique, du médical et des pièces techniques à forte valeur ajoutée.\n\nChez Alma, les HARTFORD 5 axes offrent un accès maîtrisé à l’usinage complexe, avec une excellente fiabilité industrielle.",
     "photo": "/images/machines/hartford/5a.png"
   },
   {
@@ -314,9 +314,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Portique d'usinage agile",
+    "capacite": "Dimensions tables maxi 8.000 x 3.000mm, charge maxi 30.000 kg",
+    "description": "Portique d’usinage agile\n\nLa gamme HSA de HARTFORD regroupe des portiques d’usinage CNC de grandes dimensions, conçus pour l’usinage de pièces volumineuses tout en conservant une bonne dynamique machine. Ces équipements sont adaptés aux applications nécessitant à la fois surface utile importante et flexibilité d’usinage.\n\nAvec des tables pouvant atteindre 8 000 x 3 000 mm et une capacité de charge jusqu’à 30 000 kg, les portiques HSA sont utilisés dans la mécanique lourde, la fabrication de structures, l’énergie et les industries de process.\n\nChez Alma, ces machines représentent une valeur industrielle majeure, grâce à leur robustesse et leur capacité à traiter des pièces de très grande dimension.",
     "photo": "/images/machines/hartford/hsa.png"
   },
   {
@@ -330,9 +330,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Portique d'usinage à fort enlèvement de copeaux",
+    "capacite": "Dimensions tables maxi 6.000 x 2.500mm, charge maxi 16.500 kg",
+    "description": "Portique d’usinage à fort enlèvement de copeaux\n\nLes portiques HARTFORD de la gamme SW sont spécifiquement conçus pour les opérations de fraisage intensif sur des pièces lourdes et massives. Leur conception permet d’absorber de fortes contraintes mécaniques tout en garantissant une excellente tenue géométrique.\n\nAvec des dimensions de table pouvant atteindre 6 000 x 2 500 mm et une charge maximale de 16 500 kg, ces machines sont parfaitement adaptées aux secteurs de la mécanique lourde, de l’industrie énergétique, de la construction industrielle et des grandes pièces mécaniques.\n\nSur le marché de la machine-outil neuves, les HARTFORD SW sont recherchés pour leur capacité d’usinage intensif et leur fiabilité en production.",
     "photo": "/images/machines/hartford/sw.png"
   },
   {
@@ -346,9 +346,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Portique d'usinage 5 axes",
+    "capacite": "Dimensions tables maxi 8.000 x 3.000mm, charge maxi 30.000 kg",
+    "description": "Portique d’usinage CNC 5 axes\n\nLa gamme HSA EA représente les portiques d’usinage 5 axes de HARTFORD, destinés aux applications les plus exigeantes en termes de complexité géométrique et de dimensions de pièces. Ces machines permettent l’usinage complet de pièces complexes en un nombre réduit de montages.\n\nAvec des tables pouvant atteindre 8 000 x 3 000 mm et une charge maximale de 30 000 kg, les portiques HSA EA sont utilisés dans les secteurs de l’aéronautique, de l’énergie, de la mécanique lourde de précision et des structures complexes.\n\nChez Alma, ces portiques 5 axes offrent une solution industrielle haut de gamme, permettant d’accéder à des capacités d’usinage avancées tout en optimisant l’investissement.",
     "photo": "/images/machines/hartford/hsa-ea.png"
   },
   {
@@ -362,9 +362,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Centre d'usinage 3 ou 5 axes à grandes vitesses",
+    "capacite": "Dimensions tables maxi 2.750 x 950mm, charge maxi 3.600 kg",
+    "description": "Centre d’usinage CNC 3 ou 5 axes à grandes vitesses\n\nLes centres d’usinage AKIRA SEIKI SV à grandes vitesses sont conçus pour les applications dynamiques, où la vitesse d’usinage, la précision et la qualité de surface sont déterminantes. Cette configuration permet d’intégrer des opérations multi-axes pour des pièces complexes.\n\nAvec des dimensions de table pouvant atteindre 2 750 x 950 mm et une capacité de charge jusqu’à 3 600 kg, ces machines sont particulièrement adaptées aux secteurs de la mécanique de précision, de l’aéronautique, du moule et des pièces techniques à forte valeur ajoutée.\n\nChez Alma, ces centres offrent un excellent compromis entre performance dynamique et investissement maîtrisé, tout en conservant une grande fiabilité industrielle.",
     "photo": "/images/machines/akira/sv.jpg"
   },
   {
@@ -378,9 +378,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Centre d'usinage 3 ou 4 axes puissant",
+    "capacite": "Dimensions tables maxi 2.750 x 950mm, charge maxi 4.300 kg",
+    "description": "Centre d’usinage CNC 3 ou 4 axes puissant\n\nLa gamme V d’AKIRA SEIKI est destinée aux applications nécessitant une puissance d’usinage accrue et une excellente tenue mécanique. Ces centres d’usinage sont conçus pour travailler sur des pièces plus volumineuses et supporter des efforts de coupe élevés.\n\nDotés de tables pouvant atteindre 2 750 x 950 mm et d’une capacité de charge jusqu’à 4 300 kg, les centres AKIRA V sont utilisés dans la mécanique lourde, l’équipement industriel, l’énergie et la fabrication de composants massifs.\n\nChez Alma, cette gamme offre une solution puissante et durable, idéale pour augmenter la capacité d’usinage tout en maîtrisant les coûts.",
     "photo": "/images/machines/akira/v.png"
   },
   {
@@ -410,9 +410,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Centre d'usinage 3 ou 4 axes à fort enlèvement de copeaux",
+    "capacite": "Dimensions tables maxi 2.750 x 950mm, charge maxi 3.600 kg",
+    "description": "Centre d’usinage CNC 3 ou 4 axes à fort enlèvement de copeaux\n\nLa gamme HV d’AKIRA SEIKI est dédiée aux opérations de fraisage intensif, avec un accent mis sur la rigidité structurelle et la capacité à absorber de forts efforts de coupe. Ces machines sont conçues pour des environnements de production exigeants.\n\nAvec des tables pouvant atteindre 2 750 x 950 mm et une charge maximale de 3 600 kg, les centres AKIRA HV sont utilisés dans la mécanique lourde, la fabrication de pièces industrielles massives et les ateliers orientés productivité.\n\nSur le marché de la machine-outil neuves, cette gamme est appréciée pour sa robustesse, sa stabilité et sa longévité, même en utilisation intensive.",
     "photo": "/images/machines/akira/hv.png"
   },
   {
@@ -426,9 +426,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Centre de perçage rapide",
+    "capacite": "Dimensions tables maxi 1.500 x 600mm, charge maxi 1.000 kg",
+    "description": "Centre de perçage rapide\n\nLes centres de perçage AKIRA SEIKI de la gamme PC sont conçus pour les opérations nécessitant une très grande rapidité d’exécution, notamment pour le perçage, le taraudage et les opérations répétitives à forte cadence.\n\nAvec des dimensions de table pouvant atteindre 1 500 x 600 mm et une capacité de charge jusqu’à 1 000 kg, ces machines sont particulièrement adaptées aux ateliers de sous-traitance, à la fabrication de pièces en série et aux environnements où la productivité prime.\n\nChez Alma, les centres AKIRA PC constituent une solution efficace et économique pour augmenter le débit de production sans alourdir l’investissement.",
     "photo": "/images/machines/akira/pc.png"
   },
   {
@@ -442,9 +442,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
+    "type": "Centre d'usinage 5 axes",
     "capacite": "",
-    "description": "",
+    "description": "Centre d’usinage CNC 5 axes\n\nLes centres d’usinage AKIRA SEIKI 5-AX sont conçus pour répondre aux exigences des applications multi-axes complexes, nécessitant un haut niveau de précision, de rigidité et de répétabilité. Cette gamme permet l’usinage complet de pièces techniques en un seul serrage, réduisant les reprises et améliorant la qualité finale.\n\nCes machines sont particulièrement adaptées aux secteurs de la mécanique de précision, de l’aéronautique, du médical, du moule et des composants techniques à forte valeur ajoutée. Leur conception robuste permet de maintenir des performances constantes, même à des cadences élevées.\n\nChez Alma, les centres 5 axes AKIRA offrent une alternative performante au matériel neuf, permettant aux industriels d’accéder à l’usinage 5 axes avec un investissement maîtrisé, tout en conservant une excellente fiabilité.",
     "photo": "/images/machines/akira/5ax.png"
   },
   {
@@ -458,9 +458,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
+    "type": "Centre de production",
     "capacite": "",
-    "description": "",
+    "description": "Centre de production\n\nLa gamme AKIRA SEIKI RMV regroupe des centres de production conçus pour les environnements industriels orientés rendement, stabilité et continuité de production. Ces machines sont pensées pour fonctionner sur des cycles longs, avec un haut niveau de disponibilité et une répétabilité constante.\n\nLes centres RMV sont particulièrement utilisés dans la mécanique générale, la sous-traitance industrielle, l’automobile et la fabrication de pièces en série, où la fiabilité et la cadence sont des critères essentiels. Leur architecture rigide et leur conception orientée production permettent d’optimiser les temps de cycle tout en garantissant une qualité d’usinage homogène.\n\nChez Alma, les centres de production AKIRA RMV constituent une solution industrielle stratégique, idéale pour renforcer un parc machines existant, augmenter la capacité de production et sécuriser les délais, sans recourir à un investissement neuf important.",
     "photo": "/images/machines/akira/rmv.png"
   },
   {
@@ -474,9 +474,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
+    "type": "Centre d'usinage 5 axes de production gantry",
     "capacite": "",
-    "description": "",
+    "description": "Centre d’usinage CNC 5 axes de production gantry\n\nLes centres d’usinage AXILE de la gamme G sont conçus pour les applications de production en usinage grande vitesse, nécessitant une excellente dynamique machine, une rigidité structurelle élevée et une stabilité thermique maîtrisée. Leur architecture de type gantry permet d’usiner des pièces complexes tout en conservant une précision constante sur de longues durées de cycle.\n\nCes machines sont particulièrement adaptées aux secteurs du moule, de la mécanique de précision, de l’aéronautique, ainsi qu’à la fabrication de pièces complexes à forte valeur ajoutée. Le 5 axes continu permet de réduire les reprises, d’améliorer les états de surface et d’optimiser les temps de production.\n\nChez Alma, les AXILE G sont très recherchés pour leur capacité de production, leur fiabilité en UGV et leur aptitude à maintenir des performances élevées, même dans des environnements industriels exigeants.",
     "photo": "/images/machines/axile/g.png"
   },
   {
@@ -490,9 +490,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
+    "type": "Centre d'usinage 5 axes de production double colonnes",
     "capacite": "",
-    "description": "",
+    "description": "Centre d’usinage CNC 5 axes de production double colonnes\n\nLa gamme AXILE DC regroupe des centres d’usinage 5 axes à double colonnes, conçus pour offrir une stabilité maximale lors de l’usinage de pièces complexes ou de moules de grande dimension. Cette architecture garantit une excellente tenue géométrique, même lors d’opérations à forte sollicitation dynamique.\n\nCes machines sont largement utilisées dans les ateliers de moules, la mécanique de précision, l’industrie aéronautique et les applications nécessitant un haut niveau de précision sur de grandes surfaces. La combinaison du 5 axes et de l’UGV permet de produire des géométries complexes avec des tolérances serrées et une qualité de surface élevée.\n\nChez Alma, les AXILE DC constituent une solution industrielle premium, offrant un accès maîtrisé à l’usinage 5 axes haute performance, tout en optimisant l’investissement.",
     "photo": "/images/machines/axile/dc.png"
   },
   {
@@ -506,9 +506,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
+    "type": "Centre d'usinage 3 axes pour moules",
     "capacite": "",
-    "description": "",
+    "description": "Centre d’usinage CNC 3 axes pour moules\n\nLes centres d’usinage AXILE de la gamme V sont dédiés aux applications 3 axes haute vitesse, principalement orientées vers l’usinage de moules, d’empreintes et de pièces de précision. Ces machines sont conçues pour offrir une excellente dynamique, une grande précision et une stabilité thermique essentielle aux travaux de finition.\n\nElles sont particulièrement appréciées dans les ateliers de moulistes, de mécanique de précision et de fabrication de pièces complexes, où la qualité de surface et la répétabilité sont des critères clés. Leur conception permet d’enchaîner des cycles rapides tout en conservant une qualité constante.\n\nSur le marché de la machine-outil neuves, les AXILE V sont recherchées pour leur performance en UGV, leur fiabilité et leur excellent potentiel industriel, même après plusieurs années d’exploitation.",
     "photo": "/images/machines/axile/v.png"
   },
   {
@@ -522,9 +522,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Fraiseuse à banc fixe (table mobile)",
+    "capacite": "Course verticale 1.600mm, course bélier jusqu'à 1.500mm",
+    "description": "Fraiseuse à banc fixe (table mobile)\n\nLes fraiseuses SORALUCE de la gamme T sont conçues pour l’usinage précis de pièces lourdes sur des machines à banc fixe avec table mobile, offrant une excellente stabilité géométrique. Cette configuration est particulièrement adaptée aux opérations nécessitant une grande précision tout en conservant une bonne flexibilité d’usinage.\n\nAvec une course verticale de 1 600 mm et une course de bélier pouvant atteindre 1 500 mm, ces machines sont utilisées dans la mécanique lourde, la fabrication de pièces industrielles, l’énergie et les ateliers de sous-traitance spécialisés.\n\nEn, les SORALUCE T restent des machines de référence, reconnues pour leur robustesse, leur longévité et leur capacité à maintenir des tolérances serrées sur des pièces de grande dimension.",
     "photo": "/images/machines/soraluce/serie-t.png"
   },
   {
@@ -538,9 +538,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Fraiseuse à colonne mobile",
+    "capacite": "Course verticale 1.800mm, course bélier jusqu'à 1.500mm",
+    "description": "Fraiseuse à colonne mobile\n\nLa gamme S de SORALUCE regroupe des fraiseuses à colonne mobile, idéales pour l’usinage de pièces volumineuses et complexes nécessitant une grande amplitude de déplacement. Cette architecture permet de travailler sur des pièces lourdes tout en optimisant l’accessibilité et la précision.\n\nAvec une course verticale de 1 800 mm et une course de bélier jusqu’à 1 500 mm, ces machines sont largement utilisées dans la mécanique lourde, l’industrie énergétique, la fabrication de structures mécaniques et les équipements industriels.\n\nChez Alma, les SORALUCE S conservent une forte valeur industrielle, grâce à leur polyvalence et leur conception robuste adaptée aux environnements exigeants.",
     "photo": "/images/machines/soraluce/serie-s.png"
   },
   {
@@ -554,9 +554,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Fraiseuse à colonne mobile de grandes dimensions",
+    "capacite": "Course verticale jusqu'à 8.000mm, course bélier 2.200mm",
+    "description": "Fraiseuse à colonne mobile de grandes dimensions\n\nLes fraiseuses SORALUCE de la gamme F sont destinées à l’usinage de très grandes pièces, avec des besoins importants en course verticale et en capacité d’usinage. Cette gamme est conçue pour les applications industrielles les plus exigeantes en termes de dimensions et de stabilité.\n\nAvec une course verticale pouvant atteindre 8 000 mm et une course de bélier de 2 200 mm, ces machines sont utilisées dans les secteurs de la mécanique lourde, de l’énergie, de l’aéronautique lourde, de la construction industrielle et des grandes structures mécaniques.\n\nEn, les SORALUCE F sont considérées comme des investissements industriels stratégiques, offrant une capacité d’usinage exceptionnelle tout en conservant une excellente précision sur le long terme.",
     "photo": "/images/machines/soraluce/serie-f.png"
   },
   {
@@ -570,9 +570,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Fraiseuse à portique",
+    "capacite": "Largeur portique jusqu'à 9.000mm, course traverse en Z jusqu'à 4.000mm, course bélier jusqu'à 3.000mm",
+    "description": "Fraiseuse à portique\n\nLa gamme P de SORALUCE regroupe des fraiseuses à portique, conçues pour l’usinage de pièces très larges et volumineuses. Cette architecture garantit une grande rigidité et une excellente stabilité lors des opérations lourdes ou complexes.\n\nAvec une largeur de portique pouvant atteindre 9 000 mm, une course transversale en Z jusqu’à 4 000 mm et une course de bélier jusqu’à 3 000 mm, ces machines sont parfaitement adaptées aux industries de la mécanique lourde, de l’énergie, de la construction navale et des équipements industriels de grande dimension.\n\nChez Alma, les SORALUCE P demeurent des références incontournables pour les projets nécessitant de fortes capacités d’usinage.",
     "photo": "/images/machines/soraluce/serie-p.png"
   },
   {
@@ -586,9 +586,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Fraiseuse à portique à grand dynanisme",
+    "capacite": "Course transversale en Z jusqu'à 5.000mm, course bélier jusqu'à 2.500mm",
+    "description": "Fraiseuse à portique à grand dynamisme\n\nLes fraiseuses SORALUCE de la gamme H sont conçues pour allier grandes dimensions et haut dynamisme d’usinage. Elles permettent de maintenir des vitesses d’usinage élevées tout en conservant une excellente précision, même sur des pièces massives.\n\nAvec une course transversale en Z pouvant atteindre 5 000 mm et une course de bélier jusqu’à 2 500 mm, ces machines sont utilisées dans les secteurs de l’aéronautique, de l’énergie, de la mécanique lourde de précision et des structures complexes.\n\nEn, les SORALUCE H offrent une solution industrielle haut de gamme, combinant capacité, dynamisme et fiabilité, idéale pour les ateliers spécialisés dans les grandes pièces à forte valeur ajoutée.",
     "photo": "/images/machines/soraluce/serie-f.png"
   },
   {
@@ -602,9 +602,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
+    "type": "Centre d'usinage horizontal 4 axes",
     "capacite": "",
-    "description": "",
+    "description": "Centre d’usinage horizontal CNC 4 axes\n\nLes centres d’usinage horizontaux TOYODA de la FH série 5000 sont conçus pour les environnements industriels exigeants nécessitant une précision élevée, une excellente répétabilité et une fiabilité constante en production. Cette gamme est largement utilisée dans les ateliers orientés qualité et stabilité des process.\n\nCes machines sont particulièrement adaptées à la mécanique générale, à l’automobile, à l’équipement industriel et aux productions en petites et moyennes séries. L’architecture horizontale favorise une bonne évacuation des copeaux et une continuité de production optimale.\n\nChez Alma, les TOYODA FH série 5000 sont très recherchées pour leur longévité, leur stabilité géométrique et leur capacité à maintenir des tolérances serrées sur la durée.",
     "photo": "/images/machines/toyoda/fh5000.png"
   },
   {
@@ -618,9 +618,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
+    "type": "Centre d'usinage horizontal 4 axes de grandes capacitées",
     "capacite": "",
-    "description": "",
+    "description": "Centre d’usinage horizontal CNC 4 axes de grandes capacités\n\nLa gamme FH Sxi de TOYODA est destinée aux applications nécessitant des capacités d’usinage étendues, tout en conservant un haut niveau de précision et de fiabilité. Ces centres d’usinage sont conçus pour des pièces plus volumineuses et des cycles de production exigeants.\n\nIls sont utilisés dans les secteurs de la mécanique lourde, de l’automobile, de l’énergie et de la fabrication de composants industriels de grande dimension. Leur conception rigide permet d’absorber des efforts de coupe importants tout en garantissant une excellente répétabilité.\n\nChez Alma, les TOYODA FH Sxi offrent une solution industrielle haut de gamme, idéale pour renforcer un parc machines avec du matériel fiable et reconnu, sans investissement neuf excessif.",
     "photo": "/images/machines/toyoda/fx630sx.png"
   },
   {
@@ -634,9 +634,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
+    "type": "Centre d'usinage horizontal 4 axes de très grandes capacitées",
     "capacite": "",
-    "description": "",
+    "description": "Centre d’usinage horizontal CNC 4 axes de très grandes capacités\n\nLes centres d’usinage TOYODA FH de très grandes capacités sont conçus pour l’usinage de pièces lourdes et volumineuses, nécessitant une stabilité mécanique maximale et une précision constante sur de longues durées de cycle.\n\nCes machines sont particulièrement présentes dans les secteurs de l’énergie, de la mécanique lourde, de la fabrication de structures industrielles et des applications à forte contrainte dimensionnelle. Leur conception haut de gamme assure une excellente tenue géométrique, même sur des productions complexes.\n\nSur le marché de la machine-outil neuves, ces centres TOYODA conservent une forte valeur industrielle, grâce à leur robustesse, leur fiabilité et leur réputation mondiale.",
     "photo": "/images/machines/toyoda/fh-grandes.png"
   },
   {
@@ -650,9 +650,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
+    "type": "Centre d'usinage horizontal 5 axes",
     "capacite": "",
-    "description": "",
+    "description": "Centre d’usinage horizontal CNC 5 axes\n\nLa gamme FH 5X de TOYODA regroupe des centres d’usinage horizontaux 5 axes, conçus pour les applications nécessitant un usinage multi-axes de haute précision. Ces machines permettent de réaliser des pièces complexes en un nombre réduit de montages, améliorant la qualité et la productivité.\n\nElles sont utilisées dans les secteurs de l’aéronautique, de l’automobile haut de gamme, de la mécanique de précision et des composants techniques à forte valeur ajoutée. L’architecture horizontale combinée au 5 axes assure une excellente stabilité et une grande efficacité en production.\n\nChez Alma, les TOYODA FH 5X constituent une solution premium, permettant d’accéder à l’usinage 5 axes horizontal avec un niveau de fiabilité et de répétabilité reconnu, tout en optimisant l’investissement.",
     "photo": "/images/machines/toyoda/fh-sx.png"
   },
   {
@@ -666,9 +666,9 @@
       "Usinage"
     ],
     "sous_categorie": "FRAISAGE",
-    "type": "",
+    "type": "Fraiseuse par apprentissage / semi-numérique",
     "capacite": "",
-    "description": "",
+    "description": "Fraiseuse par apprentissage / semi-numérique\n\nLes fraiseuses XYZ de la gamme RMX sont conçues pour offrir une solution flexible et accessible aux ateliers souhaitant combiner la simplicité d’une machine conventionnelle avec les avantages d’une assistance numérique. Cette approche par apprentissage permet une prise en main rapide tout en améliorant la précision et la répétabilité des opérations.\n\nCes machines sont particulièrement adaptées aux environnements de mécanique générale, de maintenance industrielle, de formation, ainsi qu’aux ateliers recherchant une grande réactivité pour la fabrication de pièces unitaires ou de petites séries. Le mode semi-numérique facilite la réalisation de profils complexes sans la lourdeur d’une programmation CNC complète.\n\nChez Alma, les fraiseuses XYZ RMX sont appréciées pour leur polyvalence, leur facilité d’utilisation et leur excellent compromis entre performance et investissement, constituant une solution idéale pour moderniser un parc machines progressivement.",
     "photo": "/images/machines/xyz/rmx.jpg"
   },
   {
@@ -682,9 +682,9 @@
       "Usinage"
     ],
     "sous_categorie": "RECTIFICATION",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de rectification plane",
+    "capacite": "Dimensions table maxi 6.000mm x 1.000mm, charge maxi 4.500kg",
+    "description": "Machine de rectification plane\n\nLes rectifieuses planes GER de la gamme S sont conçues pour les opérations de finition de haute précision sur des pièces planes de grande dimension. Elles sont reconnues pour leur stabilité géométrique, leur qualité de surface et leur capacité à maintenir des tolérances serrées sur des cycles longs.\n\nAvec des dimensions de table pouvant atteindre 6 000 x 1 000 mm et une capacité de charge jusqu’à 4 500 kg, ces machines sont particulièrement adaptées aux secteurs de l’outillage, de la mécanique de précision, de la fabrication de moules et des composants industriels nécessitant une finition irréprochable.\n\nChez Alma, les rectifieuses planes GER S sont très recherchées pour leur robustesse, leur longévité et leur excellente tenue de précision, même après de nombreuses années d’exploitation.",
     "photo": "/images/machines/ger/s.png"
   },
   {
@@ -698,9 +698,9 @@
       "Usinage"
     ],
     "sous_categorie": "RECTIFICATION",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de rectification cylindrique",
+    "capacite": "Ømaxi rectifiable 800mm, Lg jusqu'à 6.000mm, charge maxi 4.000kg",
+    "description": "Machine de rectification cylindrique\n\nLa gamme C de GER regroupe des rectifieuses cylindriques destinées à l’usinage de pièces cylindriques de grande dimension, nécessitant une précision élevée et une excellente répétabilité. Ces machines sont utilisées pour des opérations de finition sur des arbres, axes, rouleaux et composants techniques.\n\nAvec un diamètre maximal rectifiable jusqu’à 800 mm, une longueur de pièce pouvant atteindre 6 000 mm et une capacité de charge jusqu’à 4 000 kg, les rectifieuses GER C sont présentes dans la mécanique industrielle, l’énergie, l’outillage lourd et la maintenance de composants critiques.\n\nChez Alma, ces machines constituent une solution industrielle fiable pour accéder à la rectification cylindrique de grande capacité tout en maîtrisant l’investissement.",
     "photo": "/images/machines/ger/c.png"
   },
   {
@@ -714,9 +714,9 @@
       "Usinage"
     ],
     "sous_categorie": "RECTIFICATION",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de rectification à table rotative",
+    "capacite": "Ø table 1.500mm, hauteur maxi 500mm, charge maxi 2.500kg",
+    "description": "Machine de rectification à table rotative\n\nLes rectifieuses GER de la gamme R sont équipées d’une table rotative, permettant la rectification de pièces circulaires ou complexes avec une grande homogénéité de finition. Cette configuration est particulièrement adaptée aux pièces nécessitant une répartition uniforme des efforts et une qualité de surface constante.\n\nAvec un diamètre de table pouvant atteindre 1 500 mm, une hauteur maximale de pièce de 500 mm et une capacité de charge jusqu’à 2 500 kg, ces machines sont utilisées dans l’outillage, la mécanique de précision, la fabrication de moules et les applications industrielles spécifiques.\n\nSur le marché de la machine-outil neuves, les rectifieuses GER R sont appréciées pour leur polyvalence, leur précision et leur fiabilité, constituant un choix pertinent pour les ateliers spécialisés en finition de haute qualité.",
     "photo": "/images/machines/ger/r.png"
   },
   {
@@ -730,9 +730,9 @@
       "Usinage"
     ],
     "sous_categorie": "RECTIFICATION",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de rectification cylindrique exterieure",
+    "capacite": "Ømaxi rectifiable 1.560mm, Lg jusqu'à 10.000mm, charge maxi 15.000kg",
+    "description": "Machine de rectification cylindrique extérieure\n\nLes machines DANOBAT de la gamme xG sont conçues pour la rectification cylindrique extérieure de très grande capacité, avec un niveau élevé de précision, de rigidité et de stabilité thermique. Elles s’adressent aux applications industrielles les plus exigeantes, notamment pour les pièces longues et lourdes.\n\nCapables de rectifier des pièces jusqu’à 1 560 mm de diamètre, 10 000 mm de longueur et 15 000 kg, ces machines sont utilisées dans les secteurs de l’énergie, de l’aéronautique, de la mécanique lourde et des composants critiques.\nEn, les xG conservent un positionnement premium, offrant une solution de rectification lourde de très haut niveau avec un investissement optimisé.",
     "photo": "/images/machines/danobat/xg.jpg"
   },
   {
@@ -746,9 +746,9 @@
       "Usinage"
     ],
     "sous_categorie": "RECTIFICATION",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de rectification cylindrique interieure",
+    "capacite": "Ømaxi de passage 600mm, Ømaxi interieur rectifiable 400mm, Lg maxi 400mm, charge maxi 500kg",
+    "description": "Machine de rectification cylindrique intérieure\n\nLa gamme I-D de DANOBAT est dédiée à la rectification intérieure de haute précision, pour des pièces nécessitant des tolérances serrées et une excellente qualité de surface. Ces machines sont conçues pour les environnements industriels où la précision est un critère déterminant.\n\nAvec un diamètre de passage jusqu’à 600 mm et un diamètre intérieur rectifiable jusqu’à 400 mm, elles sont utilisées dans l’outillage, la mécanique de précision, l’aéronautique et la fabrication de composants techniques.\nChez Alma, les I-D sont appréciées pour leur stabilité, leur répétabilité et leur fiabilité long terme.",
     "photo": "/images/machines/danobat/id.jpeg"
   },
   {
@@ -762,9 +762,9 @@
       "Usinage"
     ],
     "sous_categorie": "RECTIFICATION",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de rectification cylindrique centerless",
+    "capacite": "Ømaxi rectifiable 250mm",
+    "description": "Machine de rectification cylindrique centerless\n\nLes machines ESTARTA de DANOBAT sont des références mondiales en rectification centerless, particulièrement adaptées à la production de pièces cylindriques en grande série avec une excellente régularité dimensionnelle.\n\nCapables de rectifier des pièces jusqu’à 250 mm de diamètre, elles sont largement utilisées dans les secteurs de l’automobile, du médical, de l’énergie et de la mécanique de précision.\nChez Alma, les ESTARTA conservent une très forte valeur industrielle, grâce à leur productivité élevée et à la qualité de finition obtenue.",
     "photo": "/images/machines/danobat/estarta.jpg"
   },
   {
@@ -778,9 +778,9 @@
       "Usinage"
     ],
     "sous_categorie": "RECTIFICATION",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de rectification verticale",
+    "capacite": "Ø table 6.000mm, hauteur maxi 1.950mm, charge maxi 30.000kg",
+    "description": "Machine de rectification verticale\n\nLes rectifieuses verticales DANOBAT de la gamme VG sont conçues pour la rectification de pièces lourdes et de grande dimension, avec une excellente accessibilité et une grande stabilité lors des opérations de finition.\n\nDotées de tables jusqu’à 6 000 mm de diamètre, d’une hauteur de pièce maximale de 1 950 mm et d’une charge jusqu’à 30 000 kg, ces machines sont utilisées dans l’énergie, la mécanique lourde, l’aéronautique et les grandes structures industrielles.\nSur le marché de la, les VG restent des machines de référence pour les projets de rectification lourde à haute valeur ajoutée.",
     "photo": "/images/machines/danobat/vg.jpg"
   },
   {
@@ -794,9 +794,9 @@
       "Usinage"
     ],
     "sous_categorie": "RECTIFICATION",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de tournage dur horizontal",
+    "capacite": "Ømaxi 500mm, Lg 1.000mm, charge maxi 4.000kg",
+    "description": "Machine de tournage dur horizontal\n\nLes machines Mikroturn horizontales de DANOBAT sont conçues pour le tournage dur de haute précision, permettant de remplacer ou de compléter certaines opérations de rectification tout en conservant un excellent état de surface.\n\nAvec des capacités adaptées aux pièces jusqu’à 500 mm de diamètre et 1 000 mm de longueur, elles sont utilisées dans l’automobile, l’aéronautique, l’outillage et la mécanique de précision.\nChez Alma, les Mikroturn horizontales offrent une solution technologique avancée, idéale pour optimiser les process de finition.",
     "photo": "/images/machines/danobat/mikroturn-h.jpg"
   },
   {
@@ -810,9 +810,9 @@
       "Usinage"
     ],
     "sous_categorie": "RECTIFICATION",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de tournage dur vertical",
+    "capacite": "Ømaxi 1.500mm, hauteur 350mm, charge maxi 4.000kg",
+    "description": "Machine de tournage dur vertical\n\nLa version Mikroturn verticale est destinée aux pièces de plus grand diamètre, avec une excellente stabilité lors des opérations de tournage dur. Cette configuration est particulièrement adaptée aux pièces lourdes nécessitant une précision élevée.\n\nCapables d’usiner des pièces jusqu’à 1 500 mm de diamètre, ces machines sont utilisées dans l’énergie, la mécanique lourde de précision et les applications industrielles complexes.\nChez Alma, elles conservent un positionnement premium, grâce à leur polyvalence et leur précision.",
     "photo": "/images/machines/danobat/mikroturn-v.jpg"
   },
   {
@@ -826,9 +826,9 @@
       "Usinage"
     ],
     "sous_categorie": "USINAGE PAR ROBOT",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Robot utra précis et ultra robuste",
+    "capacite": "Charge utile jusqu'à 700kg, et une portée jusqu'à 3.050mm",
+    "description": "Robot ultra précis et ultra robuste\n\nLe dBOT de DANOBAT est un robot industriel de très haute précision, conçu pour l’automatisation avancée des opérations d’usinage, de rectification et de manutention lourde. Il combine une grande rigidité avec une précision adaptée aux environnements industriels exigeants.\n\nAvec une charge utile jusqu’à 700 kg et une portée jusqu’à 3 050 mm, le dBOT est utilisé pour automatiser des process complexes dans les secteurs de l’aéronautique, de l’énergie, de la mécanique lourde et des lignes de production avancées.\nChez Alma, il représente une solution stratégique pour augmenter la productivité et la répétabilité tout en maîtrisant l’investissement.",
     "photo": "/images/machines/danobat/dbot.png"
   },
   {
@@ -842,9 +842,9 @@
       "Usinage"
     ],
     "sous_categorie": "ELECTROEROSION",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de découpe fil par éléctroérosion série compacte",
+    "capacite": "Courses jusqu'à 600mm par 400mm par 400mm",
+    "description": "Machine de découpe fil par électroérosion – série compacte\n\nLes machines ONA de la gamme AD sont des machines de découpe fil par électroérosion compactes, conçues pour les applications nécessitant précision, fiabilité et encombrement maîtrisé. Elles sont particulièrement adaptées aux ateliers d’outillage et de moules travaillant sur des pièces de taille moyenne.\n\nAvec des courses allant jusqu’à 600 x 400 x 400 mm, ces machines permettent la réalisation de découpes complexes avec une grande finesse, notamment pour la fabrication de matrices, poinçons et composants techniques. Leur conception assure une excellente stabilité de process et une qualité de coupe constante.\n\nChez Alma, les ONA AD sont recherchées pour leur polyvalence, leur facilité d’intégration et leur excellent rapport performance / investissement.",
     "photo": "/images/machines/ona/ad.jpg"
   },
   {
@@ -858,9 +858,9 @@
       "Usinage"
     ],
     "sous_categorie": "ELECTROEROSION",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de découpe fil par éléctroérosion série performance",
+    "capacite": "Courses jusqu'à 2.000mm par 1.300mm par 800mm",
+    "description": "Machine de découpe fil par électroérosion – série performance\n\nLa gamme AV de ONA regroupe des machines de découpe fil par électroérosion haute performance, destinées aux applications nécessitant de grandes courses et une productivité accrue. Ces machines sont conçues pour répondre aux besoins des ateliers traitant des pièces de grandes dimensions ou de forte valeur ajoutée.\n\nAvec des courses pouvant atteindre 2 000 x 1 300 x 800 mm, les ONA AV sont utilisées dans les secteurs de l’outillage, de la mécanique de précision, de l’aéronautique et de la fabrication de moules complexes. Elles offrent une excellente qualité de coupe, même sur des matériaux difficiles.\n\nChez Alma, ces machines constituent une solution industrielle performante, permettant d’accéder à des capacités de découpe fil avancées tout en maîtrisant l’investissement.",
     "photo": "/images/machines/ona/av.jpg"
   },
   {
@@ -874,9 +874,9 @@
       "Usinage"
     ],
     "sous_categorie": "ELECTROEROSION",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine d'enfonçage par éléctroérosion",
+    "capacite": "Courses jusqu'à 3.000mm par 1.500mm par 1.000mm",
+    "description": "Machine d’enfonçage par électroérosion\n\nLes machines ONA IRIS sont dédiées à l’électroérosion par enfonçage, pour la réalisation de formes complexes et cavités profondes avec un haut niveau de précision. Elles sont conçues pour répondre aux exigences des ateliers spécialisés dans l’outillage et le moule.\n\nAvec des courses pouvant atteindre 3 000 x 1 500 x 1 000 mm, ces machines permettent l’usinage de pièces de grande dimension tout en conservant une excellente qualité de surface. Elles sont largement utilisées dans les secteurs du moule, de l’outillage, de l’aéronautique et de la mécanique de précision.\n\nSur le marché de la machine-outil neuves, les ONA IRIS conservent une forte valeur industrielle, grâce à leur robustesse et leur précision.",
     "photo": "/images/machines/ona/iris.jpg"
   },
   {
@@ -890,9 +890,9 @@
       "Usinage"
     ],
     "sous_categorie": "ELECTROEROSION",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine d'enfonçage par éléctroérosion à double têtes",
+    "capacite": "Courses jusqu'à 3.000mm par 1.500mm par 1.000mm",
+    "description": "Machine d’enfonçage par électroérosion à double têtes\n\nLa gamme IRIS T de ONA est conçue pour les applications d’électroérosion par enfonçage à forte productivité, grâce à une configuration à double têtes permettant d’optimiser les temps de cycle et d’augmenter le rendement.\n\nCes machines sont utilisées pour la fabrication de moules complexes, de pièces techniques à forte valeur ajoutée et dans les environnements industriels nécessitant une grande flexibilité de production. Les capacités de course identiques à la gamme IRIS permettent de traiter des pièces de grande dimension.\n\nChez Alma, les ONA IRIS T représentent une solution stratégique pour les ateliers souhaitant augmenter leur capacité de production sans investissement neuf lourd.",
     "photo": "/images/machines/ona/iris-t.png"
   },
   {
@@ -906,9 +906,9 @@
       "Usinage"
     ],
     "sous_categorie": "ELECTROEROSION",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine pour microtrous de précision par éléctroérosion",
+    "capacite": "Courses jusqu'à 1.000mm par 600mm par 600mm",
+    "description": "Machine d’électroérosion pour microtrous de précision\n\nLes machines ONA de la gamme HALLEY sont dédiées à la réalisation de microtrous de haute précision par électroérosion, notamment pour les applications nécessitant des diamètres très fins et une grande répétabilité.\n\nAvec des courses allant jusqu’à 1 000 x 600 x 600 mm, ces machines sont utilisées dans les secteurs de l’aéronautique, du médical, de l’énergie et de la micromécanique. Elles permettent la réalisation de perçages complexes dans des matériaux difficiles, avec une excellente maîtrise du process.\n\nChez Alma, les ONA HALLEY sont particulièrement recherchées pour leur spécialisation, leur précision extrême et leur fort potentiel industriel.",
     "photo": "/images/machines/ona/halley.jpg"
   },
   {
@@ -922,9 +922,9 @@
       "Usinage"
     ],
     "sous_categorie": "MARQUAGE LASER",
-    "type": "",
+    "type": "Machine de marquage laser d'établi",
     "capacite": "",
-    "description": "",
+    "description": "Machines de marquage laser d’établi\n\nLes systèmes LASIT MicroMark et BeMark sont des machines de marquage laser compactes, conçues pour les besoins d’identification industrielle de précision sur des pièces de petite à moyenne dimension. Leur format d’établi permet une intégration simple dans les ateliers tout en garantissant une excellente qualité de marquage.\n\nCes machines sont particulièrement utilisées pour la traçabilité, le marquage de numéros de série, de codes DataMatrix, de logos ou d’informations techniques, dans des secteurs comme la mécanique générale, le médical, l’électronique et la sous-traitance industrielle.\nChez Alma, elles constituent une solution fiable et économique pour accéder au marquage laser permanent avec un encombrement réduit.",
     "photo": "/images/machines/lasit/bemark.png"
   },
   {
@@ -938,9 +938,9 @@
       "Usinage"
     ],
     "sous_categorie": "MARQUAGE LASER",
-    "type": "",
+    "type": "Machine de marquage laser avec zone de marquage élargie",
     "capacite": "",
-    "description": "",
+    "description": "Machines de marquage laser avec zone de marquage élargie\n\nLes modèles Universal et TowerMark de LASIT sont conçus pour le marquage laser sur des pièces de plus grande dimension ou nécessitant une zone de travail étendue. Leur conception permet d’assurer une grande flexibilité tout en conservant une précision de marquage élevée.\n\nCes machines sont utilisées dans des environnements industriels où la polyvalence et la répétabilité sont essentielles, notamment pour le marquage de pièces mécaniques, de composants industriels et de produits semi-finis.\nChez Alma, ces systèmes LASIT sont appréciés pour leur robustesse, leur facilité d’exploitation et leur capacité à s’adapter à différents types de production.",
     "photo": "/images/machines/lasit/universal.png"
   },
   {
@@ -954,9 +954,9 @@
       "Usinage"
     ],
     "sous_categorie": "MARQUAGE LASER",
-    "type": "",
+    "type": "Machine de marquage laser pour marquage de plaques",
     "capacite": "",
-    "description": "",
+    "description": "Machines de marquage laser pour plaques\n\nLes systèmes TowerLabel et RotoTag sont spécifiquement conçus pour le marquage laser de plaques signalétiques, d’étiquettes industrielles et de supports d’identification. Ils permettent un marquage net, durable et parfaitement lisible, même dans des environnements contraints.\n\nCes machines sont très utilisées pour la fabrication de plaques constructeur, de plaques CE, d’éléments d’identification machine et de supports de traçabilité réglementaire.\nChez Alma, les LASIT TowerLabel et RotoTag représentent une solution spécialisée particulièrement recherchée par les intégrateurs et les industriels orientés normalisation et traçabilité.",
     "photo": "/images/machines/lasit/rototag.png"
   },
   {
@@ -970,9 +970,9 @@
       "Usinage"
     ],
     "sous_categorie": "MARQUAGE LASER",
-    "type": "",
+    "type": "Machine de marquage laser de grande production",
     "capacite": "",
-    "description": "",
+    "description": "Machines de marquage laser de grande production\n\nLes modèles Polaris et RotoMark de LASIT sont destinés aux environnements de production intensive, avec des besoins élevés en cadence et en répétabilité. Ces machines sont conçues pour fonctionner en continu, avec une qualité de marquage constante sur de grandes séries.\n\nElles sont utilisées dans les secteurs de l’automobile, de l’aéronautique, de l’énergie et de la production industrielle en série, où la traçabilité et la fiabilité du marquage sont critiques.\nSur le marché de la, ces machines conservent une forte valeur industrielle, grâce à leur capacité de production et leur robustesse.",
     "photo": "/images/machines/lasit/rotomark.png"
   },
   {
@@ -986,9 +986,9 @@
       "Usinage"
     ],
     "sous_categorie": "MARQUAGE LASER",
-    "type": "",
+    "type": "Laser d'intégration",
     "capacite": "",
-    "description": "",
+    "description": "Lasers d’intégration\n\nLASIT propose également une large gamme de sources laser d’intégration, adaptées aux projets d’automatisation et aux lignes de production spécifiques. Ces solutions permettent d’intégrer le marquage laser directement dans des process industriels existants.\n\nSelon les applications, les technologies Fibre, MOPA, CO₂, UV ou Pico sont utilisées pour répondre à des besoins variés : marquage de métaux, plastiques, composites, verre ou matériaux sensibles.\nChez Alma, ces lasers d’intégration constituent une brique technologique stratégique pour améliorer la traçabilité et automatiser le marquage sans repenser entièrement la ligne de production.",
     "photo": "/images/machines/lasit/universal.png"
   },
   {
@@ -1002,9 +1002,9 @@
       "Usinage"
     ],
     "sous_categorie": "EBAVURAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Tonneau d'ébavurage",
+    "capacite": "Cuve de diamètre de 360mm, et longueur jusqu'à 1.750mm",
+    "description": "Tonneaux d’ébavurage\n\nLes tonneaux d’ébavurage SPALECK Diabolo, 2P et XL s’appuient sur plus de cinquante ans de développement continu, offrant une solution fiable pour l’ébavurage, l’adoucissage et l’homogénéisation de pièces métalliques. Leur conception robuste et simple en fait des machines particulièrement adaptées aux ateliers de chaudronnerie et de mécanique.\n\nAvec des cuves de 360 mm de diamètre et des longueurs jusqu’à 1 750 mm, ces équipements conviennent au traitement de lots variés, en petites et moyennes séries.\nChez Alma, ils sont recherchés pour leur durabilité, leur facilité d’exploitation et leur qualité de finition constante.",
     "photo": "/images/machines/spaleck/diabolo.png"
   },
   {
@@ -1018,9 +1018,9 @@
       "Usinage"
     ],
     "sous_categorie": "EBAVURAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Tonneau d'ébavurage à sec pour ébavurer / ajuster à porte automatique",
+    "capacite": "Capacité jusqu'à 6.500mm, et diamètre 500mm",
+    "description": "Tonneau d’ébavurage à sec à porte automatique\n\nLa gamme XA de SPALECK regroupe des tonneaux d’ébavurage à sec à porte automatique, conçus pour les environnements industriels orientés productivité, cadence et automatisation des flux. Cette configuration permet de sécuriser les opérations de chargement et de déchargement tout en améliorant la répétabilité du process.\n\nAvec une capacité pouvant atteindre 6 500 mm et un diamètre de tonneau de 500 mm, les tonneaux SPALECK XA sont utilisés dans les process lourds, la production en série, l’automobile, l’énergie et les ateliers traitant des volumes importants de pièces.\n\nChez Alma, ces équipements conservent une forte valeur industrielle, grâce à leur robustesse, leur fiabilité en fonctionnement continu et leur capacité à s’intégrer facilement dans des lignes de production existantes.",
     "photo": "/images/machines/spaleck/xa.png"
   },
   {
@@ -1034,9 +1034,9 @@
       "Usinage"
     ],
     "sous_categorie": "DEBIT",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Scie à ruban automatique pendulaire",
+    "capacite": "Ø jusqu'à 460mm",
+    "description": "Scie à ruban automatique pendulaire\n\nLes scies à ruban EVERISING de la gamme S sont conçues pour le débit automatique de pièces pleines ou profilées, avec une excellente stabilité de coupe. La cinématique pendulaire permet une descente régulière de l’archet, garantissant une qualité de coupe constante et une bonne maîtrise des efforts.\n\nCapables de couper des pièces jusqu’à 460 mm de diamètre, ces machines sont largement utilisées en mécanique générale, chaudronnerie, maintenance industrielle et ateliers de sous-traitance.\nChez Alma, les EVERISING S sont appréciées pour leur robustesse, leur simplicité d’exploitation et leur fiabilité en production quotidienne.",
     "photo": "/images/machines/everising/s.jpg"
   },
   {
@@ -1050,9 +1050,9 @@
       "Usinage"
     ],
     "sous_categorie": "DEBIT",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Scie à ruban automatique horizontale",
+    "capacite": "Ø jusqu'à 2.500mm",
+    "description": "Scie à ruban automatique horizontale\n\nLa gamme H d’EVERISING regroupe des scies à ruban automatiques horizontales destinées au débit de pièces lourdes et de grande dimension. Ces machines sont conçues pour fonctionner dans des environnements industriels exigeants, avec un haut niveau de précision et de répétabilité.\n\nAvec une capacité de coupe pouvant atteindre 2 500 mm de diamètre, elles sont utilisées dans la mécanique lourde, l’énergie, la construction métallique et les ateliers spécialisés dans les grandes sections.\nChez Alma, ces machines conservent une forte valeur industrielle, grâce à leur conception robuste et leur longévité.",
     "photo": "/images/machines/everising/h.jpg"
   },
   {
@@ -1066,9 +1066,9 @@
       "Usinage"
     ],
     "sous_categorie": "DEBIT",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Scie à ruban automatique horizontale de production",
+    "capacite": "Ø jusqu'à 860mm",
+    "description": "Scie à ruban automatique horizontale de production\n\nLes scies EVERISING de la gamme E sont conçues pour la production industrielle en série, avec des cadences élevées et une automatisation optimisée du cycle de sciage. Elles permettent un débit rapide et précis tout en assurant une grande constance de coupe.\n\nCapables de traiter des pièces jusqu’à 860 mm de diamètre, ces machines sont particulièrement adaptées aux ateliers orientés productivité, à l’automobile, à la sous-traitance industrielle et aux lignes de production intégrées.\nSur le marché de la, les EVERISING E sont recherchées pour leur rendement, leur fiabilité et leur excellent rapport performance / investissement.",
     "photo": "/images/machines/everising/e.jpg"
   },
   {
@@ -1082,9 +1082,9 @@
       "Usinage"
     ],
     "sous_categorie": "DEBIT",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Scie circulaire automatique de production",
+    "capacite": "Ø jusqu'à 230mm",
+    "description": "Scie circulaire automatique de production\n\nLa gamme ILA d’EVERISING regroupe des scies circulaires automatiques, destinées au débit rapide et précis de barres pleines ou profilées. Ces machines offrent une excellente qualité de coupe, notamment sur les pièces nécessitant des tolérances serrées.\n\nAvec une capacité de coupe jusqu’à 230 mm de diamètre, les scies ILA sont utilisées dans la production en série, la mécanique de précision, l’automobile et les ateliers recherchant une cadence élevée avec une finition soignée.\nChez Alma, elles constituent une solution performante pour optimiser les opérations de débit tout en maîtrisant l’investissement.",
     "photo": "/images/machines/everising/ila.jpg"
   },
   {
@@ -1098,9 +1098,9 @@
       "Usinage"
     ],
     "sous_categorie": "DEBIT",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Scie à ruban pour bloc",
+    "capacite": "Capacité juqu'à 600mm de hauteur de coupe et 2.500mm de col de cygne",
+    "description": "Scie à ruban pour blocs\n\nLes scies EVERISING de la gamme V sont conçues pour le sciage de blocs massifs, avec une capacité élevée et une grande stabilité de coupe. Elles sont adaptées aux applications nécessitant un dégagement important et une forte rigidité machine.\n\nAvec une hauteur de coupe pouvant atteindre 600 mm et un col de cygne jusqu’à 2 500 mm, ces machines sont utilisées dans la mécanique lourde, la fonderie, l’énergie et les ateliers spécialisés dans le débit de grandes masses.\nChez Alma, les EVERISING V sont très appréciées pour leur puissance, leur fiabilité et leur capacité à traiter des pièces complexes et volumineuses.",
     "photo": "/images/machines/everising/v.jpg"
   },
   {
@@ -1114,9 +1114,9 @@
       "Usinage"
     ],
     "sous_categorie": "MORTAISAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Mortaiseuse conventionnelle",
+    "capacite": "Course jusqu'à 315mm",
+    "description": "Mortaiseuse conventionnelle\n\nLes mortaiseuses UNITECH de la gamme TGI sont conçues pour les opérations de mortaisage conventionnel, nécessitant robustesse, simplicité et précision. Ces machines constituent une solution fiable pour les ateliers souhaitant réaliser des rainures, mortaises et formes internes sans complexité excessive.\n\nAvec une course pouvant atteindre 315 mm, les TGI sont particulièrement adaptées à la mécanique générale, à la maintenance industrielle, à la fabrication de pièces unitaires et aux ateliers recherchant une machine simple, durable et facile à exploiter.\n\nChez Alma, les mortaiseuses UNITECH TGI sont appréciées pour leur longévité, leur simplicité mécanique et leur excellent rendement, même après de nombreuses années d’utilisation.",
     "photo": "/images/machines/unitech/tgi.png"
   },
   {
@@ -1130,9 +1130,9 @@
       "Usinage"
     ],
     "sous_categorie": "MORTAISAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Mortaiseuse avec controleur PLC",
+    "capacite": "Course jusqu'à 315mm",
+    "description": "Mortaiseuse avec contrôleur PLC\n\nLa gamme DR d’UNITECH regroupe des mortaiseuses équipées d’un contrôleur PLC, permettant une automatisation partielle des cycles tout en conservant une approche accessible pour l’opérateur. Cette configuration améliore la répétabilité et la productivité, tout en limitant les temps de réglage.\n\nAvec une course jusqu’à 315 mm, ces machines sont utilisées dans les ateliers de sous-traitance industrielle, de mécanique générale et dans les environnements nécessitant une production régulière de pièces mortaisées avec une qualité constante.\n\nChez Alma, les mortaiseuses UNITECH DR représentent une solution intermédiaire efficace, idéale pour augmenter la productivité atelier sans investir dans une machine CNC complète.",
     "photo": "/images/machines/unitech/dr.png"
   },
   {
@@ -1146,9 +1146,9 @@
       "Usinage"
     ],
     "sous_categorie": "MORTAISAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Mortaiseuse avec CNC",
+    "capacite": "Course de 315mm",
+    "description": "Mortaiseuse avec commande numérique\n\nLes mortaiseuses UNITECH de la gamme CNC sont conçues pour les applications de mortaisage de précision, nécessitant répétabilité, flexibilité et automatisation avancée. La commande numérique permet la réalisation de formes complexes avec une grande constance dimensionnelle.\n\nAvec une course de 315 mm, ces machines sont particulièrement adaptées aux ateliers orientés production, à la mécanique de précision, à la fabrication de pièces techniques et aux environnements où la qualité et la cadence sont essentielles.\n\nSur le marché de la machine-outil neuves, les mortaiseuses UNITECH CNC offrent une solution performante et rentable, permettant d’accéder à l’automatisation du mortaisage tout en maîtrisant l’investissement.",
     "photo": "/images/machines/unitech/cnc.png"
   },
   {
@@ -1162,9 +1162,9 @@
       "Usinage"
     ],
     "sous_categorie": "CONTRÔLE DIMENSIONNEL",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de contrôle tridimensionnel série compacte",
+    "capacite": "Mesure jusqu'à une hauteur de 700mm, Largeur jusqu'à 1.000mm",
+    "description": "Machine de contrôle tridimensionnel – série compacte\n\nLes machines de mesure tridimensionnelle WENZEL de la gamme Xo sont conçues pour le contrôle dimensionnel précis de pièces de petite à moyenne dimension. Leur format compact permet une intégration facile dans les ateliers tout en garantissant une excellente stabilité de mesure.\n\nAvec des capacités de mesure jusqu’à 700 mm en hauteur et 1 000 mm en largeur, ces MMT sont particulièrement adaptées aux ateliers de mécanique générale, de sous-traitance industrielle et de contrôle qualité intégré à la production.\n\nChez Alma, les WENZEL Xo sont appréciées pour leur fiabilité, leur précision et leur excellent rapport performance / investissement.",
     "photo": "/images/machines/wenzel/xo.avif"
   },
   {
@@ -1178,9 +1178,9 @@
       "Usinage"
     ],
     "sous_categorie": "CONTRÔLE DIMENSIONNEL",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de contrôle tridimensionnel de grandes dimensions",
+    "capacite": "Mesure jusqu'à une hauteur de 2.500mm, Largeur jusqu'à 4.000mm",
+    "description": "Machine de contrôle tridimensionnel de grandes dimensions\n\nLa gamme LH de WENZEL regroupe des MMT de grande capacité, destinées au contrôle de pièces volumineuses nécessitant un haut niveau de précision. Ces machines sont conçues pour répondre aux exigences des industries lourdes et des environnements de production complexes.\n\nAvec des capacités de mesure pouvant atteindre 2 500 mm en hauteur et 4 000 mm en largeur, les WENZEL LH sont utilisées dans l’aéronautique, l’automobile, l’énergie et la mécanique lourde.\n\nChez Alma, ces machines conservent une forte valeur industrielle, grâce à leur robustesse et leur capacité à maintenir des tolérances serrées sur de grandes pièces.",
     "photo": "/images/machines/wenzel/lh.avif"
   },
   {
@@ -1194,9 +1194,9 @@
       "Usinage"
     ],
     "sous_categorie": "CONTRÔLE DIMENSIONNEL",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de contrôle à poutre horizontale",
+    "capacite": "Mesure jusqu'à une hauteur de 4.200mm, Largeur jusqu'à 2.000mm, ou 4.000mm si 2 bras",
+    "description": "Machine de contrôle à poutre horizontale\n\nLes machines WENZEL de la gamme KMG sont des MMT à poutre horizontale, conçues pour le contrôle de pièces de grande longueur ou de structures nécessitant une accessibilité étendue. Cette architecture permet une grande flexibilité de mesure.\n\nCapables de mesurer des pièces jusqu’à 4 200 mm de hauteur et 2 000 à 4 000 mm de largeur selon la configuration, ces machines sont utilisées dans la mécanique lourde, la construction industrielle, l’automobile et les environnements nécessitant des contrôles dimensionnels complexes.\n\nSur le marché de la, les WENZEL KMG sont recherchées pour leur polyvalence, leur précision et leur adaptation aux grandes structures.",
     "photo": "/images/machines/wenzel/kmg.avif"
   },
   {
@@ -1210,9 +1210,9 @@
       "Usinage"
     ],
     "sous_categorie": "CONTRÔLE DIMENSIONNEL",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de contrôle pour engrenages",
+    "capacite": "Ø jusqu'à 1.200mm, hauteur jusqu'à 1.500mm",
+    "description": "Machine de contrôle pour engrenages\n\nLa gamme GT de WENZEL est spécifiquement dédiée au contrôle dimensionnel et géométrique des engrenages. Ces machines permettent de mesurer avec précision les profils, pas et formes complexes des dentures.\n\nAvec une capacité adaptée aux engrenages jusqu’à 1 200 mm de diamètre et 1 500 mm de hauteur, les WENZEL GT sont utilisées dans les secteurs de la transmission mécanique, de l’automobile, de l’énergie et de la fabrication d’engrenages de précision.\n\nChez Alma, ces machines représentent une solution de métrologie spécialisée, très recherchée pour garantir la conformité des composants critiques.",
     "photo": "/images/machines/wenzel/gt.avif"
   },
   {
@@ -1226,9 +1226,9 @@
       "Usinage"
     ],
     "sous_categorie": "CONTRÔLE DIMENSIONNEL",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de contrôle par tomographie",
+    "capacite": "Ø jusqu'à 330mm, hauteur jusqu'à 700mm",
+    "description": "Machine de contrôle par tomographie\n\nLes machines WENZEL exaCT sont dédiées au contrôle par tomographie, permettant l’analyse complète de pièces complexes sans destruction. Cette technologie est utilisée pour inspecter des géométries internes inaccessibles par des moyens de mesure conventionnels.\n\nAvec des capacités jusqu’à 330 mm de diamètre et 700 mm de hauteur, ces machines sont utilisées dans l’aéronautique, le médical, l’automobile, l’électronique et les industries nécessitant un contrôle interne précis.\n\nChez Alma, les WENZEL exaCT conservent une forte valeur technologique, offrant un accès maîtrisé à des solutions de contrôle avancées.",
     "photo": "/images/machines/wenzel/exact.avif"
   },
   {
@@ -1242,9 +1242,9 @@
       "Usinage"
     ],
     "sous_categorie": "CONTRÔLE DIMENSIONNEL",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Bras de mesure",
+    "capacite": "Avec des bras jusqu'à 4.500mm d'envergure",
+    "description": "Bras de mesure\n\nLes bras de mesure WENZEL de la gamme WM-MMA offrent une solution de contrôle dimensionnel mobile, idéale pour les inspections directement en atelier ou sur des pièces difficilement déplaçables.\n\nAvec des bras pouvant atteindre 4 500 mm d’envergure, ces équipements sont utilisés pour le contrôle rapide, la validation de pièces, la maintenance industrielle et le contrôle en production.\n\nEn, les bras de mesure WENZEL WM-MMA constituent une solution flexible et économique, complémentaire aux MMT fixes pour renforcer le contrôle qualité industriel.",
     "photo": "/images/machines/wenzel/wm-mma.avif"
   },
   {
@@ -1258,9 +1258,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "CISAILLAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Cisaille gamme standard",
+    "capacite": "Largeur de coupe jusqu'à 3000mm, épaisseur de coupe jusqu'à 12mm",
+    "description": "Cisaille – gamme standard\n\nLes cisailles HACO de la gamme TS(X) sont conçues pour les opérations de cisailage en tôlerie industrielle, avec une approche axée sur la simplicité, la robustesse et la précision de coupe. Elles répondent parfaitement aux besoins des ateliers réalisant des découpes droites régulières sur tôles acier ou alliages.\n\nAdaptées aux environnements de chaudronnerie, de mécanique générale et de sous-traitance, ces machines offrent une excellente stabilité et une qualité de coupe constante.\nChez Alma, les TS(X) sont recherchées pour leur longévité, leur fiabilité et leur facilité de maintenance.",
     "photo": "/images/machines/haco/tsx.webp"
   },
   {
@@ -1274,9 +1274,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "CISAILLAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Cisaille gamme production",
+    "capacite": "Largeur de coupe jusqu'à 4.000mm, épaisseur de coupe jusqu'à 13mm",
+    "description": "Cisaille – gamme production\n\nLa gamme GSX regroupe des cisailles orientées production, conçues pour des cadences plus élevées et une utilisation intensive. Leur conception robuste permet d’enchaîner les cycles de coupe tout en conservant une excellente régularité.\n\nCes machines sont utilisées dans les ateliers de tôlerie industrielle, de production en série et de chaudronnerie, où la productivité et la répétabilité sont essentielles.\nSur le marché de la, les GSX conservent une forte valeur industrielle, grâce à leur endurance et leur fiabilité.",
     "photo": "/images/machines/haco/gsx.webp"
   },
   {
@@ -1290,9 +1290,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "PLIAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Cisaille gamme grandes dimensions",
+    "capacite": "Largeur de coupe jusqu'à 8.000mm, épaisseur de coupe jusqu'à 32mm",
+    "description": "Cisaille – gamme grandes dimensions\n\nLes cisailles HACO HSLX sont destinées au cisailage de tôles de grande largeur et forte épaisseur, dans des environnements industriels lourds. Elles sont conçues pour absorber des efforts importants tout en garantissant une coupe précise.\n\nElles sont particulièrement utilisées dans la chaudronnerie lourde, la construction métallique et les ateliers travaillant sur de grandes tôles.\nChez Alma, les HSLX restent des références robustes, idéales pour les applications exigeantes.",
     "photo": "/images/machines/haco/hslx.webp"
   },
   {
@@ -1306,9 +1306,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "PLIAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Plieuse gamme standard",
+    "capacite": "Longueur de pliage jusqu'à 4.000mm, et puissance jusqu'à 250T",
+    "description": "Plieuse – gamme standard\n\nLes presses plieuses HACO OptiForm sont conçues pour le pliage polyvalent en tôlerie industrielle. Elles offrent un excellent compromis entre précision, simplicité d’utilisation et fiabilité, pour des applications variées.\n\nCes machines sont largement utilisées en chaudronnerie, sous-traitance tôlerie et fabrication de pièces pliées.\nChez Alma, les OptiForm sont appréciées pour leur longévité et leur facilité d’exploitation.",
     "photo": "/images/machines/haco/optiform.webp"
   },
   {
@@ -1323,8 +1323,8 @@
     ],
     "sous_categorie": "PLIAGE",
     "type": "",
-    "capacite": "",
-    "description": "",
+    "capacite": "Longueur de pliage jusqu'à 4.300mm, et puissance jusqu'à 300T",
+    "description": "Plieuse synchronisée\n\nLa gamme Synchromaster regroupe des presses plieuses synchronisées, conçues pour offrir une excellente précision de pliage sur des longueurs importantes. Elles sont adaptées aux ateliers nécessitant une grande régularité et une bonne maîtrise des angles.\n\nChez Alma, ces machines constituent une solution fiable pour améliorer la qualité de pliage sans investissement neuf lourd.",
     "photo": "/images/machines/haco/synchromaster.webp"
   },
   {
@@ -1338,9 +1338,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "PLIAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Plieuse gamme production",
+    "capacite": "Longueur de pliage jusqu'à 6.000mm, et puissance jusqu'à 400T",
+    "description": "Plieuse – gamme production\n\nLes presses plieuses Euromaster S sont destinées aux environnements de production intensive, avec des besoins élevés en cadence et en répétabilité. Leur conception robuste permet une utilisation continue tout en conservant une grande précision.\n\nElles sont très présentes en tôlerie industrielle, chaudronnerie et production en série.\nEn, elles offrent une excellente performance industrielle à coût maîtrisé.",
     "photo": "/images/machines/haco/euromaster-s.webp"
   },
   {
@@ -1354,9 +1354,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "PLIAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Plieuse gamme performance",
+    "capacite": "Longueur de pliage jusqu'à 4.300mm, et puissance jusqu'à 250T",
+    "description": "Plieuse – gamme performance\n\nLa gamme Pressmaster est orientée performance et précision, pour des applications de pliage nécessitant une grande maîtrise du process. Ces machines sont adaptées aux pièces techniques et aux tolérances serrées.\n\nChez Alma, les Pressmaster sont recherchées pour leur stabilité, leur qualité de pliage et leur fiabilité long terme.",
     "photo": "/images/machines/haco/pressmaster.webp"
   },
   {
@@ -1370,9 +1370,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "PLIAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Plieuse gamme grande capacité",
+    "capacite": "En tandem ou tridem, puissance de 400T à 1.200T",
+    "description": "Plieuse – grande capacité (tandem / tridem)\n\nLes presses plieuses HACO HDSY sont conçues pour le pliage de très grandes pièces, avec des configurations en tandem ou tridem. Elles répondent aux besoins de la chaudronnerie lourde et des applications industrielles de grande envergure.\n\nEn, ces machines représentent une solution stratégique pour accéder à de très fortes capacités de pliage avec un investissement optimisé.",
     "photo": "/images/machines/haco/hdsy.webp"
   },
   {
@@ -1386,9 +1386,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "PLIAGE",
-    "type": "",
+    "type": "Plieuse gamme robotisée",
     "capacite": "",
-    "description": "",
+    "description": "Plieuse robotisée\n\nLa FlexBend est une solution de pliage robotisée, destinée aux environnements de production automatisée. Elle permet d’augmenter la productivité, la répétabilité et la sécurité des opérations de pliage.\n\nChez Alma, les FlexBend constituent une opportunité industrielle avancée pour automatiser le pliage sans repartir sur un projet neuf complet.",
     "photo": "/images/machines/haco/flex-bend.webp"
   },
   {
@@ -1402,9 +1402,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "ROULAGE",
-    "type": "",
+    "type": "Rouleuse 3 rouleaux",
     "capacite": "",
-    "description": "",
+    "description": "Rouleuse 3 rouleaux\n\nLes rouleuses HACO 3HBR sont conçues pour le cintrage et roulage de tôles, avec une approche simple et robuste. Elles sont adaptées aux applications courantes de chaudronnerie et de fabrication cylindrique.\n\nChez Alma, ces machines sont appréciées pour leur fiabilité mécanique et leur facilité d’utilisation.",
     "photo": "/images/machines/haco/3hbr.webp"
   },
   {
@@ -1418,9 +1418,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "ROULAGE",
-    "type": "",
+    "type": "Rouleuse 4 rouleaux",
     "capacite": "",
-    "description": "",
+    "description": "Rouleuse 4 rouleaux\n\nLes rouleuses HACO 4HBR offrent une plus grande précision et répétabilité dans les opérations de roulage. Elles sont adaptées aux ateliers recherchant une meilleure maîtrise des géométries et une productivité accrue.\n\nEn, elles constituent une solution performante pour le roulage industriel.",
     "photo": "/images/machines/haco/4hbr.webp"
   },
   {
@@ -1434,9 +1434,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "DECOUPE LASER",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de découpe laser fibre tôle monotable",
+    "capacite": "Pour format jusqu'à 1.500 x 3.000mm, puissance jusqu'à 6kW",
+    "description": "Machine de découpe laser fibre tôle – monotable\n\nLes machines HFL C sont conçues pour la découpe laser fibre de tôles, avec une intégration simple et une grande fiabilité. Elles conviennent aux ateliers souhaitant intégrer le laser fibre pour des formats standards.\n\nChez Alma, elles offrent un accès maîtrisé à la découpe laser fibre, avec un excellent rendement industriel.",
     "photo": "/images/machines/haco/hlf-c.webp"
   },
   {
@@ -1450,9 +1450,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "DECOUPE LASER",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de découpe laser fibre tôle double table",
+    "capacite": "Pour format jusqu'à 2.500 x 6.000mm, puissance jusqu'à 12kW",
+    "description": "Machine de découpe laser fibre tôle – double table\n\nLa gamme HFL CEW est destinée à la production laser fibre à cadence élevée, grâce à une configuration double table optimisant les temps de chargement et déchargement.\n\nCes machines sont très utilisées en tôlerie industrielle et en production série.\nEn, elles conservent une forte valeur technologique.",
     "photo": "/images/machines/haco/hfl-cew.webp"
   },
   {
@@ -1466,9 +1466,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "DECOUPE LASER",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de découpe laser fibre combiné tôle / tube",
+    "capacite": "Pour format jusqu'à 2.000 x 6.000mm, tube lg",
+    "description": "Machine de découpe laser fibre combinée tôle / tube\n\nLes HFL CEG permettent la découpe laser fibre de tôles et de tubes sur une seule machine, offrant une grande polyvalence. Elles sont adaptées aux ateliers travaillant sur des géométries variées.\n\nChez Alma, ces machines représentent une solution complète et flexible, idéale pour optimiser les investissements et élargir les capacités de production.",
     "photo": "/images/machines/haco/hfl-ceg.webp"
   },
   {
@@ -1482,9 +1482,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "DECOUPE PLASMA",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de découpe plasma standard",
+    "capacite": "Pour format jusqu'à 2.000 x 4.000mm, puissance jusqu'à 125A",
+    "description": "Machine de découpe plasma standard\n\nLes machines PHENIX AlphaCut sont conçues pour la découpe plasma industrielle standard, offrant un bon équilibre entre simplicité, fiabilité et performance de coupe. Elles s’adressent aux ateliers de chaudronnerie et de métallerie recherchant une solution efficace pour la découpe de tôles acier et alliages.\n\nAdaptées aux formats jusqu’à 2 000 x 4 000 mm, ces machines permettent de couvrir une large gamme d’applications courantes en chaudronnerie, construction métallique et sous-traitance industrielle.\nChez Alma, les AlphaCut constituent une solution accessible et robuste, idéale pour maîtriser l’investissement tout en conservant une capacité de production fiable.",
     "photo": "/images/machines/phenix/alphax-cut.png"
   },
   {
@@ -1498,9 +1498,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "DECOUPE PLASMA",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de découpe plasma HD",
+    "capacite": "Pour format jusqu'à 2.000 x 6.000mm, puissance jusqu'à 400A",
+    "description": "Machine de découpe plasma HD\n\nLa gamme MDCut de PHENIX est destinée aux applications de découpe plasma haute définition, nécessitant une qualité de coupe supérieure et la capacité de traiter des épaisseurs importantes. Ces machines sont conçues pour des environnements industriels exigeants, orientés précision et productivité.\n\nAvec des formats pouvant atteindre 2 000 x 6 000 mm, les MDCut sont utilisées dans la chaudronnerie industrielle, l’énergie, la construction métallique lourde et les ateliers spécialisés.\nSur le marché de la, elles offrent un excellent compromis entre performance HD et investissement maîtrisé.",
     "photo": "/images/machines/phenix/md-cut.png"
   },
   {
@@ -1514,9 +1514,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "DECOUPE PLASMA",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de découpe plasma de grandes dimensions",
+    "capacite": "Pour dimensions jusqu'à 9.000 x 21.000mm",
+    "description": "Machine de découpe plasma de grandes dimensions\n\nLes machines PHENIX DualCut sont conçues pour la découpe plasma de très grandes pièces, avec des capacités dimensionnelles importantes adaptées aux projets industriels de grande envergure. Elles répondent aux besoins des ateliers travaillant sur des tôles de grande longueur et largeur.\n\nCapables de traiter des dimensions jusqu’à 9 000 x 21 000 mm, ces machines sont utilisées dans la chaudronnerie lourde, la construction navale, les structures métalliques et les projets industriels spécifiques.\nChez Alma, les DualCut représentent une opportunité stratégique pour accéder à de très grandes capacités de découpe sans investissement neuf lourd.",
     "photo": "/images/machines/phenix/dual-cut.png"
   },
   {
@@ -1530,9 +1530,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "DECOUPE JET D'EAU",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de découpe jet d'eau compacte",
+    "capacite": "Pour format jusqu'à 1.350 x 1.350mm",
+    "description": "Machine de découpe jet d’eau compacte\n\nLes machines PHENIX AlphaJet sont des solutions de découpe jet d’eau compactes, adaptées aux ateliers nécessitant une grande polyvalence sur des formats contenus. Elles permettent la découpe de nombreux matériaux sans zone affectée thermiquement.\n\nAvec des formats jusqu’à 1 350 x 1 350 mm, ces machines sont utilisées en chaudronnerie fine, mécanique de précision, plasturgie, composites et applications multi-matériaux.\nChez Alma, les AlphaJet constituent une solution flexible et économique pour intégrer le jet d’eau dans un atelier.",
     "photo": "/images/machines/phenix/alpha-jet.png"
   },
   {
@@ -1546,9 +1546,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "DECOUPE JET D'EAU",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de découpe jet d'eau performante",
+    "capacite": "Pour format jusqu'à 2.000 x 12.000mm",
+    "description": "Machine de découpe jet d’eau performante\n\nLa gamme MDJet de PHENIX est destinée aux applications industrielles nécessitant de grandes longueurs de coupe et une productivité élevée. Ces machines offrent une grande stabilité et une qualité de découpe constante, même sur des matériaux épais ou techniques.\n\nAvec des formats pouvant atteindre 2 000 x 12 000 mm, les MDJet sont utilisées dans la chaudronnerie industrielle, l’aéronautique, l’énergie et la fabrication de pièces de grande dimension.\nChez Alma, elles représentent une solution performante et polyvalente, très recherchée pour les projets multi-matériaux.",
     "photo": "/images/machines/phenix/md-jet.png"
   },
   {
@@ -1562,9 +1562,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "DECOUPE JET D'EAU",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Machine de découpe jet d'eau 5 axes",
+    "capacite": "Pour format jusqu'à 2.000 x 6.000mm",
+    "description": "Machine de découpe jet d’eau 5 axes\n\nLes machines ProJet 5x de PHENIX sont conçues pour la découpe jet d’eau multi-axes, permettant la réalisation de formes complexes, de chanfreins et de découpes tridimensionnelles. Cette technologie est particulièrement adaptée aux pièces techniques à forte valeur ajoutée.\n\nUtilisées dans les secteurs de l’aéronautique, de l’énergie, des composites et de la mécanique de précision, ces machines offrent une grande flexibilité de production.\nChez Alma, les ProJet 5x constituent une solution hautement technologique, permettant d’accéder au jet d’eau 5 axes avec un investissement optimisé.",
     "photo": "/images/machines/phenix/projet-5x.png"
   },
   {
@@ -1578,9 +1578,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "DEBIT",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Scie à ruban pendulaire compacte",
+    "capacite": "Pour Ømaxi 310mm, ouverture d'étau 400mm",
+    "description": "Scie à ruban pendulaire compacte\n\nLes scies à ruban IMET de la gamme BS sont conçues pour le débit de profilés et de barres métalliques dans des environnements de chaudronnerie et de mécanique générale. Leur conception pendulaire assure une descente régulière de l’archet et une bonne stabilité de coupe.\n\nAvec une capacité jusqu’à 310 mm de diamètre et une ouverture d’étau de 400 mm, ces machines sont adaptées aux ateliers recherchant une solution compacte, fiable et facile à exploiter.\nChez Alma, les IMET BS sont très appréciées pour leur robustesse, leur simplicité mécanique et leur excellent rendement au quotidien.",
     "photo": "/images/machines/imet/bs.jpg"
   },
   {
@@ -1594,9 +1594,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "DEBIT",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Scie à ruban pendualire de grandes dimensions",
+    "capacite": "Pour Ømaxi 500mm, ouverture d'étau 620mm",
+    "description": "Scie à ruban pendulaire de grandes dimensions\n\nLa gamme KS d’IMET regroupe des scies à ruban pendulaires de plus grande capacité, destinées au débit de sections importantes et de pièces plus lourdes. Ces machines sont conçues pour fonctionner dans des environnements industriels exigeants.\n\nCapables de couper des pièces jusqu’à 500 mm de diamètre, avec une ouverture d’étau de 620 mm, elles sont utilisées en chaudronnerie lourde, construction métallique et maintenance industrielle.\nSur le marché de la, les IMET KS conservent une forte valeur industrielle, grâce à leur puissance et leur longévité.",
     "photo": "/images/machines/imet/ks.jpg"
   },
   {
@@ -1610,9 +1610,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "DEBIT",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Scie à ruban pendulaire automatique",
+    "capacite": "Pour Ømaxi 310mm, ouverture d'étau 400mm",
+    "description": "Scie à ruban pendulaire automatique\n\nLes scies IMET de la gamme CUBO sont des scies à ruban pendulaires automatiques, conçues pour améliorer la productivité et la répétabilité des opérations de débit. Elles permettent l’automatisation des cycles de coupe tout en conservant une approche simple et robuste.\n\nAvec une capacité jusqu’à 310 mm de diamètre et une ouverture d’étau de 400 mm, ces machines sont adaptées aux ateliers de production, de sous-traitance et aux environnements nécessitant des débits réguliers et maîtrisés.\nChez Alma, les IMET CUBO représentent une solution performante pour augmenter le rendement sans investissement neuf lourd.",
     "photo": "/images/machines/imet/cubo.jpg"
   },
   {
@@ -1626,9 +1626,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "DEBIT",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Scie circulaire d'atelier",
+    "capacite": "Pour Ømaxi 120mm, ouverture d'étau 200mm",
+    "description": "Scie circulaire d’atelier\n\nLes scies circulaires IMET SIRIO sont destinées aux applications de débit précis en atelier, notamment pour les petites sections et les pièces nécessitant une bonne qualité de coupe. Leur conception compacte permet une intégration facile dans les ateliers.\n\nAvec une capacité jusqu’à 120 mm de diamètre et une ouverture d’étau de 200 mm, ces machines sont utilisées en mécanique générale, maintenance, fabrication de petites séries et ateliers polyvalents.\nEn, les IMET SIRIO sont appréciées pour leur précision, leur fiabilité et leur simplicité d’utilisation.",
     "photo": "/images/machines/imet/sirio.jpg"
   },
   {
@@ -1642,9 +1642,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "DEBIT",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Scie circulaire pour aluminium",
+    "capacite": "Pour Ømaxi 120mm, ouverture d'étau 200mm",
+    "description": "Scie circulaire pour aluminium\n\nLa gamme VELOX d’IMET est spécifiquement conçue pour le débit de profilés aluminium, avec une qualité de coupe adaptée aux matériaux non ferreux. Ces machines assurent une coupe nette et régulière, essentielle pour les assemblages précis.\n\nAvec une capacité jusqu’à 120 mm de diamètre et une ouverture d’étau de 200 mm, les VELOX sont utilisées dans les ateliers de menuiserie aluminium, de fabrication de structures légères et de sous-traitance spécialisée.\nChez Alma, elles constituent une solution fiable et économique pour le débit aluminium industriel.",
     "photo": "/images/machines/imet/velox.jpg"
   },
   {
@@ -1658,9 +1658,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "DEBIT",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Scie à ruban de production pour profilés",
+    "capacite": "Pour section jusqu'à 1.330 x 600mm",
+    "description": "Scies à ruban de production pour profilés\n\nLes scies à ruban KALTENBACH des gammes KBB, KBS et KBP sont conçues pour le débit de profilés acier en environnement de production, avec une priorité donnée à la fiabilité, à la précision de coupe et à la répétabilité. Elles sont largement utilisées dans les ateliers de charpente métallique et de construction acier.\n\nCapables de traiter des sections jusqu’à 1 330 x 600 mm, ces machines sont adaptées aux poutres, profilés H/I/U et sections lourdes.\nChez Alma, elles restent des références industrielles, appréciées pour leur robustesse, leur longévité et leur rendement en production continue.",
     "photo": "/images/machines/kaltenbach/kbp.png"
   },
   {
@@ -1674,9 +1674,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "DEBIT",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Scie circulaire de production pour profilés",
+    "capacite": "Pour Ømaxi 155mm, ouverture d'étau 340mm",
+    "description": "Scie circulaire de production pour profilés\n\nLa gamme KKS regroupe des scies circulaires de production, destinées au débit rapide et précis de profilés acier de petites à moyennes sections. Ces machines sont conçues pour offrir une qualité de coupe élevée et une cadence soutenue.\n\nUtilisées en charpente métallique, serrurerie industrielle et ateliers de fabrication en série, les KKS sont reconnues pour leur stabilité de coupe et leur efficacité opérationnelle.\nSur le marché de la, elles constituent une solution performante pour augmenter la productivité tout en maîtrisant l’investissement.",
     "photo": "/images/machines/kaltenbach/kks.png"
   },
   {
@@ -1690,9 +1690,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "DECOUPE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Centre d'usinage de tôle",
+    "capacite": "Pour format jusqu'à 3000 x 12.000mm",
+    "description": "Centre d’usinage de tôle\n\nLes centres d’usinage KF de KALTENBACH sont conçus pour l’usinage et la préparation de tôles acier, intégrant différentes opérations nécessaires à la fabrication de composants de charpente métallique. Ils s’inscrivent dans une logique de process intégré et de flux optimisé.\n\nAdaptés aux formats jusqu’à 3 000 x 12 000 mm, ces centres sont utilisés dans les ateliers de construction métallique, de structures acier et de production industrielle orientée efficacité.\nChez Alma, les KALTENBACH KF représentent une opportunité stratégique pour rationaliser les opérations de préparation de tôle avec une solution éprouvée.",
     "photo": "/images/machines/kaltenbach/kf.png"
   },
   {
@@ -1706,9 +1706,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "PERCAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Perceuse à profilé multi broches",
+    "capacite": "Pour section jusqu'à 1.330 x 600mm",
+    "description": "Perceuses à profilés multi-broches\n\nLes perceuses KALTENBACH des gammes KDB, KDM, KDL et KDP sont dédiées au perçage de profilés acier, avec des configurations multi-broches permettant d’augmenter considérablement la productivité et la précision des opérations.\n\nCapables de traiter des sections jusqu’à 1 330 x 600 mm, ces machines sont essentielles dans les ateliers de charpente métallique, de construction acier et de fabrication de structures porteuses.\nChez Alma, elles sont très recherchées pour leur robustesse, leur fiabilité et leur capacité à soutenir des cadences élevées.",
     "photo": "/images/machines/kaltenbach/kdp.png"
   },
   {
@@ -1770,9 +1770,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "POINCONNAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Poinconneuse multipostes",
+    "capacite": "Jusqu'à 175T",
+    "description": "Poinçonneuse multipostes\n\nLes poinçonneuses KINGSLAND de la gamme Multi sont conçues pour le travail polyvalent de l’acier, en regroupant plusieurs opérations sur une seule machine. Elles permettent de réaliser efficacement des opérations de poinçonnage, de cisaillage, de grugeage ou de découpe de plats et profilés, selon la configuration.\n\nAvec une capacité pouvant atteindre 175 tonnes, ces machines sont largement utilisées en chaudronnerie, charpente métallique, serrurerie industrielle et fabrication de structures acier. Leur conception robuste et simple les rend particulièrement adaptées aux environnements d’atelier exigeants.\n\nChez Alma, les KINGSLAND Multi sont très recherchées pour leur polyvalence, leur fiabilité mécanique et leur capacité à optimiser l’espace et les flux de production.",
     "photo": "/images/machines/kingsland/multi.png"
   },
   {
@@ -1786,9 +1786,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "POINCONNAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Poiconneuse compacte",
+    "capacite": "Jusqu'à 80T",
+    "description": "Poinçonneuse compacte\n\nLa gamme Compact de KINGSLAND regroupe des poinçonneuses plus compactes, destinées aux ateliers recherchant une solution efficace pour le poinçonnage courant tout en limitant l’encombrement machine. Elles conservent la robustesse et la simplicité qui font la réputation de la marque.\n\nAvec une capacité jusqu’à 80 tonnes, ces machines sont adaptées aux travaux de chaudronnerie légère, de serrurerie, de maintenance industrielle et aux ateliers polyvalents traitant des pièces de petite à moyenne section.\n\nChez Alma, les KINGSLAND Compact constituent une solution fiable et économique, idéale pour renforcer un parc machines ou intégrer une fonction de poinçonnage sans investissement lourd.",
     "photo": "/images/machines/kingsland/compact.png"
   },
   {
@@ -1802,9 +1802,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "DEBIT",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Scie circulaire carbure manuel",
+    "capacite": "Pour Ømaxi 100mm, pour Ømaxi en tube 110mm , ouverture d'étau 170mm",
+    "description": "Scie circulaire carbure manuelle\n\nLes scies circulaires TYRO AL sont conçues pour le débit manuel précis de profilés et tubes, principalement en aluminium. Elles offrent une solution simple, fiable et efficace pour les ateliers recherchant une coupe nette avec une grande maîtrise opérateur.\n\nCes machines sont utilisées en chaudronnerie légère, menuiserie aluminium, serrurerie industrielle et maintenance, notamment pour des travaux ponctuels ou de petites séries.\nChez Alma, les TYRO AL sont appréciées pour leur simplicité mécanique, leur précision de coupe et leur faible coût d’exploitation.",
     "photo": "/images/machines/tyro/al.png"
   },
   {
@@ -1818,9 +1818,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "DEBIT",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Scie circulaire carbure semi automatique pour aluminium",
+    "capacite": "Pour Ømaxi en tube 130mm , ouverture d'étau 230mm",
+    "description": "Scie circulaire carbure semi-automatique pour aluminium\n\nLa gamme Carfer de TYRO est destinée au débit semi-automatique de profilés aluminium, avec un bon compromis entre cadence, précision et simplicité d’utilisation. Elle permet d’augmenter la productivité tout en conservant une grande qualité de coupe.\n\nCes machines sont utilisées dans les ateliers de fabrication aluminium, de structures légères et de sous-traitance spécialisée.\nSur le marché de la, les TYRO Carfer représentent une solution performante et fiable, idéale pour les productions régulières.",
     "photo": "/images/machines/tyro/carfer.png"
   },
   {
@@ -1834,9 +1834,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "DEBIT",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Scie circulaire pour panneau aluminium",
+    "capacite": "Pour plaque épaisseur maxi 150mm, ou 120mm en plein, Largeur de coupe maxi 3.000mm",
+    "description": "Scie circulaire pour panneaux aluminium\n\nLes scies TYRO Alumatic sont conçues pour le débit de panneaux et plaques aluminium, avec une grande stabilité et une précision adaptée aux grandes largeurs de coupe. Elles répondent aux besoins spécifiques des ateliers travaillant sur des formats plats de grande dimension.\n\nCes machines sont utilisées dans les secteurs de la transformation aluminium, de la signalétique industrielle, de la fabrication de panneaux techniques et de la chaudronnerie fine.\nChez Alma, les Alumatic constituent une solution spécialisée, recherchée pour sa capacité à traiter des panneaux épais et larges.",
     "photo": "/images/machines/tyro/alumatic.png"
   },
   {
@@ -1850,9 +1850,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "DEBIT",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Scie circulaire abrasive semi-automatique pour acier",
+    "capacite": "Pour Ømaxi 110mm, pour Ømaxi en tube 130mm , ouverture d'étau 240mm",
+    "description": "Scie circulaire abrasive semi-automatique pour acier\n\nLa gamme TP de TYRO est destinée au débit d’acier par disque abrasif, avec une approche semi-automatique permettant d’améliorer la répétabilité des coupes. Ces machines sont conçues pour les ateliers recherchant une solution simple et robuste pour le débit acier.\n\nElles sont utilisées en chaudronnerie, construction métallique, maintenance industrielle et sous-traitance acier.\nChez Alma, les TYRO TP sont appréciées pour leur robustesse, leur simplicité et leur fiabilité en environnement atelier.",
     "photo": "/images/machines/tyro/tp.png"
   },
   {
@@ -1866,9 +1866,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "DEBIT",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Scie circulaire abrasive semi-automatique pour acier sous arrosage",
+    "capacite": "Pour Ømaxi 100mm, pour Ømaxi en tube 140mm , ouverture d'étau 180mm",
+    "description": "Scie circulaire abrasive semi-automatique pour acier sous arrosage\n\nLes machines TYRO Aqualab sont conçues pour le débit acier sous arrosage, permettant une meilleure maîtrise thermique et une qualité de coupe améliorée par rapport aux solutions abrasives classiques.\n\nElles sont utilisées dans les ateliers nécessitant un meilleur confort d’utilisation, une réduction de l’échauffement et une coupe plus régulière.\nEn, les Aqualab représentent une solution fiable et durable, adaptée aux usages intensifs.",
     "photo": "/images/machines/tyro/aqualab.jpg"
   },
   {
@@ -1882,9 +1882,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "AMENAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Table à rouleaux légère pour scie à ruban, perçeuses, poinçonneuse",
+    "capacite": "Longueur utile jusqu'à 6.000mm, Largeur utile : 200, 300 ou 400mm ; Charge utile : 60kg/m",
+    "description": "Table à rouleaux légère\n\nLes tables à rouleaux TRT sont conçues pour accompagner les scies à ruban, perceuses et poinçonneuses, en facilitant la manutention et l’alignement des barres et profilés légers.\n\nElles sont utilisées en chaudronnerie, mécanique générale et ateliers polyvalents.\nChez Alma, elles constituent un complément simple et efficace pour améliorer l’ergonomie atelier.",
     "photo": "/images/machines/tyro/trt.png"
   },
   {
@@ -1898,9 +1898,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "AMENAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Table à rouleaux lourde pour scie à ruban, perçeuses, poinçonneuse",
+    "capacite": "Longueur utile jusqu'à 12 000 mm ; Largeur utile : 300 mm à 1 200 mm ; Charge utile jusquà 250kg/m",
+    "description": "Table à rouleaux lourde\n\nLa gamme TRS regroupe des tables à rouleaux lourdes, destinées à la manutention de profilés et pièces longues et lourdes. Elles sont conçues pour supporter des charges élevées tout en assurant un guidage fluide.\n\nTrès utilisées en charpente métallique et chaudronnerie lourde, elles conservent une forte valeur d’usage en.",
     "photo": "/images/machines/tyro/trs.png"
   },
   {
@@ -1914,9 +1914,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "AMENAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Butée de mesure manuelle à affichage digital",
+    "capacite": "Longueur utile jusqu'à 6.000mm ; Largeur utile : 200, 300 ou 400mm ; Charge utile : Jusqu'à 300 kg/m",
+    "description": "Butée de mesure manuelle à affichage digital\n\nLes butées GUIDAL permettent un positionnement précis des longueurs de coupe, avec une lecture digitale simple et fiable. Elles améliorent la répétabilité sans complexité excessive.\n\nElles sont utilisées sur scies, poinçonneuses et lignes de débit.\nChez Alma, elles représentent une solution économique pour fiabiliser les longueurs de coupe.",
     "photo": "/images/machines/tyro/trs.png"
   },
   {
@@ -1930,9 +1930,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "AMENAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Butée de mesure à déplacement volant adaptable sur scie ou poinçonneuse",
+    "capacite": "Pour largeur 200mm ou 400mm, pour longueur jusquà 6.000mm en standard.",
+    "description": "Butée de mesure à déplacement manuel\n\nLa VISIONIC est une butée de mesure adaptable, offrant un positionnement précis par déplacement au volant. Elle est idéale pour les ateliers recherchant une solution flexible et robuste.\n\nElle est largement utilisée en débit acier et aluminium, sur machines existantes.\nEn, elle constitue une solution simple et durable.",
     "photo": "/images/machines/tyro/visionic.png"
   },
   {
@@ -1946,9 +1946,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "AMENAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Butée de mesure à déplacement motorisée adaptable sur scie ou poinçonneuse",
+    "capacite": "Pour largeur 200mm ou 400mm, pour longueur jusquà 6.000mm en standard.",
+    "description": "Butée de mesure motorisée\n\nLes butées TYROBUT apportent une motorisation du positionnement, améliorant la rapidité et la répétabilité des opérations de débit. Elles s’intègrent facilement sur des équipements existants.\n\nChez Alma, elles représentent une montée en gamme fonctionnelle, sans refonte complète du poste de travail.",
     "photo": "/images/machines/tyro/tyrobut.png"
   },
   {
@@ -1962,9 +1962,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "AMENAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Butée de mesure automatique adaptable sur scie ou poinçonneuse",
+    "capacite": "Pour 40kg/m ou 150kg/m, et jusqu'à 8.000mm en standard.",
+    "description": "Butée de mesure automatique\n\nLa VISUMATIC est une butée de mesure automatique conçue pour les environnements de production, avec des exigences élevées en cadence et précision. Elle permet d’optimiser les flux et de réduire les erreurs opérateur.\n\nTrès recherchée en, elle constitue une brique clé d’automatisation légère pour les ateliers de chaudronnerie et de débit.",
     "photo": "/images/machines/tyro/visumatic.png"
   },
   {
@@ -1978,9 +1978,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "EBAVURAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Tonneau d'ébavurage",
+    "capacite": "Cuve de diamètre de 360mm, et longueur jusqu'à 1.750mm",
+    "description": "Tonneaux d’ébavurage\n\nLes tonneaux d’ébavurage SPALECK Diabolo, 2P et XL s’appuient sur plus de cinquante ans de développement continu, offrant une solution fiable pour l’ébavurage, l’adoucissage et l’homogénéisation de pièces métalliques. Leur conception robuste et simple en fait des machines particulièrement adaptées aux ateliers de chaudronnerie et de mécanique.\n\nAvec des cuves de 360 mm de diamètre et des longueurs jusqu’à 1 750 mm, ces équipements conviennent au traitement de lots variés, en petites et moyennes séries.\nChez Alma, ils sont recherchés pour leur durabilité, leur facilité d’exploitation et leur qualité de finition constante.",
     "photo": "/images/machines/spaleck/diabolo.png"
   },
   {
@@ -1994,9 +1994,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "EBAVURAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Tonneau d'ébavurage de grandes capacité",
+    "capacite": "Cuve de diamètre de 600mm, et longueur jusqu'à 1.300mm",
+    "description": "Tonneau d’ébavurage de grande capacité\n\nLe MDL 400 est conçu pour les applications nécessitant une capacité supérieure, tout en conservant une excellente homogénéité de traitement. Il s’adresse aux ateliers traitant des volumes plus importants ou des pièces plus massives.\n\nAvec une cuve de 600 mm de diamètre et une longueur jusqu’à 1 300 mm, ce modèle est utilisé en chaudronnerie, mécanique industrielle et production série.\nSur le marché de la, le MDL 400 offre un excellent compromis capacité / fiabilité, idéal pour monter en cadence sans investissement neuf lourd.",
     "photo": "/images/machines/spaleck/diabolo.png"
   },
   {
@@ -2010,9 +2010,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "EBAVURAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Tonneau d'ébavurage à porte automatique",
+    "capacite": "Cuve de diamètre de 500mm, et longueur jusqu'à 1.400mm",
+    "description": "Tonneau d’ébavurage à porte automatique\n\nLe PX300 intègre une porte automatique, facilitant le chargement et le déchargement et améliorant la répétabilité des cycles. Cette configuration est particulièrement adaptée aux ateliers orientés productivité et sécurité opérateur.\n\nDoté d’une cuve de 500 mm de diamètre et d’une longueur jusqu’à 1 400 mm, il trouve sa place dans les environnements de production industrielle, de sous-traitance et de chaudronnerie structurée.\nChez Alma, le PX300 est apprécié pour sa robustesse et sa capacité à s’intégrer facilement dans des flux existants.",
     "photo": "/images/machines/spaleck/xa.png"
   },
   {
@@ -2026,9 +2026,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "EBAVURAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Tonneau d'ébavurage de très grande capacité à chargement automatique",
+    "capacite": "Cuve de diamètre de 700mm, et longueur jusqu'à 1.300mm",
+    "description": "Tonneau d’ébavurage de très grande capacité à chargement automatique\n\nLa gamme Y représente le haut de capacité chez SPALECK, avec un chargement automatique destiné aux applications industrielles lourdes. Ces machines sont conçues pour traiter de grands volumes avec une constance de finition élevée.\n\nAvec une cuve de 700 mm de diamètre et une longueur jusqu’à 1 300 mm, elles sont utilisées en chaudronnerie lourde, production série et process industriels intégrés.\nEn, les SPALECK Y constituent une solution stratégique pour les ateliers souhaitant industrialiser l’ébavurage tout en maîtrisant l’investissement.",
     "photo": "/images/machines/spaleck/y.jpg"
   },
   {
@@ -2042,9 +2042,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "STOCKAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Système de stockage simple tour dynamique pour tôles ou barres",
+    "capacite": "Hauteur jusqu'à 20 mètres, Longueur des casiers jusqu'à 12 mètres, charge jusqu'à 8 tonnes.",
+    "description": "Système de stockage simple tour dynamique pour tôles ou barres\n\nLe SingleTower de LogiTower est une solution de stockage dynamique vertical destinée aux ateliers souhaitant optimiser l’espace tout en sécurisant la manipulation de tôles ou de barres. Sa conception en tour unique permet une intégration efficace dans des environnements industriels contraints.\n\nCe système est particulièrement utilisé en chaudronnerie, tôlerie industrielle et mécanique, pour améliorer la gestion des stocks, réduire les temps de manutention et fiabiliser l’accès matière.\nChez Alma, le SingleTower constitue une solution performante et évolutive, appréciée pour sa robustesse et son adaptabilité.",
     "photo": "/images/machines/logitower/single-tower.webp"
   },
   {
@@ -2058,9 +2058,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "STOCKAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Système de stockage double tour dynamique pour tôles ou barres",
+    "capacite": "Hauteur jusqu'à 20 mètres, Longueur des casiers jusqu'à 12 mètres, charge jusqu'à 8 tonnes.",
+    "description": "Système de stockage double tour dynamique pour tôles ou barres\n\nLe DoubleTower permet de doubler la capacité de stockage tout en conservant une emprise au sol maîtrisée. Cette configuration est idéale pour les ateliers traitant plusieurs formats ou références matière, avec un besoin accru de disponibilité et de fluidité logistique.\n\nTrès présent dans les environnements de production industrielle, ce système contribue à une meilleure organisation des flux, une réduction des manipulations manuelles et une sécurisation des opérations.\nSur le marché de la, le DoubleTower est recherché pour sa capacité élevée et sa fiabilité en exploitation continue.",
     "photo": "/images/machines/logitower/double-tower.webp"
   },
   {
@@ -2074,9 +2074,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "STOCKAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Système de stockage multi tour dynamique pour tôles ou barres",
+    "capacite": "Hauteur jusqu'à 20 mètres, Longueur des casiers jusqu'à 12 mètres, charge jusqu'à 8 tonnes.",
+    "description": "Système de stockage multi tours dynamique pour tôles ou barres\n\nLe MultiTower s’adresse aux sites industriels disposant de volumes importants de matière et nécessitant une organisation avancée du stockage. La configuration multi-tours permet de centraliser de grandes quantités de tôles ou barres tout en conservant un accès rapide et sécurisé.\n\nCe système est utilisé dans les ateliers de tôlerie industrielle, chaudronnerie lourde et sites multi-process, où l’optimisation de l’espace et des flux est stratégique.\nChez Alma, le MultiTower représente une solution logistique haut de gamme, idéale pour structurer durablement un atelier.",
     "photo": "/images/machines/logitower/multitower.webp"
   },
   {
@@ -2090,9 +2090,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "STOCKAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Système de stockage en nid d'abeille pour tôles ou barres",
+    "capacite": "Hauteur jusqu'à 20 mètres, Longueur des casiers jusqu'à 12 mètres, charge jusqu'à 8 tonnes.",
+    "description": "Système de stockage en nid d’abeille pour tôles ou barres\n\nLe LogiComb repose sur une architecture en nid d’abeille, permettant un stockage horizontal organisé et une excellente visibilité des matières. Cette solution est particulièrement adaptée aux ateliers recherchant une approche simple et efficace pour le rangement des tôles et barres.\n\nUtilisé en chaudronnerie, serrurerie industrielle et tôlerie, le LogiComb facilite l’identification des références et réduit les temps de recherche matière.\nEn, il constitue une solution robuste et rationnelle, très appréciée pour sa simplicité d’exploitation.",
     "photo": "/images/machines/logitower/logicomb.webp"
   },
   {
@@ -2106,9 +2106,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "STOCKAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Système de stockage et de chargement de tôle automatique",
+    "capacite": "Pour tôle jusqu'à 2.000 x 6.000mm, poids maxi de la tôle 2.300 kg",
+    "description": "Système de stockage et de chargement automatique de tôle\n\nLe Loader de LogiTower combine stockage et chargement automatique de tôles, permettant une alimentation directe des machines de découpe ou de transformation. Cette solution s’inscrit dans une logique d’automatisation des flux matière.\n\nElle est utilisée dans les ateliers de découpe laser, plasma, jet d’eau et tôlerie industrielle, afin de réduire les manipulations manuelles et d’améliorer la sécurité.\nChez Alma, le Loader représente une brique clé d’automatisation, idéale pour moderniser un atelier sans projet neuf complet.",
     "photo": "/images/machines/logitower/loader.webp"
   },
   {
@@ -2122,9 +2122,9 @@
       "Chaudronnerie"
     ],
     "sous_categorie": "STOCKAGE",
-    "type": "",
-    "capacite": "",
-    "description": "",
+    "type": "Système de chargement par palan automatique de tôle",
+    "capacite": "Pour tôle jusqu'à 1.500 x 3.000mm, poids maxi de la tôle 900 kg",
+    "description": "Système de chargement automatique de tôle par palan\n\nLe InLoader est une solution de chargement automatique par palan, conçue pour les ateliers souhaitant automatiser la manipulation de tôles tout en conservant une configuration compacte. Il s’intègre facilement dans des environnements existants.\n\nTrès utilisé en tôlerie, chaudronnerie et ateliers de découpe, le InLoader améliore la sécurité opérateur et la régularité des opérations de chargement.\nChez Alma, il constitue une solution fiable et économique pour franchir une première étape vers l’automatisation.",
     "photo": "/images/machines/logitower/inloader.webp"
   },
   {
@@ -2141,7 +2141,7 @@
     "sous_categorie": "STOCKAGE",
     "type": "Système de rangement de barres à tiroir simple ou double face",
     "capacite": "Longueur jusqu'à 6.000mm, charge par tiroir jusqu'à 1T",
-    "description": "Rayonnage double à déroulement <1000 kg.  Rayonnage double à déroulement permettant un gain de place considérable pour le stockage de produits longs et divers produits. Les bras porteurs se retirent facilement à la main, à 100% et en toute sécurité. Construction stable, soudée et démontable. Les bras porteurs sont pourvus de roulements INA lubrifiés à vie et équipés d’une épaisse bague extérieure supplémentaire. Les matériaux courts et flexibles peuvent éventuellement être placés dans des cassettes.",
+    "description": "Rayonnage double à déroulement <1000 kg. Rayonnage double à déroulement permettant un gain de place considérable pour le stockage de produits longs et divers produits. Les bras porteurs se retirent facilement à la main, à 100% et en toute sécurité. Construction stable, soudée et démontable. Les bras porteurs sont pourvus de roulements INA lubrifiés à vie et équipés d’une épaisse bague extérieure supplémentaire. Les matériaux courts et flexibles peuvent éventuellement être placés dans des cassettes.",
     "photo": "/images/machines/thiel/multi.png"
   },
   {
@@ -2158,7 +2158,7 @@
     "sous_categorie": "STOCKAGE",
     "type": "Système de rangement de barres à tiroir simple ou double face",
     "capacite": "Longueur jusqu'à 6.000mm, charge par tiroir jusqu'à 1T",
-    "description": "Rayonnage double à déroulement <1000 kg.  Rayonnage double à déroulement permettant un gain de place considérable pour le stockage de produits longs et divers produits. Les bras porteurs se retirent facilement à la main, à 100% et en toute sécurité. Construction stable, soudée et démontable. Les bras porteurs sont pourvus de roulements INA lubrifiés à vie et équipés d’une épaisse bague extérieure supplémentaire. Les matériaux courts et flexibles peuvent éventuellement être placés dans des cassettes.",
+    "description": "Rayonnage double à déroulement <1000 kg. Rayonnage double à déroulement permettant un gain de place considérable pour le stockage de produits longs et divers produits. Les bras porteurs se retirent facilement à la main, à 100% et en toute sécurité. Construction stable, soudée et démontable. Les bras porteurs sont pourvus de roulements INA lubrifiés à vie et équipés d’une épaisse bague extérieure supplémentaire. Les matériaux courts et flexibles peuvent éventuellement être placés dans des cassettes.",
     "photo": "/images/machines/thiel/multi.png"
   },
   {
@@ -2175,7 +2175,7 @@
     "sous_categorie": "STOCKAGE",
     "type": "Système de rangement de barres à tiroir simple ou double face pour charges lourdes",
     "capacite": "Longueur jusqu'à 12.000mm, charge par tiroir jusqu'à 7,5T",
-    "description": "Rayonnage double à déroulement <7500 kg  Rayonnage double à déroulement permettant un gain de place considérable pour le stockage de divers produits devant être facilement et rapidement accessibles. Les bras porteurs qui peuvent être déroulés à 100% et qui sont manipulés à l’aide d’un levier manuel reposent sur des rouleaux en acier trempé et sont pourvus de roulements INA lubrifiés à vie. Des matériaux courts et flexibles peuvent éventuellement être placés dans des cassettes. Les bras conviennent pour une répartition des compartiments variable à l’aide de broches réglables.",
+    "description": "Rayonnage double à déroulement <7500 kg Rayonnage double à déroulement permettant un gain de place considérable pour le stockage de divers produits devant être facilement et rapidement accessibles. Les bras porteurs qui peuvent être déroulés à 100% et qui sont manipulés à l’aide d’un levier manuel reposent sur des rouleaux en acier trempé et sont pourvus de roulements INA lubrifiés à vie. Des matériaux courts et flexibles peuvent éventuellement être placés dans des cassettes. Les bras conviennent pour une répartition des compartiments variable à l’aide de broches réglables.",
     "photo": "/images/machines/thiel/jumbo.webp"
   },
   {
@@ -2192,7 +2192,7 @@
     "sous_categorie": "STOCKAGE",
     "type": "Système de rangement de barres à tiroir simple ou double face pour charges lourdes",
     "capacite": "Longueur jusqu'à 12.000mm, charge par tiroir jusqu'à 7,5T",
-    "description": "Rayonnage double à déroulement <7500 kg  Rayonnage double à déroulement permettant un gain de place considérable pour le stockage de divers produits devant être facilement et rapidement accessibles. Les bras porteurs qui peuvent être déroulés à 100% et qui sont manipulés à l’aide d’un levier manuel reposent sur des rouleaux en acier trempé et sont pourvus de roulements INA lubrifiés à vie. Des matériaux courts et flexibles peuvent éventuellement être placés dans des cassettes. Les bras conviennent pour une répartition des compartiments variable à l’aide de broches réglables.",
+    "description": "Rayonnage double à déroulement <7500 kg Rayonnage double à déroulement permettant un gain de place considérable pour le stockage de divers produits devant être facilement et rapidement accessibles. Les bras porteurs qui peuvent être déroulés à 100% et qui sont manipulés à l’aide d’un levier manuel reposent sur des rouleaux en acier trempé et sont pourvus de roulements INA lubrifiés à vie. Des matériaux courts et flexibles peuvent éventuellement être placés dans des cassettes. Les bras conviennent pour une répartition des compartiments variable à l’aide de broches réglables.",
     "photo": "/images/machines/thiel/jumbo.webp"
   },
   {

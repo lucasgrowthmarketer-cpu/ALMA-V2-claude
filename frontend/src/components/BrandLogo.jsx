@@ -16,9 +16,8 @@ const BrandLogo = ({ brandSlug, className = '', size = 'md' }) => {
     xl: 'w-32 h-32'
   };
 
-  // Obtenir le vrai logo depuis les données Excel
-  const brandLogoData = brandLogos[brandSlug];
-  const logoUrl = brandLogoData?.logo_url;
+  // Obtenir le vrai logo depuis les données
+  const logoUrl = brandLogos[brandSlug];
 
   // Si le logo existe, l'afficher
   if (logoUrl) {

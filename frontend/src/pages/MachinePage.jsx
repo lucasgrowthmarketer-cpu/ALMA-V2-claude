@@ -49,8 +49,8 @@ const MachinePage = () => {
   const capacityLines = machine.capacite ? machine.capacite.split(',').map(c => c.trim()) : [];
   
   // Parser la présentation pour affichage
-  const presentationParagraphs = machine.presentation_machine 
-    ? machine.presentation_machine.split('\n').filter(p => p.trim())
+  const presentationParagraphs = (machine.description || machine.presentation_machine)
+    ? (machine.description || machine.presentation_machine).split('\n').filter(p => p.trim())
     : [];
 
   return (

@@ -85,7 +85,8 @@ const CategoryPage = () => {
         </div>
       </section>
 
-      {/* Filters */}
+      {/* Filters - only show if category has machines */}
+      {allMachines.length > 0 && (
       <section className="py-6 bg-white border-b sticky top-[57px] sm:top-[65px] z-30">
         <div className="container mx-auto px-4">
           {/* Subcategory filters */}
@@ -147,11 +148,35 @@ const CategoryPage = () => {
           )}
         </div>
       </section>
+      )}
 
       {/* Machines Grid */}
       <section className="py-12">
         <div className="container mx-auto px-4">
-          {filteredMachines.length === 0 ? (
+          {allMachines.length === 0 ? (
+            /* Empty category - Coming Soon */
+            <div className="max-w-2xl mx-auto text-center py-16">
+              <div className="w-20 h-20 bg-[#ef6110]/10 rounded-full flex items-center justify-center mx-auto mb-6">
+                <Filter size={36} className="text-[#ef6110]" />
+              </div>
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">Bientôt disponible</h2>
+              <p className="text-lg text-gray-600 mb-6">
+                Notre gamme {categoryInfo.nom} est en cours de constitution. 
+                Nos experts sélectionnent les meilleurs constructeurs pour vous proposer 
+                des machines de qualité.
+              </p>
+              <p className="text-gray-500 mb-8">
+                Vous avez un besoin spécifique en {categoryInfo.nom.toLowerCase()} ? 
+                Contactez-nous, nous pouvons déjà vous accompagner.
+              </p>
+              <Link to="/contact">
+                <Button className="bg-[#ef6110] hover:bg-[#d45510] text-white font-semibold px-8 py-3 rounded-full">
+                  Contactez-nous
+                  <ArrowRight className="ml-2" size={18} />
+                </Button>
+              </Link>
+            </div>
+          ) : filteredMachines.length === 0 ? (
             <div className="text-center py-16">
               <p className="text-xl text-gray-500">Aucune machine trouvée avec ces filtres.</p>
               <button
