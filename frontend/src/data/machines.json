@@ -1,0 +1,2436 @@
+[
+  {
+    "slug": "cmz-ta",
+    "designation": "CMZ TA",
+    "fabricant": "CMZ",
+    "fabricant_slug": "cmz",
+    "modele": "TA",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "TOURNAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/cmz/ta.png"
+  },
+  {
+    "slug": "cmz-td",
+    "designation": "CMZ TD",
+    "fabricant": "CMZ",
+    "fabricant_slug": "cmz",
+    "modele": "TD",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "TOURNAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/cmz/td.png"
+  },
+  {
+    "slug": "cmz-td-long",
+    "designation": "CMZ TD long",
+    "fabricant": "CMZ",
+    "fabricant_slug": "cmz",
+    "modele": "TD long",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "TOURNAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/cmz/td-long.png"
+  },
+  {
+    "slug": "cmz-tts",
+    "designation": "CMZ TTS",
+    "fabricant": "CMZ",
+    "fabricant_slug": "cmz",
+    "modele": "TTS",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "TOURNAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/cmz/tts.png"
+  },
+  {
+    "slug": "cmz-ttl",
+    "designation": "CMZ TTL",
+    "fabricant": "CMZ",
+    "fabricant_slug": "cmz",
+    "modele": "TTL",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "TOURNAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/cmz/ttl.png"
+  },
+  {
+    "slug": "geminis-gt",
+    "designation": "GEMINIS GT",
+    "fabricant": "GEMINIS",
+    "fabricant_slug": "geminis",
+    "modele": "GT",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "TOURNAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/geminis/gt5i.png"
+  },
+  {
+    "slug": "geminis-gm",
+    "designation": "GEMINIS GM",
+    "fabricant": "GEMINIS",
+    "fabricant_slug": "geminis",
+    "modele": "GM",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "TOURNAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/geminis/gm7.png"
+  },
+  {
+    "slug": "zmm-cu",
+    "designation": "ZMM CU",
+    "fabricant": "ZMM",
+    "fabricant_slug": "zmm",
+    "modele": "CU",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "TOURNAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/zmm/cu.png"
+  },
+  {
+    "slug": "zmm-cuxxrd",
+    "designation": "ZMM CUXXRD",
+    "fabricant": "ZMM",
+    "fabricant_slug": "zmm",
+    "modele": "CUXXRD",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "TOURNAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/zmm/cuxxrd.png"
+  },
+  {
+    "slug": "zmm-ls",
+    "designation": "ZMM LS",
+    "fabricant": "ZMM",
+    "fabricant_slug": "zmm",
+    "modele": "LS",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "TOURNAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/zmm/ls.jpg"
+  },
+  {
+    "slug": "zmm-lt",
+    "designation": "ZMM LT",
+    "fabricant": "ZMM",
+    "fabricant_slug": "zmm",
+    "modele": "LT",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "TOURNAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/zmm/lt.jpg"
+  },
+  {
+    "slug": "zmm-cxt",
+    "designation": "ZMM CXT",
+    "fabricant": "ZMM",
+    "fabricant_slug": "zmm",
+    "modele": "CXT",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "TOURNAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/zmm/cxt.jpg"
+  },
+  {
+    "slug": "xyz-rlx",
+    "designation": "XYZ RLX",
+    "fabricant": "XYZ",
+    "fabricant_slug": "xyz",
+    "modele": "RLX",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "TOURNAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/xyz/machine.jpg"
+  },
+  {
+    "slug": "tornos-monobroche",
+    "designation": "TORNOS Monobroche",
+    "fabricant": "TORNOS",
+    "fabricant_slug": "tornos",
+    "modele": "Monobroche",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "TOURNAGE",
+    "type": "",
+    "capacite": "",
+    "description": "Tour CNC monobroche",
+    "photo": "/images/machines/tornos/monobroche.png"
+  },
+  {
+    "slug": "tornos-multibroche",
+    "designation": "TORNOS Multibroche",
+    "fabricant": "TORNOS",
+    "fabricant_slug": "tornos",
+    "modele": "Multibroche",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "TOURNAGE",
+    "type": "",
+    "capacite": "",
+    "description": "Tour CNC multibroche",
+    "photo": "/images/machines/tornos/multibroche.png"
+  },
+  {
+    "slug": "tornos-fraisage-en-barre",
+    "designation": "TORNOS Fraisage en barre",
+    "fabricant": "TORNOS",
+    "fabricant_slug": "tornos",
+    "modele": "Fraisage en barre",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "TOURNAGE",
+    "type": "",
+    "capacite": "",
+    "description": "Centre de fraisage en barre",
+    "photo": "/images/machines/tornos/fraisage-barre.png"
+  },
+  {
+    "slug": "hartford-lg",
+    "designation": "HARTFORD LG",
+    "fabricant": "HARTFORD",
+    "fabricant_slug": "hartford",
+    "modele": "LG",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/hartford/lg.png"
+  },
+  {
+    "slug": "hartford-hcmc",
+    "designation": "HARTFORD HCMC",
+    "fabricant": "HARTFORD",
+    "fabricant_slug": "hartford",
+    "modele": "HCMC",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/hartford/hcmc.png"
+  },
+  {
+    "slug": "hartford-5a",
+    "designation": "HARTFORD 5A",
+    "fabricant": "HARTFORD",
+    "fabricant_slug": "hartford",
+    "modele": "5A",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/hartford/5a.png"
+  },
+  {
+    "slug": "hartford-hsa",
+    "designation": "HARTFORD HSA",
+    "fabricant": "HARTFORD",
+    "fabricant_slug": "hartford",
+    "modele": "HSA",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/hartford/hsa.png"
+  },
+  {
+    "slug": "hartford-sw",
+    "designation": "HARTFORD SW",
+    "fabricant": "HARTFORD",
+    "fabricant_slug": "hartford",
+    "modele": "SW",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/hartford/sw.png"
+  },
+  {
+    "slug": "hartford-hsa-ea",
+    "designation": "HARTFORD HSA EA",
+    "fabricant": "HARTFORD",
+    "fabricant_slug": "hartford",
+    "modele": "HSA EA",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/hartford/hsa-ea.png"
+  },
+  {
+    "slug": "akira-sv",
+    "designation": "AKIRA SV",
+    "fabricant": "AKIRA",
+    "fabricant_slug": "akira",
+    "modele": "SV",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/akira/sv.jpg"
+  },
+  {
+    "slug": "akira-v",
+    "designation": "AKIRA V",
+    "fabricant": "AKIRA",
+    "fabricant_slug": "akira",
+    "modele": "V",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/akira/v.png"
+  },
+  {
+    "slug": "akira-sv-xp",
+    "designation": "AKIRA SV XP",
+    "fabricant": "AKIRA",
+    "fabricant_slug": "akira",
+    "modele": "SV XP",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/akira/sv-xp.jpg"
+  },
+  {
+    "slug": "akira-hv",
+    "designation": "AKIRA HV",
+    "fabricant": "AKIRA",
+    "fabricant_slug": "akira",
+    "modele": "HV",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/akira/hv.png"
+  },
+  {
+    "slug": "akira-pc",
+    "designation": "AKIRA PC",
+    "fabricant": "AKIRA",
+    "fabricant_slug": "akira",
+    "modele": "PC",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/akira/pc.png"
+  },
+  {
+    "slug": "akira-5-ax",
+    "designation": "AKIRA 5-AX",
+    "fabricant": "AKIRA",
+    "fabricant_slug": "akira",
+    "modele": "5-AX",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/akira/5ax.png"
+  },
+  {
+    "slug": "akira-rmv",
+    "designation": "AKIRA RMV",
+    "fabricant": "AKIRA",
+    "fabricant_slug": "akira",
+    "modele": "RMV",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/akira/rmv.png"
+  },
+  {
+    "slug": "axile-g",
+    "designation": "AXILE G",
+    "fabricant": "AXILE",
+    "fabricant_slug": "axile",
+    "modele": "G",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/axile/g.png"
+  },
+  {
+    "slug": "axile-dc",
+    "designation": "AXILE DC",
+    "fabricant": "AXILE",
+    "fabricant_slug": "axile",
+    "modele": "DC",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/axile/dc.png"
+  },
+  {
+    "slug": "axile-v",
+    "designation": "AXILE V",
+    "fabricant": "AXILE",
+    "fabricant_slug": "axile",
+    "modele": "V",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/axile/v.png"
+  },
+  {
+    "slug": "soraluce-t",
+    "designation": "SORALUCE T",
+    "fabricant": "SORALUCE",
+    "fabricant_slug": "soraluce",
+    "modele": "T",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/soraluce/serie-t.png"
+  },
+  {
+    "slug": "soraluce-s",
+    "designation": "SORALUCE S",
+    "fabricant": "SORALUCE",
+    "fabricant_slug": "soraluce",
+    "modele": "S",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/soraluce/serie-s.png"
+  },
+  {
+    "slug": "soraluce-f",
+    "designation": "SORALUCE F",
+    "fabricant": "SORALUCE",
+    "fabricant_slug": "soraluce",
+    "modele": "F",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/soraluce/serie-f.png"
+  },
+  {
+    "slug": "soraluce-p",
+    "designation": "SORALUCE P",
+    "fabricant": "SORALUCE",
+    "fabricant_slug": "soraluce",
+    "modele": "P",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/soraluce/serie-p.png"
+  },
+  {
+    "slug": "soraluce-h",
+    "designation": "SORALUCE H",
+    "fabricant": "SORALUCE",
+    "fabricant_slug": "soraluce",
+    "modele": "H",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/soraluce/serie-f.png"
+  },
+  {
+    "slug": "toyoda-fh-serie-5000",
+    "designation": "TOYODA FH série 5000",
+    "fabricant": "TOYODA",
+    "fabricant_slug": "toyoda",
+    "modele": "FH série 5000",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/toyoda/fh5000.png"
+  },
+  {
+    "slug": "toyoda-fh-serie-sxi",
+    "designation": "TOYODA FH série Sxi",
+    "fabricant": "TOYODA",
+    "fabricant_slug": "toyoda",
+    "modele": "FH série Sxi",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/toyoda/fx630sx.png"
+  },
+  {
+    "slug": "toyoda-fh-grandes-capacitees",
+    "designation": "TOYODA FH grandes capacitées",
+    "fabricant": "TOYODA",
+    "fabricant_slug": "toyoda",
+    "modele": "FH grandes capacitées",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/toyoda/fh-grandes.png"
+  },
+  {
+    "slug": "toyoda-fh-5x",
+    "designation": "TOYODA FH 5X",
+    "fabricant": "TOYODA",
+    "fabricant_slug": "toyoda",
+    "modele": "FH 5X",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/toyoda/fh-sx.png"
+  },
+  {
+    "slug": "xyz-rmx",
+    "designation": "XYZ RMX",
+    "fabricant": "XYZ",
+    "fabricant_slug": "xyz",
+    "modele": "RMX",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "FRAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/xyz/rmx.jpg"
+  },
+  {
+    "slug": "ger-s",
+    "designation": "GER S",
+    "fabricant": "GER",
+    "fabricant_slug": "ger",
+    "modele": "S",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "RECTIFICATION",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/ger/s.png"
+  },
+  {
+    "slug": "ger-c",
+    "designation": "GER C",
+    "fabricant": "GER",
+    "fabricant_slug": "ger",
+    "modele": "C",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "RECTIFICATION",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/ger/c.png"
+  },
+  {
+    "slug": "ger-r",
+    "designation": "GER R",
+    "fabricant": "GER",
+    "fabricant_slug": "ger",
+    "modele": "R",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "RECTIFICATION",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/ger/r.png"
+  },
+  {
+    "slug": "danobat-xg",
+    "designation": "DANOBAT xG",
+    "fabricant": "DANOBAT",
+    "fabricant_slug": "danobat",
+    "modele": "xG",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "RECTIFICATION",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/danobat/xg.jpg"
+  },
+  {
+    "slug": "danobat-i-d",
+    "designation": "DANOBAT I-D",
+    "fabricant": "DANOBAT",
+    "fabricant_slug": "danobat",
+    "modele": "I-D",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "RECTIFICATION",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/danobat/id.jpeg"
+  },
+  {
+    "slug": "danobat-estarta",
+    "designation": "DANOBAT ESTARTA",
+    "fabricant": "DANOBAT",
+    "fabricant_slug": "danobat",
+    "modele": "ESTARTA",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "RECTIFICATION",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/danobat/estarta.jpg"
+  },
+  {
+    "slug": "danobat-vg",
+    "designation": "DANOBAT VG",
+    "fabricant": "DANOBAT",
+    "fabricant_slug": "danobat",
+    "modele": "VG",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "RECTIFICATION",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/danobat/vg.jpg"
+  },
+  {
+    "slug": "danobat-mikroturn-horizontal",
+    "designation": "DANOBAT Mikroturn horizontal",
+    "fabricant": "DANOBAT",
+    "fabricant_slug": "danobat",
+    "modele": "Mikroturn horizontal",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "RECTIFICATION",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/danobat/mikroturn-h.jpg"
+  },
+  {
+    "slug": "danobat-mikroturn-vertical",
+    "designation": "DANOBAT Mikroturn vertical",
+    "fabricant": "DANOBAT",
+    "fabricant_slug": "danobat",
+    "modele": "Mikroturn vertical",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "RECTIFICATION",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/danobat/mikroturn-v.jpg"
+  },
+  {
+    "slug": "danobat-dbot",
+    "designation": "DANOBAT dBOT",
+    "fabricant": "DANOBAT",
+    "fabricant_slug": "danobat",
+    "modele": "dBOT",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "USINAGE PAR ROBOT",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/danobat/dbot.png"
+  },
+  {
+    "slug": "ona-ad",
+    "designation": "ONA AD",
+    "fabricant": "ONA",
+    "fabricant_slug": "ona",
+    "modele": "AD",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "ELECTROEROSION",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/ona/ad.jpg"
+  },
+  {
+    "slug": "ona-av",
+    "designation": "ONA AV",
+    "fabricant": "ONA",
+    "fabricant_slug": "ona",
+    "modele": "AV",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "ELECTROEROSION",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/ona/av.jpg"
+  },
+  {
+    "slug": "ona-iris",
+    "designation": "ONA IRIS",
+    "fabricant": "ONA",
+    "fabricant_slug": "ona",
+    "modele": "IRIS",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "ELECTROEROSION",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/ona/iris.jpg"
+  },
+  {
+    "slug": "ona-iris-t",
+    "designation": "ONA IRIS T",
+    "fabricant": "ONA",
+    "fabricant_slug": "ona",
+    "modele": "IRIS T",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "ELECTROEROSION",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/ona/iris-t.png"
+  },
+  {
+    "slug": "ona-halley",
+    "designation": "ONA HALLEY",
+    "fabricant": "ONA",
+    "fabricant_slug": "ona",
+    "modele": "HALLEY",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "ELECTROEROSION",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/ona/halley.jpg"
+  },
+  {
+    "slug": "lasit-micromark-bemark",
+    "designation": "LASIT MicroMark ; BeMark",
+    "fabricant": "LASIT",
+    "fabricant_slug": "lasit",
+    "modele": "MicroMark ; BeMark",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "MARQUAGE LASER",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/lasit/bemark.png"
+  },
+  {
+    "slug": "lasit-universal-towermark",
+    "designation": "LASIT Universal ; TowerMark",
+    "fabricant": "LASIT",
+    "fabricant_slug": "lasit",
+    "modele": "Universal ; TowerMark",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "MARQUAGE LASER",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/lasit/universal.png"
+  },
+  {
+    "slug": "lasit-towerlabel-rototag",
+    "designation": "LASIT TowerLabel ; RotoTag",
+    "fabricant": "LASIT",
+    "fabricant_slug": "lasit",
+    "modele": "TowerLabel ; RotoTag",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "MARQUAGE LASER",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/lasit/rototag.png"
+  },
+  {
+    "slug": "lasit-polaris-rotomark",
+    "designation": "LASIT Polaris ; RotoMark",
+    "fabricant": "LASIT",
+    "fabricant_slug": "lasit",
+    "modele": "Polaris ; RotoMark",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "MARQUAGE LASER",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/lasit/rotomark.png"
+  },
+  {
+    "slug": "lasit-fibre-mopa-co2-uv-pico",
+    "designation": "LASIT Fibre ; MOPA ; CO2 ; UV ; Pico",
+    "fabricant": "LASIT",
+    "fabricant_slug": "lasit",
+    "modele": "Fibre ; MOPA ; CO2 ; UV ; Pico",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "MARQUAGE LASER",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/lasit/universal.png"
+  },
+  {
+    "slug": "spaleck-diabolo-2p-xl",
+    "designation": "SPALECK diabolo / 2P / XL",
+    "fabricant": "SPALECK",
+    "fabricant_slug": "spaleck",
+    "modele": "diabolo / 2P / XL",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "EBAVURAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/spaleck/diabolo.png"
+  },
+  {
+    "slug": "spaleck-xa",
+    "designation": "SPALECK XA",
+    "fabricant": "SPALECK",
+    "fabricant_slug": "spaleck",
+    "modele": "XA",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "EBAVURAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/spaleck/xa.png"
+  },
+  {
+    "slug": "everising-s",
+    "designation": "EVERISING S",
+    "fabricant": "EVERISING",
+    "fabricant_slug": "everising",
+    "modele": "S",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "DEBIT",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/everising/s.jpg"
+  },
+  {
+    "slug": "everising-h",
+    "designation": "EVERISING H",
+    "fabricant": "EVERISING",
+    "fabricant_slug": "everising",
+    "modele": "H",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "DEBIT",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/everising/h.jpg"
+  },
+  {
+    "slug": "everising-e",
+    "designation": "EVERISING E",
+    "fabricant": "EVERISING",
+    "fabricant_slug": "everising",
+    "modele": "E",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "DEBIT",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/everising/e.jpg"
+  },
+  {
+    "slug": "everising-ila",
+    "designation": "EVERISING ILA",
+    "fabricant": "EVERISING",
+    "fabricant_slug": "everising",
+    "modele": "ILA",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "DEBIT",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/everising/ila.jpg"
+  },
+  {
+    "slug": "everising-v",
+    "designation": "EVERISING V",
+    "fabricant": "EVERISING",
+    "fabricant_slug": "everising",
+    "modele": "V",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "DEBIT",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/everising/v.jpg"
+  },
+  {
+    "slug": "unitech-tgi",
+    "designation": "UNITECH TGI",
+    "fabricant": "UNITECH",
+    "fabricant_slug": "unitech",
+    "modele": "TGI",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "MORTAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/unitech/tgi.png"
+  },
+  {
+    "slug": "unitech-dr",
+    "designation": "UNITECH DR",
+    "fabricant": "UNITECH",
+    "fabricant_slug": "unitech",
+    "modele": "DR",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "MORTAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/unitech/dr.png"
+  },
+  {
+    "slug": "unitech-cnc",
+    "designation": "UNITECH CNC",
+    "fabricant": "UNITECH",
+    "fabricant_slug": "unitech",
+    "modele": "CNC",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "MORTAISAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/unitech/cnc.png"
+  },
+  {
+    "slug": "wenzel-xo",
+    "designation": "WENZEL Xo",
+    "fabricant": "WENZEL",
+    "fabricant_slug": "wenzel",
+    "modele": "Xo",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "CONTRÔLE DIMENSIONNEL",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/wenzel/xo.avif"
+  },
+  {
+    "slug": "wenzel-lh",
+    "designation": "WENZEL LH",
+    "fabricant": "WENZEL",
+    "fabricant_slug": "wenzel",
+    "modele": "LH",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "CONTRÔLE DIMENSIONNEL",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/wenzel/lh.avif"
+  },
+  {
+    "slug": "wenzel-kmg",
+    "designation": "WENZEL KMG",
+    "fabricant": "WENZEL",
+    "fabricant_slug": "wenzel",
+    "modele": "KMG",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "CONTRÔLE DIMENSIONNEL",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/wenzel/kmg.avif"
+  },
+  {
+    "slug": "wenzel-gt",
+    "designation": "WENZEL GT",
+    "fabricant": "WENZEL",
+    "fabricant_slug": "wenzel",
+    "modele": "GT",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "CONTRÔLE DIMENSIONNEL",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/wenzel/gt.avif"
+  },
+  {
+    "slug": "wenzel-exact",
+    "designation": "WENZEL exaCT",
+    "fabricant": "WENZEL",
+    "fabricant_slug": "wenzel",
+    "modele": "exaCT",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "CONTRÔLE DIMENSIONNEL",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/wenzel/exact.avif"
+  },
+  {
+    "slug": "wenzel-wm-mma",
+    "designation": "WENZEL WM-MMA",
+    "fabricant": "WENZEL",
+    "fabricant_slug": "wenzel",
+    "modele": "WM-MMA",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "CONTRÔLE DIMENSIONNEL",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/wenzel/wm-mma.avif"
+  },
+  {
+    "slug": "haco-tsx",
+    "designation": "HACO TS(X)",
+    "fabricant": "HACO",
+    "fabricant_slug": "haco",
+    "modele": "TS(X)",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "CISAILLAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/haco/tsx.webp"
+  },
+  {
+    "slug": "haco-gsx",
+    "designation": "HACO GSX",
+    "fabricant": "HACO",
+    "fabricant_slug": "haco",
+    "modele": "GSX",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "CISAILLAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/haco/gsx.webp"
+  },
+  {
+    "slug": "haco-hslx",
+    "designation": "HACO HSLX",
+    "fabricant": "HACO",
+    "fabricant_slug": "haco",
+    "modele": "HSLX",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "PLIAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/haco/hslx.webp"
+  },
+  {
+    "slug": "haco-optiform",
+    "designation": "HACO OptiForm",
+    "fabricant": "HACO",
+    "fabricant_slug": "haco",
+    "modele": "OptiForm",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "PLIAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/haco/optiform.webp"
+  },
+  {
+    "slug": "haco-synchromaster",
+    "designation": "HACO Synchromaster",
+    "fabricant": "HACO",
+    "fabricant_slug": "haco",
+    "modele": "Synchromaster",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "PLIAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/haco/synchromaster.webp"
+  },
+  {
+    "slug": "haco-euromaster-s",
+    "designation": "HACO Euromaster S",
+    "fabricant": "HACO",
+    "fabricant_slug": "haco",
+    "modele": "Euromaster S",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "PLIAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/haco/euromaster-s.webp"
+  },
+  {
+    "slug": "haco-pressmaster",
+    "designation": "HACO Pressmaster",
+    "fabricant": "HACO",
+    "fabricant_slug": "haco",
+    "modele": "Pressmaster",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "PLIAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/haco/pressmaster.webp"
+  },
+  {
+    "slug": "haco-hdsy",
+    "designation": "HACO HDSY",
+    "fabricant": "HACO",
+    "fabricant_slug": "haco",
+    "modele": "HDSY",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "PLIAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/haco/hdsy.webp"
+  },
+  {
+    "slug": "haco-flexbend",
+    "designation": "HACO FlexBend",
+    "fabricant": "HACO",
+    "fabricant_slug": "haco",
+    "modele": "FlexBend",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "PLIAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/haco/flex-bend.webp"
+  },
+  {
+    "slug": "haco-3hbr",
+    "designation": "HACO 3HBR",
+    "fabricant": "HACO",
+    "fabricant_slug": "haco",
+    "modele": "3HBR",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "ROULAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/haco/3hbr.webp"
+  },
+  {
+    "slug": "haco-4hbr",
+    "designation": "HACO 4HBR",
+    "fabricant": "HACO",
+    "fabricant_slug": "haco",
+    "modele": "4HBR",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "ROULAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/haco/4hbr.webp"
+  },
+  {
+    "slug": "haco-hfl-c",
+    "designation": "HACO HFL C",
+    "fabricant": "HACO",
+    "fabricant_slug": "haco",
+    "modele": "HFL C",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "DECOUPE LASER",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/haco/hlf-c.webp"
+  },
+  {
+    "slug": "haco-hfl-cew",
+    "designation": "HACO HFL CEW",
+    "fabricant": "HACO",
+    "fabricant_slug": "haco",
+    "modele": "HFL CEW",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "DECOUPE LASER",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/haco/hfl-cew.webp"
+  },
+  {
+    "slug": "haco-hfl-ceg",
+    "designation": "HACO HFL CEG",
+    "fabricant": "HACO",
+    "fabricant_slug": "haco",
+    "modele": "HFL CEG",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "DECOUPE LASER",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/haco/hfl-ceg.webp"
+  },
+  {
+    "slug": "phenix-alphacut",
+    "designation": "PHENIX AlphaCut",
+    "fabricant": "PHENIX",
+    "fabricant_slug": "phenix",
+    "modele": "AlphaCut",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "DECOUPE PLASMA",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/phenix/alphax-cut.png"
+  },
+  {
+    "slug": "phenix-mdcut",
+    "designation": "PHENIX MDCut",
+    "fabricant": "PHENIX",
+    "fabricant_slug": "phenix",
+    "modele": "MDCut",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "DECOUPE PLASMA",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/phenix/md-cut.png"
+  },
+  {
+    "slug": "phenix-dualcut",
+    "designation": "PHENIX DualCut",
+    "fabricant": "PHENIX",
+    "fabricant_slug": "phenix",
+    "modele": "DualCut",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "DECOUPE PLASMA",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/phenix/dual-cut.png"
+  },
+  {
+    "slug": "phenix-alphajet",
+    "designation": "PHENIX AlphaJet",
+    "fabricant": "PHENIX",
+    "fabricant_slug": "phenix",
+    "modele": "AlphaJet",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "DECOUPE JET D'EAU",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/phenix/alpha-jet.png"
+  },
+  {
+    "slug": "phenix-mdjet",
+    "designation": "PHENIX MDJet",
+    "fabricant": "PHENIX",
+    "fabricant_slug": "phenix",
+    "modele": "MDJet",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "DECOUPE JET D'EAU",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/phenix/md-jet.png"
+  },
+  {
+    "slug": "phenix-projet-5x",
+    "designation": "PHENIX ProJet 5x",
+    "fabricant": "PHENIX",
+    "fabricant_slug": "phenix",
+    "modele": "ProJet 5x",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "DECOUPE JET D'EAU",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/phenix/projet-5x.png"
+  },
+  {
+    "slug": "imet-bs",
+    "designation": "IMET BS",
+    "fabricant": "IMET",
+    "fabricant_slug": "imet",
+    "modele": "BS",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "DEBIT",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/imet/bs.jpg"
+  },
+  {
+    "slug": "imet-ks",
+    "designation": "IMET KS",
+    "fabricant": "IMET",
+    "fabricant_slug": "imet",
+    "modele": "KS",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "DEBIT",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/imet/ks.jpg"
+  },
+  {
+    "slug": "imet-cubo",
+    "designation": "IMET CUBO",
+    "fabricant": "IMET",
+    "fabricant_slug": "imet",
+    "modele": "CUBO",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "DEBIT",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/imet/cubo.jpg"
+  },
+  {
+    "slug": "imet-sirio",
+    "designation": "IMET SIRIO",
+    "fabricant": "IMET",
+    "fabricant_slug": "imet",
+    "modele": "SIRIO",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "DEBIT",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/imet/sirio.jpg"
+  },
+  {
+    "slug": "imet-velox",
+    "designation": "IMET VELOX",
+    "fabricant": "IMET",
+    "fabricant_slug": "imet",
+    "modele": "VELOX",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "DEBIT",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/imet/velox.jpg"
+  },
+  {
+    "slug": "kaltenbach-kbb-kbs-kbp",
+    "designation": "KALTENBACH KBB / KBS / KBP",
+    "fabricant": "KALTENBACH",
+    "fabricant_slug": "kaltenbach",
+    "modele": "KBB / KBS / KBP",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "DEBIT",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/kaltenbach/kbp.png"
+  },
+  {
+    "slug": "kaltenbach-kks",
+    "designation": "KALTENBACH KKS",
+    "fabricant": "KALTENBACH",
+    "fabricant_slug": "kaltenbach",
+    "modele": "KKS",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "DEBIT",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/kaltenbach/kks.png"
+  },
+  {
+    "slug": "kaltenbach-kf",
+    "designation": "KALTENBACH KF",
+    "fabricant": "KALTENBACH",
+    "fabricant_slug": "kaltenbach",
+    "modele": "KF",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "DECOUPE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/kaltenbach/kf.png"
+  },
+  {
+    "slug": "kaltenbach-kdb-kdm-kdl-kdp",
+    "designation": "KALTENBACH KDB / KDM / KDL/ KDP",
+    "fabricant": "KALTENBACH",
+    "fabricant_slug": "kaltenbach",
+    "modele": "KDB / KDM / KDL/ KDP",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "PERCAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/kaltenbach/kdp.png"
+  },
+  {
+    "slug": "cincinnati-perceuse-a-colonne",
+    "designation": "CINCINNATI VR Perceuse à colonne",
+    "fabricant": "CINCINNATI VR",
+    "fabricant_slug": "cincinnati",
+    "modele": "Perceuse à colonne",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "PERCAGE",
+    "type": "",
+    "capacite": "",
+    "description": "Perceuse à colonne industrielle",
+    "photo": "/images/machines/cincinnati/perceuse-colonne.jpg"
+  },
+  {
+    "slug": "cincinnati-perceuse-automatique",
+    "designation": "CINCINNATI VR Perceuse automatique",
+    "fabricant": "CINCINNATI VR",
+    "fabricant_slug": "cincinnati",
+    "modele": "Perceuse automatique",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "PERCAGE",
+    "type": "",
+    "capacite": "",
+    "description": "Perceuse automatique CNC",
+    "photo": "/images/machines/cincinnati/perceuse-auto.jpg"
+  },
+  {
+    "slug": "cincinnati-perceuse-d-etabli",
+    "designation": "CINCINNATI VR Perceuse d'établi",
+    "fabricant": "CINCINNATI VR",
+    "fabricant_slug": "cincinnati",
+    "modele": "Perceuse d'établi",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "PERCAGE",
+    "type": "",
+    "capacite": "",
+    "description": "Perceuse d'établi compacte",
+    "photo": "/images/machines/cincinnati/perceuse-etabli.jpg"
+  },
+  {
+    "slug": "kingsland-multi",
+    "designation": "KINGSLAND Multi",
+    "fabricant": "KINGSLAND",
+    "fabricant_slug": "kingsland",
+    "modele": "Multi",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "POINCONNAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/kingsland/multi.png"
+  },
+  {
+    "slug": "kingsland-compact",
+    "designation": "KINGSLAND Compact",
+    "fabricant": "KINGSLAND",
+    "fabricant_slug": "kingsland",
+    "modele": "Compact",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "POINCONNAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/kingsland/compact.png"
+  },
+  {
+    "slug": "tyro-al",
+    "designation": "TYRO Al",
+    "fabricant": "TYRO",
+    "fabricant_slug": "tyro",
+    "modele": "Al",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "DEBIT",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/tyro/al.png"
+  },
+  {
+    "slug": "tyro-carfer",
+    "designation": "TYRO Carfer",
+    "fabricant": "TYRO",
+    "fabricant_slug": "tyro",
+    "modele": "Carfer",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "DEBIT",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/tyro/carfer.png"
+  },
+  {
+    "slug": "tyro-alumatic",
+    "designation": "TYRO Alumatic",
+    "fabricant": "TYRO",
+    "fabricant_slug": "tyro",
+    "modele": "Alumatic",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "DEBIT",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/tyro/alumatic.png"
+  },
+  {
+    "slug": "tyro-tp",
+    "designation": "TYRO TP",
+    "fabricant": "TYRO",
+    "fabricant_slug": "tyro",
+    "modele": "TP",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "DEBIT",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/tyro/tp.png"
+  },
+  {
+    "slug": "tyro-aqualab",
+    "designation": "TYRO Aqualab",
+    "fabricant": "TYRO",
+    "fabricant_slug": "tyro",
+    "modele": "Aqualab",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "DEBIT",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/tyro/aqualab.jpg"
+  },
+  {
+    "slug": "tyro-trt",
+    "designation": "TYRO TRT",
+    "fabricant": "TYRO",
+    "fabricant_slug": "tyro",
+    "modele": "TRT",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "AMENAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/tyro/trt.png"
+  },
+  {
+    "slug": "tyro-trs",
+    "designation": "TYRO TRS",
+    "fabricant": "TYRO",
+    "fabricant_slug": "tyro",
+    "modele": "TRS",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "AMENAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/tyro/trs.png"
+  },
+  {
+    "slug": "tyro-guidal",
+    "designation": "TYRO GUIDAL",
+    "fabricant": "TYRO",
+    "fabricant_slug": "tyro",
+    "modele": "GUIDAL",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "AMENAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/tyro/trs.png"
+  },
+  {
+    "slug": "tyro-visionic",
+    "designation": "TYRO VISIONIC",
+    "fabricant": "TYRO",
+    "fabricant_slug": "tyro",
+    "modele": "VISIONIC",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "AMENAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/tyro/visionic.png"
+  },
+  {
+    "slug": "tyro-tyrobut",
+    "designation": "TYRO TYROBUT",
+    "fabricant": "TYRO",
+    "fabricant_slug": "tyro",
+    "modele": "TYROBUT",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "AMENAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/tyro/tyrobut.png"
+  },
+  {
+    "slug": "tyro-visumatic",
+    "designation": "TYRO VISUMATIC",
+    "fabricant": "TYRO",
+    "fabricant_slug": "tyro",
+    "modele": "VISUMATIC",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "AMENAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/tyro/visumatic.png"
+  },
+  {
+    "slug": "spaleck-diabolo-2p-xl",
+    "designation": "SPALECK diabolo / 2P / XL",
+    "fabricant": "SPALECK",
+    "fabricant_slug": "spaleck",
+    "modele": "diabolo / 2P / XL",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "EBAVURAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/spaleck/diabolo.png"
+  },
+  {
+    "slug": "spaleck-mdl-400",
+    "designation": "SPALECK MDL 400",
+    "fabricant": "SPALECK",
+    "fabricant_slug": "spaleck",
+    "modele": "MDL 400",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "EBAVURAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/spaleck/diabolo.png"
+  },
+  {
+    "slug": "spaleck-px300",
+    "designation": "SPALECK PX300",
+    "fabricant": "SPALECK",
+    "fabricant_slug": "spaleck",
+    "modele": "PX300",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "EBAVURAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/spaleck/xa.png"
+  },
+  {
+    "slug": "spaleck-y",
+    "designation": "SPALECK Y",
+    "fabricant": "SPALECK",
+    "fabricant_slug": "spaleck",
+    "modele": "Y",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "EBAVURAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/spaleck/y.jpg"
+  },
+  {
+    "slug": "logitower-singletower",
+    "designation": "LOGITOWER SingleTower",
+    "fabricant": "LOGITOWER",
+    "fabricant_slug": "logitower",
+    "modele": "SingleTower",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "STOCKAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/logitower/single-tower.webp"
+  },
+  {
+    "slug": "logitower-doubletower",
+    "designation": "LOGITOWER DoubleTower",
+    "fabricant": "LOGITOWER",
+    "fabricant_slug": "logitower",
+    "modele": "DoubleTower",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "STOCKAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/logitower/double-tower.webp"
+  },
+  {
+    "slug": "logitower-multitower",
+    "designation": "LOGITOWER MultiTower",
+    "fabricant": "LOGITOWER",
+    "fabricant_slug": "logitower",
+    "modele": "MultiTower",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "STOCKAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/logitower/multitower.webp"
+  },
+  {
+    "slug": "logitower-logicomb",
+    "designation": "LOGITOWER LogiComb",
+    "fabricant": "LOGITOWER",
+    "fabricant_slug": "logitower",
+    "modele": "LogiComb",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "STOCKAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/logitower/logicomb.webp"
+  },
+  {
+    "slug": "logitower-loader",
+    "designation": "LOGITOWER Loader",
+    "fabricant": "LOGITOWER",
+    "fabricant_slug": "logitower",
+    "modele": "Loader",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "STOCKAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/logitower/loader.webp"
+  },
+  {
+    "slug": "logitower-inloader",
+    "designation": "LOGITOWER InLoader",
+    "fabricant": "LOGITOWER",
+    "fabricant_slug": "logitower",
+    "modele": "InLoader",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "STOCKAGE",
+    "type": "",
+    "capacite": "",
+    "description": "",
+    "photo": "/images/machines/logitower/inloader.webp"
+  },
+  {
+    "slug": "thiel-multi",
+    "designation": "THIEL Multi",
+    "fabricant": "THIEL",
+    "fabricant_slug": "thiel",
+    "modele": "Multi",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage",
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "STOCKAGE",
+    "type": "Système de rangement de barres à tiroir simple ou double face",
+    "capacite": "Longueur jusqu'à 6.000mm, charge par tiroir jusqu'à 1T",
+    "description": "Rayonnage double à déroulement <1000 kg.  Rayonnage double à déroulement permettant un gain de place considérable pour le stockage de produits longs et divers produits. Les bras porteurs se retirent facilement à la main, à 100% et en toute sécurité. Construction stable, soudée et démontable. Les bras porteurs sont pourvus de roulements INA lubrifiés à vie et équipés d’une épaisse bague extérieure supplémentaire. Les matériaux courts et flexibles peuvent éventuellement être placés dans des cassettes.",
+    "photo": "/images/machines/thiel/multi.png"
+  },
+  {
+    "slug": "thiel-multi-chaudronnerie",
+    "designation": "THIEL Multi",
+    "fabricant": "THIEL",
+    "fabricant_slug": "thiel",
+    "modele": "Multi",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Usinage",
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "STOCKAGE",
+    "type": "Système de rangement de barres à tiroir simple ou double face",
+    "capacite": "Longueur jusqu'à 6.000mm, charge par tiroir jusqu'à 1T",
+    "description": "Rayonnage double à déroulement <1000 kg.  Rayonnage double à déroulement permettant un gain de place considérable pour le stockage de produits longs et divers produits. Les bras porteurs se retirent facilement à la main, à 100% et en toute sécurité. Construction stable, soudée et démontable. Les bras porteurs sont pourvus de roulements INA lubrifiés à vie et équipés d’une épaisse bague extérieure supplémentaire. Les matériaux courts et flexibles peuvent éventuellement être placés dans des cassettes.",
+    "photo": "/images/machines/thiel/multi.png"
+  },
+  {
+    "slug": "thiel-jumbo",
+    "designation": "THIEL Jumbo",
+    "fabricant": "THIEL",
+    "fabricant_slug": "thiel",
+    "modele": "Jumbo",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage",
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "STOCKAGE",
+    "type": "Système de rangement de barres à tiroir simple ou double face pour charges lourdes",
+    "capacite": "Longueur jusqu'à 12.000mm, charge par tiroir jusqu'à 7,5T",
+    "description": "Rayonnage double à déroulement <7500 kg  Rayonnage double à déroulement permettant un gain de place considérable pour le stockage de divers produits devant être facilement et rapidement accessibles. Les bras porteurs qui peuvent être déroulés à 100% et qui sont manipulés à l’aide d’un levier manuel reposent sur des rouleaux en acier trempé et sont pourvus de roulements INA lubrifiés à vie. Des matériaux courts et flexibles peuvent éventuellement être placés dans des cassettes. Les bras conviennent pour une répartition des compartiments variable à l’aide de broches réglables.",
+    "photo": "/images/machines/thiel/jumbo.webp"
+  },
+  {
+    "slug": "thiel-jumbo-chaudronnerie",
+    "designation": "THIEL Jumbo",
+    "fabricant": "THIEL",
+    "fabricant_slug": "thiel",
+    "modele": "Jumbo",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Usinage",
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "STOCKAGE",
+    "type": "Système de rangement de barres à tiroir simple ou double face pour charges lourdes",
+    "capacite": "Longueur jusqu'à 12.000mm, charge par tiroir jusqu'à 7,5T",
+    "description": "Rayonnage double à déroulement <7500 kg  Rayonnage double à déroulement permettant un gain de place considérable pour le stockage de divers produits devant être facilement et rapidement accessibles. Les bras porteurs qui peuvent être déroulés à 100% et qui sont manipulés à l’aide d’un levier manuel reposent sur des rouleaux en acier trempé et sont pourvus de roulements INA lubrifiés à vie. Des matériaux courts et flexibles peuvent éventuellement être placés dans des cassettes. Les bras conviennent pour une répartition des compartiments variable à l’aide de broches réglables.",
+    "photo": "/images/machines/thiel/jumbo.webp"
+  },
+  {
+    "slug": "thiel-modul",
+    "designation": "THIEL Modul",
+    "fabricant": "THIEL",
+    "fabricant_slug": "thiel",
+    "modele": "Modul",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage",
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "STOCKAGE",
+    "type": "Système de rangement de barres type nid d'abeille",
+    "capacite": "Longueur jusqu'à 6.000mm, charge par tiroir jusqu'à 1,5T",
+    "description": "Système de roulement à cassettes pour produits longs <1500 kg\n\nSystème de roulement à cassettes modulaire pour le stockage de divers produits. La cassette est retirée manuellement, après soulèvement du verrouillage, jusqu’à environ 25%, après quoi le support sur roues prend la cassette qui peut alors être tirée jusqu’à environ 95%. Les cassettes sont automatiquement verrouillées en position enroulée. Construction avec toit disponible en option. Les cassettes conviennent pour une répartition de compartiment variable à l’aide de broches réglables.",
+    "photo": "/images/machines/thiel/modul.png"
+  },
+  {
+    "slug": "thiel-modul-chaudronnerie",
+    "designation": "THIEL Modul",
+    "fabricant": "THIEL",
+    "fabricant_slug": "thiel",
+    "modele": "Modul",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Usinage",
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "STOCKAGE",
+    "type": "Système de rangement de barres type nid d'abeille",
+    "capacite": "Longueur jusqu'à 6.000mm, charge par tiroir jusqu'à 1,5T",
+    "description": "Système de roulement à cassettes pour produits longs <1500 kg\n\nSystème de roulement à cassettes modulaire pour le stockage de divers produits. La cassette est retirée manuellement, après soulèvement du verrouillage, jusqu’à environ 25%, après quoi le support sur roues prend la cassette qui peut alors être tirée jusqu’à environ 95%. Les cassettes sont automatiquement verrouillées en position enroulée. Construction avec toit disponible en option. Les cassettes conviennent pour une répartition de compartiment variable à l’aide de broches réglables.",
+    "photo": "/images/machines/thiel/modul.png"
+  },
+  {
+    "slug": "thiel-resto",
+    "designation": "THIEL Resto",
+    "fabricant": "THIEL",
+    "fabricant_slug": "thiel",
+    "modele": "Resto",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage",
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "STOCKAGE",
+    "type": "Système de rangement de barres diverses dans un minimum de place",
+    "capacite": "Longueur jusqu'à 6.000mm, et jusqu'à 128 compartiments",
+    "description": "Armoire à compartiments\nArmoire à compartiments pour stockage compact de matériel maniable. Le système convient parfaitement pour le stockage de matériaux légers et de pièces restantes. La pose et l’enlèvement s’effectuent manuellement.",
+    "photo": "/images/machines/thiel/resto.png"
+  },
+  {
+    "slug": "thiel-resto-chaudronnerie",
+    "designation": "THIEL Resto",
+    "fabricant": "THIEL",
+    "fabricant_slug": "thiel",
+    "modele": "Resto",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Usinage",
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "STOCKAGE",
+    "type": "Système de rangement de barres diverses dans un minimum de place",
+    "capacite": "Longueur jusqu'à 6.000mm, et jusqu'à 128 compartiments",
+    "description": "Armoire à compartiments\nArmoire à compartiments pour stockage compact de matériel maniable. Le système convient parfaitement pour le stockage de matériaux légers et de pièces restantes. La pose et l’enlèvement s’effectuent manuellement.",
+    "photo": "/images/machines/thiel/resto.png"
+  },
+  {
+    "slug": "thiel-plato",
+    "designation": "THIEL Plato",
+    "fabricant": "THIEL",
+    "fabricant_slug": "thiel",
+    "modele": "Plato",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage",
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "STOCKAGE",
+    "type": "Système de rangement de paquets de tôles avec manipulation par charriot élévateur",
+    "capacite": "Pour des formats jusqu'à 1.500 x 4.000mm et une charge jusqu'à 3T",
+    "description": "Système de stockage à cassettes <3000 kg\nEntrepôt à cassettes très stable pour le stockage de plaques principalement. Les cassettes peuvent être entièrement enlevées à l’aide d’un chariot élévateur à fourche. Construction stable, soudée et démontable dans laquelle les paquets peuvent être stockés en toute sécurité sans les palettes en bois habituelles. Autour, des broches amovibles garantissent un transport sûr de et vers la machine de traitement.",
+    "photo": "/images/machines/thiel/plato.png"
+  },
+  {
+    "slug": "thiel-plato-chaudronnerie",
+    "designation": "THIEL Plato",
+    "fabricant": "THIEL",
+    "fabricant_slug": "thiel",
+    "modele": "Plato",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Usinage",
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "STOCKAGE",
+    "type": "Système de rangement de paquets de tôles avec manipulation par charriot élévateur",
+    "capacite": "Pour des formats jusqu'à 1.500 x 4.000mm et une charge jusqu'à 3T",
+    "description": "Système de stockage à cassettes <3000 kg\nEntrepôt à cassettes très stable pour le stockage de plaques principalement. Les cassettes peuvent être entièrement enlevées à l’aide d’un chariot élévateur à fourche. Construction stable, soudée et démontable dans laquelle les paquets peuvent être stockés en toute sécurité sans les palettes en bois habituelles. Autour, des broches amovibles garantissent un transport sûr de et vers la machine de traitement.",
+    "photo": "/images/machines/thiel/plato.png"
+  },
+  {
+    "slug": "thiel-ultra",
+    "designation": "THIEL Ultra",
+    "fabricant": "THIEL",
+    "fabricant_slug": "thiel",
+    "modele": "Ultra",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage",
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "STOCKAGE",
+    "type": "Système de rangement de paquets de tôles par tiroirs",
+    "capacite": "Pour des formats jusqu'à 1.500 x 4.000mm et une charge jusqu'à 1T",
+    "description": "Système à tiroir <1000 kg\nSystème à tiroir pour le stockage de plaques, d’outillage et de produits plats. Construction stable, soudée et démontable sur laquelle sont fixés les rails. Les tiroirs sont pourvus de roulements INA lubrifiés à vie dotés d’une bague extérieure épaisse supplémentaire. Les tiroirs se retirent facilement et en toute sécurité à la main. Les tiroirs présentent en standard un fond ouvert mais peuvent également être réalisés en option avec une plaque de fond en acier ou en bois. Le système peut également être pourvu d’un toit.",
+    "photo": "/images/machines/thiel/ultra.png"
+  },
+  {
+    "slug": "thiel-ultra-chaudronnerie",
+    "designation": "THIEL Ultra",
+    "fabricant": "THIEL",
+    "fabricant_slug": "thiel",
+    "modele": "Ultra",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Usinage",
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "STOCKAGE",
+    "type": "Système de rangement de paquets de tôles par tiroirs",
+    "capacite": "Pour des formats jusqu'à 1.500 x 4.000mm et une charge jusqu'à 1T",
+    "description": "Système à tiroir <1000 kg\nSystème à tiroir pour le stockage de plaques, d’outillage et de produits plats. Construction stable, soudée et démontable sur laquelle sont fixés les rails. Les tiroirs sont pourvus de roulements INA lubrifiés à vie dotés d’une bague extérieure épaisse supplémentaire. Les tiroirs se retirent facilement et en toute sécurité à la main. Les tiroirs présentent en standard un fond ouvert mais peuvent également être réalisés en option avec une plaque de fond en acier ou en bois. Le système peut également être pourvu d’un toit.",
+    "photo": "/images/machines/thiel/ultra.png"
+  },
+  {
+    "slug": "thiel-combi",
+    "designation": "THIEL Combi",
+    "fabricant": "THIEL",
+    "fabricant_slug": "thiel",
+    "modele": "Combi",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage",
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "STOCKAGE",
+    "type": "Système de rangement de paquets de tôles par tiroirs pour charges lourdes avec supports latéraux",
+    "capacite": "Pour des formats jusqu'à 2.000 x 6.000mm et une charge jusqu'à 3T",
+    "description": "Système à tiroir pour le stockage de plaques, d’outillage et d’autres produits. Les tiroirs se retirent 100% facilement et en toute sécurité à la main. Construction stable, soudée et démontable sur laquelle sont fixés les rails qui sont réglables en hauteur (grille 47 mm). Eventuellement, un ou deux côtés peuvent être réalisés avec un avant-corps rabattable avec blocage. Les tiroirs sont pourvus de roulements INA lubrifiés à vie dotés d’une bague extérieure épaisse supplémentaire. Les tiroirs présentent en standard un fond ouvert mais peuvent également être réalisés en option avec une plaque de fond en acier ou en bois. Le système peut également être pourvu d’un toit.",
+    "photo": "/images/machines/thiel/combi.png"
+  },
+  {
+    "slug": "thiel-combi-chaudronnerie",
+    "designation": "THIEL Combi",
+    "fabricant": "THIEL",
+    "fabricant_slug": "thiel",
+    "modele": "Combi",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Usinage",
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "STOCKAGE",
+    "type": "Système de rangement de paquets de tôles par tiroirs pour charges lourdes avec supports latéraux",
+    "capacite": "Pour des formats jusqu'à 2.000 x 6.000mm et une charge jusqu'à 3T",
+    "description": "Système à tiroir pour le stockage de plaques, d’outillage et d’autres produits. Les tiroirs se retirent 100% facilement et en toute sécurité à la main. Construction stable, soudée et démontable sur laquelle sont fixés les rails qui sont réglables en hauteur (grille 47 mm). Eventuellement, un ou deux côtés peuvent être réalisés avec un avant-corps rabattable avec blocage. Les tiroirs sont pourvus de roulements INA lubrifiés à vie dotés d’une bague extérieure épaisse supplémentaire. Les tiroirs présentent en standard un fond ouvert mais peuvent également être réalisés en option avec une plaque de fond en acier ou en bois. Le système peut également être pourvu d’un toit.",
+    "photo": "/images/machines/thiel/combi.png"
+  },
+  {
+    "slug": "thiel-verto",
+    "designation": "THIEL Verto",
+    "fabricant": "THIEL",
+    "fabricant_slug": "thiel",
+    "modele": "Verto",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage",
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "STOCKAGE",
+    "type": "Système de rangement vertical de tôle",
+    "capacite": "Pour des formats jusqu'à 1.500 x 3.000mm et une charge jusqu'à 2T",
+    "description": "Système de stockage vertical\nUnité pour le stockage vertical de plaques. Pourvue de rouleaux du côté d’enlèvement pour un placement et un enlèvement aisé de plaques seules.",
+    "photo": "/images/machines/thiel/verto.png"
+  },
+  {
+    "slug": "thiel-verto-chaudronnerie",
+    "designation": "THIEL Verto",
+    "fabricant": "THIEL",
+    "fabricant_slug": "thiel",
+    "modele": "Verto",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Usinage",
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "STOCKAGE",
+    "type": "Système de rangement vertical de tôle",
+    "capacite": "Pour des formats jusqu'à 1.500 x 3.000mm et une charge jusqu'à 2T",
+    "description": "Système de stockage vertical\nUnité pour le stockage vertical de plaques. Pourvue de rouleaux du côté d’enlèvement pour un placement et un enlèvement aisé de plaques seules.",
+    "photo": "/images/machines/thiel/verto.png"
+  },
+  {
+    "slug": "thiel-traco",
+    "designation": "THIEL Traco",
+    "fabricant": "THIEL",
+    "fabricant_slug": "thiel",
+    "modele": "Traco",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage",
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "STOCKAGE",
+    "type": "Système de rangement de boites diverses",
+    "capacite": "Avec des plateaux de dimensions de 800 x 1.200mm, charge 500kg",
+    "description": "Unité de stockage\nUnité de stockage et de collecte de composants pour assemblage. Construction robuste levable, empilable et transportable, simple avec chariot élévateur à fourche / chariot à palettes ou grue pour par exemple effectuer un déplacement vers un autre département. Les charges peuvent être rallongées de 45% après verrouillage manuel des deux côtés et peuvent être réalisées à l’aide de bacs en plastique.",
+    "photo": "/images/machines/thiel/traco.png"
+  },
+  {
+    "slug": "thiel-traco-chaudronnerie",
+    "designation": "THIEL Traco",
+    "fabricant": "THIEL",
+    "fabricant_slug": "thiel",
+    "modele": "Traco",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Usinage",
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "STOCKAGE",
+    "type": "Système de rangement de boites diverses",
+    "capacite": "Avec des plateaux de dimensions de 800 x 1.200mm, charge 500kg",
+    "description": "Unité de stockage\nUnité de stockage et de collecte de composants pour assemblage. Construction robuste levable, empilable et transportable, simple avec chariot élévateur à fourche / chariot à palettes ou grue pour par exemple effectuer un déplacement vers un autre département. Les charges peuvent être rallongées de 45% après verrouillage manuel des deux côtés et peuvent être réalisées à l’aide de bacs en plastique.",
+    "photo": "/images/machines/thiel/traco.png"
+  }
+]
