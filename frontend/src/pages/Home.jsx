@@ -259,25 +259,6 @@ const Home = () => {
             </div>
           </div>
 
-          {/* Stats Bar */}
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-8 max-w-3xl mx-auto">
-            <div className="text-center">
-              <div className="text-3xl sm:text-4xl font-bold text-[#ef6110] mb-1">27</div>
-              <div className="text-xs sm:text-sm text-gray-400">Constructeurs</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl sm:text-4xl font-bold text-[#ef6110] mb-1">150+</div>
-              <div className="text-xs sm:text-sm text-gray-400">Machines</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl sm:text-4xl font-bold text-[#ef6110] mb-1">100%</div>
-              <div className="text-xs sm:text-sm text-gray-400">Neuves</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl sm:text-4xl font-bold text-[#ef6110] mb-1">PACA</div>
-              <div className="text-xs sm:text-sm text-gray-400">Proximité</div>
-            </div>
-          </div>
         </div>
       </section>
 
