@@ -33,20 +33,19 @@ const BlogPage = () => {
 
   if (loading) {
     return (
-            <>
-
-            <SEO 
-        title="Blog - Actualités machines-outils" 
-        description="Articles et guides sur les machines-outils industrielles. Conseils d'achat, tendances du marché, innovations techniques."
-        path="/blog"
-      />
-    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#ef6110]"></div>
       </div>
     );
   }
 
   return (
+    <>
+      <SEO 
+        title="Blog - Actualités machines-outils" 
+        description="Articles et guides sur les machines-outils industrielles. Conseils d'achat, tendances du marché, innovations techniques."
+        path="/blog"
+      />
     <div className="min-h-screen bg-gray-50">
       {/* Hero Header */}
       <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-12 sm:py-16 lg:py-24 overflow-hidden">
@@ -197,7 +196,7 @@ const BlogPage = () => {
         </div>
       </section>
     </div>
-  </>
+    </>
   );
 };
 
