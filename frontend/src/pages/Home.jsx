@@ -239,7 +239,7 @@ const Home = () => {
           </div>
           
           {/* Review Cards - Desktop */}
-          <div className="hidden md:flex justify-center">
+          <div className="hidden md:flex justify-center pb-64">
             <ReviewCards />
           </div>
           

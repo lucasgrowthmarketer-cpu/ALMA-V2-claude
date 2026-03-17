@@ -101,10 +101,10 @@ const Header = () => {
             
             {/* Gammes Dropdown */}
             <div className="relative group">
-              <button className="flex items-center gap-1 text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base p-0 m-0 border-0 bg-transparent cursor-pointer">
+              <span className="flex items-center gap-1 text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base cursor-pointer">
                 Gammes
-                <ChevronDown size={14} className="mt-px" />
-              </button>
+                <ChevronDown size={14} />
+              </span>
               <div className="absolute left-0 top-full mt-2 w-56 bg-white border border-border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                 {mainCategories.map((cat) => (
                   <Link

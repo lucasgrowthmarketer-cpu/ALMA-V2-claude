@@ -192,16 +192,16 @@ const ArcaneGroupPage = () => {
       </section>
 
       {/* Carte des partenaires */}
-      <section className="py-16 bg-gray-900 text-white">
+      <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-5xl mx-auto text-center">
-            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
               Vos acteurs ARCANE Group en région
             </h2>
-            <p className="text-lg text-gray-400 mb-10 max-w-2xl mx-auto">
+            <p className="text-lg text-gray-600 mb-10 max-w-2xl mx-auto">
               Retrouvez les membres ARCANE Group à proximité de chez vous.
             </p>
-            <div className="rounded-2xl overflow-hidden shadow-2xl">
+            <div className="rounded-2xl overflow-hidden shadow-xl border border-gray-200">
               <img 
                 src="/images/arcane-map-france.png" 
                 alt="Carte des partenaires ARCANE Group en France" 
