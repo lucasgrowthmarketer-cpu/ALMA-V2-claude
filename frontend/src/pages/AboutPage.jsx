@@ -4,9 +4,15 @@ import { ArrowLeft, ArrowRight, CheckCircle, Award, Users, Target } from 'lucide
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
 import { siteConfig } from '../data/machinesData';
+import SEO from '../components/SEO';
 
 const AboutPage = () => {
   return (
+          <SEO 
+        title="À propos" 
+        description="Découvrez Alma Machines-Outils, revendeur de machines-outils industrielles neuves en région PACA. Notre expertise, nos valeurs, notre engagement."
+        path="/a-propos"
+      />
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <section className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-16">

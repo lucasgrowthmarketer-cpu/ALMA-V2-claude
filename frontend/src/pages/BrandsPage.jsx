@@ -4,6 +4,7 @@ import { ArrowLeft, ArrowRight, Search } from 'lucide-react';
 import { Card, CardContent } from '../components/ui/card';
 import { brandsSimple } from '../data/brandsSimple';
 import BrandLogo from '../components/BrandLogo';
+import SEO from '../components/SEO';
 
 const BrandsPage = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -32,6 +33,11 @@ const BrandsPage = () => {
   };
 
   return (
+    <SEO 
+        title="Nos marques partenaires" 
+        description="27 constructeurs de machines-outils partenaires d'Alma. CMZ, Hartford, Haco, Soraluce, Danobat et plus. Revendeur agréé en PACA."
+        path="/marques"
+      />
     <div className="min-h-screen bg-gray-50">
       {/* Hero Header */}
       <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-12 sm:py-16 lg:py-20 overflow-hidden">

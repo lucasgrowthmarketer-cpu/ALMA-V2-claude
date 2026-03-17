@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft, Clock, ArrowRight } from 'lucide-react';
 import { Card } from '../components/ui/card';
+import SEO from '../components/SEO';
 
 const BlogPage = () => {
   const [articles, setArticles] = useState([]);
@@ -32,7 +33,12 @@ const BlogPage = () => {
 
   if (loading) {
     return (
-      <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+            <SEO 
+        title="Blog - Actualités machines-outils" 
+        description="Articles et guides sur les machines-outils industrielles. Conseils d'achat, tendances du marché, innovations techniques."
+        path="/blog"
+      />
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
         <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-[#ef6110]"></div>
       </div>
     );

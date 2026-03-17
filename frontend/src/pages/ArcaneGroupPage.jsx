@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { ArrowLeft, MapPin, Phone, Wrench, Users, Globe, Shield, ChevronRight } from 'lucide-react';
 import { Card, CardContent } from '../components/ui/card';
 import { Button } from '../components/ui/button';
+import SEO from '../components/SEO';
 
 const ArcaneGroupPage = () => {
   const services = [
@@ -20,6 +21,11 @@ const ArcaneGroupPage = () => {
   ];
 
   return (
+          <SEO 
+        title="Arcane Group - Réseau national machines-outils" 
+        description="ARCANE GROUP, réseau national de sociétés commerciales de machines-outils. 10 bureaux en France, SAV Ernault Services, 20 ans d'expérience."
+        path="/arcane-group"
+      />
     <div className="min-h-screen bg-gray-50">
       {/* Hero Header */}
       <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-20 overflow-hidden">

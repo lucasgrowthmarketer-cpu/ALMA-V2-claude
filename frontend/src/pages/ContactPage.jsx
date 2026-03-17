@@ -8,6 +8,7 @@ import { Textarea } from '../components/ui/textarea';
 import { Label } from '../components/ui/label';
 import { siteConfig } from '../data/machinesData';
 import { useToast } from '../hooks/use-toast';
+import SEO from '../components/SEO';
 
 const ContactPage = () => {
   const { toast } = useToast();
@@ -56,6 +57,11 @@ const ContactPage = () => {
   };
 
   return (
+          <SEO 
+        title="Contact" 
+        description="Contactez Alma Machines-Outils à Marseille. Demande de devis, conseil technique, accompagnement projet machines-outils industrielles en PACA."
+        path="/contact"
+      />
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <section className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-16">

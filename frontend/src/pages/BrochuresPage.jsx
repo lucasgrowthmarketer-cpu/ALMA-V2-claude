@@ -4,6 +4,7 @@ import { ArrowLeft, FileText, Mail, Phone, ArrowRight } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
 import { siteConfig } from '../data/machinesData';
+import SEO from '../components/SEO';
 
 const BrochuresPage = () => {
   const brochures = [
@@ -35,6 +36,11 @@ const BrochuresPage = () => {
   const emailBody = encodeURIComponent("Bonjour,\n\nJe souhaite recevoir vos brochures commerciales.\n\nCordialement,\n");
 
   return (
+          <SEO 
+        title="Brochures et catalogues" 
+        description="Demandez nos catalogues de machines-outils industrielles. Usinage, chaudronnerie, 27 marques partenaires. Brochures gratuites sur demande."
+        path="/brochures"
+      />
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <section className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-16">

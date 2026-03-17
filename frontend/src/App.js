@@ -30,6 +30,7 @@ import BlogArticlePage from "./pages/BlogArticlePage";
 import MentionsLegalesPage from "./pages/MentionsLegalesPage";
 import PolitiqueConfidentialitePage from "./pages/PolitiqueConfidentialitePage";
 import ArcaneGroupPage from "./pages/ArcaneGroupPage";
+import CookieBanner from "./components/CookieBanner";
 
 function App() {
   return (
@@ -65,6 +66,7 @@ function App() {
           </main>
           <Footer />
           <Toaster />
+          <CookieBanner />
           
           {/* Floating WhatsApp Button */}
           <a

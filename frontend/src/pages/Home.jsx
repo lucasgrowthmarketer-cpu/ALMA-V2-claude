@@ -8,6 +8,8 @@ import { brandsSimple } from '../data/brandsSimple';
 import { images } from '../data/images';
 import BrandLogo from '../components/BrandLogo';
 import ReviewCards from '../components/ReviewCards';
+import SEO from '../components/SEO';
+import { FadeIn } from '../hooks/useScrollAnimation';
 
 
 const Home = () => {
@@ -15,6 +17,11 @@ const Home = () => {
 
 
   return (
+          <SEO 
+        title="Machines industrielles neuves en PACA" 
+        description="Alma Machines-Outils, spécialiste en machines-outils industrielles neuves. Tournage, fraisage, rectification, chaudronnerie. 27 constructeurs partenaires en région PACA."
+        path="/"
+      />
     <div className="min-h-screen">
       {/* Hero Section with Video */}
       <section className="relative h-[100dvh] min-h-[600px] w-full overflow-hidden">
@@ -80,6 +87,7 @@ const Home = () => {
       <section className="py-12 sm:py-16 lg:py-20 bg-white">
         <div className="container mx-auto px-4 sm:px-6">
           {/* Section intro */}
+          <FadeIn>
           <div className="text-center mb-10 sm:mb-16">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-3 sm:mb-4">
               Notre Expertise
@@ -88,8 +96,10 @@ const Home = () => {
               Des solutions complètes pour tous vos besoins en machines industrielles
             </p>
           </div>
+          </FadeIn>
 
           {/* Bento Grid - Responsive */}
+          <FadeIn delay={200}>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 max-w-7xl mx-auto">
             {/* Large Card - Usinage */}
             <Link to="/gamme/usinage" className="sm:col-span-2 lg:col-span-2 lg:row-span-2">
@@ -180,12 +190,14 @@ const Home = () => {
               </Card>
             </Link>
           </div>
+          </FadeIn>
         </div>
       </section>
 
       {/* Why Choose Alma */}
       <section className="py-12 sm:py-16 lg:py-20 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6">
+          <FadeIn>
           <div className="max-w-6xl mx-auto">
             <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-10 sm:mb-16 text-center">
               Pourquoi Alma ?
@@ -221,6 +233,7 @@ const Home = () => {
               </div>
             </div>
           </div>
+          </FadeIn>
         </div>
       </section>
 
@@ -232,6 +245,7 @@ const Home = () => {
         ></div>
         <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/80 to-black/90"></div>
         <div className="relative container mx-auto px-4 sm:px-6">
+          <FadeIn>
           <div className="text-center mb-8 sm:mb-10">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-3">
               Ils nous font confiance
@@ -241,8 +255,7 @@ const Home = () => {
               pour équiper leurs ateliers.
             </p>
           </div>
-          
-          {/* Review Cards - Desktop */}
+          </FadeIn>
           <div className="hidden md:flex justify-center pb-64">
             <ReviewCards />
           </div>

@@ -4,6 +4,7 @@ import { ArrowLeft } from 'lucide-react';
 import { Card, CardContent } from '../components/ui/card';
 import { brandsSimple } from '../data/brandsSimple';
 import BrandLogo from '../components/BrandLogo';
+import SEO from '../components/SEO';
 
 const PartenairesPage = () => {
   // Grouper par catégorie (une marque peut être dans plusieurs catégories)
@@ -11,6 +12,11 @@ const PartenairesPage = () => {
   const chaudronnerie = brandsSimple.filter(b => b.categories && b.categories.includes('chaudronnerie')).sort((a, b) => a.nom.localeCompare(b.nom));
 
   return (
+    <SEO 
+        title="Nos partenaires constructeurs" 
+        description="Découvrez les 27 constructeurs partenaires d'Alma Machines-Outils. Marques de confiance pour l'usinage et la chaudronnerie en PACA."
+        path="/partenaires"
+      />
     <div className="min-h-screen bg-gray-50">
       {/* Hero Header */}
       <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-24 overflow-hidden">

@@ -6,6 +6,7 @@ import { Button } from '../components/ui/button';
 import { Separator } from '../components/ui/separator';
 import { getMachineBySlug, getBrandBySlug } from '../data/machinesData';
 import { images } from '../data/images';
+import SEO from '../components/SEO';
 
 const MachinePage = () => {
   const { machineSlug } = useParams();
@@ -54,6 +55,13 @@ const MachinePage = () => {
     : [];
 
   return (
+    <>
+      <SEO 
+        title={`${machine.designation} - ${machine.type || machine.sous_categorie}`}
+        description={`${machine.designation}. ${machine.type || ''}. ${machine.capacite || ''} Disponible chez Alma Machines-Outils en PACA.`}
+        path={`/machine/${machineSlug}`}
+        image={machine.photo || '/images/alma-logo.png'}
+      />
     <div className="min-h-screen bg-gray-50">
       {/* Breadcrumb & Header */}
       <section className="bg-white py-4 border-b">
@@ -316,6 +324,7 @@ const MachinePage = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

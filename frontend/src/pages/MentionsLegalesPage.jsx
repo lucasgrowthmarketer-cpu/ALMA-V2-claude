@@ -2,9 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import { siteConfig } from '../data/machinesData';
+import SEO from '../components/SEO';
 
 const MentionsLegalesPage = () => {
   return (
+          <SEO 
+        title="Mentions légales" 
+        description="Mentions légales du site Alma Machines-Outils."
+        path="/mentions-legales"
+        noindex={true}
+      />
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <section className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-16">

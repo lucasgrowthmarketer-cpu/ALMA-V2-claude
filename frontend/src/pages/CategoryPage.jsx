@@ -6,6 +6,8 @@ import { Button } from '../components/ui/button';
 import { getMachinesByCategory, getSubCategories, mainCategories, brandsData } from '../data/machinesData';
 import { images } from '../data/images';
 import BrandLogo from '../components/BrandLogo';
+import SEO from '../components/SEO';
+import { FadeIn } from '../hooks/useScrollAnimation';
 
 const CategoryPage = () => {
   const { category } = useParams();
@@ -65,6 +67,12 @@ const CategoryPage = () => {
   }
 
   return (
+    <>
+      <SEO 
+        title={`Machines ${categoryInfo ? (categoryInfo.nom.match(/^[aeiouhAEIOUH]/) ? "d'" + categoryInfo.nom : "de " + categoryInfo.nom) : ''}`}
+        description={categoryInfo?.description || `Découvrez notre gamme de machines industrielles chez Alma Machines-Outils en PACA.`}
+        path={`/gamme/${category}`}
+      />
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <section className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-16">
@@ -203,12 +211,13 @@ const CategoryPage = () => {
             </div>
           ) : (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-              {filteredMachines.map((machine) => {
+              {filteredMachines.map((machine, index) => {
                 const machineImage = getMachineImage(machine);
                 const hasPhoto = !!machine.photo;
 
                 return (
-                  <Link key={machine.slug} to={'/machine/' + machine.slug}>
+                  <FadeIn key={machine.slug} delay={Math.min(index * 80, 400)}>
+                  <Link to={'/machine/' + machine.slug}>
                     <Card className="group h-full overflow-hidden border-0 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                       <div className="relative h-48 bg-gradient-to-br from-gray-100 to-gray-200 overflow-hidden">
                         <img
@@ -246,6 +255,7 @@ const CategoryPage = () => {
                       </CardContent>
                     </Card>
                   </Link>
+                  </FadeIn>
                 );
               })}
             </div>
@@ -287,6 +297,7 @@ const CategoryPage = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

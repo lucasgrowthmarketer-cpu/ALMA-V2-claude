@@ -7,6 +7,7 @@ import { machinesData } from '../data/machinesData';
 import { brandsSimple } from '../data/brandsSimple';
 import { images } from '../data/images';
 import BrandLogo from '../components/BrandLogo';
+import SEO from '../components/SEO';
 
 const BrandPage = () => {
   const { brandSlug } = useParams();
@@ -54,6 +55,12 @@ const BrandPage = () => {
   }
 
   return (
+    <>
+      <SEO 
+        title={`Machines ${brandInfo?.nom || ''} - Revendeur agréé`}
+        description={brandDescription?.shortDescription || `Découvrez les machines ${brandInfo?.nom || ''} chez Alma Machines-Outils, revendeur agréé en région PACA.`}
+        path={`/marque/${brandSlug}`}
+      />
     <div className="min-h-screen bg-gray-50">
       {/* Hero Header with Brand Logo */}
       <section className="relative bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white py-20 overflow-hidden">
@@ -290,6 +297,7 @@ const BrandPage = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 

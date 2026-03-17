@@ -2,9 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import { siteConfig } from '../data/machinesData';
+import SEO from '../components/SEO';
 
 const PolitiqueConfidentialitePage = () => {
   return (
+          <SEO 
+        title="Politique de confidentialité" 
+        description="Politique de confidentialité et protection des données personnelles - Alma Machines-Outils."
+        path="/politique-confidentialite"
+        noindex={true}
+      />
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <section className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-16">
