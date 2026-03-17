@@ -7,6 +7,7 @@ import { mainCategories } from '../data/machinesData';
 import { brandsSimple } from '../data/brandsSimple';
 import { images } from '../data/images';
 import BrandLogo from '../components/BrandLogo';
+import ReviewCards from '../components/ReviewCards';
 
 
 const Home = () => {
@@ -219,39 +220,62 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Trust / CTA Section */}
+      {/* Client Reviews + Stats Section */}
       <section className="relative py-16 sm:py-24 lg:py-32 overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: 'url(' + images.testimonialBg + ')' }}
         ></div>
-        <div className="absolute inset-0 bg-gradient-to-r from-black/90 to-black/70"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/80 to-black/90"></div>
         <div className="relative container mx-auto px-4 sm:px-6">
-          <div className="max-w-4xl mx-auto text-center text-white">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8">
-              Votre partenaire industriel en région PACA
+          <div className="text-center mb-12 sm:mb-16">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4">
+              Ils nous font confiance
             </h2>
-            <p className="text-lg sm:text-xl text-gray-300 mb-10 sm:mb-14 max-w-2xl mx-auto leading-relaxed">
-              Depuis notre siège à Marseille, nous accompagnons les industriels de toute la région 
-              dans le choix, l'installation et la mise en service de leurs équipements.
+            <p className="text-base sm:text-lg text-gray-400 max-w-2xl mx-auto">
+              Des industriels de toute la région PACA et Languedoc nous font confiance 
+              pour équiper leurs ateliers.
             </p>
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-8">
-              <div>
-                <div className="text-3xl sm:text-4xl font-bold text-[#ef6110] mb-2">27</div>
-                <div className="text-sm sm:text-base text-gray-300">Constructeurs partenaires</div>
-              </div>
-              <div>
-                <div className="text-3xl sm:text-4xl font-bold text-[#ef6110] mb-2">150+</div>
-                <div className="text-sm sm:text-base text-gray-300">Machines référencées</div>
-              </div>
-              <div>
-                <div className="text-3xl sm:text-4xl font-bold text-[#ef6110] mb-2">100%</div>
-                <div className="text-sm sm:text-base text-gray-300">Machines neuves</div>
-              </div>
-              <div>
-                <div className="text-3xl sm:text-4xl font-bold text-[#ef6110] mb-2">PACA</div>
-                <div className="text-sm sm:text-base text-gray-300">Service de proximité</div>
-              </div>
+          </div>
+          
+          {/* Review Cards - Desktop */}
+          <div className="hidden md:flex justify-center mb-16">
+            <ReviewCards />
+          </div>
+          
+          {/* Review Cards - Mobile (simple stack) */}
+          <div className="md:hidden space-y-4 mb-12">
+            <div className="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 p-5">
+              <p className="text-white/90 italic text-sm mb-3">"Alma nous a accompagnés dans le choix d'un centre d'usinage 5 axes parfaitement adapté."</p>
+              <p className="text-[#ef6110] text-xs font-semibold">Philippe M. — Aix-en-Provence</p>
+            </div>
+            <div className="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 p-5">
+              <p className="text-white/90 italic text-sm mb-3">"Trois tours CNC installés en un temps record. Le conseil technique a fait toute la différence."</p>
+              <p className="text-[#ef6110] text-xs font-semibold">Laurent D. — Toulon</p>
+            </div>
+            <div className="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 p-5">
+              <p className="text-white/90 italic text-sm mb-3">"Une presse plieuse performante trouvée rapidement. Le suivi après-vente est irréprochable."</p>
+              <p className="text-[#ef6110] text-xs font-semibold">Sophie R. — Montpellier</p>
+            </div>
+          </div>
+
+          {/* Stats Bar */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-8 max-w-3xl mx-auto">
+            <div className="text-center">
+              <div className="text-3xl sm:text-4xl font-bold text-[#ef6110] mb-1">27</div>
+              <div className="text-xs sm:text-sm text-gray-400">Constructeurs</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl sm:text-4xl font-bold text-[#ef6110] mb-1">150+</div>
+              <div className="text-xs sm:text-sm text-gray-400">Machines</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl sm:text-4xl font-bold text-[#ef6110] mb-1">100%</div>
+              <div className="text-xs sm:text-sm text-gray-400">Neuves</div>
+            </div>
+            <div className="text-center">
+              <div className="text-3xl sm:text-4xl font-bold text-[#ef6110] mb-1">PACA</div>
+              <div className="text-xs sm:text-sm text-gray-400">Proximité</div>
             </div>
           </div>
         </div>
