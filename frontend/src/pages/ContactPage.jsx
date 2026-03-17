@@ -57,6 +57,8 @@ const ContactPage = () => {
   };
 
   return (
+          <>
+
           <SEO 
         title="Contact" 
         description="Contactez Alma Machines-Outils à Marseille. Demande de devis, conseil technique, accompagnement projet machines-outils industrielles en PACA."
@@ -326,6 +328,7 @@ const ContactPage = () => {
         </div>
       </section>
     </div>
+  </>
   );
 };
 

@@ -21,6 +21,8 @@ const ArcaneGroupPage = () => {
   ];
 
   return (
+          <>
+
           <SEO 
         title="Arcane Group - Réseau national machines-outils" 
         description="ARCANE GROUP, réseau national de sociétés commerciales de machines-outils. 10 bureaux en France, SAV Ernault Services, 20 ans d'expérience."
@@ -235,6 +237,7 @@ const ArcaneGroupPage = () => {
         </div>
       </section>
     </div>
+  </>
   );
 };
 

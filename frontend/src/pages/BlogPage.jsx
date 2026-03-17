@@ -33,6 +33,8 @@ const BlogPage = () => {
 
   if (loading) {
     return (
+            <>
+
             <SEO 
         title="Blog - Actualités machines-outils" 
         description="Articles et guides sur les machines-outils industrielles. Conseils d'achat, tendances du marché, innovations techniques."
@@ -195,6 +197,7 @@ const BlogPage = () => {
         </div>
       </section>
     </div>
+  </>
   );
 };
 

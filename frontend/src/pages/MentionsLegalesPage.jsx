@@ -6,6 +6,8 @@ import SEO from '../components/SEO';
 
 const MentionsLegalesPage = () => {
   return (
+          <>
+
           <SEO 
         title="Mentions légales" 
         description="Mentions légales du site Alma Machines-Outils."
@@ -104,6 +106,7 @@ const MentionsLegalesPage = () => {
         </div>
       </section>
     </div>
+  </>
   );
 };
 

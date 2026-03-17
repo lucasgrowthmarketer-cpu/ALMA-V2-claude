@@ -17,6 +17,8 @@ const Home = () => {
 
 
   return (
+          <>
+
           <SEO 
         title="Machines industrielles neuves en PACA" 
         description="Alma Machines-Outils, spécialiste en machines-outils industrielles neuves. Tournage, fraisage, rectification, chaudronnerie. 27 constructeurs partenaires en région PACA."
@@ -297,6 +299,7 @@ const Home = () => {
         </div>
       </section>
     </div>
+  </>
   );
 };
 

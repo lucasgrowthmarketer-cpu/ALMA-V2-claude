@@ -6,6 +6,8 @@ import SEO from '../components/SEO';
 
 const PolitiqueConfidentialitePage = () => {
   return (
+          <>
+
           <SEO 
         title="Politique de confidentialité" 
         description="Politique de confidentialité et protection des données personnelles - Alma Machines-Outils."
@@ -144,6 +146,7 @@ const PolitiqueConfidentialitePage = () => {
         </div>
       </section>
     </div>
+  </>
   );
 };
 

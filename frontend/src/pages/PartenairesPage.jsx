@@ -12,6 +12,8 @@ const PartenairesPage = () => {
   const chaudronnerie = brandsSimple.filter(b => b.categories && b.categories.includes('chaudronnerie')).sort((a, b) => a.nom.localeCompare(b.nom));
 
   return (
+    <>
+
     <SEO 
         title="Nos partenaires constructeurs" 
         description="Découvrez les 27 constructeurs partenaires d'Alma Machines-Outils. Marques de confiance pour l'usinage et la chaudronnerie en PACA."
@@ -137,6 +139,7 @@ const PartenairesPage = () => {
         </div>
       </section>
     </div>
+  </>
   );
 };
 

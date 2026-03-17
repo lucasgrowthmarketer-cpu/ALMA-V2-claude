@@ -36,6 +36,8 @@ const BrochuresPage = () => {
   const emailBody = encodeURIComponent("Bonjour,\n\nJe souhaite recevoir vos brochures commerciales.\n\nCordialement,\n");
 
   return (
+          <>
+
           <SEO 
         title="Brochures et catalogues" 
         description="Demandez nos catalogues de machines-outils industrielles. Usinage, chaudronnerie, 27 marques partenaires. Brochures gratuites sur demande."
@@ -137,6 +139,7 @@ const BrochuresPage = () => {
         </div>
       </section>
     </div>
+  </>
   );
 };
 

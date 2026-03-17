@@ -33,6 +33,8 @@ const BrandsPage = () => {
   };
 
   return (
+    <>
+
     <SEO 
         title="Nos marques partenaires" 
         description="27 constructeurs de machines-outils partenaires d'Alma. CMZ, Hartford, Haco, Soraluce, Danobat et plus. Revendeur agréé en PACA."
@@ -220,6 +222,7 @@ const BrandsPage = () => {
         </div>
       </section>
     </div>
+  </>
   );
 };
 

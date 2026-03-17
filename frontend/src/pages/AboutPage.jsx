@@ -8,6 +8,8 @@ import SEO from '../components/SEO';
 
 const AboutPage = () => {
   return (
+          <>
+
           <SEO 
         title="À propos" 
         description="Découvrez Alma Machines-Outils, revendeur de machines-outils industrielles neuves en région PACA. Notre expertise, nos valeurs, notre engagement."
@@ -251,6 +253,7 @@ const AboutPage = () => {
         </div>
       </section>
     </div>
+  </>
   );
 };
 
