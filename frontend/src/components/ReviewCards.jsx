@@ -35,7 +35,7 @@ export default function ReviewCards() {
       role: 'Directeur de production',
       company: 'Mécanique de Précision Provence — Aix-en-Provence',
       quote: "Alma nous a accompagnés dans le choix d'un centre d'usinage 5 axes parfaitement adapté à notre activité aéronautique.",
-      className: "[grid-area:stack] -translate-x-32 hover:-translate-y-10 before:absolute before:w-full before:rounded-2xl before:h-full before:content-[''] before:bg-gray-50/70 grayscale-[100%] hover:before:opacity-0 before:transition-opacity before:duration-700 hover:grayscale-0 before:left-0 before:top-0 before:z-10",
+      className: "[grid-area:stack] -translate-x-32 -translate-y-8 hover:-translate-y-16 before:absolute before:w-full before:rounded-2xl before:h-full before:content-[''] before:bg-gray-50/70 grayscale-[100%] hover:before:opacity-0 before:transition-opacity before:duration-700 hover:grayscale-0 before:left-0 before:top-0 before:z-10",
     },
     {
       icon: <Wrench size={18} className="text-gray-700" />,
@@ -44,7 +44,7 @@ export default function ReviewCards() {
       role: 'Gérant',
       company: 'Atelier LDA Usinage — Toulon',
       quote: 'Trois tours CNC installés en un temps record. Le conseil technique a fait toute la différence pour notre atelier.',
-      className: "[grid-area:stack] -translate-x-12 translate-y-16 hover:-translate-y-0 before:absolute before:w-full before:rounded-2xl before:h-full before:content-[''] before:bg-gray-50/70 grayscale-[100%] hover:before:opacity-0 before:transition-opacity before:duration-700 hover:grayscale-0 before:left-0 before:top-0 before:z-10",
+      className: "[grid-area:stack] -translate-x-12 translate-y-6 hover:-translate-y-8 before:absolute before:w-full before:rounded-2xl before:h-full before:content-[''] before:bg-gray-50/70 grayscale-[100%] hover:before:opacity-0 before:transition-opacity before:duration-700 hover:grayscale-0 before:left-0 before:top-0 before:z-10",
     },
     {
       icon: <Factory size={18} className="text-blue-600" />,
@@ -53,7 +53,7 @@ export default function ReviewCards() {
       role: 'Responsable achats',
       company: 'Tôlerie Méditerranée — Montpellier',
       quote: "Une presse plieuse performante trouvée rapidement. Le suivi après-vente est irréprochable.",
-      className: "[grid-area:stack] translate-x-8 translate-y-32 hover:translate-y-16 before:absolute before:w-full before:rounded-2xl before:h-full before:content-[''] before:bg-gray-50/70 grayscale-[100%] hover:before:opacity-0 before:transition-opacity before:duration-700 hover:grayscale-0 before:left-0 before:top-0 before:z-10",
+      className: "[grid-area:stack] translate-x-8 translate-y-20 hover:translate-y-6 before:absolute before:w-full before:rounded-2xl before:h-full before:content-[''] before:bg-gray-50/70 grayscale-[100%] hover:before:opacity-0 before:transition-opacity before:duration-700 hover:grayscale-0 before:left-0 before:top-0 before:z-10",
     },
     {
       icon: <Award size={18} className="text-[#ef6110]" />,
@@ -62,7 +62,7 @@ export default function ReviewCards() {
       role: "Chef d'atelier",
       company: 'Constructions Métalliques du Languedoc — Nîmes',
       quote: "Installation rapide, formation sur place. Nos opérateurs étaient opérationnels dès le premier jour.",
-      className: '[grid-area:stack] translate-x-28 translate-y-48 hover:translate-y-32',
+      className: '[grid-area:stack] translate-x-28 translate-y-34 hover:translate-y-20',
     },
   ];
 
