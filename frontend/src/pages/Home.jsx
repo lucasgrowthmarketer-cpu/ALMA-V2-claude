@@ -19,13 +19,17 @@ const Home = () => {
       {/* Hero Section with Video */}
       <section className="relative h-[100dvh] min-h-[600px] w-full overflow-hidden">
         {/* Video Background */}
-        <div className="absolute inset-0">
+        <div className="absolute inset-0" style={{ backgroundColor: '#1a1c1b' }}>
+          <div 
+            className="absolute inset-0 bg-cover bg-center"
+            style={{ backgroundImage: 'url(' + images.heroWorkshop + ')' }}
+          ></div>
           <video
             autoPlay
             muted
             loop
             playsInline
-            className="w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover"
             poster={images.heroWorkshop}
           >
             <source src="https://videos.pexels.com/video-files/6196564/6196564-hd_1280_720_30fps.mp4" type="video/mp4" />
