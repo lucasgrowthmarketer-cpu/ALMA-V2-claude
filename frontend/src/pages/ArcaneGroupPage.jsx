@@ -45,7 +45,7 @@ const ArcaneGroupPage = () => {
           <div className="flex flex-col md:flex-row items-start md:items-center gap-8">
             <div className="bg-white rounded-2xl p-4 shadow-xl">
               <img 
-                src="/images/arcane-group-logo.jpg" 
+                src="/images/arcane-group-logo.webp" 
                 alt="Arcane Group" 
                 className="h-20 sm:h-24 w-auto object-contain"
               />
@@ -211,7 +211,7 @@ const ArcaneGroupPage = () => {
             </p>
             <div className="rounded-2xl overflow-hidden shadow-xl border border-gray-200">
               <img 
-                src="/images/arcane-map-france.png" 
+                src="/images/arcane-map-france.webp" 
                 alt="Carte des partenaires ARCANE Group en France" 
                 className="w-full h-auto"
               />

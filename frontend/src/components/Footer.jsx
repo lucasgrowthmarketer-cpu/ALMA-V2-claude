@@ -75,6 +75,21 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
+                <Link to="/partenaires" className="text-xs sm:text-sm hover:text-primary transition-colors block py-1">
+                  Nos Partenaires
+                </Link>
+              </li>
+              <li>
+                <Link to="/occasion" className="text-xs sm:text-sm hover:text-primary transition-colors block py-1">
+                  Occasion
+                </Link>
+              </li>
+              <li>
+                <Link to="/brochures" className="text-xs sm:text-sm hover:text-primary transition-colors block py-1">
+                  Nos Brochures
+                </Link>
+              </li>
+              <li>
                 <Link to="/blog" className="text-xs sm:text-sm hover:text-primary transition-colors block py-1">
                   Blog
                 </Link>
@@ -133,7 +148,7 @@ const Footer = () => {
         <div className="container mx-auto px-4 sm:px-6 py-6 sm:py-8">
           <Link to="/arcane-group" className="flex flex-col sm:flex-row items-center justify-center gap-4 group">
             <img 
-              src="/images/arcane-group-logo.jpg" 
+              src="/images/arcane-group-logo.webp" 
               alt="Arcane Group" 
               className="h-10 sm:h-12 w-auto object-contain bg-white rounded-lg px-3 py-1.5"
             />

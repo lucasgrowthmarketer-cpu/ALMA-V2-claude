@@ -74,11 +74,12 @@ const Header = () => {
               <Phone size={14} />
               <span>WhatsApp</span>
             </a>
-          </div>
-          <div className="flex items-center gap-3">
-            <a href={siteConfig.linkedin} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
-              LinkedIn
+            <a href={siteConfig.linkedin} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:text-primary transition-colors">
+              <span>LinkedIn</span>
             </a>
+          </div>
+          <div className="text-muted-foreground">
+            {siteConfig.adresse}
           </div>
         </div>
 
@@ -124,6 +125,9 @@ const Header = () => {
             </Link>
             <Link to="/partenaires" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base">
               Nos Partenaires
+            </Link>
+            <Link to="/occasion" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base">
+              Occasion
             </Link>
             <Link to="/brochures" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base">
               Nos Brochures
@@ -284,6 +288,13 @@ const Header = () => {
               className="py-4 text-lg font-medium text-foreground hover:text-primary transition-colors border-b border-border"
             >
               Nos Partenaires
+            </Link>
+            <Link 
+              to="/occasion" 
+              onClick={toggleMenu} 
+              className="py-4 text-lg font-medium text-foreground hover:text-primary transition-colors border-b border-border"
+            >
+              Occasion
             </Link>
             <Link 
               to="/brochures" 

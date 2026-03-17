@@ -228,9 +228,9 @@ const Home = () => {
               </div>
               <div className="text-center">
                 <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#ef6110] mb-2 sm:mb-4">100%</div>
-                <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-1 sm:mb-2">Satisfait</h3>
+                <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-1 sm:mb-2">Neuf</h3>
                 <p className="text-xs sm:text-sm lg:text-base text-gray-600 hidden sm:block">
-                  Machines inspectées et garanties
+                  Machines neuves directement des constructeurs
                 </p>
               </div>
             </div>
