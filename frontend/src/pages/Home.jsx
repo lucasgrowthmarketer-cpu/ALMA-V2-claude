@@ -221,15 +221,15 @@ const Home = () => {
       </section>
 
       {/* Client Reviews + Stats Section */}
-      <section className="relative py-16 sm:py-24 lg:py-32 overflow-hidden">
+      <section className="relative py-12 sm:py-16 lg:py-20 overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: 'url(' + images.testimonialBg + ')' }}
         ></div>
         <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/80 to-black/90"></div>
         <div className="relative container mx-auto px-4 sm:px-6">
-          <div className="text-center mb-12 sm:mb-16">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4">
+          <div className="text-center mb-8 sm:mb-10">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-3">
               Ils nous font confiance
             </h2>
             <p className="text-base sm:text-lg text-gray-400 max-w-2xl mx-auto">
@@ -239,7 +239,7 @@ const Home = () => {
           </div>
           
           {/* Review Cards - Desktop */}
-          <div className="hidden md:flex justify-center mb-16">
+          <div className="hidden md:flex justify-center">
             <ReviewCards />
           </div>
           

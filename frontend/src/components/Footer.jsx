@@ -123,6 +123,24 @@ const Footer = () => {
         </div>
       </div>
 
+      {/* Arcane Group */}
+      <div className="border-t border-gray-800">
+        <div className="container mx-auto px-4 sm:px-6 py-6 sm:py-8">
+          <Link to="/arcane-group" className="flex flex-col sm:flex-row items-center justify-center gap-4 group">
+            <img 
+              src="/images/arcane-group-logo.jpg" 
+              alt="Arcane Group" 
+              className="h-10 sm:h-12 w-auto object-contain bg-white rounded-lg px-3 py-1.5"
+            />
+            <div className="text-center sm:text-left">
+              <p className="text-xs sm:text-sm text-gray-400 group-hover:text-white transition-colors">
+                Membre du réseau <span className="text-white font-semibold">ARCANE GROUP</span> — La force d'un réseau national de machines-outils
+              </p>
+            </div>
+          </Link>
+        </div>
+      </div>
+
       {/* Bottom Bar */}
       <div className="border-t border-gray-800">
         <div className="container mx-auto px-4 sm:px-6 py-4 sm:py-6">

@@ -29,6 +29,7 @@ import BlogPage from "./pages/BlogPage";
 import BlogArticlePage from "./pages/BlogArticlePage";
 import MentionsLegalesPage from "./pages/MentionsLegalesPage";
 import PolitiqueConfidentialitePage from "./pages/PolitiqueConfidentialitePage";
+import ArcaneGroupPage from "./pages/ArcaneGroupPage";
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
               <Route path="/a-propos" element={<AboutPage />} />
               <Route path="/mentions-legales" element={<MentionsLegalesPage />} />
               <Route path="/politique-confidentialite" element={<PolitiqueConfidentialitePage />} />
+              <Route path="/arcane-group" element={<ArcaneGroupPage />} />
               <Route path="*" element={
                 <div className="container mx-auto px-4 py-12 text-center">
                   <h1 className="text-4xl font-bold mb-4">Page non trouvée</h1>
