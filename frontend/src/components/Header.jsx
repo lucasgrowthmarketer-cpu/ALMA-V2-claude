@@ -95,13 +95,13 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-5 xl:gap-6">
-            <Link to="/" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base">
+            <Link to="/" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base leading-6">
               Accueil
             </Link>
             
             {/* Gammes Dropdown */}
-            <div className="relative group">
-              <span className="flex items-center gap-1 text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base cursor-pointer">
+            <div className="relative group inline-flex items-center leading-6">
+              <span className="inline-flex items-center gap-1 text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base cursor-pointer leading-6">
                 Gammes
                 <ChevronDown size={14} />
               </span>
@@ -119,19 +119,19 @@ const Header = () => {
               </div>
             </div>
 
-            <Link to="/marques" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base">
+            <Link to="/marques" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base leading-6">
               Marques
             </Link>
-            <Link to="/partenaires" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base">
+            <Link to="/partenaires" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base leading-6">
               Nos Partenaires
             </Link>
-            <Link to="/brochures" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base">
+            <Link to="/brochures" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base leading-6">
               Nos Brochures
             </Link>
-            <Link to="/blog" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base">
+            <Link to="/blog" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base leading-6">
               Blog
             </Link>
-            <Link to="/a-propos" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base">
+            <Link to="/a-propos" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base leading-6">
               À propos
             </Link>
           </nav>
