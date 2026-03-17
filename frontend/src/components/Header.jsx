@@ -100,8 +100,8 @@ const Header = () => {
             </Link>
             
             {/* Gammes Dropdown */}
-            <div className="relative group">
-              <button className="flex items-center gap-1 text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base">
+            <div className="relative group flex items-center">
+              <button className="flex items-center gap-1 text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base py-0 leading-none">
                 Gammes
                 <ChevronDown size={16} />
               </button>
