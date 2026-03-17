@@ -89,6 +89,11 @@ const Footer = () => {
                   Contact
                 </Link>
               </li>
+              <li>
+                <Link to="/arcane-group" className="text-xs sm:text-sm hover:text-primary transition-colors block py-1">
+                  Arcane Group
+                </Link>
+              </li>
             </ul>
           </div>
 

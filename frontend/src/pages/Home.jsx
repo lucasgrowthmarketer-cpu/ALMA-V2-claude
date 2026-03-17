@@ -195,14 +195,14 @@ const Home = () => {
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#ef6110] mb-2 sm:mb-4">133</div>
+                <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#ef6110] mb-2 sm:mb-4">150+</div>
                 <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-1 sm:mb-2">Machines</h3>
                 <p className="text-xs sm:text-sm lg:text-base text-gray-600 hidden sm:block">
                   Un large choix pour tous vos besoins
                 </p>
               </div>
               <div className="text-center">
-                <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#ef6110] mb-2 sm:mb-4">26</div>
+                <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#ef6110] mb-2 sm:mb-4">27</div>
                 <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-1 sm:mb-2">Marques</h3>
                 <p className="text-xs sm:text-sm lg:text-base text-gray-600 hidden sm:block">
                   Les meilleurs constructeurs

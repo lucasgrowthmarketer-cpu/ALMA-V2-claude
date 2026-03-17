@@ -94,16 +94,16 @@ const Header = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-5 xl:gap-6">
-            <Link to="/" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base leading-6">
+          <nav className="hidden lg:flex items-baseline gap-5 xl:gap-6">
+            <Link to="/" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base">
               Accueil
             </Link>
             
             {/* Gammes Dropdown */}
-            <div className="relative group inline-flex items-center leading-6">
-              <span className="inline-flex items-center gap-1 text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base cursor-pointer leading-6">
+            <div className="relative group">
+              <span className="inline-flex items-center gap-1 text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base cursor-pointer">
                 Gammes
-                <ChevronDown size={14} />
+                <ChevronDown size={14} className="relative top-px" />
               </span>
               <div className="absolute left-0 top-full mt-2 w-56 bg-white border border-border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
                 {mainCategories.map((cat) => (
@@ -119,19 +119,19 @@ const Header = () => {
               </div>
             </div>
 
-            <Link to="/marques" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base leading-6">
+            <Link to="/marques" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base">
               Marques
             </Link>
-            <Link to="/partenaires" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base leading-6">
+            <Link to="/partenaires" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base">
               Nos Partenaires
             </Link>
-            <Link to="/brochures" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base leading-6">
+            <Link to="/brochures" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base">
               Nos Brochures
             </Link>
-            <Link to="/blog" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base leading-6">
+            <Link to="/blog" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base">
               Blog
             </Link>
-            <Link to="/a-propos" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base leading-6">
+            <Link to="/a-propos" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base">
               À propos
             </Link>
           </nav>
@@ -305,6 +305,13 @@ const Header = () => {
               className="py-4 text-lg font-medium text-foreground hover:text-primary transition-colors border-b border-border"
             >
               À propos
+            </Link>
+            <Link 
+              to="/arcane-group" 
+              onClick={toggleMenu} 
+              className="py-4 text-lg font-medium text-[#ef6110] hover:text-[#d45510] transition-colors border-b border-border"
+            >
+              Arcane Group
             </Link>
             
             {/* CTA Button */}
