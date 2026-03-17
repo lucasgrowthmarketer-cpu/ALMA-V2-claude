@@ -1997,7 +1997,7 @@
     "type": "Tonneau d'ébavurage de grandes capacité",
     "capacite": "Cuve de diamètre de 600mm, et longueur jusqu'à 1.300mm",
     "description": "Tonneau d’ébavurage de grande capacité\n\nLe MDL 400 est conçu pour les applications nécessitant une capacité supérieure, tout en conservant une excellente homogénéité de traitement. Il s’adresse aux ateliers traitant des volumes plus importants ou des pièces plus massives.\n\nAvec une cuve de 600 mm de diamètre et une longueur jusqu’à 1 300 mm, ce modèle est utilisé en chaudronnerie, mécanique industrielle et production série.\nSur le marché de la, le MDL 400 offre un excellent compromis capacité / fiabilité, idéal pour monter en cadence sans investissement neuf lourd.",
-    "photo": "/images/machines/spaleck/diabolo.png"
+    "photo": "/images/machines/spaleck/y.jpg"
   },
   {
     "slug": "spaleck-px300",
@@ -2432,5 +2432,53 @@
     "capacite": "Avec des plateaux de dimensions de 800 x 1.200mm, charge 500kg",
     "description": "Unité de stockage\nUnité de stockage et de collecte de composants pour assemblage. Construction robuste levable, empilable et transportable, simple avec chariot élévateur à fourche / chariot à palettes ou grue pour par exemple effectuer un déplacement vers un autre département. Les charges peuvent être rallongées de 45% après verrouillage manuel des deux côtés et peuvent être réalisées à l’aide de bacs en plastique.",
     "photo": "/images/machines/thiel/traco.png"
+  },
+  {
+    "slug": "cincinnati-perceuse-a-colonne-usinage",
+    "designation": "CINCINNATI VR Perceuse à colonne",
+    "fabricant": "CINCINNATI VR",
+    "fabricant_slug": "cincinnati",
+    "modele": "Perceuse à colonne",
+    "categorie": "Usinage",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "PERCAGE",
+    "type": "",
+    "capacite": "",
+    "description": "Perceuse à colonne industrielle",
+    "photo": "/images/machines/cincinnati/perceuse-colonne.jpg"
+  },
+  {
+    "slug": "cincinnati-perceuse-automatique-usinage",
+    "designation": "CINCINNATI VR Perceuse automatique",
+    "fabricant": "CINCINNATI VR",
+    "fabricant_slug": "cincinnati",
+    "modele": "Perceuse automatique",
+    "categorie": "Usinage",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "PERCAGE",
+    "type": "",
+    "capacite": "",
+    "description": "Perceuse automatique CNC",
+    "photo": "/images/machines/cincinnati/perceuse-auto.jpg"
+  },
+  {
+    "slug": "cincinnati-perceuse-d-etabli-usinage",
+    "designation": "CINCINNATI VR Perceuse d'établi",
+    "fabricant": "CINCINNATI VR",
+    "fabricant_slug": "cincinnati",
+    "modele": "Perceuse d'établi",
+    "categorie": "Usinage",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "PERCAGE",
+    "type": "",
+    "capacite": "",
+    "description": "Perceuse d'établi compacte",
+    "photo": "/images/machines/cincinnati/perceuse-etabli.jpg"
   }
 ]

@@ -15,6 +15,7 @@ const CategoryPage = () => {
 
   const [selectedSubCat, setSelectedSubCat] = useState('all');
   const [selectedBrand, setSelectedBrand] = useState('all');
+  const [filtersOpen, setFiltersOpen] = useState(false);
 
   // Get unique brands in this category
   const brandsInCategory = useMemo(() => {
@@ -73,7 +74,7 @@ const CategoryPage = () => {
             Retour à l'accueil
           </Link>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Machines d'{categoryInfo.nom}
+            Machines {categoryInfo.nom.match(/^[aeiouhAEIOUH]/) ? "d'" + categoryInfo.nom : "de " + categoryInfo.nom}
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl">
             {categoryInfo.description}
@@ -87,65 +88,79 @@ const CategoryPage = () => {
 
       {/* Filters - only show if category has machines */}
       {allMachines.length > 0 && (
-      <section className="py-6 bg-white border-b sticky top-[57px] sm:top-[65px] z-30">
+      <section className="bg-white border-b sticky top-[57px] sm:top-[65px] z-30">
         <div className="container mx-auto px-4">
-          {/* Subcategory filters */}
-          <div className="mb-4">
-            <div className="flex items-center gap-2 mb-2">
-              <Filter size={16} className="text-gray-500" />
-              <span className="text-sm font-medium text-gray-700">Sous-catégorie</span>
+          {/* Mobile: toggle button */}
+          <button 
+            onClick={() => setFiltersOpen(!filtersOpen)}
+            className="w-full py-3 flex items-center justify-between sm:hidden"
+          >
+            <div className="flex items-center gap-2">
+              <Filter size={16} className="text-[#ef6110]" />
+              <span className="text-sm font-semibold text-gray-900">
+                Filtrer {hasActiveFilters ? `(${filteredMachines.length} résultats)` : ''}
+              </span>
             </div>
-            <div className="flex flex-wrap gap-2">
-              <button
-                onClick={() => { setSelectedSubCat('all'); setSelectedBrand('all'); }}
-                className={'px-3 py-1.5 rounded-full text-sm font-medium transition-all ' + (selectedSubCat === 'all' ? 'bg-[#ef6110] text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200')}
-              >
-                Toutes
-              </button>
-              {subCategories.map(sub => (
-                <button
-                  key={sub}
-                  onClick={() => { setSelectedSubCat(sub); setSelectedBrand('all'); }}
-                  className={'px-3 py-1.5 rounded-full text-sm font-medium transition-all ' + (selectedSubCat === sub ? 'bg-[#ef6110] text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200')}
-                >
-                  {sub.charAt(0) + sub.slice(1).toLowerCase()}
-                </button>
-              ))}
-            </div>
-          </div>
+            <span className={'text-gray-400 transition-transform ' + (filtersOpen ? 'rotate-180' : '')}>▼</span>
+          </button>
 
-          {/* Brand filters */}
-          <div>
-            <span className="text-sm font-medium text-gray-700 mb-2 block">Marque</span>
-            <div className="flex flex-wrap gap-2">
-              <button
-                onClick={() => setSelectedBrand('all')}
-                className={'px-3 py-1.5 rounded-full text-sm font-medium transition-all ' + (selectedBrand === 'all' ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200')}
-              >
-                Toutes
-              </button>
-              {availableBrands.map(brand => (
+          {/* Filters content - always visible on desktop, collapsible on mobile */}
+          <div className={'sm:block sm:py-6 ' + (filtersOpen ? 'block pb-4' : 'hidden')}>
+            {/* Subcategory filters */}
+            <div className="mb-4">
+              <span className="text-sm font-medium text-gray-700 mb-2 block">Sous-catégorie</span>
+              <div className="flex flex-wrap gap-2">
                 <button
-                  key={brand.slug}
-                  onClick={() => setSelectedBrand(brand.slug)}
-                  className={'px-3 py-1.5 rounded-full text-sm font-medium transition-all ' + (selectedBrand === brand.slug ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200')}
+                  onClick={() => { setSelectedSubCat('all'); setSelectedBrand('all'); setFiltersOpen(false); }}
+                  className={'px-3 py-1.5 rounded-full text-sm font-medium transition-all ' + (selectedSubCat === 'all' ? 'bg-[#ef6110] text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200')}
                 >
-                  {brand.nom}
+                  Toutes
                 </button>
-              ))}
+                {subCategories.map(sub => (
+                  <button
+                    key={sub}
+                    onClick={() => { setSelectedSubCat(sub); setSelectedBrand('all'); setFiltersOpen(false); }}
+                    className={'px-3 py-1.5 rounded-full text-sm font-medium transition-all ' + (selectedSubCat === sub ? 'bg-[#ef6110] text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200')}
+                  >
+                    {sub.charAt(0) + sub.slice(1).toLowerCase()}
+                  </button>
+                ))}
+              </div>
             </div>
-          </div>
 
-          {/* Active filters reset */}
-          {hasActiveFilters && (
-            <button
-              onClick={() => { setSelectedSubCat('all'); setSelectedBrand('all'); }}
-              className="mt-3 flex items-center gap-1 text-sm text-[#ef6110] hover:underline"
-            >
-              <X size={14} />
-              Réinitialiser les filtres
-            </button>
-          )}
+            {/* Brand filters */}
+            <div>
+              <span className="text-sm font-medium text-gray-700 mb-2 block">Marque</span>
+              <div className="flex flex-wrap gap-2">
+                <button
+                  onClick={() => { setSelectedBrand('all'); setFiltersOpen(false); }}
+                  className={'px-3 py-1.5 rounded-full text-sm font-medium transition-all ' + (selectedBrand === 'all' ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200')}
+                >
+                  Toutes
+                </button>
+                {availableBrands.map(brand => (
+                  <button
+                    key={brand.slug}
+                    onClick={() => { setSelectedBrand(brand.slug); setFiltersOpen(false); }}
+                    className={'px-3 py-1.5 rounded-full text-sm font-medium transition-all ' + (selectedBrand === brand.slug ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200')}
+                  >
+                    {brand.nom}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Active filters reset */}
+            {hasActiveFilters && (
+              <button
+                onClick={() => { setSelectedSubCat('all'); setSelectedBrand('all'); setFiltersOpen(false); }}
+                className="mt-3 flex items-center gap-1 text-sm text-[#ef6110] hover:underline"
+              >
+                <X size={14} />
+                Réinitialiser les filtres
+              </button>
+            )}
+          </div>
         </div>
       </section>
       )}
@@ -242,9 +257,9 @@ const CategoryPage = () => {
       <section className="py-12 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto prose prose-lg">
-            <h2>Pourquoi choisir Alma pour vos machines d'{categoryInfo.nom.toLowerCase()} ?</h2>
+            <h2>Pourquoi choisir Alma pour vos machines {categoryInfo.nom.toLowerCase().match(/^[aeiouh]/) ? "d'" + categoryInfo.nom.toLowerCase() : "de " + categoryInfo.nom.toLowerCase()} ?</h2>
             <p>
-              Les machines d'{categoryInfo.nom.toLowerCase()} proposées par Alma représentent une solution performante et fiable
+              Les machines {categoryInfo.nom.toLowerCase().match(/^[aeiouh]/) ? "d'" + categoryInfo.nom.toLowerCase() : "de " + categoryInfo.nom.toLowerCase()} proposées par Alma représentent une solution performante et fiable
               pour équiper votre atelier industriel. En tant que revendeur agréé, nous vous garantissons des machines neuves
               issues directement de nos constructeurs partenaires.
             </p>

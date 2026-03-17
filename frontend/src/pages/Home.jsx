@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowRight, ChevronLeft, ChevronRight, Star } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card } from '../components/ui/card';
 import { mainCategories } from '../data/machinesData';
@@ -8,69 +8,10 @@ import { brandsSimple } from '../data/brandsSimple';
 import { images } from '../data/images';
 import BrandLogo from '../components/BrandLogo';
 
-const testimonials = [
-  {
-    quote: "Alma nous a accompagnés dans le choix d'un centre d'usinage 5 axes parfaitement adapté à nos besoins aéronautiques. Un vrai partenaire.",
-    name: "Philippe M.",
-    role: "Directeur de production",
-    company: "Mécanique de Précision Provence, Aix-en-Provence",
-    stars: 5
-  },
-  {
-    quote: "Grâce à Alma, nous avons équipé notre nouvel atelier avec trois tours CNC en un temps record. Le conseil technique a fait toute la différence.",
-    name: "Laurent D.",
-    role: "Gérant",
-    company: "Atelier LDA Usinage, Toulon",
-    stars: 5
-  },
-  {
-    quote: "Nous cherchions une presse plieuse performante pour notre activité de tôlerie fine. Alma a trouvé exactement le modèle qu'il nous fallait.",
-    name: "Sophie R.",
-    role: "Responsable achats",
-    company: "Tôlerie Méditerranée, Montpellier",
-    stars: 5
-  },
-  {
-    quote: "Le suivi après-vente est irréprochable. L'installation s'est faite rapidement et nos opérateurs ont été formés sur place.",
-    name: "Marc V.",
-    role: "Chef d'atelier",
-    company: "Constructions Métalliques du Languedoc, Nîmes",
-    stars: 5
-  },
-  {
-    quote: "Alma a su comprendre nos contraintes de production et nous orienter vers la rectifieuse la plus adaptée. Résultat : +30% de productivité.",
-    name: "François B.",
-    role: "Directeur technique",
-    company: "Groupe Industrie Sud, Marseille",
-    stars: 5
-  },
-  {
-    quote: "En tant que sous-traitant automobile, la fiabilité est clé. Les machines recommandées par Alma tournent sans problème depuis l'installation.",
-    name: "Karim A.",
-    role: "Gérant",
-    company: "KA Mécanique Industrielle, Avignon",
-    stars: 5
-  },
-  {
-    quote: "Excellent rapport qualité-prix et un accompagnement de A à Z. Je recommande Alma à tous les industriels de la région.",
-    name: "Isabelle C.",
-    role: "Directrice générale",
-    company: "Chaudronnerie Côte d'Azur, Nice",
-    stars: 5
-  }
-];
 
 const Home = () => {
   const featuredBrands = brandsSimple.slice(0, 8);
-  const [currentTestimonial, setCurrentTestimonial] = useState(0);
 
-  // Auto-rotate testimonials every 6 seconds
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setCurrentTestimonial((prev) => (prev + 1) % testimonials.length);
-    }, 6000);
-    return () => clearInterval(timer);
-  }, []);
 
   return (
     <div className="min-h-screen">
@@ -278,7 +219,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Testimonials Carousel */}
+      {/* Trust / CTA Section */}
       <section className="relative py-16 sm:py-24 lg:py-32 overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
@@ -286,55 +227,31 @@ const Home = () => {
         ></div>
         <div className="absolute inset-0 bg-gradient-to-r from-black/90 to-black/70"></div>
         <div className="relative container mx-auto px-4 sm:px-6">
-          <h2 className="text-2xl sm:text-3xl font-bold text-white text-center mb-10 sm:mb-14">
-            Ce que disent nos clients
-          </h2>
-          
-          <div className="max-w-4xl mx-auto relative">
-            {/* Testimonial Content */}
-            <div className="text-center text-white px-8 sm:px-16">
-              <div className="flex justify-center gap-1 mb-6">
-                {[...Array(testimonials[currentTestimonial].stars)].map((_, i) => (
-                  <Star key={i} size={20} className="fill-[#ef6110] text-[#ef6110]" />
-                ))}
+          <div className="max-w-4xl mx-auto text-center text-white">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-6 sm:mb-8">
+              Votre partenaire industriel en région PACA
+            </h2>
+            <p className="text-lg sm:text-xl text-gray-300 mb-10 sm:mb-14 max-w-2xl mx-auto leading-relaxed">
+              Depuis notre siège à Marseille, nous accompagnons les industriels de toute la région 
+              dans le choix, l'installation et la mise en service de leurs équipements.
+            </p>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-8">
+              <div>
+                <div className="text-3xl sm:text-4xl font-bold text-[#ef6110] mb-2">27</div>
+                <div className="text-sm sm:text-base text-gray-300">Constructeurs partenaires</div>
               </div>
-              <blockquote className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light italic mb-6 sm:mb-8 leading-relaxed min-h-[80px] sm:min-h-[100px]">
-                "{testimonials[currentTestimonial].quote}"
-              </blockquote>
-              <cite className="text-base sm:text-lg not-italic block">
-                <span className="font-semibold text-white">{testimonials[currentTestimonial].name}</span>
-                <span className="text-gray-400"> — {testimonials[currentTestimonial].role}</span>
-                <br />
-                <span className="text-gray-400 text-sm sm:text-base">{testimonials[currentTestimonial].company}</span>
-              </cite>
-            </div>
-
-            {/* Navigation Arrows */}
-            <button
-              onClick={() => setCurrentTestimonial((prev) => (prev - 1 + testimonials.length) % testimonials.length)}
-              className="absolute left-0 top-1/2 -translate-y-1/2 p-2 text-white/60 hover:text-white transition-colors"
-              aria-label="Avis précédent"
-            >
-              <ChevronLeft size={28} />
-            </button>
-            <button
-              onClick={() => setCurrentTestimonial((prev) => (prev + 1) % testimonials.length)}
-              className="absolute right-0 top-1/2 -translate-y-1/2 p-2 text-white/60 hover:text-white transition-colors"
-              aria-label="Avis suivant"
-            >
-              <ChevronRight size={28} />
-            </button>
-
-            {/* Dots */}
-            <div className="flex justify-center gap-2 mt-8">
-              {testimonials.map((_, i) => (
-                <button
-                  key={i}
-                  onClick={() => setCurrentTestimonial(i)}
-                  className={'w-2 h-2 rounded-full transition-all ' + (i === currentTestimonial ? 'bg-[#ef6110] w-6' : 'bg-white/40 hover:bg-white/60')}
-                  aria-label={'Voir avis ' + (i + 1)}
-                />
-              ))}
+              <div>
+                <div className="text-3xl sm:text-4xl font-bold text-[#ef6110] mb-2">150+</div>
+                <div className="text-sm sm:text-base text-gray-300">Machines référencées</div>
+              </div>
+              <div>
+                <div className="text-3xl sm:text-4xl font-bold text-[#ef6110] mb-2">100%</div>
+                <div className="text-sm sm:text-base text-gray-300">Machines neuves</div>
+              </div>
+              <div>
+                <div className="text-3xl sm:text-4xl font-bold text-[#ef6110] mb-2">PACA</div>
+                <div className="text-sm sm:text-base text-gray-300">Service de proximité</div>
+              </div>
             </div>
           </div>
         </div>
