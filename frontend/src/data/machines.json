@@ -2480,5 +2480,124 @@
     "capacite": "Format compact pour perçage de pièces de petite et moyenne dimension",
     "description": "Perceuse d'établi compacte",
     "photo": "/images/machines/cincinnati/perceuse-etabli.webp"
+  },
+  {
+    "slug": "robojob-turnassist",
+    "designation": "ROBOJOB TurnAssist",
+    "fabricant": "ROBOJOB",
+    "fabricant_slug": "robojob",
+    "modele": "TurnAssist",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "ROBOTISATION",
+    "type": "Systèmes de robotisation tout en un pour chargement/déchargement de tours numérique",
+    "capacite": "",
+    "description": "La gamme RoboJob Turn‑Assist sont des solutions d’automatisation dédiées aux tours CNC.\nElles permettent de charger et décharger automatiquement les pièces, tout en restant compacte, flexible et facile à installer sur la plupart des machines, quel que soit le fabricant.",
+    "photo": "/images/machines/robojob/turnassist.webp",
+    "site_constructeur": "https://robojob.eu/fr/produits/turn-assist/"
+  },
+  {
+    "slug": "robojob-millassist",
+    "designation": "ROBOJOB MillAssist",
+    "fabricant": "ROBOJOB",
+    "fabricant_slug": "robojob",
+    "modele": "MillAssist",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "ROBOTISATION",
+    "type": "Sysèmes de robotisation tout en un pour chargement/déchargement de centres d'usinage",
+    "capacite": "",
+    "description": "La gamme RoboJob Turn‑Assist sont des solutions d’automatisation dédiées aux centre d'usinage.\nElles permettent de charger et décharger automatiquement les pièces, tout en restant compacte, flexible et facile à installer sur la plupart des machines, quel que soit le fabricant.",
+    "photo": "/images/machines/robojob/millassist.webp",
+    "site_constructeur": "https://robojob.eu/fr/produits/mill-assist/"
+  },
+  {
+    "slug": "robojob-coby",
+    "designation": "ROBOJOB Coby",
+    "fabricant": "ROBOJOB",
+    "fabricant_slug": "robojob",
+    "modele": "Coby",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "ROBOTISATION",
+    "type": "Systèmes de robotisation collaboratif tout en un pour chargement/déchargement",
+    "capacite": "",
+    "description": "RoboJob Coby CNC est un système avec un robot collaboratif conçues pour automatiser le chargement et le déchargement des machines CNC (tours et centres d'usinages).\nIl se distingue par sa compactité, sa facilité d’installation (moins de 5 minutes) et son logiciel intuitif qui permet aux opérateurs de programmer en quelques clics.",
+    "photo": "/images/machines/robojob/coby.webp",
+    "site_constructeur": "https://robojob.eu/fr/produits/coby-cnc/"
+  },
+  {
+    "slug": "robojob-pallet-load",
+    "designation": "ROBOJOB Pallet-Load",
+    "fabricant": "ROBOJOB",
+    "fabricant_slug": "robojob",
+    "modele": "Pallet-Load",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "ROBOTISATION",
+    "type": "Systèmes de robotisation flexible pour chargement/déchargement de tour ou centre avec prise et pose sur palette",
+    "capacite": "",
+    "description": "La gamme RoboJob Pallet‑Load sont des solutions d’automatisation destinées aux tours et fraiseuses CNC. Elles permettent de charger et décharger automatiquement des séries plus grande set des pièces lourdes ou volumineuses directement depuis une palette, sans intervention manuelle.",
+    "photo": "/images/machines/robojob/pallet-load.webp",
+    "site_constructeur": "https://robojob.eu/fr/produits/pallet-load/"
+  },
+  {
+    "slug": "robojob-tower",
+    "designation": "ROBOJOB Tower",
+    "fabricant": "ROBOJOB",
+    "fabricant_slug": "robojob",
+    "modele": "Tower",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "ROBOTISATION",
+    "type": "Systèmes de robotisation avec tour de stockage associé pour chargement/déchargement de tour ou centre d'usinage",
+    "capacite": "",
+    "description": "La gamme RoboJob Tower sont des systèmes d’automatisation vertical conçues pour charger, décharger et stocker des pièces, des palettes et des dispositifs de serrage sur des tours, fraiseuses ou machines combinées tour‑fraiseuse CNC.\nIl permet une production 24 h/24, 7 j/7 tout en optimisant la précision et la productivité.",
+    "photo": "/images/machines/robojob/tower.webp",
+    "site_constructeur": "https://robojob.eu/fr/produits/tower/"
+  },
+  {
+    "slug": "robojob-wall",
+    "designation": "ROBOJOB Wall",
+    "fabricant": "ROBOJOB",
+    "fabricant_slug": "robojob",
+    "modele": "Wall",
+    "categorie": "Usinage",
+    "categories": [
+      "Usinage"
+    ],
+    "sous_categorie": "ROBOTISATION",
+    "type": "Systèmes de stockage modulaire associé à plusieurs robots de chargement/déchargement pour tours ou centres d'usinage",
+    "capacite": "",
+    "description": "Système de stockage modulaire associé à plusieurs robots pour chargement/déchargement de tours ou centres d'usinage\nLe RoboJob Wall est une solution d’automatisation axée sur la centralisation des ressources (outils, systèmes de serrage, pièces, etc.) pour plusieurs machines CNC – tournage, fraisage ou combinaisons tournage‑fraisage.\nIl se compose de modules empilables, d’un stockeur multi directionnel qui va pouvoir alimenter d'une manière efficace et sécurisée les différentes machines, elle mêmes équipées de leur propre robot.",
+    "photo": "/images/machines/robojob/wall.webp",
+    "site_constructeur": "https://robojob.eu/fr/produits/wall/"
+  },
+  {
+    "slug": "spaleck-labox",
+    "designation": "SPALECK Labox",
+    "fabricant": "SPALECK",
+    "fabricant_slug": "spaleck",
+    "modele": "Labox",
+    "categorie": "Chaudronnerie",
+    "categories": [
+      "Chaudronnerie"
+    ],
+    "sous_categorie": "EBAVURAGE",
+    "type": "Machine d'ébavurage à brosse de grande capacité",
+    "capacite": "Largeur de passage 1500mm, 2 rangées de 2 brosses chacune",
+    "description": "Système d'ébavurage par brossage pour ébavurer et rayonner les arêtes vives de pièces issues de découpe laser.",
+    "photo": "/images/machines/spaleck/labox.webp",
+    "site_constructeur": ""
   }
 ]

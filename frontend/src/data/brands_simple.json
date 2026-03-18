@@ -307,5 +307,16 @@
       "TOURNAGE"
     ],
     "description": ""
+  },
+  {
+    "slug": "robojob",
+    "nom": "ROBOJOB",
+    "categories": [
+      "usinage"
+    ],
+    "sous_categories": [
+      "ROBOTISATION"
+    ],
+    "description": "RoboJob est une société belge fondée en 2007 qui est spécialisé dans l’automatisation des machines à commande numérique (CNC). Depuis sa création, elle a installé plus de 2 300 robots dans le monde, s"
   }
 ]

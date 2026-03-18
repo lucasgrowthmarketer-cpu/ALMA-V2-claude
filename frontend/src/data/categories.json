@@ -11,6 +11,7 @@
       "MORTAISAGE",
       "PERCAGE",
       "RECTIFICATION",
+      "ROBOTISATION",
       "STOCKAGE",
       "TOURNAGE",
       "USINAGE PAR ROBOT"
@@ -235,8 +236,8 @@
           "Usinage"
         ],
         "sous_categorie": "TOURNAGE",
-        "type": "",
-        "capacite": "",
+        "type": "Tour CNC monobroche de précision",
+        "capacite": "Diamètre de tournage jusqu'à 32 mm, haute vitesse de broche",
         "description": "Tour CNC monobroche",
         "photo": "/images/machines/tornos/monobroche.webp"
       },
@@ -251,8 +252,8 @@
           "Usinage"
         ],
         "sous_categorie": "TOURNAGE",
-        "type": "",
-        "capacite": "",
+        "type": "Tour CNC multibroche haute productivité",
+        "capacite": "Usinage simultané sur plusieurs broches, cadences élevées",
         "description": "Tour CNC multibroche",
         "photo": "/images/machines/tornos/multibroche.webp"
       },
@@ -267,8 +268,8 @@
           "Usinage"
         ],
         "sous_categorie": "TOURNAGE",
-        "type": "",
-        "capacite": "",
+        "type": "Centre de fraisage en barre CNC",
+        "capacite": "Usinage complet de pièces à partir de barres, opérations combinées tournage/fraisage",
         "description": "Centre de fraisage en barre",
         "photo": "/images/machines/tornos/fraisage-barre.webp"
       },
@@ -411,9 +412,9 @@
           "Usinage"
         ],
         "sous_categorie": "FRAISAGE",
-        "type": "",
-        "capacite": "",
-        "description": "",
+        "type": "Centre d'usinage vertical haute performance",
+        "capacite": "Course X/Y/Z étendue, broche haute vitesse, changeur d'outils rapide",
+        "description": "Le centre d'usinage vertical AKIRA SV XP est une évolution de la gamme SV, offrant des performances accrues pour l'usinage de pièces de moyenne dimension.\n\nConçu pour les ateliers exigeants, le SV XP intègre une broche haute vitesse, des guidages linéaires de précision et un changeur d'outils rapide permettant de réduire significativement les temps de cycle.\n\nLa rigidité du bâti en fonte et la qualité des composants garantissent une précision d'usinage constante, même lors d'opérations d'ébauche intensives. L'interface CNC intuitive facilite la programmation et le pilotage de la machine.\n\nChez Alma, les centres AKIRA SV XP sont appréciés pour leur polyvalence et leur excellent rapport performance-investissement, adaptés aussi bien à la mécanique générale qu'à la sous-traitance de précision.",
         "photo": "/images/machines/akira/sv-xp.webp"
       },
       {
@@ -460,7 +461,7 @@
         ],
         "sous_categorie": "FRAISAGE",
         "type": "Centre d'usinage 5 axes",
-        "capacite": "",
+        "capacite": "Usinage 5 axes simultanés, table rotative/basculante, broche haute vitesse",
         "description": "Centre d’usinage CNC 5 axes\n\nLes centres d’usinage AKIRA SEIKI 5-AX sont conçus pour répondre aux exigences des applications multi-axes complexes, nécessitant un haut niveau de précision, de rigidité et de répétabilité. Cette gamme permet l’usinage complet de pièces techniques en un seul serrage, réduisant les reprises et améliorant la qualité finale.\n\nCes machines sont particulièrement adaptées aux secteurs de la mécanique de précision, de l’aéronautique, du médical, du moule et des composants techniques à forte valeur ajoutée. Leur conception robuste permet de maintenir des performances constantes, même à des cadences élevées.\n\nChez Alma, les centres 5 axes AKIRA offrent une alternative performante au matériel neuf, permettant aux industriels d’accéder à l’usinage 5 axes avec un investissement maîtrisé, tout en conservant une excellente fiabilité.",
         "photo": "/images/machines/akira/5ax.webp"
       },
@@ -476,7 +477,7 @@
         ],
         "sous_categorie": "FRAISAGE",
         "type": "Centre de production",
-        "capacite": "",
+        "capacite": "Centre de perçage-taraudage grande vitesse, changeur d'outils rapide",
         "description": "Centre de production\n\nLa gamme AKIRA SEIKI RMV regroupe des centres de production conçus pour les environnements industriels orientés rendement, stabilité et continuité de production. Ces machines sont pensées pour fonctionner sur des cycles longs, avec un haut niveau de disponibilité et une répétabilité constante.\n\nLes centres RMV sont particulièrement utilisés dans la mécanique générale, la sous-traitance industrielle, l’automobile et la fabrication de pièces en série, où la fiabilité et la cadence sont des critères essentiels. Leur architecture rigide et leur conception orientée production permettent d’optimiser les temps de cycle tout en garantissant une qualité d’usinage homogène.\n\nChez Alma, les centres de production AKIRA RMV constituent une solution industrielle stratégique, idéale pour renforcer un parc machines existant, augmenter la capacité de production et sécuriser les délais, sans recourir à un investissement neuf important.",
         "photo": "/images/machines/akira/rmv.webp"
       },
@@ -492,7 +493,7 @@
         ],
         "sous_categorie": "FRAISAGE",
         "type": "Centre d'usinage 5 axes de production gantry",
-        "capacite": "",
+        "capacite": "Usinage 5 axes simultanés UGV, broche jusqu'à 20 000 tr/min, haute dynamique",
         "description": "Centre d’usinage CNC 5 axes de production gantry\n\nLes centres d’usinage AXILE de la gamme G sont conçus pour les applications de production en usinage grande vitesse, nécessitant une excellente dynamique machine, une rigidité structurelle élevée et une stabilité thermique maîtrisée. Leur architecture de type gantry permet d’usiner des pièces complexes tout en conservant une précision constante sur de longues durées de cycle.\n\nCes machines sont particulièrement adaptées aux secteurs du moule, de la mécanique de précision, de l’aéronautique, ainsi qu’à la fabrication de pièces complexes à forte valeur ajoutée. Le 5 axes continu permet de réduire les reprises, d’améliorer les états de surface et d’optimiser les temps de production.\n\nChez Alma, les AXILE G sont très recherchés pour leur capacité de production, leur fiabilité en UGV et leur aptitude à maintenir des performances élevées, même dans des environnements industriels exigeants.",
         "photo": "/images/machines/axile/g.webp"
       },
@@ -508,7 +509,7 @@
         ],
         "sous_categorie": "FRAISAGE",
         "type": "Centre d'usinage 5 axes de production double colonnes",
-        "capacite": "",
+        "capacite": "Centre d'usinage double colonne 5 axes, grande rigidité, pièces complexes",
         "description": "Centre d’usinage CNC 5 axes de production double colonnes\n\nLa gamme AXILE DC regroupe des centres d’usinage 5 axes à double colonnes, conçus pour offrir une stabilité maximale lors de l’usinage de pièces complexes ou de moules de grande dimension. Cette architecture garantit une excellente tenue géométrique, même lors d’opérations à forte sollicitation dynamique.\n\nCes machines sont largement utilisées dans les ateliers de moules, la mécanique de précision, l’industrie aéronautique et les applications nécessitant un haut niveau de précision sur de grandes surfaces. La combinaison du 5 axes et de l’UGV permet de produire des géométries complexes avec des tolérances serrées et une qualité de surface élevée.\n\nChez Alma, les AXILE DC constituent une solution industrielle premium, offrant un accès maîtrisé à l’usinage 5 axes haute performance, tout en optimisant l’investissement.",
         "photo": "/images/machines/axile/dc.webp"
       },
@@ -524,7 +525,7 @@
         ],
         "sous_categorie": "FRAISAGE",
         "type": "Centre d'usinage 3 axes pour moules",
-        "capacite": "",
+        "capacite": "Centre d'usinage vertical 3 axes haute vitesse, table fixe",
         "description": "Centre d’usinage CNC 3 axes pour moules\n\nLes centres d’usinage AXILE de la gamme V sont dédiés aux applications 3 axes haute vitesse, principalement orientées vers l’usinage de moules, d’empreintes et de pièces de précision. Ces machines sont conçues pour offrir une excellente dynamique, une grande précision et une stabilité thermique essentielle aux travaux de finition.\n\nElles sont particulièrement appréciées dans les ateliers de moulistes, de mécanique de précision et de fabrication de pièces complexes, où la qualité de surface et la répétabilité sont des critères clés. Leur conception permet d’enchaîner des cycles rapides tout en conservant une qualité constante.\n\nSur le marché de la machine-outil neuves, les AXILE V sont recherchées pour leur performance en UGV, leur fiabilité et leur excellent potentiel industriel, même après plusieurs années d’exploitation.",
         "photo": "/images/machines/axile/v.webp"
       },
@@ -620,7 +621,7 @@
         ],
         "sous_categorie": "FRAISAGE",
         "type": "Centre d'usinage horizontal 4 axes",
-        "capacite": "",
+        "capacite": "Centre horizontal palettisé, broche 14 000 tr/min, palette 500 mm",
         "description": "Centre d’usinage horizontal CNC 4 axes\n\nLes centres d’usinage horizontaux TOYODA de la FH série 5000 sont conçus pour les environnements industriels exigeants nécessitant une précision élevée, une excellente répétabilité et une fiabilité constante en production. Cette gamme est largement utilisée dans les ateliers orientés qualité et stabilité des process.\n\nCes machines sont particulièrement adaptées à la mécanique générale, à l’automobile, à l’équipement industriel et aux productions en petites et moyennes séries. L’architecture horizontale favorise une bonne évacuation des copeaux et une continuité de production optimale.\n\nChez Alma, les TOYODA FH série 5000 sont très recherchées pour leur longévité, leur stabilité géométrique et leur capacité à maintenir des tolérances serrées sur la durée.",
         "photo": "/images/machines/toyoda/fh5000.webp"
       },
@@ -636,7 +637,7 @@
         ],
         "sous_categorie": "FRAISAGE",
         "type": "Centre d'usinage horizontal 4 axes de grandes capacitées",
-        "capacite": "",
+        "capacite": "Centre horizontal super-rigide, axes rapides, palette 630 mm",
         "description": "Centre d’usinage horizontal CNC 4 axes de grandes capacités\n\nLa gamme FH Sxi de TOYODA est destinée aux applications nécessitant des capacités d’usinage étendues, tout en conservant un haut niveau de précision et de fiabilité. Ces centres d’usinage sont conçus pour des pièces plus volumineuses et des cycles de production exigeants.\n\nIls sont utilisés dans les secteurs de la mécanique lourde, de l’automobile, de l’énergie et de la fabrication de composants industriels de grande dimension. Leur conception rigide permet d’absorber des efforts de coupe importants tout en garantissant une excellente répétabilité.\n\nChez Alma, les TOYODA FH Sxi offrent une solution industrielle haut de gamme, idéale pour renforcer un parc machines avec du matériel fiable et reconnu, sans investissement neuf excessif.",
         "photo": "/images/machines/toyoda/fx630sx.webp"
       },
@@ -652,7 +653,7 @@
         ],
         "sous_categorie": "FRAISAGE",
         "type": "Centre d'usinage horizontal 4 axes de très grandes capacitées",
-        "capacite": "",
+        "capacite": "Centre horizontal grande capacité, pièces volumineuses, haute puissance",
         "description": "Centre d’usinage horizontal CNC 4 axes de très grandes capacités\n\nLes centres d’usinage TOYODA FH de très grandes capacités sont conçus pour l’usinage de pièces lourdes et volumineuses, nécessitant une stabilité mécanique maximale et une précision constante sur de longues durées de cycle.\n\nCes machines sont particulièrement présentes dans les secteurs de l’énergie, de la mécanique lourde, de la fabrication de structures industrielles et des applications à forte contrainte dimensionnelle. Leur conception haut de gamme assure une excellente tenue géométrique, même sur des productions complexes.\n\nSur le marché de la machine-outil neuves, ces centres TOYODA conservent une forte valeur industrielle, grâce à leur robustesse, leur fiabilité et leur réputation mondiale.",
         "photo": "/images/machines/toyoda/fh-grandes.webp"
       },
@@ -668,7 +669,7 @@
         ],
         "sous_categorie": "FRAISAGE",
         "type": "Centre d'usinage horizontal 5 axes",
-        "capacite": "",
+        "capacite": "Centre horizontal 5 axes, usinage complet en un seul posage",
         "description": "Centre d’usinage horizontal CNC 5 axes\n\nLa gamme FH 5X de TOYODA regroupe des centres d’usinage horizontaux 5 axes, conçus pour les applications nécessitant un usinage multi-axes de haute précision. Ces machines permettent de réaliser des pièces complexes en un nombre réduit de montages, améliorant la qualité et la productivité.\n\nElles sont utilisées dans les secteurs de l’aéronautique, de l’automobile haut de gamme, de la mécanique de précision et des composants techniques à forte valeur ajoutée. L’architecture horizontale combinée au 5 axes assure une excellente stabilité et une grande efficacité en production.\n\nChez Alma, les TOYODA FH 5X constituent une solution premium, permettant d’accéder à l’usinage 5 axes horizontal avec un niveau de fiabilité et de répétabilité reconnu, tout en optimisant l’investissement.",
         "photo": "/images/machines/toyoda/fh-sx.webp"
       },
@@ -684,7 +685,7 @@
         ],
         "sous_categorie": "FRAISAGE",
         "type": "Fraiseuse par apprentissage / semi-numérique",
-        "capacite": "",
+        "capacite": "Fraiseuse CNC compacte, courses X/Y/Z adaptées à la mécanique générale",
         "description": "Fraiseuse par apprentissage / semi-numérique\n\nLes fraiseuses XYZ de la gamme RMX sont conçues pour offrir une solution flexible et accessible aux ateliers souhaitant combiner la simplicité d’une machine conventionnelle avec les avantages d’une assistance numérique. Cette approche par apprentissage permet une prise en main rapide tout en améliorant la précision et la répétabilité des opérations.\n\nCes machines sont particulièrement adaptées aux environnements de mécanique générale, de maintenance industrielle, de formation, ainsi qu’aux ateliers recherchant une grande réactivité pour la fabrication de pièces unitaires ou de petites séries. Le mode semi-numérique facilite la réalisation de profils complexes sans la lourdeur d’une programmation CNC complète.\n\nChez Alma, les fraiseuses XYZ RMX sont appréciées pour leur polyvalence, leur facilité d’utilisation et leur excellent compromis entre performance et investissement, constituant une solution idéale pour moderniser un parc machines progressivement.",
         "photo": "/images/machines/xyz/rmx.webp"
       },
@@ -940,7 +941,7 @@
         ],
         "sous_categorie": "MARQUAGE LASER",
         "type": "Machine de marquage laser d'établi",
-        "capacite": "",
+        "capacite": "Marquage laser de précision sur petites pièces, sources fibre et UV",
         "description": "Machines de marquage laser d’établi\n\nLes systèmes LASIT MicroMark et BeMark sont des machines de marquage laser compactes, conçues pour les besoins d’identification industrielle de précision sur des pièces de petite à moyenne dimension. Leur format d’établi permet une intégration simple dans les ateliers tout en garantissant une excellente qualité de marquage.\n\nCes machines sont particulièrement utilisées pour la traçabilité, le marquage de numéros de série, de codes DataMatrix, de logos ou d’informations techniques, dans des secteurs comme la mécanique générale, le médical, l’électronique et la sous-traitance industrielle.\nChez Alma, elles constituent une solution fiable et économique pour accéder au marquage laser permanent avec un encombrement réduit.",
         "photo": "/images/machines/lasit/bemark.webp"
       },
@@ -956,7 +957,7 @@
         ],
         "sous_categorie": "MARQUAGE LASER",
         "type": "Machine de marquage laser avec zone de marquage élargie",
-        "capacite": "",
+        "capacite": "Station de marquage laser universelle, grande flexibilité de pièces",
         "description": "Machines de marquage laser avec zone de marquage élargie\n\nLes modèles Universal et TowerMark de LASIT sont conçus pour le marquage laser sur des pièces de plus grande dimension ou nécessitant une zone de travail étendue. Leur conception permet d’assurer une grande flexibilité tout en conservant une précision de marquage élevée.\n\nCes machines sont utilisées dans des environnements industriels où la polyvalence et la répétabilité sont essentielles, notamment pour le marquage de pièces mécaniques, de composants industriels et de produits semi-finis.\nChez Alma, ces systèmes LASIT sont appréciés pour leur robustesse, leur facilité d’exploitation et leur capacité à s’adapter à différents types de production.",
         "photo": "/images/machines/lasit/universal.webp"
       },
@@ -972,7 +973,7 @@
         ],
         "sous_categorie": "MARQUAGE LASER",
         "type": "Machine de marquage laser pour marquage de plaques",
-        "capacite": "",
+        "capacite": "Marquage laser rotatif pour pièces cylindriques et tags",
         "description": "Machines de marquage laser pour plaques\n\nLes systèmes TowerLabel et RotoTag sont spécifiquement conçus pour le marquage laser de plaques signalétiques, d’étiquettes industrielles et de supports d’identification. Ils permettent un marquage net, durable et parfaitement lisible, même dans des environnements contraints.\n\nCes machines sont très utilisées pour la fabrication de plaques constructeur, de plaques CE, d’éléments d’identification machine et de supports de traçabilité réglementaire.\nChez Alma, les LASIT TowerLabel et RotoTag représentent une solution spécialisée particulièrement recherchée par les intégrateurs et les industriels orientés normalisation et traçabilité.",
         "photo": "/images/machines/lasit/rototag.webp"
       },
@@ -988,7 +989,7 @@
         ],
         "sous_categorie": "MARQUAGE LASER",
         "type": "Machine de marquage laser de grande production",
-        "capacite": "",
+        "capacite": "Marquage laser rotatif haute cadence, automatisation intégrée",
         "description": "Machines de marquage laser de grande production\n\nLes modèles Polaris et RotoMark de LASIT sont destinés aux environnements de production intensive, avec des besoins élevés en cadence et en répétabilité. Ces machines sont conçues pour fonctionner en continu, avec une qualité de marquage constante sur de grandes séries.\n\nElles sont utilisées dans les secteurs de l’automobile, de l’aéronautique, de l’énergie et de la production industrielle en série, où la traçabilité et la fiabilité du marquage sont critiques.\nSur le marché de la, ces machines conservent une forte valeur industrielle, grâce à leur capacité de production et leur robustesse.",
         "photo": "/images/machines/lasit/rotomark.webp"
       },
@@ -1004,7 +1005,7 @@
         ],
         "sous_categorie": "MARQUAGE LASER",
         "type": "Laser d'intégration",
-        "capacite": "",
+        "capacite": "Gamme complète de sources laser : Fibre, MOPA, CO2, UV, Picoseconde",
         "description": "Lasers d’intégration\n\nLASIT propose également une large gamme de sources laser d’intégration, adaptées aux projets d’automatisation et aux lignes de production spécifiques. Ces solutions permettent d’intégrer le marquage laser directement dans des process industriels existants.\n\nSelon les applications, les technologies Fibre, MOPA, CO₂, UV ou Pico sont utilisées pour répondre à des besoins variés : marquage de métaux, plastiques, composites, verre ou matériaux sensibles.\nChez Alma, ces lasers d’intégration constituent une brique technologique stratégique pour améliorer la traçabilité et automatiser le marquage sans repenser entièrement la ligne de production.",
         "photo": "/images/machines/lasit/universal.webp"
       },
@@ -1428,8 +1429,8 @@
           "Chaudronnerie"
         ],
         "sous_categorie": "PERCAGE",
-        "type": "",
-        "capacite": "",
+        "type": "Perceuse à colonne industrielle",
+        "capacite": "Capacité de perçage adaptée aux pièces de moyenne et grande dimension",
         "description": "Perceuse à colonne industrielle",
         "photo": "/images/machines/cincinnati/perceuse-colonne.webp"
       },
@@ -1444,8 +1445,8 @@
           "Chaudronnerie"
         ],
         "sous_categorie": "PERCAGE",
-        "type": "",
-        "capacite": "",
+        "type": "Perceuse automatique CNC",
+        "capacite": "Cycles de perçage programmables, productivité série",
         "description": "Perceuse automatique CNC",
         "photo": "/images/machines/cincinnati/perceuse-auto.webp"
       },
@@ -1460,10 +1461,112 @@
           "Chaudronnerie"
         ],
         "sous_categorie": "PERCAGE",
-        "type": "",
-        "capacite": "",
+        "type": "Perceuse d'établi compacte",
+        "capacite": "Format compact pour perçage de pièces de petite et moyenne dimension",
         "description": "Perceuse d'établi compacte",
         "photo": "/images/machines/cincinnati/perceuse-etabli.webp"
+      },
+      {
+        "slug": "robojob-turnassist",
+        "designation": "ROBOJOB TurnAssist",
+        "fabricant": "ROBOJOB",
+        "fabricant_slug": "robojob",
+        "modele": "TurnAssist",
+        "categorie": "Usinage",
+        "categories": [
+          "Usinage"
+        ],
+        "sous_categorie": "ROBOTISATION",
+        "type": "Systèmes de robotisation tout en un pour chargement/déchargement de tours numérique",
+        "capacite": "",
+        "description": "La gamme RoboJob Turn‑Assist sont des solutions d’automatisation dédiées aux tours CNC.\nElles permettent de charger et décharger automatiquement les pièces, tout en restant compacte, flexible et facile à installer sur la plupart des machines, quel que soit le fabricant.",
+        "photo": "/images/machines/robojob/turnassist.webp",
+        "site_constructeur": "https://robojob.eu/fr/produits/turn-assist/"
+      },
+      {
+        "slug": "robojob-millassist",
+        "designation": "ROBOJOB MillAssist",
+        "fabricant": "ROBOJOB",
+        "fabricant_slug": "robojob",
+        "modele": "MillAssist",
+        "categorie": "Usinage",
+        "categories": [
+          "Usinage"
+        ],
+        "sous_categorie": "ROBOTISATION",
+        "type": "Sysèmes de robotisation tout en un pour chargement/déchargement de centres d'usinage",
+        "capacite": "",
+        "description": "La gamme RoboJob Turn‑Assist sont des solutions d’automatisation dédiées aux centre d'usinage.\nElles permettent de charger et décharger automatiquement les pièces, tout en restant compacte, flexible et facile à installer sur la plupart des machines, quel que soit le fabricant.",
+        "photo": "/images/machines/robojob/millassist.webp",
+        "site_constructeur": "https://robojob.eu/fr/produits/mill-assist/"
+      },
+      {
+        "slug": "robojob-coby",
+        "designation": "ROBOJOB Coby",
+        "fabricant": "ROBOJOB",
+        "fabricant_slug": "robojob",
+        "modele": "Coby",
+        "categorie": "Usinage",
+        "categories": [
+          "Usinage"
+        ],
+        "sous_categorie": "ROBOTISATION",
+        "type": "Systèmes de robotisation collaboratif tout en un pour chargement/déchargement",
+        "capacite": "",
+        "description": "RoboJob Coby CNC est un système avec un robot collaboratif conçues pour automatiser le chargement et le déchargement des machines CNC (tours et centres d'usinages).\nIl se distingue par sa compactité, sa facilité d’installation (moins de 5 minutes) et son logiciel intuitif qui permet aux opérateurs de programmer en quelques clics.",
+        "photo": "/images/machines/robojob/coby.webp",
+        "site_constructeur": "https://robojob.eu/fr/produits/coby-cnc/"
+      },
+      {
+        "slug": "robojob-pallet-load",
+        "designation": "ROBOJOB Pallet-Load",
+        "fabricant": "ROBOJOB",
+        "fabricant_slug": "robojob",
+        "modele": "Pallet-Load",
+        "categorie": "Usinage",
+        "categories": [
+          "Usinage"
+        ],
+        "sous_categorie": "ROBOTISATION",
+        "type": "Systèmes de robotisation flexible pour chargement/déchargement de tour ou centre avec prise et pose sur palette",
+        "capacite": "",
+        "description": "La gamme RoboJob Pallet‑Load sont des solutions d’automatisation destinées aux tours et fraiseuses CNC. Elles permettent de charger et décharger automatiquement des séries plus grande set des pièces lourdes ou volumineuses directement depuis une palette, sans intervention manuelle.",
+        "photo": "/images/machines/robojob/pallet-load.webp",
+        "site_constructeur": "https://robojob.eu/fr/produits/pallet-load/"
+      },
+      {
+        "slug": "robojob-tower",
+        "designation": "ROBOJOB Tower",
+        "fabricant": "ROBOJOB",
+        "fabricant_slug": "robojob",
+        "modele": "Tower",
+        "categorie": "Usinage",
+        "categories": [
+          "Usinage"
+        ],
+        "sous_categorie": "ROBOTISATION",
+        "type": "Systèmes de robotisation avec tour de stockage associé pour chargement/déchargement de tour ou centre d'usinage",
+        "capacite": "",
+        "description": "La gamme RoboJob Tower sont des systèmes d’automatisation vertical conçues pour charger, décharger et stocker des pièces, des palettes et des dispositifs de serrage sur des tours, fraiseuses ou machines combinées tour‑fraiseuse CNC.\nIl permet une production 24 h/24, 7 j/7 tout en optimisant la précision et la productivité.",
+        "photo": "/images/machines/robojob/tower.webp",
+        "site_constructeur": "https://robojob.eu/fr/produits/tower/"
+      },
+      {
+        "slug": "robojob-wall",
+        "designation": "ROBOJOB Wall",
+        "fabricant": "ROBOJOB",
+        "fabricant_slug": "robojob",
+        "modele": "Wall",
+        "categorie": "Usinage",
+        "categories": [
+          "Usinage"
+        ],
+        "sous_categorie": "ROBOTISATION",
+        "type": "Systèmes de stockage modulaire associé à plusieurs robots de chargement/déchargement pour tours ou centres d'usinage",
+        "capacite": "",
+        "description": "Système de stockage modulaire associé à plusieurs robots pour chargement/déchargement de tours ou centres d'usinage\nLe RoboJob Wall est une solution d’automatisation axée sur la centralisation des ressources (outils, systèmes de serrage, pièces, etc.) pour plusieurs machines CNC – tournage, fraisage ou combinaisons tournage‑fraisage.\nIl se compose de modules empilables, d’un stockeur multi directionnel qui va pouvoir alimenter d'une manière efficace et sécurisée les différentes machines, elle mêmes équipées de leur propre robot.",
+        "photo": "/images/machines/robojob/wall.webp",
+        "site_constructeur": "https://robojob.eu/fr/produits/wall/"
       }
     ]
   },
@@ -1560,7 +1663,7 @@
           "Chaudronnerie"
         ],
         "sous_categorie": "PLIAGE",
-        "type": "",
+        "type": "Presse plieuse hydraulique synchronisée CNC",
         "capacite": "Longueur de pliage jusqu'à 4.300mm, et puissance jusqu'à 300T",
         "description": "Plieuse synchronisée\n\nLa gamme Synchromaster regroupe des presses plieuses synchronisées, conçues pour offrir une excellente précision de pliage sur des longueurs importantes. Elles sont adaptées aux ateliers nécessitant une grande régularité et une bonne maîtrise des angles.\n\nChez Alma, ces machines constituent une solution fiable pour améliorer la qualité de pliage sans investissement neuf lourd.",
         "photo": "/images/machines/haco/synchromaster.webp"
@@ -1625,7 +1728,7 @@
         ],
         "sous_categorie": "PLIAGE",
         "type": "Plieuse gamme robotisée",
-        "capacite": "",
+        "capacite": "Presse plieuse flexible, outillage rapide, séries courtes et moyennes",
         "description": "Plieuse robotisée\n\nLa FlexBend est une solution de pliage robotisée, destinée aux environnements de production automatisée. Elle permet d’augmenter la productivité, la répétabilité et la sécurité des opérations de pliage.\n\nChez Alma, les FlexBend constituent une opportunité industrielle avancée pour automatiser le pliage sans repartir sur un projet neuf complet.",
         "photo": "/images/machines/haco/flex-bend.webp"
       },
@@ -1641,7 +1744,7 @@
         ],
         "sous_categorie": "ROULAGE",
         "type": "Rouleuse 3 rouleaux",
-        "capacite": "",
+        "capacite": "Rouleuse hydraulique 3 rouleaux, tôles de moyenne épaisseur",
         "description": "Rouleuse 3 rouleaux\n\nLes rouleuses HACO 3HBR sont conçues pour le cintrage et roulage de tôles, avec une approche simple et robuste. Elles sont adaptées aux applications courantes de chaudronnerie et de fabrication cylindrique.\n\nChez Alma, ces machines sont appréciées pour leur fiabilité mécanique et leur facilité d’utilisation.",
         "photo": "/images/machines/haco/3hbr.webp"
       },
@@ -1657,7 +1760,7 @@
         ],
         "sous_categorie": "ROULAGE",
         "type": "Rouleuse 4 rouleaux",
-        "capacite": "",
+        "capacite": "Rouleuse hydraulique 4 rouleaux, pré-cintrage automatique, forte épaisseur",
         "description": "Rouleuse 4 rouleaux\n\nLes rouleuses HACO 4HBR offrent une plus grande précision et répétabilité dans les opérations de roulage. Elles sont adaptées aux ateliers recherchant une meilleure maîtrise des géométries et une productivité accrue.\n\nEn, elles constituent une solution performante pour le roulage industriel.",
         "photo": "/images/machines/haco/4hbr.webp"
       },
@@ -1960,8 +2063,8 @@
           "Chaudronnerie"
         ],
         "sous_categorie": "PERCAGE",
-        "type": "",
-        "capacite": "",
+        "type": "Perceuse à colonne industrielle",
+        "capacite": "Capacité de perçage adaptée aux pièces de moyenne et grande dimension",
         "description": "Perceuse à colonne industrielle",
         "photo": "/images/machines/cincinnati/perceuse-colonne.webp"
       },
@@ -1976,8 +2079,8 @@
           "Chaudronnerie"
         ],
         "sous_categorie": "PERCAGE",
-        "type": "",
-        "capacite": "",
+        "type": "Perceuse automatique CNC",
+        "capacite": "Cycles de perçage programmables, productivité série",
         "description": "Perceuse automatique CNC",
         "photo": "/images/machines/cincinnati/perceuse-auto.webp"
       },
@@ -1992,8 +2095,8 @@
           "Chaudronnerie"
         ],
         "sous_categorie": "PERCAGE",
-        "type": "",
-        "capacite": "",
+        "type": "Perceuse d'établi compacte",
+        "capacite": "Format compact pour perçage de pièces de petite et moyenne dimension",
         "description": "Perceuse d'établi compacte",
         "photo": "/images/machines/cincinnati/perceuse-etabli.webp"
       },
@@ -2235,7 +2338,7 @@
         "type": "Tonneau d'ébavurage de grandes capacité",
         "capacite": "Cuve de diamètre de 600mm, et longueur jusqu'à 1.300mm",
         "description": "Tonneau d’ébavurage de grande capacité\n\nLe MDL 400 est conçu pour les applications nécessitant une capacité supérieure, tout en conservant une excellente homogénéité de traitement. Il s’adresse aux ateliers traitant des volumes plus importants ou des pièces plus massives.\n\nAvec une cuve de 600 mm de diamètre et une longueur jusqu’à 1 300 mm, ce modèle est utilisé en chaudronnerie, mécanique industrielle et production série.\nSur le marché de la, le MDL 400 offre un excellent compromis capacité / fiabilité, idéal pour monter en cadence sans investissement neuf lourd.",
-        "photo": "/images/machines/spaleck/diabolo.webp"
+        "photo": "/images/machines/spaleck/y.webp"
       },
       {
         "slug": "spaleck-px300",
@@ -2517,6 +2620,23 @@
         "capacite": "Avec des plateaux de dimensions de 800 x 1.200mm, charge 500kg",
         "description": "Unité de stockage\nUnité de stockage et de collecte de composants pour assemblage. Construction robuste levable, empilable et transportable, simple avec chariot élévateur à fourche / chariot à palettes ou grue pour par exemple effectuer un déplacement vers un autre département. Les charges peuvent être rallongées de 45% après verrouillage manuel des deux côtés et peuvent être réalisées à l’aide de bacs en plastique.",
         "photo": "/images/machines/thiel/traco.webp"
+      },
+      {
+        "slug": "spaleck-labox",
+        "designation": "SPALECK Labox",
+        "fabricant": "SPALECK",
+        "fabricant_slug": "spaleck",
+        "modele": "Labox",
+        "categorie": "Chaudronnerie",
+        "categories": [
+          "Chaudronnerie"
+        ],
+        "sous_categorie": "EBAVURAGE",
+        "type": "Machine d'ébavurage à brosse de grande capacité",
+        "capacite": "Largeur de passage 1500mm, 2 rangées de 2 brosses chacune",
+        "description": "Système d'ébavurage par brossage pour ébavurer et rayonner les arêtes vives de pièces issues de découpe laser.",
+        "photo": "/images/machines/spaleck/labox.webp",
+        "site_constructeur": ""
       }
     ]
   },
