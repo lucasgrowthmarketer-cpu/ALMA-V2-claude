@@ -52,7 +52,7 @@ export const brandLogos = {
   ger: '/images/logos/ger.webp',
   danobat: '/images/logos/danobat.svg',
   lasit: '/images/logos/lasit.webp',
-  spaleck: '/images/logos/spaleck.webp',
+  spaleck: '/images/logos/spaleck-v2.webp',
   everising: '/images/logos/everising.webp',
   unitech: '/images/logos/unitech.webp',
   wenzel: '/images/logos/wenzel.webp',
