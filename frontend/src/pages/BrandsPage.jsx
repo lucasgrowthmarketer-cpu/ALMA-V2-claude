@@ -160,12 +160,12 @@ const BrandsPage = () => {
                           {brand.nom}
                         </h3>
                         
-                        {/* Description - only on large cards on larger screens */}
-                        {isLarge && (
-                          <p className="hidden sm:block text-gray-600 text-sm line-clamp-2 mb-3">
-                            {brand.description}
-                          </p>
-                        )}
+                        {/* Description */}
+                        <p className={'text-gray-600 line-clamp-2 ' + 
+                          (isLarge ? 'text-sm mb-3' : 'text-xs mb-2')
+                        }>
+                          {brand.description}
+                        </p>
                         
                         {/* Machine count + CTA */}
                         <div className="flex items-center justify-between mt-auto pt-2 sm:pt-3 border-t border-gray-100">

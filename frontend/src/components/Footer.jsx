@@ -16,7 +16,7 @@ const Footer = () => {
             <img 
               src="/images/alma-logo.png" 
               alt="Alma Machines-Outils" 
-              className="h-10 sm:h-12 w-auto object-contain mb-4 brightness-0 invert"
+              className="h-8 sm:h-9 w-auto object-contain mb-4 brightness-0 invert opacity-90"
             />
             <p className="text-xs sm:text-sm mb-4 max-w-xs">
               {siteConfig.description}
@@ -54,6 +54,23 @@ const Footer = () => {
                     className="text-xs sm:text-sm hover:text-primary transition-colors block py-1"
                   >
                     {cat.nom}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            <h3 className="text-white font-semibold text-base sm:text-lg mb-2 sm:mb-3 mt-6">Nos régions</h3>
+            <ul className="space-y-1">
+              {[
+                {slug: 'marseille', nom: 'Marseille'},
+                {slug: 'toulon', nom: 'Toulon'},
+                {slug: 'nice', nom: 'Nice'},
+                {slug: 'aix-en-provence', nom: 'Aix-en-Provence'},
+                {slug: 'montpellier', nom: 'Montpellier'},
+                {slug: 'nimes', nom: 'Nîmes'},
+              ].map(city => (
+                <li key={city.slug}>
+                  <Link to={'/machines-outils/' + city.slug} className="text-xs hover:text-primary transition-colors block py-0.5">
+                    {city.nom}
                   </Link>
                 </li>
               ))}

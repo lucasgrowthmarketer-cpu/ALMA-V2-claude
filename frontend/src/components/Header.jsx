@@ -90,7 +90,7 @@ const Header = () => {
             <img 
               src="/images/alma-logo.png" 
               alt="Alma Machines-Outils" 
-              className="h-10 sm:h-12 md:h-14 lg:h-16 w-auto object-contain"
+              className="h-8 sm:h-9 md:h-10 lg:h-11 w-auto object-contain"
             />
           </Link>
 

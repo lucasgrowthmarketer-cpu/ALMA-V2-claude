@@ -31,6 +31,8 @@ import MentionsLegalesPage from "./pages/MentionsLegalesPage";
 import PolitiqueConfidentialitePage from "./pages/PolitiqueConfidentialitePage";
 import ArcaneGroupPage from "./pages/ArcaneGroupPage";
 import OccasionPage from "./pages/OccasionPage";
+import NotFoundPage from "./pages/NotFoundPage";
+import VilleSEOPage from "./pages/VilleSEOPage";
 import CookieBanner from "./components/CookieBanner";
 
 function App() {
@@ -57,13 +59,8 @@ function App() {
               <Route path="/politique-confidentialite" element={<PolitiqueConfidentialitePage />} />
               <Route path="/arcane-group" element={<ArcaneGroupPage />} />
               <Route path="/occasion" element={<OccasionPage />} />
-              <Route path="*" element={
-                <div className="container mx-auto px-4 py-12 text-center">
-                  <h1 className="text-4xl font-bold mb-4">Page non trouvée</h1>
-                  <p className="text-gray-600 mb-6">La page que vous recherchez n'existe pas.</p>
-                  <a href="/" className="text-primary hover:underline">Retour à l'accueil</a>
-                </div>
-              } />
+              <Route path="/machines-outils/:ville" element={<VilleSEOPage />} />
+              <Route path="*" element={<NotFoundPage />} />
             </Routes>
           </main>
           <Footer />
