@@ -2644,5 +2644,17 @@
     "nom": "Tôlerie",
     "sous_categories": [],
     "machines": []
+  },
+  "menuiserie": {
+    "nom": "Menuiserie",
+    "sous_categories": [
+      "CENTRE D'USINAGE 3 AXES",
+      "CENTRE D'USINAGE 4 AXES",
+      "CENTRE D'USINAGE 5 AXES",
+      "SCIE MONO TÊTE",
+      "SCIE DOUBLE TÊTES",
+      "CENTRE DE DÉBIT/USINAGE"
+    ],
+    "machines": []
   }
 }

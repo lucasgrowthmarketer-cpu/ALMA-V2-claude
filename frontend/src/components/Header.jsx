@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import { Menu, X, Search, Phone, Mail, ChevronDown, ChevronRight } from 'lucide-react';
+import { Menu, X, Search, Phone, Mail, ChevronDown, ChevronRight, ArrowRight } from 'lucide-react';
 import { Button } from './ui/button';
 import { siteConfig, mainCategories, machinesData } from '../data/machinesData';
 
@@ -100,23 +100,35 @@ const Header = () => {
               Accueil
             </Link>
             
-            {/* Gammes Dropdown */}
+            {/* Gammes Mega Dropdown */}
             <div className="relative group">
               <span className="inline-flex items-center gap-1 text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base cursor-pointer">
                 Gammes
                 <ChevronDown size={14} className="relative top-px" />
               </span>
-              <div className="absolute left-0 top-full mt-2 w-56 bg-white border border-border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                {mainCategories.map((cat) => (
-                  <Link
-                    key={cat.slug}
-                    to={'/gamme/' + cat.slug}
-                    className="block px-4 py-3 hover:bg-secondary transition-colors first:rounded-t-lg last:rounded-b-lg"
-                  >
-                    <div className="font-medium text-foreground">{cat.nom}</div>
-                    <div className="text-xs text-muted-foreground mt-0.5 line-clamp-1">{cat.description}</div>
+              <div className="absolute left-1/2 -translate-x-1/2 top-full mt-2 w-[600px] bg-white border border-border rounded-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 p-4">
+                <div className="grid grid-cols-2 gap-3">
+                  {mainCategories.map((cat) => (
+                    <div key={cat.slug} className="rounded-lg">
+                      <Link
+                        to={'/gamme/' + cat.slug}
+                        className="block px-3 py-2 rounded-lg hover:bg-gray-50 transition-colors"
+                      >
+                        <div className="font-semibold text-gray-900 text-sm flex items-center gap-2">
+                          <span className="w-2 h-2 rounded-full bg-[#ef6110]"></span>
+                          {cat.nom}
+                        </div>
+                        <div className="text-xs text-muted-foreground mt-0.5 ml-4 line-clamp-1">{cat.description}</div>
+                      </Link>
+                    </div>
+                  ))}
+                </div>
+                <div className="border-t mt-3 pt-3">
+                  <Link to="/marques" className="flex items-center justify-between px-3 py-2 rounded-lg hover:bg-gray-50 transition-colors">
+                    <span className="text-sm font-medium text-gray-700">Voir toutes nos marques</span>
+                    <ArrowRight size={14} className="text-[#ef6110]" />
                   </Link>
-                ))}
+                </div>
               </div>
             </div>
 

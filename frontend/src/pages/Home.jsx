@@ -166,6 +166,23 @@ const Home = () => {
               </Card>
             </Link>
 
+            {/* Medium Card - Menuiserie */}
+            <Link to="/gamme/menuiserie" className="col-span-1">
+              <Card className="group relative h-[180px] sm:h-[195px] overflow-hidden border-0 shadow-xl hover:shadow-2xl transition-all duration-500 active:scale-[0.99]">
+                <div className="absolute inset-0 bg-gradient-to-br from-amber-800 to-amber-950 opacity-90 group-hover:opacity-100 transition-opacity"></div>
+                <div className="relative h-full p-5 sm:p-6 flex flex-col justify-end text-white">
+                  <h3 className="text-xl sm:text-2xl font-bold mb-1 sm:mb-2">Menuiserie</h3>
+                  <p className="text-xs sm:text-sm mb-3 sm:mb-4 text-white/90">
+                    Centres d'usinage, scies, débit
+                  </p>
+                  <div className="flex items-center text-sm text-white font-semibold">
+                    <span>Bientôt disponible</span>
+                    <ArrowRight className="ml-1 group-hover:translate-x-2 transition-transform" size={16} />
+                  </div>
+                </div>
+              </Card>
+            </Link>
+
             {/* Wide Card - Partners */}
             <Link to="/partenaires" className="col-span-1 sm:col-span-2">
               <Card className="group relative h-[150px] sm:h-[195px] overflow-hidden border-0 shadow-xl hover:shadow-2xl transition-all duration-500 active:scale-[0.99] bg-gradient-to-r from-gray-50 to-gray-100">

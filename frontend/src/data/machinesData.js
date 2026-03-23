@@ -83,5 +83,11 @@ export const mainCategories = [
     nom: 'Chaudronnerie',
     description: 'Cisaillage, pliage, roulage, découpe laser, plasma, jet d\'eau, perçage, poinçonnage, stockage...',
     icon: 'Wrench'
+  },
+  {
+    slug: 'menuiserie',
+    nom: 'Menuiserie',
+    description: 'Centres d\'usinage 3, 4 et 5 axes, scies mono et double têtes, centres de débit/usinage... (bientôt disponible)',
+    icon: 'Hammer'
   }
 ];
