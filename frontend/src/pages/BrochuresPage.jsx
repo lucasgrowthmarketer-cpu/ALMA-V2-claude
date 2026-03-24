@@ -1,145 +1,130 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ArrowLeft, FileText, Mail, Phone, ArrowRight } from 'lucide-react';
+import { ArrowLeft, FileText, ArrowRight, Send } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import { Card, CardContent } from '../components/ui/card';
+import { Input } from '../components/ui/input';
+import { Label } from '../components/ui/label';
 import { siteConfig } from '../data/machinesData';
+import { useToast } from '../hooks/use-toast';
 import SEO from '../components/SEO';
+import { submitForm } from '../lib/api';
 
 const BrochuresPage = () => {
-  const brochures = [
-    {
-      title: 'Catalogue Machines d\'Usinage 2026',
-      description: 'Tours CNC, centres d\'usinage verticaux et horizontaux, rectifieuses, électroérosion, marquage laser, contrôle dimensionnel.',
-      category: 'Usinage',
-      brands: 'CMZ, Hartford, Akira Seiki, Axile, Soraluce, Toyoda, GER, Danobat, ONA, Wenzel...',
-      color: 'from-[#ef6110] to-[#d45510]'
-    },
-    {
-      title: 'Catalogue Chaudronnerie 2026',
-      description: 'Cisailles, presses plieuses, rouleuses, découpe laser, plasma, jet d\'eau, scies, perceuses, stockage.',
-      category: 'Chaudronnerie',
-      brands: 'Haco, Phenix, Imet, Kaltenbach, Tyro, Kingsland, Logitower, Thiel...',
-      color: 'from-blue-900 to-blue-950'
-    },
-    {
-      title: 'Catalogue Général Alma 2026',
-      description: 'L\'ensemble de notre offre de machines-outils industrielles neuves. 27 constructeurs partenaires, plus de 150 machines.',
-      category: 'Général',
-      brands: 'Toutes nos marques partenaires',
-      color: 'from-gray-800 to-gray-900'
+  const { toast } = useToast();
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [formData, setFormData] = useState({ nom: '', email: '', telephone: '', entreprise: '' });
+
+  const handleChange = (e) => setFormData({ ...formData, [e.target.name]: e.target.value });
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+
+    try {
+      const backendUrl = process.env.REACT_APP_API_URL || '';
+      const response = await fetch(`${backendUrl}/api/brochures`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        toast({ title: "Demande envoyée !", description: "Vous recevrez nos brochures par email très prochainement." });
+        setFormData({ nom: '', email: '', telephone: '', entreprise: '' });
+      } else {
+        throw new Error('Erreur');
+      }
+    } catch (error) {
+      window.location.href = `mailto:${siteConfig.email}?subject=${encodeURIComponent('[Brochures] Demande de catalogues')}&body=${encodeURIComponent(`Nom: ${formData.nom}\nEmail: ${formData.email}\nEntreprise: ${formData.entreprise}`)}`;
     }
+
+    setIsSubmitting(false);
+  };
+
+  const brochures = [
+    { title: "Catalogue Machines d'Usinage 2026", description: "Tours CNC, centres d'usinage, rectifieuses, électroérosion, marquage laser, contrôle dimensionnel.", category: 'Usinage', brands: 'CMZ, Hartford, Akira, Axile, Soraluce, Toyoda, GER, Danobat, ONA, Wenzel, RoboJob...', color: 'from-[#ef6110] to-[#d45510]' },
+    { title: 'Catalogue Chaudronnerie 2026', description: "Cisailles, presses plieuses, rouleuses, découpe laser, plasma, jet d'eau, scies, perceuses, stockage.", category: 'Chaudronnerie', brands: 'Haco, Phenix, Imet, Kaltenbach, Tyro, Kingsland, Logitower, Thiel...', color: 'from-blue-900 to-blue-950' },
+    { title: 'Catalogue Général Alma 2026', description: "L'ensemble de notre offre de machines-outils industrielles neuves. 28 constructeurs, plus de 160 machines.", category: 'Général', brands: 'Toutes nos marques partenaires', color: 'from-gray-800 to-gray-900' }
   ];
 
-  const whatsappMsg = encodeURIComponent("Bonjour, je souhaite recevoir vos brochures commerciales. Merci.");
-  const emailSubject = encodeURIComponent("[Site Web] Demande de brochures");
-  const emailBody = encodeURIComponent("Bonjour,\n\nJe souhaite recevoir vos brochures commerciales.\n\nCordialement,\n");
-
   return (
-          <>
-
-          <SEO 
-        title="Brochures et catalogues" 
-        description="Demandez nos catalogues de machines-outils industrielles. Usinage, chaudronnerie, 27 marques partenaires. Brochures gratuites sur demande."
-        path="/brochures"
-      />
+    <>
+      <SEO title="Brochures et catalogues" description="Demandez nos catalogues de machines-outils industrielles. Usinage, chaudronnerie, 28 marques partenaires." path="/brochures" />
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
       <section className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-16">
         <div className="container mx-auto px-4">
           <Link to="/" className="inline-flex items-center text-gray-300 hover:text-white mb-4 transition-colors">
-            <ArrowLeft size={16} className="mr-1" />
-            Retour à l'accueil
+            <ArrowLeft size={16} className="mr-1" /> Retour à l'accueil
           </Link>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Nos Brochures</h1>
-          <p className="text-xl text-gray-300 max-w-2xl">
-            Demandez nos catalogues pour découvrir l'ensemble de notre gamme de machines-outils industrielles neuves.
-          </p>
+          <p className="text-xl text-gray-300 max-w-2xl">Recevez nos catalogues pour découvrir l'ensemble de notre gamme de machines-outils industrielles neuves.</p>
         </div>
       </section>
 
-      {/* Brochures Grid */}
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto mb-16">
-            {brochures.map((brochure, idx) => (
-              <Card key={idx} className="overflow-hidden border-0 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
-                <div className={`bg-gradient-to-br ${brochure.color} p-8 text-white`}>
+            {brochures.map((b, i) => (
+              <Card key={i} className="overflow-hidden border-0 shadow-xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-1">
+                <div className={`bg-gradient-to-br ${b.color} p-8 text-white`}>
                   <FileText size={40} className="mb-4 opacity-80" />
-                  <h3 className="text-xl font-bold mb-1">{brochure.title}</h3>
-                  <span className="text-sm opacity-75">{brochure.category}</span>
+                  <h3 className="text-xl font-bold mb-1">{b.title}</h3>
+                  <span className="text-sm opacity-75">{b.category}</span>
                 </div>
                 <CardContent className="p-6">
-                  <p className="text-gray-700 text-sm mb-4">{brochure.description}</p>
-                  <p className="text-xs text-gray-500">
-                    <span className="font-medium">Marques incluses :</span> {brochure.brands}
-                  </p>
+                  <p className="text-gray-700 text-sm mb-4">{b.description}</p>
+                  <p className="text-xs text-gray-500"><span className="font-medium">Marques :</span> {b.brands}</p>
                 </CardContent>
               </Card>
             ))}
           </div>
 
-          {/* CTA - Request brochures */}
-          <div className="max-w-2xl mx-auto">
+          <div className="max-w-lg mx-auto">
             <Card className="border-2 border-[#ef6110]/20 shadow-xl">
-              <CardContent className="p-8 sm:p-10 text-center">
-                <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-4">
-                  Demandez vos brochures
-                </h2>
-                <p className="text-gray-600 mb-8 max-w-lg mx-auto">
-                  Contactez-nous par email ou WhatsApp pour recevoir nos catalogues gratuitement. 
-                  Nous vous les enverrons dans les plus brefs délais.
-                </p>
-                
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <a
-                    href={`mailto:${siteConfig.email}?subject=${emailSubject}&body=${emailBody}`}
-                    className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#ef6110] hover:bg-[#d45510] text-white rounded-full font-semibold transition-colors"
-                  >
-                    <Mail size={18} />
-                    Demander par email
-                  </a>
-                  <a
-                    href={`https://wa.me/33603315688?text=${whatsappMsg}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-green-500 hover:bg-green-600 text-white rounded-full font-semibold transition-colors"
-                  >
-                    <Phone size={18} />
-                    Demander par WhatsApp
-                  </a>
-                </div>
+              <CardContent className="p-8">
+                <h2 className="text-2xl font-bold text-gray-900 mb-2 text-center">Recevez vos brochures</h2>
+                <p className="text-gray-600 text-sm mb-6 text-center">Remplissez le formulaire, nous vous envoyons nos catalogues par email.</p>
+                <form onSubmit={handleSubmit} className="space-y-4">
+                  <div>
+                    <Label className="text-sm font-medium text-gray-700 mb-1 block">Nom *</Label>
+                    <Input name="nom" value={formData.nom} onChange={handleChange} required placeholder="Votre nom" />
+                  </div>
+                  <div>
+                    <Label className="text-sm font-medium text-gray-700 mb-1 block">Email *</Label>
+                    <Input name="email" type="email" value={formData.email} onChange={handleChange} required placeholder="votre@email.com" />
+                  </div>
+                  <div>
+                    <Label className="text-sm font-medium text-gray-700 mb-1 block">Entreprise</Label>
+                    <Input name="entreprise" value={formData.entreprise} onChange={handleChange} placeholder="Nom de l'entreprise" />
+                  </div>
+                  <div>
+                    <Label className="text-sm font-medium text-gray-700 mb-1 block">Téléphone</Label>
+                    <Input name="telephone" value={formData.telephone} onChange={handleChange} placeholder="+33 6 00 00 00 00" />
+                  </div>
+                  <Button type="submit" disabled={isSubmitting} className="w-full bg-[#ef6110] hover:bg-[#d45510] text-white font-semibold rounded-full py-3">
+                    <Send size={16} className="mr-2" />
+                    {isSubmitting ? 'Envoi en cours...' : 'Recevoir les brochures'}
+                  </Button>
+                </form>
               </CardContent>
             </Card>
           </div>
         </div>
       </section>
 
-      {/* Explore machines */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Consultez nos machines en ligne</h2>
-          <p className="text-gray-600 mb-8 max-w-xl mx-auto">
-            En attendant vos brochures, parcourez directement notre catalogue de machines sur le site.
-          </p>
+          <p className="text-gray-600 mb-8 max-w-xl mx-auto">En attendant vos brochures, parcourez directement notre catalogue.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/gamme/usinage">
-              <Button className="bg-[#ef6110] hover:bg-[#d45510] text-white font-semibold px-8">
-                Machines d'Usinage
-                <ArrowRight className="ml-2" size={16} />
-              </Button>
-            </Link>
-            <Link to="/gamme/chaudronnerie">
-              <Button variant="outline" className="font-semibold px-8">
-                Machines de Chaudronnerie
-                <ArrowRight className="ml-2" size={16} />
-              </Button>
-            </Link>
+            <Link to="/gamme/usinage"><Button className="bg-[#ef6110] hover:bg-[#d45510] text-white font-semibold px-8">Usinage <ArrowRight className="ml-2" size={16} /></Button></Link>
+            <Link to="/gamme/chaudronnerie"><Button variant="outline" className="font-semibold px-8">Chaudronnerie <ArrowRight className="ml-2" size={16} /></Button></Link>
           </div>
         </div>
       </section>
     </div>
-  </>
+    </>
   );
 };
 

@@ -7,8 +7,12 @@ import { Input } from '../components/ui/input';
 import { Label } from '../components/ui/label';
 import { siteConfig } from '../data/machinesData';
 import SEO from '../components/SEO';
+import { submitForm } from '../lib/api';
+import { useToast } from '../hooks/use-toast';
 
 const OccasionPage = () => {
+  const { toast } = useToast();
+  const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
     type: 'vente',
     nom: '',
@@ -28,18 +32,35 @@ const OccasionPage = () => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    const isVente = formData.type === 'vente';
-    const subject = isVente 
-      ? `[Occasion - Vente] ${formData.marque} ${formData.modele} - ${formData.nom}`
-      : `[Occasion - Recherche] ${formData.categorie} - ${formData.nom}`;
-    
-    const body = isVente
-      ? `Dépôt de machine d'occasion\n\nNom: ${formData.nom}\nEntreprise: ${formData.entreprise}\nEmail: ${formData.email}\nTéléphone: ${formData.telephone}\n\nMachine proposée:\nMarque: ${formData.marque}\nModèle: ${formData.modele}\nAnnée: ${formData.annee}\nÉtat: ${formData.etat}\nLocalisation: ${formData.localisation}\n\nDescription:\n${formData.description}`
-      : `Recherche de machine d'occasion\n\nNom: ${formData.nom}\nEntreprise: ${formData.entreprise}\nEmail: ${formData.email}\nTéléphone: ${formData.telephone}\n\nRecherche:\nCatégorie: ${formData.categorie}\nMarque souhaitée: ${formData.marque}\nBudget / Détails:\n${formData.description}`;
+    setIsSubmitting(true);
 
-    window.location.href = `mailto:${siteConfig.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const isVenteSubmit = formData.type === 'vente';
+    const endpoint = isVenteSubmit ? '/api/occasion/vente' : '/api/occasion/recherche';
+    try {
+      const data = await submitForm(endpoint, formData);
+
+      if (data.success) {
+        toast({
+          title: isVenteSubmit ? "Annonce envoyée !" : "Recherche envoyée !",
+          description: "Nous vous recontacterons sous 48h ouvrées.",
+        });
+        setFormData({ type: formData.type, nom: '', entreprise: '', email: '', telephone: '', categorie: '', marque: '', modele: '', annee: '', etat: '', localisation: '', description: '' });
+      }
+    } catch (error) {
+      // Fallback mailto
+      const subject = encodeURIComponent(isVenteSubmit 
+        ? `[Occasion - Vente] ${formData.marque} ${formData.modele}` 
+        : `[Occasion - Recherche] ${formData.categorie}`);
+      window.location.href = `mailto:${siteConfig.email}?subject=${subject}`;
+      toast({
+        title: "Redirection vers votre messagerie...",
+        description: "Envoyez le message pour finaliser votre demande.",
+      });
+    }
+
+    setIsSubmitting(false);
   };
 
   const isVente = formData.type === 'vente';
@@ -305,9 +326,9 @@ const OccasionPage = () => {
                       </div>
                     </div>
 
-                    <Button type="submit" className="w-full bg-[#ef6110] hover:bg-[#d45510] text-white font-semibold py-3 rounded-full text-base">
+                    <Button type="submit" disabled={isSubmitting} className="w-full bg-[#ef6110] hover:bg-[#d45510] text-white font-semibold py-3 rounded-full text-base">
                       <Send size={16} className="mr-2" />
-                      {isVente ? 'Envoyer mon annonce' : 'Envoyer ma recherche'}
+                      {isSubmitting ? 'Envoi en cours...' : (isVente ? 'Envoyer mon annonce' : 'Envoyer ma recherche')}
                     </Button>
                     <p className="text-xs text-gray-400 text-center">
                       Nous vous recontactons sous 48h ouvrées.

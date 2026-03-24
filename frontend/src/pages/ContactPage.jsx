@@ -9,6 +9,7 @@ import { Label } from '../components/ui/label';
 import { siteConfig } from '../data/machinesData';
 import { useToast } from '../hooks/use-toast';
 import SEO from '../components/SEO';
+import { submitForm } from '../lib/api';
 
 const ContactPage = () => {
   const { toast } = useToast();
@@ -37,21 +38,26 @@ const ContactPage = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    const body = buildMessageBody();
-
-    if (sendMethod === 'whatsapp') {
-      const whatsappText = encodeURIComponent(`Bonjour,\n\nNouvelle demande depuis le site Alma Machines-Outils:\n\n${body}`);
-      window.open(`https://wa.me/33603315688?text=${whatsappText}`, '_blank');
-    } else {
+    try {
+      const data = await submitForm('/contact', formData);
+      
+      if (data.success) {
+        toast({
+          title: "Demande envoyée !",
+          description: "Nous vous recontacterons dans les plus brefs délais.",
+        });
+        setFormData({ nom: '', entreprise: '', email: '', telephone: '', categorie: 'Demande de devis', message: '' });
+      }
+    } catch (error) {
+      // Fallback mailto si l'API ne répond pas
       const subject = encodeURIComponent(`[Site Web] ${formData.categorie} - ${formData.nom}`);
-      const mailBody = encodeURIComponent(body);
-      window.location.href = `mailto:${siteConfig.email}?subject=${subject}&body=${mailBody}`;
+      const body = encodeURIComponent(`Nom: ${formData.nom}\nEntreprise: ${formData.entreprise}\nEmail: ${formData.email}\nTéléphone: ${formData.telephone}\nType: ${formData.categorie}\n\nMessage:\n${formData.message}`);
+      window.location.href = `mailto:${siteConfig.email}?subject=${subject}&body=${body}`;
+      toast({
+        title: "Redirection vers votre messagerie...",
+        description: "Envoyez le message pré-rempli pour finaliser votre demande.",
+      });
     }
-
-    toast({
-      title: sendMethod === 'whatsapp' ? "Redirection vers WhatsApp..." : "Ouverture de votre messagerie...",
-      description: "Envoyez le message pré-rempli pour finaliser votre demande.",
-    });
 
     setIsSubmitting(false);
   };
