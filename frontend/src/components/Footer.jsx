@@ -14,9 +14,9 @@ const Footer = () => {
           {/* Company Info - Full width on mobile */}
           <div className="col-span-2 sm:col-span-2 lg:col-span-1">
             <img 
-              src="/images/alma-logo.png" 
+              src="/images/alma-logo-white.png" 
               alt="Alma Machines-Outils" 
-              className="h-8 sm:h-9 w-auto object-contain mb-4 brightness-0 invert opacity-90"
+              className="h-7 sm:h-8 w-auto object-contain mb-4 opacity-90"
             />
             <p className="text-xs sm:text-sm mb-4 max-w-xs">
               {siteConfig.description}
