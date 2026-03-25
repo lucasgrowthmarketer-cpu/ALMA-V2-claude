@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
-const BASE_URL = 'https://alma-machines-outils.fr';
+const BASE_URL = 'https://www.alma-machines-outils.fr';
 
 const SEO = ({ 
   title, 
