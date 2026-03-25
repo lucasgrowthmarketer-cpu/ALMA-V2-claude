@@ -26,7 +26,7 @@ const Home = () => {
       />
     <div className="min-h-screen">
       {/* Hero Section with Video */}
-      <section className="relative h-[75vh] min-h-[500px] w-full overflow-hidden">
+      <section className="relative h-[100dvh] min-h-[600px] w-full overflow-hidden">
         {/* Video Background */}
         <div className="absolute inset-0" style={{ backgroundColor: '#1a1c1b' }}>
           <div 
