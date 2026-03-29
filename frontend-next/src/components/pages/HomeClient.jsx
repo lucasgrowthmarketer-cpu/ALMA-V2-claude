@@ -1,0 +1,319 @@
+import React from 'react';
+import Link from 'next/link';
+import { ArrowRight } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Card } from '@/components/ui/card';
+import { mainCategories } from '@/data/machinesData';
+import { brandsSimple } from '@/data/brandsSimple';
+import { images } from '@/data/images';
+import BrandLogo from '@/components/BrandLogo';
+import ReviewCards from '@/components/ReviewCards';
+
+import { FadeIn } from '@/hooks/useScrollAnimation';
+
+
+const HomeClient = () => {
+  const featuredBrands = brandsSimple.slice(0, 8);
+
+
+  return (
+          <>
+
+          
+    <div className="min-h-screen">
+      {/* Hero Section with Video */}
+      <section className="relative h-[100dvh] min-h-[600px] w-full overflow-hidden">
+        {/* Video Background */}
+        <div className="absolute inset-0" style={{ backgroundColor: '#1a1c1b' }}>
+          <div 
+            className="absolute inset-0 bg-cover bg-center"
+            style={{ backgroundImage: 'url(' + images.heroWorkshop + ')' }}
+          ></div>
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="absolute inset-0 w-full h-full object-cover"
+            poster={images.heroWorkshop}
+          >
+            <source src="https://videos.pexels.com/video-files/6196564/6196564-hd_1280_720_30fps.mp4" type="video/mp4" />
+            <source src="https://cdn.coverr.co/videos/coverr-cnc-machine-precision-manufacturing-4623/1080p.mp4" type="video/mp4" />
+          </video>
+          <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70"></div>
+        </div>
+
+        {/* Hero Content */}
+        <div className="relative h-full flex items-center justify-center text-center px-4 sm:px-6">
+          <div className="max-w-5xl mx-auto">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white mb-4 sm:mb-6 leading-tight">
+              L'Excellence Industrielle
+              <br />
+              <span className="text-[#ef6110]">à Portée de Main</span>
+            </h1>
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-200 mb-8 sm:mb-12 max-w-3xl mx-auto leading-relaxed px-4">
+              Machines-outils industrielles de qualité supérieure.
+              <span className="hidden sm:inline"><br /></span>
+              <span className="sm:hidden"> </span>
+              Expertise, conseil et accompagnement en région PACA.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center px-4">
+              <Link href="/marques" className="w-full sm:w-auto">
+                <Button size="lg" className="w-full sm:w-auto bg-[#ef6110] hover:bg-[#d45510] text-white font-semibold text-base sm:text-lg px-6 sm:px-10 py-5 sm:py-6 rounded-full shadow-2xl">
+                  Découvrir nos machines
+                  <ArrowRight className="ml-2" size={18} />
+                </Button>
+              </Link>
+              <Link href="/contact" className="w-full sm:w-auto">
+                <Button size="lg" variant="outline" className="w-full sm:w-auto border-2 border-white text-white hover:bg-white hover:text-gray-900 font-semibold text-base sm:text-lg px-6 sm:px-10 py-5 sm:py-6 rounded-full backdrop-blur-sm">
+                  Parlons de votre projet
+                </Button>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        {/* Scroll indicator - Hidden on very small screens */}
+        <div className="absolute bottom-6 sm:bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce hidden sm:block">
+          <div className="w-6 h-10 sm:w-8 sm:h-12 rounded-full border-2 border-white/50 flex items-start justify-center p-2">
+            <div className="w-1 h-2 sm:h-3 bg-white/50 rounded-full"></div>
+          </div>
+        </div>
+      </section>
+
+      {/* Bento Layout Section */}
+      <section className="py-12 sm:py-16 lg:py-20 bg-white">
+        <div className="container mx-auto px-4 sm:px-6">
+          {/* Section intro */}
+          <FadeIn>
+          <div className="text-center mb-10 sm:mb-16">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-3 sm:mb-4">
+              Notre Expertise
+            </h2>
+            <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-2xl mx-auto px-4">
+              Des solutions complètes pour tous vos besoins en machines industrielles
+            </p>
+          </div>
+          </FadeIn>
+
+          {/* Bento Grid - Responsive */}
+          <FadeIn delay={200}>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 max-w-7xl mx-auto">
+            {/* Large Card - Usinage */}
+            <Link href="/gamme/usinage" className="sm:col-span-2 lg:col-span-2 lg:row-span-2">
+              <Card className="group relative h-[250px] sm:h-[300px] lg:h-full lg:min-h-[400px] overflow-hidden border-0 shadow-xl hover:shadow-2xl transition-all duration-500 active:scale-[0.99]">
+                <div className="absolute inset-0 bg-gradient-to-br from-[#ef6110] to-[#d45510] opacity-90 group-hover:opacity-100 transition-opacity"></div>
+                <div
+                  className="absolute inset-0 bg-cover bg-center opacity-20 group-hover:scale-110 transition-transform duration-700"
+                  style={{ backgroundImage: 'url(' + images.usinage.hero + ')' }}
+                ></div>
+                <div className="relative h-full p-6 sm:p-8 flex flex-col justify-end text-white">
+                  <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-2 sm:mb-3">Usinage</h3>
+                  <p className="text-sm sm:text-base lg:text-lg mb-4 sm:mb-6 text-white/90">
+                    Tours CNC, centres d'usinage, rectifieuses de précision
+                  </p>
+                  <div className="flex items-center text-white font-semibold">
+                    <span>Découvrir</span>
+                    <ArrowRight className="ml-2 group-hover:translate-x-2 transition-transform" size={20} />
+                  </div>
+                </div>
+              </Card>
+            </Link>
+
+            {/* Medium Card - Tôlerie */}
+            <Link href="/gamme/tolerie" className="col-span-1">
+              <Card className="group relative h-[180px] sm:h-[195px] overflow-hidden border-0 shadow-xl hover:shadow-2xl transition-all duration-500 active:scale-[0.99]">
+                <div className="absolute inset-0 bg-gradient-to-br from-gray-800 to-gray-900 opacity-90 group-hover:opacity-100 transition-opacity"></div>
+                <div
+                  className="absolute inset-0 bg-cover bg-center opacity-30 group-hover:scale-110 transition-transform duration-700"
+                  style={{ backgroundImage: 'url(' + images.tolerie.hero + ')' }}
+                ></div>
+                <div className="relative h-full p-5 sm:p-6 flex flex-col justify-end text-white">
+                  <h3 className="text-xl sm:text-2xl font-bold mb-1 sm:mb-2">Tôlerie</h3>
+                  <p className="text-xs sm:text-sm mb-3 sm:mb-4 text-white/90">
+                    Presses, cisailles, lasers
+                  </p>
+                  <div className="flex items-center text-sm text-white font-semibold">
+                    <span>Bientôt disponible</span>
+                    <ArrowRight className="ml-1 group-hover:translate-x-2 transition-transform" size={16} />
+                  </div>
+                </div>
+              </Card>
+            </Link>
+
+            {/* Medium Card - Chaudronnerie */}
+            <Link href="/gamme/chaudronnerie" className="col-span-1">
+              <Card className="group relative h-[180px] sm:h-[195px] overflow-hidden border-0 shadow-xl hover:shadow-2xl transition-all duration-500 active:scale-[0.99]">
+                <div className="absolute inset-0 bg-gradient-to-br from-blue-900 to-blue-950 opacity-90 group-hover:opacity-100 transition-opacity"></div>
+                <div
+                  className="absolute inset-0 bg-cover bg-center opacity-30 group-hover:scale-110 transition-transform duration-700"
+                  style={{ backgroundImage: 'url(' + images.chaudronnerie.hero + ')' }}
+                ></div>
+                <div className="relative h-full p-5 sm:p-6 flex flex-col justify-end text-white">
+                  <h3 className="text-xl sm:text-2xl font-bold mb-1 sm:mb-2">Chaudronnerie</h3>
+                  <p className="text-xs sm:text-sm mb-3 sm:mb-4 text-white/90">
+                    Cisaillage, pliage, découpe, stockage
+                  </p>
+                  <div className="flex items-center text-sm text-white font-semibold">
+                    <span>Voir plus</span>
+                    <ArrowRight className="ml-1 group-hover:translate-x-2 transition-transform" size={16} />
+                  </div>
+                </div>
+              </Card>
+            </Link>
+
+            {/* Medium Card - Menuiserie */}
+            <Link href="/gamme/menuiserie" className="col-span-1">
+              <Card className="group relative h-[180px] sm:h-[195px] overflow-hidden border-0 shadow-xl hover:shadow-2xl transition-all duration-500 active:scale-[0.99]">
+                <div className="absolute inset-0 bg-gradient-to-br from-amber-800 to-amber-950 opacity-90 group-hover:opacity-100 transition-opacity"></div>
+                <div className="relative h-full p-5 sm:p-6 flex flex-col justify-end text-white">
+                  <h3 className="text-xl sm:text-2xl font-bold mb-1 sm:mb-2">Menuiserie</h3>
+                  <p className="text-xs sm:text-sm mb-3 sm:mb-4 text-white/90">
+                    Centres d'usinage, scies, débit
+                  </p>
+                  <div className="flex items-center text-sm text-white font-semibold">
+                    <span>Bientôt disponible</span>
+                    <ArrowRight className="ml-1 group-hover:translate-x-2 transition-transform" size={16} />
+                  </div>
+                </div>
+              </Card>
+            </Link>
+
+            {/* Wide Card - Partners */}
+            <Link href="/partenaires" className="col-span-1 sm:col-span-2">
+              <Card className="group relative h-[150px] sm:h-[195px] overflow-hidden border-0 shadow-xl hover:shadow-2xl transition-all duration-500 active:scale-[0.99] bg-gradient-to-r from-gray-50 to-gray-100">
+                <div className="relative h-full p-5 sm:p-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                  <div>
+                    <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-1 sm:mb-2">Nos Partenaires</h3>
+                    <p className="text-sm sm:text-base text-gray-600">
+                      {brandsSimple.length} marques de confiance
+                    </p>
+                  </div>
+                  <div className="flex items-center gap-2 sm:gap-3 flex-wrap sm:flex-nowrap">
+                    <div className="flex items-center gap-2">
+                      {featuredBrands.slice(0, 3).map((brand) => (
+                        <BrandLogo key={brand.slug} brandSlug={brand.slug} size="sm" />
+                      ))}
+                      <span className="hidden sm:inline-flex text-xs text-gray-500 ml-1">+{brandsSimple.length - 3}</span>
+                    </div>
+                    <div className="flex items-center text-[#ef6110] font-semibold text-sm whitespace-nowrap">
+                      <span>Voir tous</span>
+                      <ArrowRight className="ml-1 group-hover:translate-x-2 transition-transform" size={16} />
+                    </div>
+                  </div>
+                </div>
+              </Card>
+            </Link>
+          </div>
+          </FadeIn>
+        </div>
+      </section>
+
+      {/* Why Choose Alma */}
+      <section className="py-12 sm:py-16 lg:py-20 bg-gray-50">
+        <div className="container mx-auto px-4 sm:px-6">
+          <FadeIn>
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-10 sm:mb-16 text-center">
+              Pourquoi Alma ?
+            </h2>
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 lg:gap-12">
+              <div className="text-center">
+                <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#ef6110] mb-2 sm:mb-4">15+</div>
+                <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-1 sm:mb-2">Années d'expertise</h3>
+                <p className="text-xs sm:text-sm lg:text-base text-gray-600 hidden sm:block">
+                  Une connaissance approfondie du secteur
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#ef6110] mb-2 sm:mb-4">150+</div>
+                <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-1 sm:mb-2">Machines</h3>
+                <p className="text-xs sm:text-sm lg:text-base text-gray-600 hidden sm:block">
+                  Un large choix pour tous vos besoins
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#ef6110] mb-2 sm:mb-4">28</div>
+                <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-1 sm:mb-2">Marques</h3>
+                <p className="text-xs sm:text-sm lg:text-base text-gray-600 hidden sm:block">
+                  Les meilleurs constructeurs
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="text-3xl sm:text-4xl lg:text-5xl font-bold text-[#ef6110] mb-2 sm:mb-4">100%</div>
+                <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-1 sm:mb-2">Neuf</h3>
+                <p className="text-xs sm:text-sm lg:text-base text-gray-600 hidden sm:block">
+                  Machines neuves directement des constructeurs
+                </p>
+              </div>
+            </div>
+          </div>
+          </FadeIn>
+        </div>
+      </section>
+
+      {/* Client Reviews + Stats Section */}
+      <section className="relative py-12 sm:py-16 lg:py-20 overflow-hidden">
+        <div
+          className="absolute inset-0 bg-cover bg-center"
+          style={{ backgroundImage: 'url(' + images.testimonialBg + ')' }}
+        ></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-black/80 to-black/90"></div>
+        <div className="relative container mx-auto px-4 sm:px-6">
+          <FadeIn>
+          <div className="text-center mb-8 sm:mb-10">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-3">
+              Ils nous font confiance
+            </h2>
+            <p className="text-base sm:text-lg text-gray-400 max-w-2xl mx-auto">
+              Des industriels de toute la région PACA et Languedoc nous font confiance 
+              pour équiper leurs ateliers.
+            </p>
+          </div>
+          </FadeIn>
+          <div className="hidden md:flex justify-center pb-64">
+            <ReviewCards />
+          </div>
+          
+          {/* Review Cards - Mobile (simple stack) */}
+          <div className="md:hidden space-y-4 mb-12">
+            <div className="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 p-5">
+              <p className="text-white/90 italic text-sm mb-3">"Alma nous a accompagnés dans le choix d'un centre d'usinage 5 axes parfaitement adapté."</p>
+              <p className="text-[#ef6110] text-xs font-semibold">Philippe M. — Aix-en-Provence</p>
+            </div>
+            <div className="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 p-5">
+              <p className="text-white/90 italic text-sm mb-3">"Trois tours CNC installés en un temps record. Le conseil technique a fait toute la différence."</p>
+              <p className="text-[#ef6110] text-xs font-semibold">Laurent D. — Toulon</p>
+            </div>
+            <div className="bg-white/10 backdrop-blur-sm rounded-xl border border-white/10 p-5">
+              <p className="text-white/90 italic text-sm mb-3">"Une presse plieuse performante trouvée rapidement. Le suivi après-vente est irréprochable."</p>
+              <p className="text-[#ef6110] text-xs font-semibold">Sophie R. — Montpellier</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      {/* Final CTA */}
+      <section className="py-16 sm:py-20 lg:py-24 bg-white">
+        <div className="container mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
+            Prêt à équiper votre atelier ?
+          </h2>
+          <p className="text-base sm:text-lg lg:text-xl text-gray-600 mb-8 sm:mb-12 max-w-2xl mx-auto px-4">
+            Nos experts vous accompagnent dans le choix et l'installation de vos machines
+          </p>
+          <Link href="/contact">
+            <Button size="lg" className="bg-[#ef6110] hover:bg-[#d45510] text-white font-semibold text-base sm:text-lg px-8 sm:px-12 py-5 sm:py-6 rounded-full shadow-xl">
+              Demander un devis gratuit
+              <ArrowRight className="ml-2" size={18} />
+            </Button>
+          </Link>
+        </div>
+      </section>
+    </div>
+  </>
+  );
+};
+
+export default HomeClient;

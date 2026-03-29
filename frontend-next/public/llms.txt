@@ -1,0 +1,21 @@
+# Alma Machines-Outils
+> Revendeur de machines-outils industrielles neuves en région PACA (Provence-Alpes-Côte d'Azur). 28 constructeurs partenaires. Tournage, fraisage, rectification, chaudronnerie, robotisation, stockage, électroérosion, marquage laser, contrôle dimensionnel.
+
+## Contact
+- Gérant: Jean-Baptiste Borron
+- Email: jean-baptiste@alma-machines-outils.fr
+- WhatsApp: +33 6 03 31 56 88
+- Adresse: 6 Rue d'Oran, 13005 Marseille, France
+- LinkedIn: https://www.linkedin.com/company/alma-machines-outils
+- Réseau: Membre d'Arcane Group (réseau national machines-outils)
+
+## Zone d'intervention
+Façade méditerranéenne — départements 04, 05, 06, 13, 30, 34, 83, 84
+
+## Gammes
+- Usinage: /gamme/usinage
+- Chaudronnerie: /gamme/chaudronnerie
+- Menuiserie: /gamme/menuiserie
+
+## Constructeurs distribués
+CMZ, Soraluce, Hartford, Akira Seiki, Axile, Toyoda, Tornos, Geminis, ZMM, XYZ, Danobat, GER, ONA, HACO, Phenix, RoboJob, LogiTower, Thiel, Spaleck, LASIT, Kaltenbach, Kingsland, IMET, Everising, Tyro, Cincinnati VR, Unitech, Wenzel

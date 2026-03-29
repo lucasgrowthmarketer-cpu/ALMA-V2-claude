@@ -1,0 +1,35 @@
+'use client';
+import Link from 'next/link';
+import { brandsSimple } from '@/data/brandsSimple';
+import { machinesData } from '@/data/machinesData';
+const BrandPageClient = ({ brandSlug }) => {
+  const brand = brandsSimple.find(b => b.slug === brandSlug);
+  const machines = machinesData.filter(m => m.fabricant_slug === brandSlug);
+  if (!brand) return <div>Marque non trouvee</div>;
+  return (
+    <div className="container mx-auto px-4 py-12">
+      <Link href="/marques">Retour aux marques</Link>
+      <h1 className="text-3xl font-bold mt-4">{brand.nom}</h1>
+      <p className="mt-2">{brand.description}</p>
+      <h2 className="text-xl font-bold mt-8">Machines</h2>
+      <ul className="mt-4 space-y-2">
+        {machines.map(m => (
+          <li key={m.slug}>
+            <Link href={`/machine/${m.slug}`}>{m.designation}</Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+export default BrandPageC
+cp src/components/pages/BrandPageClient.jsx src/components/pages/BrandPageClient.jsx.bak
+cat > src/components/pages/BrandPageClient.jsx << 'EOF'
+'use client';
+import Link from 'next/link';
+import { brandsSimple } from '@/data/brandsSimple';
+import { machinesData } from '@/data/machinesData';
+const BrandPageClient = ({ brandSlug }) => {
+  const brand = brandsSimple.find(b => b.slug === brandSlug);
+  const machines = machinesData.filter(m => m.fabricant_slug === brandSlug);
+  if (!brand) return <div>Marque non trouvee</div>;

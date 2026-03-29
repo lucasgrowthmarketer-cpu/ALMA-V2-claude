@@ -1,0 +1,350 @@
+[
+  {
+    "slug": "akira",
+    "nom": "AKIRA",
+    "categories": [
+      "usinage"
+    ],
+    "sous_categories": [
+      "FRAISAGE"
+    ],
+    "description": "Constructeur taïwanais de centres d'usinage CNC depuis 1985",
+    "machine_count": 7
+  },
+  {
+    "slug": "axile",
+    "nom": "AXILE",
+    "categories": [
+      "usinage"
+    ],
+    "sous_categories": [
+      "FRAISAGE"
+    ],
+    "description": "Spécialiste des centres d'usinage CNC à grande vitesse 5 axes",
+    "machine_count": 3
+  },
+  {
+    "slug": "cincinnati",
+    "nom": "CINCINNATI VR",
+    "categories": [
+      "usinage",
+      "chaudronnerie"
+    ],
+    "sous_categories": [
+      "PERCAGE"
+    ],
+    "description": "Fabricant français de perceuses industrielles de haute qualité.",
+    "machine_count": 6
+  },
+  {
+    "slug": "cmz",
+    "nom": "CMZ",
+    "categories": [
+      "usinage"
+    ],
+    "sous_categories": [
+      "TOURNAGE"
+    ],
+    "description": "Constructeur européen de tours CNC depuis 1948",
+    "machine_count": 5
+  },
+  {
+    "slug": "danobat",
+    "nom": "DANOBAT",
+    "categories": [
+      "usinage"
+    ],
+    "sous_categories": [
+      "RECTIFICATION",
+      "USINAGE PAR ROBOT"
+    ],
+    "description": "Constructeur espagnol de rectifieuses de haute précision depuis 1954",
+    "machine_count": 7
+  },
+  {
+    "slug": "everising",
+    "nom": "EVERISING",
+    "categories": [
+      "usinage"
+    ],
+    "sous_categories": [
+      "DEBIT"
+    ],
+    "description": "Fabricant taïwanais de scies à ruban industrielles depuis 1982",
+    "machine_count": 5
+  },
+  {
+    "slug": "geminis",
+    "nom": "GEMINIS",
+    "categories": [
+      "usinage"
+    ],
+    "sous_categories": [
+      "TOURNAGE"
+    ],
+    "description": "Fabricant espagnol de tours lourds depuis 60 ans",
+    "machine_count": 2
+  },
+  {
+    "slug": "ger",
+    "nom": "GER",
+    "categories": [
+      "usinage"
+    ],
+    "sous_categories": [
+      "RECTIFICATION"
+    ],
+    "description": "Fabricant basque de rectifieuses depuis 1942",
+    "machine_count": 3
+  },
+  {
+    "slug": "haco",
+    "nom": "HACO",
+    "categories": [
+      "chaudronnerie"
+    ],
+    "sous_categories": [
+      "CISAILLAGE",
+      "DECOUPE LASER",
+      "PLIAGE",
+      "ROULAGE"
+    ],
+    "description": "Groupe belge leader en machines de tôlerie depuis 1965",
+    "machine_count": 14
+  },
+  {
+    "slug": "hartford",
+    "nom": "HARTFORD",
+    "categories": [
+      "usinage"
+    ],
+    "sous_categories": [
+      "FRAISAGE"
+    ],
+    "description": "Plus grand fabricant de centres d'usinage de Taïwan",
+    "machine_count": 6
+  },
+  {
+    "slug": "imet",
+    "nom": "IMET",
+    "categories": [
+      "chaudronnerie"
+    ],
+    "sous_categories": [
+      "DEBIT"
+    ],
+    "description": "Constructeur italien de scies depuis plus de 50 ans",
+    "machine_count": 5
+  },
+  {
+    "slug": "kaltenbach",
+    "nom": "KALTENBACH",
+    "categories": [
+      "chaudronnerie"
+    ],
+    "sous_categories": [
+      "DEBIT",
+      "DECOUPE",
+      "PERCAGE"
+    ],
+    "description": "Référence allemande des scies industrielles",
+    "machine_count": 4
+  },
+  {
+    "slug": "kingsland",
+    "nom": "KINGSLAND",
+    "categories": [
+      "chaudronnerie"
+    ],
+    "sous_categories": [
+      "POINCONNAGE"
+    ],
+    "description": "Fabricant britannique d'ironworkers depuis 60 ans",
+    "machine_count": 2
+  },
+  {
+    "slug": "lasit",
+    "nom": "LASIT",
+    "categories": [
+      "usinage"
+    ],
+    "sous_categories": [
+      "MARQUAGE LASER"
+    ],
+    "description": "Leader italien du marquage laser industriel depuis 1990",
+    "machine_count": 5
+  },
+  {
+    "slug": "logitower",
+    "nom": "LOGITOWER",
+    "categories": [
+      "chaudronnerie"
+    ],
+    "sous_categories": [
+      "STOCKAGE"
+    ],
+    "description": "Systèmes de stockage automatisé pour matériaux lourds",
+    "machine_count": 6
+  },
+  {
+    "slug": "ona",
+    "nom": "ONA",
+    "categories": [
+      "usinage"
+    ],
+    "sous_categories": [
+      "ELECTROEROSION"
+    ],
+    "description": "Pionnier mondial de l'électroérosion depuis 1952",
+    "machine_count": 5
+  },
+  {
+    "slug": "phenix",
+    "nom": "PHENIX",
+    "categories": [
+      "chaudronnerie"
+    ],
+    "sous_categories": [
+      "DECOUPE JET D'EAU",
+      "DECOUPE PLASMA"
+    ],
+    "description": "Constructeur français de machines de découpe CNC",
+    "machine_count": 6
+  },
+  {
+    "slug": "soraluce",
+    "nom": "SORALUCE",
+    "categories": [
+      "usinage"
+    ],
+    "sous_categories": [
+      "FRAISAGE"
+    ],
+    "description": "Spécialiste espagnol des fraiseuses de grande dimension",
+    "machine_count": 5
+  },
+  {
+    "slug": "spaleck",
+    "nom": "SPALECK",
+    "categories": [
+      "chaudronnerie",
+      "usinage"
+    ],
+    "sous_categories": [
+      "EBAVURAGE"
+    ],
+    "description": "Fabricant français de solutions d'ébavurage innovantes pour l'industrie.",
+    "machine_count": 7
+  },
+  {
+    "slug": "thiel",
+    "nom": "THIEL",
+    "categories": [
+      "chaudronnerie",
+      "usinage"
+    ],
+    "sous_categories": [
+      "STOCKAGE"
+    ],
+    "description": "Thiel est un fabricant Hollandais qui a developpé une gamme de système de rangement manuel innovant pour gagner de la place et améliorer le rangement.",
+    "machine_count": 18
+  },
+  {
+    "slug": "tornos",
+    "nom": "TORNOS",
+    "categories": [
+      "usinage"
+    ],
+    "sous_categories": [
+      "TOURNAGE"
+    ],
+    "description": "Référence suisse du décolletage depuis 1914",
+    "machine_count": 3
+  },
+  {
+    "slug": "toyoda",
+    "nom": "TOYODA",
+    "categories": [
+      "usinage"
+    ],
+    "sous_categories": [
+      "FRAISAGE"
+    ],
+    "description": "Constructeur japonais de centres d'usinage horizontaux de haute performance.",
+    "machine_count": 4
+  },
+  {
+    "slug": "tyro",
+    "nom": "TYRO",
+    "categories": [
+      "chaudronnerie"
+    ],
+    "sous_categories": [
+      "AMENAGE",
+      "DEBIT"
+    ],
+    "description": "Constructeur français de machines de coupe depuis 1945",
+    "machine_count": 11
+  },
+  {
+    "slug": "unitech",
+    "nom": "UNITECH",
+    "categories": [
+      "usinage"
+    ],
+    "sous_categories": [
+      "MORTAISAGE"
+    ],
+    "description": "Fabricant de mortaiseuses industrielles de précision.",
+    "machine_count": 3
+  },
+  {
+    "slug": "wenzel",
+    "nom": "WENZEL",
+    "categories": [
+      "usinage"
+    ],
+    "sous_categories": [
+      "CONTRÔLE DIMENSIONNEL"
+    ],
+    "description": "Leader allemand des machines à mesurer 3D depuis 1968",
+    "machine_count": 6
+  },
+  {
+    "slug": "xyz",
+    "nom": "XYZ",
+    "categories": [
+      "usinage"
+    ],
+    "sous_categories": [
+      "FRAISAGE",
+      "TOURNAGE"
+    ],
+    "description": "Leader britannique des machines-outils CNC depuis 1984",
+    "machine_count": 2
+  },
+  {
+    "slug": "zmm",
+    "nom": "ZMM",
+    "categories": [
+      "usinage"
+    ],
+    "sous_categories": [
+      "TOURNAGE"
+    ],
+    "description": "Fabricant bulgare de tours conventionnels",
+    "machine_count": 5
+  },
+  {
+    "slug": "robojob",
+    "nom": "ROBOJOB",
+    "categories": [
+      "usinage"
+    ],
+    "sous_categories": [
+      "ROBOTISATION"
+    ],
+    "description": "RoboJob est une société belge fondée en 2007 qui est spécialisé dans l’automatisation des machines à commande numérique (CNC). Depuis sa création, elle a installé plus de 2 300 robots dans le monde, s",
+    "machine_count": 6
+  }
+]
