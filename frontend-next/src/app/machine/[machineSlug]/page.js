@@ -15,5 +15,25 @@ export default async function MachinePage({ params: p }) {
   const params = await p;
   const machine = machinesData.find(m => m.slug === params.machineSlug);
   if (!machine) notFound();
-  return <MachinePageClient machineSlug={params.machineSlug} />;
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": machine.designation,
+    "description": machine.description,
+    "brand": { "@type": "Brand", "name": machine.fabricant },
+    "category": machine.sous_categorie,
+    "image": machine.photo ? `https://www.alma-machines-outils.fr${machine.photo}` : undefined,
+    "offers": {
+      "@type": "Offer",
+      "availability": "https://schema.org/InStock",
+      "priceCurrency": "EUR",
+      "seller": { "@type": "Organization", "name": "Alma Machines-Outils" }
+    }
+  };
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <MachinePageClient machineSlug={params.machineSlug} />
+    </>
+  );
 }

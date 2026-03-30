@@ -25,5 +25,20 @@ export async function generateMetadata({ params: p }) {
 export default async function VilleSEOPage({ params: p }) {
   const params = await p;
   if (!cities[params.ville]) notFound();
-  return <VilleSEOPageClient ville={params.ville} />;
+  const city = cities[params.ville];
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Alma Machines-Outils",
+    "description": `Distributeur de machines-outils neuves a ${city.nom}`,
+    "areaServed": { "@type": "City", "name": city.nom },
+    "address": { "@type": "PostalAddress", "addressLocality": "Marseille", "postalCode": "13005", "addressCountry": "FR" },
+    "telephone": "+33603315688",
+  };
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
+      <VilleSEOPageClient ville={params.ville} />
+    </>
+  );
 }
