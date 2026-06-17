@@ -1,11 +1,12 @@
 'use client';
 import Link from 'next/link';
 import React from 'react';
-import { ArrowLeft, ExternalLink, CheckCircle, ChevronLeft, ChevronRight } from 'lucide-react';
+import { ArrowLeft, ExternalLink, CheckCircle, ChevronLeft, ChevronRight, FileText, Download } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 import { getMachineBySlug, getBrandBySlug } from '@/data/machinesData';
+import { getBrandCatalogue } from '@/data/catalogues';
 import { images } from '@/data/images';
 
 const MachinePage = ({ machineSlug }) => {
@@ -25,6 +26,7 @@ const MachinePage = ({ machineSlug }) => {
   }
 
   const brand = getBrandBySlug(machine.fabricant_slug);
+  const machineCatalogue = getBrandCatalogue(machine.fabricant_slug);
   const relatedMachines = brand ? brand.machines.filter(m => m.slug !== machine.slug).slice(0, 3) : [];
 
   // Use photo from machine data directly
@@ -263,6 +265,27 @@ const MachinePage = ({ machineSlug }) => {
                     <Link href={`/marque/${machine.fabricant_slug}`} className="text-[#ef6110] text-sm font-medium hover:underline">
                       Voir toutes les machines {machine.fabricant}
                     </Link>
+                  </CardContent>
+                </Card>
+              )}
+
+              {/* Catalogue de la marque */}
+              {machineCatalogue && (
+                <Card className="mt-6">
+                  <CardContent className="p-6">
+                    <div className="flex items-center gap-3 mb-3">
+                      <FileText className="text-[#ef6110]" size={22} />
+                      <h3 className="text-lg font-bold text-gray-900">Catalogue {machine.fabricant}</h3>
+                    </div>
+                    <p className="text-sm text-gray-600 mb-4">
+                      Téléchargez la documentation complète {machine.fabricant} au format PDF.
+                    </p>
+                    <a href={machineCatalogue.file} target="_blank" rel="noopener noreferrer" download>
+                      <Button className="w-full bg-[#ef6110] hover:bg-[#d45510] text-white font-semibold">
+                        <Download size={16} className="mr-2" />
+                        Télécharger le catalogue
+                      </Button>
+                    </a>
                   </CardContent>
                 </Card>
               )}

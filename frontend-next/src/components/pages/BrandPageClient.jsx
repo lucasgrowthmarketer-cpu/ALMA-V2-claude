@@ -1,18 +1,20 @@
 'use client';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
-import { ArrowLeft, ArrowRight, MapPin, Phone, Mail, Building2 } from 'lucide-react';
+import { ArrowLeft, ArrowRight, MapPin, Phone, Mail, Building2, FileText, Download } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { machinesData } from '@/data/machinesData';
 import { brandsSimple } from '@/data/brandsSimple';
 import { images } from '@/data/images';
 import BrandLogo from '@/components/BrandLogo';
+import { getBrandCatalogue } from '@/data/catalogues';
 
 const BrandPage = ({ brandSlug }) => {
   // brandSlug from props
   const brandInfo = brandsSimple.find(b => b.slug === brandSlug);
   const brandMachines = machinesData.filter(m => m.fabricant_slug === brandSlug);
+  const brandCatalogue = getBrandCatalogue(brandSlug);
   const [brandDescription, setBrandDescription] = useState(null);
   const [loading, setLoading] = useState(true);
 
@@ -114,6 +116,35 @@ const BrandPage = ({ brandSlug }) => {
           </div>
         </div>
       </section>
+
+      {/* Catalogue de la marque */}
+      {brandCatalogue && (
+        <section className="py-8 bg-white border-b border-gray-100">
+          <div className="container mx-auto px-4">
+            <div className="max-w-4xl mx-auto">
+              <Card className="border-2 border-[#ef6110]/20 bg-gradient-to-r from-orange-50 to-white">
+                <CardContent className="p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                  <div className="flex items-center gap-4">
+                    <div className="bg-[#ef6110]/10 p-3 rounded-xl flex-shrink-0">
+                      <FileText className="text-[#ef6110]" size={28} />
+                    </div>
+                    <div>
+                      <h2 className="text-lg font-bold text-gray-900">Catalogue {brandInfo.nom}</h2>
+                      <p className="text-sm text-gray-600">Documentation complète de la gamme {brandInfo.nom} au format PDF.</p>
+                    </div>
+                  </div>
+                  <a href={brandCatalogue.file} target="_blank" rel="noopener noreferrer" download className="flex-shrink-0">
+                    <Button className="bg-[#ef6110] hover:bg-[#d45510] text-white font-semibold whitespace-nowrap">
+                      <Download size={18} className="mr-2" />
+                      Télécharger le catalogue
+                    </Button>
+                  </a>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Brand Description - SEO Content */}
       {brandDescription && brandDescription.fullDescription && (
