@@ -6,7 +6,7 @@ import brandsSimple from './brands_simple.json';
 const BRAND_CATALOGUE_SLUGS = [
   'akira', 'axile', 'cincinnati', 'cmz', 'danobat', 'everising', 'geminis', 'ger',
   'haco', 'hartford', 'imet', 'kaltenbach', 'lasit', 'logitower', 'ona', 'phenix',
-  'robojob', 'soraluce', 'thiel', 'tornos', 'toyoda', 'wenzel', 'xyz',
+  'robojob', 'soraluce', 'spaleck', 'thiel', 'tornos', 'toyoda', 'wenzel', 'xyz',
 ];
 
 // Plaquettes ALMA (document institutionnel général + plaquettes par gamme).

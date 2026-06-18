@@ -141,7 +141,7 @@ const BlogArticlePageClient = ({ slug }) => {
       </section>
 
       {/* Article Content */}
-      <article className="py-12">
+      <article className="py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             {/* Meta info */}
@@ -164,19 +164,20 @@ const BlogArticlePageClient = ({ slug }) => {
             </div>
 
             {/* Excerpt / Lead paragraph */}
-            <p className="text-xl md:text-2xl text-gray-700 leading-relaxed mb-10 font-serif italic">
+            <p className="text-xl md:text-2xl text-gray-700 leading-relaxed mb-12 font-serif italic">
               {article.excerpt}
             </p>
 
             {/* Main content - Journalistic style */}
             <div className="prose prose-lg max-w-none 
               prose-headings:font-bold prose-headings:text-gray-900
-              prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6 prose-h2:border-b prose-h2:border-gray-200 prose-h2:pb-4
-              prose-h3:text-xl prose-h3:mt-8 prose-h3:mb-4
-              prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-6
+              prose-h2:text-3xl prose-h2:mt-16 prose-h2:mb-6 prose-h2:border-b prose-h2:border-gray-200 prose-h2:pb-4
+              prose-h3:text-xl prose-h3:mt-10 prose-h3:mb-4
+              prose-p:text-gray-700 prose-p:leading-loose prose-p:mb-8
               prose-strong:text-gray-900 prose-strong:font-semibold
-              prose-ul:my-6 prose-li:text-gray-700 prose-li:mb-2
-              prose-blockquote:border-l-4 prose-blockquote:border-[#ef6110] prose-blockquote:bg-orange-50 prose-blockquote:py-4 prose-blockquote:px-6 prose-blockquote:italic prose-blockquote:text-gray-700 prose-blockquote:my-8
+              prose-ul:my-8 prose-ol:my-8 prose-li:text-gray-700 prose-li:mb-3 prose-li:leading-relaxed
+              prose-blockquote:border-l-4 prose-blockquote:border-[#ef6110] prose-blockquote:bg-orange-50 prose-blockquote:py-5 prose-blockquote:px-6 prose-blockquote:italic prose-blockquote:text-gray-700 prose-blockquote:my-10
+              prose-img:rounded-xl prose-img:my-10 prose-img:shadow-sm
               prose-a:text-[#ef6110] prose-a:no-underline hover:prose-a:underline
             ">
               <ReactMarkdown>{content}</ReactMarkdown>
