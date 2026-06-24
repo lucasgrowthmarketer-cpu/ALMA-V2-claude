@@ -1,7 +1,7 @@
 'use client';
 import React, { useMemo, useState } from 'react';
 import Link from 'next/link';
-import { ArrowRight, ArrowLeft, Filter, X } from 'lucide-react';
+import { ArrowRight, ArrowLeft, Filter, X, ChevronDown } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { getMachinesByCategory, getSubCategories, mainCategories, brandsData } from '@/data/machinesData';
@@ -9,6 +9,20 @@ import { images } from '@/data/images';
 import BrandLogo from '@/components/BrandLogo';
 
 import { FadeIn } from '@/hooks/useScrollAnimation';
+
+// Libellés d'affichage des sous-catégories (corrige les accents absents des données brutes)
+const SUBCAT_LABELS = {
+  'DEBIT': 'Débit',
+  'EBAVURAGE': 'Ébavurage',
+  'ELECTROEROSION': 'Électroérosion',
+  'PERCAGE': 'Perçage',
+  'POINCONNAGE': 'Poinçonnage',
+  'DECOUPE': 'Découpe',
+  'DECOUPE LASER': 'Découpe laser',
+  'DECOUPE PLASMA': 'Découpe plasma',
+  "DECOUPE JET D'EAU": "Découpe jet d'eau",
+};
+const formatSubCat = (s) => SUBCAT_LABELS[s] || (s.charAt(0) + s.slice(1).toLowerCase());
 
 const CategoryPageClient = ({ category }) => {
   // category received via props
@@ -18,7 +32,8 @@ const CategoryPageClient = ({ category }) => {
 
   const [selectedSubCat, setSelectedSubCat] = useState('all');
   const [selectedBrand, setSelectedBrand] = useState('all');
-  const [filtersOpen, setFiltersOpen] = useState(false);
+  const [subCatOpen, setSubCatOpen] = useState(false);
+  const [brandOpen, setBrandOpen] = useState(false);
 
   // Get unique brands in this category
   const brandsInCategory = useMemo(() => {
@@ -91,78 +106,88 @@ const CategoryPageClient = ({ category }) => {
         </div>
       </section>
 
-      {/* Filters - only show if category has machines */}
+      {/* Filters - deux groupes de pastilles rétractables, only show if category has machines */}
       {allMachines.length > 0 && (
       <section className="bg-white border-b sticky top-[57px] sm:top-[65px] z-30">
-        <div className="container mx-auto px-4">
-          {/* Mobile: toggle button */}
-          <button 
-            onClick={() => setFiltersOpen(!filtersOpen)}
-            className="w-full py-3 flex items-center justify-between sm:hidden"
-          >
-            <div className="flex items-center gap-2">
-              <Filter size={16} className="text-[#ef6110]" />
-              <span className="text-sm font-semibold text-gray-900">
-                Filtrer {hasActiveFilters ? `(${filteredMachines.length} résultats)` : ''}
-              </span>
-            </div>
-            <span className={'text-gray-400 transition-transform ' + (filtersOpen ? 'rotate-180' : '')}>▼</span>
-          </button>
-
-          {/* Filters content - always visible on desktop, collapsible on mobile */}
-          <div className={'sm:block sm:py-6 ' + (filtersOpen ? 'block pb-4' : 'hidden')}>
-            {/* Subcategory filters */}
-            <div className="mb-4">
-              <span className="text-sm font-medium text-gray-700 mb-2 block">Sous-catégorie</span>
-              <div className="flex flex-wrap gap-2">
-                <button
-                  onClick={() => { setSelectedSubCat('all'); setSelectedBrand('all'); setFiltersOpen(false); }}
-                  className={'px-3 py-1.5 rounded-full text-sm font-medium transition-all ' + (selectedSubCat === 'all' ? 'bg-[#ef6110] text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200')}
-                >
-                  Toutes
-                </button>
-                {subCategories.map(sub => (
+        <div className="container mx-auto px-4 py-2">
+          <div className="flex flex-col sm:flex-row sm:items-start sm:gap-8">
+            {/* Sous-catégorie (rétractable) */}
+            <div className="flex-1 border-b border-gray-100 sm:border-b-0">
+              <button
+                onClick={() => setSubCatOpen(o => !o)}
+                aria-expanded={subCatOpen}
+                className="w-full flex items-center justify-between gap-2 py-2.5 text-left"
+              >
+                <span className="flex items-center gap-2 text-sm font-semibold text-gray-900">
+                  <Filter size={15} className="text-[#ef6110]" />
+                  Sous-catégorie
+                  <span className="font-normal text-gray-400">· {selectedSubCat === 'all' ? 'Toutes' : formatSubCat(selectedSubCat)}</span>
+                </span>
+                <ChevronDown size={16} className={'text-gray-400 transition-transform shrink-0 ' + (subCatOpen ? 'rotate-180' : '')} />
+              </button>
+              {subCatOpen && (
+                <div className="flex flex-wrap gap-2 pb-3 pt-1">
                   <button
-                    key={sub}
-                    onClick={() => { setSelectedSubCat(sub); setSelectedBrand('all'); setFiltersOpen(false); }}
-                    className={'px-3 py-1.5 rounded-full text-sm font-medium transition-all ' + (selectedSubCat === sub ? 'bg-[#ef6110] text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200')}
+                    onClick={() => { setSelectedSubCat('all'); setSelectedBrand('all'); }}
+                    className={'px-3 py-1.5 rounded-full text-sm font-medium transition-all ' + (selectedSubCat === 'all' ? 'bg-[#ef6110] text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200')}
                   >
-                    {sub.charAt(0) + sub.slice(1).toLowerCase()}
+                    Toutes
                   </button>
-                ))}
-              </div>
+                  {subCategories.map(sub => (
+                    <button
+                      key={sub}
+                      onClick={() => { setSelectedSubCat(sub); setSelectedBrand('all'); }}
+                      className={'px-3 py-1.5 rounded-full text-sm font-medium transition-all ' + (selectedSubCat === sub ? 'bg-[#ef6110] text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200')}
+                    >
+                      {formatSubCat(sub)}
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
 
-            {/* Brand filters */}
-            <div>
-              <span className="text-sm font-medium text-gray-700 mb-2 block">Marque</span>
-              <div className="flex flex-wrap gap-2">
-                <button
-                  onClick={() => { setSelectedBrand('all'); setFiltersOpen(false); }}
-                  className={'px-3 py-1.5 rounded-full text-sm font-medium transition-all ' + (selectedBrand === 'all' ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200')}
-                >
-                  Toutes
-                </button>
-                {availableBrands.map(brand => (
+            {/* Marque (rétractable) */}
+            <div className="flex-1">
+              <button
+                onClick={() => setBrandOpen(o => !o)}
+                aria-expanded={brandOpen}
+                className="w-full flex items-center justify-between gap-2 py-2.5 text-left"
+              >
+                <span className="flex items-center gap-2 text-sm font-semibold text-gray-900">
+                  Marque
+                  <span className="font-normal text-gray-400">· {selectedBrand === 'all' ? 'Toutes' : (brandsInCategory.find(b => b.slug === selectedBrand)?.nom || 'Toutes')}</span>
+                </span>
+                <ChevronDown size={16} className={'text-gray-400 transition-transform shrink-0 ' + (brandOpen ? 'rotate-180' : '')} />
+              </button>
+              {brandOpen && (
+                <div className="flex flex-wrap gap-2 pb-3 pt-1">
                   <button
-                    key={brand.slug}
-                    onClick={() => { setSelectedBrand(brand.slug); setFiltersOpen(false); }}
-                    className={'px-3 py-1.5 rounded-full text-sm font-medium transition-all ' + (selectedBrand === brand.slug ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200')}
+                    onClick={() => setSelectedBrand('all')}
+                    className={'px-3 py-1.5 rounded-full text-sm font-medium transition-all ' + (selectedBrand === 'all' ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200')}
                   >
-                    {brand.nom}
+                    Toutes
                   </button>
-                ))}
-              </div>
+                  {availableBrands.map(brand => (
+                    <button
+                      key={brand.slug}
+                      onClick={() => setSelectedBrand(brand.slug)}
+                      className={'px-3 py-1.5 rounded-full text-sm font-medium transition-all ' + (selectedBrand === brand.slug ? 'bg-gray-900 text-white' : 'bg-gray-100 text-gray-700 hover:bg-gray-200')}
+                    >
+                      {brand.nom}
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
 
-            {/* Active filters reset */}
+            {/* Réinitialiser */}
             {hasActiveFilters && (
               <button
-                onClick={() => { setSelectedSubCat('all'); setSelectedBrand('all'); setFiltersOpen(false); }}
-                className="mt-3 flex items-center gap-1 text-sm text-[#ef6110] hover:underline"
+                onClick={() => { setSelectedSubCat('all'); setSelectedBrand('all'); }}
+                className="flex items-center gap-1 text-sm text-[#ef6110] hover:underline whitespace-nowrap shrink-0 py-2.5"
               >
                 <X size={14} />
-                Réinitialiser les filtres
+                Réinitialiser
               </button>
             )}
           </div>
