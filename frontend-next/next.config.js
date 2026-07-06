@@ -1,6 +1,14 @@
 /** @type {import('next').NextConfig} */
+const BACKEND_URL = process.env.BACKEND_URL || 'https://alma-v2-claude-production-a977.up.railway.app';
+
 const nextConfig = {
   output: 'standalone',
+  async rewrites() {
+    return [
+      // Proxifie les appels API du site vers le backend FastAPI (same-origin, pas de CORS)
+      { source: '/api/:path*', destination: `${BACKEND_URL}/api/:path*` },
+    ];
+  },
   async redirects() {
     return [
       { source: '/gamme-usinage', destination: '/gamme/usinage', permanent: true },

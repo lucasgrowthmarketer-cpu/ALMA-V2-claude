@@ -5,6 +5,7 @@ import { Download, X, Send } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
+import { Checkbox } from '@/components/ui/checkbox';
 
 const LEAD_FLAG = 'alma_catalogue_lead_done';
 
@@ -12,8 +13,7 @@ function triggerDownload(file) {
   const a = document.createElement('a');
   a.href = file;
   a.download = '';
-  a.target = '_blank';
-  a.rel = 'noopener noreferrer';
+  a.rel = 'noopener';
   document.body.appendChild(a);
   a.click();
   document.body.removeChild(a);
@@ -134,22 +134,22 @@ const CatalogueDownloadButton = ({
               <Label className="text-sm font-medium text-gray-700 mb-1 block">E-mail *</Label>
               <Input name="email" type="email" value={form.email} onChange={handleChange} required placeholder="jean@entreprise.com" />
             </div>
-            <label className="flex items-start gap-2 text-xs text-gray-600 cursor-pointer pt-1">
-              <input
-                type="checkbox"
+            <div className="flex items-start gap-2 pt-1">
+              <Checkbox
+                id="consent-catalogue"
                 checked={consent}
-                onChange={(e) => setConsent(e.target.checked)}
-                className="mt-0.5 accent-[#ef6110]"
+                onCheckedChange={(v) => setConsent(v === true)}
+                className="mt-0.5"
               />
-              <span>
+              <Label htmlFor="consent-catalogue" className="text-xs text-gray-600 font-normal cursor-pointer leading-snug">
                 J'accepte d'être recontacté par ALMA Machines-Outils et que mes données soient traitées
                 conformément à la{' '}
                 <a href="/politique-confidentialite" target="_blank" className="text-[#ef6110] underline">
                   politique de confidentialité
                 </a>
                 .
-              </span>
-            </label>
+              </Label>
+            </div>
             {error && <p className="text-sm text-red-600">{error}</p>}
             <Button
               type="submit"
