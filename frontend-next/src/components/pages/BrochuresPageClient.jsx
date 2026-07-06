@@ -1,7 +1,7 @@
 'use client';
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, FileText, ArrowRight, Send, Download } from 'lucide-react';
+import { ArrowLeft, FileText, ArrowRight, Send } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -10,8 +10,7 @@ import { siteConfig } from '@/data/machinesData';
 import { useToast } from '@/hooks/use-toast';
 import { plaquettes, brandCatalogues } from '@/data/catalogues';
 import BrandLogo from '@/components/BrandLogo';
-
-import { submitForm } from '@/lib/api';
+import CatalogueDownloadButton from '@/components/pages/CatalogueDownloadButton';
 
 // Carte de catalogue téléchargeable (disposition commune plaquettes + marques)
 const CatalogueCard = ({ title, subtitle, description, file, color, logoSlug }) => (
@@ -29,12 +28,12 @@ const CatalogueCard = ({ title, subtitle, description, file, color, logoSlug }) 
     </div>
     <CardContent className="p-6 flex flex-col flex-1">
       <p className="text-gray-700 text-sm mb-6 flex-1">{description}</p>
-      <a href={file} target="_blank" rel="noopener noreferrer" download className="mt-auto">
-        <Button className="w-full bg-[#ef6110] hover:bg-[#d45510] text-white font-semibold rounded-full">
-          <Download size={16} className="mr-2" />
-          Télécharger le PDF
-        </Button>
-      </a>
+      <CatalogueDownloadButton
+        catalogueName={title}
+        catalogueFile={file}
+        source="Brochures"
+        className="w-full rounded-full mt-auto"
+      />
     </CardContent>
   </Card>
 );
@@ -52,7 +51,6 @@ const BrochuresPageClient = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-
     try {
       const backendUrl = process.env.REACT_APP_API_URL || '';
       const response = await fetch(`${backendUrl}/api/brochures`, {
@@ -60,7 +58,6 @@ const BrochuresPageClient = () => {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
       });
-
       if (response.ok) {
         toast({ title: "Demande envoyée !", description: "Vous recevrez nos brochures par email très prochainement." });
         setFormData({ nom: '', email: '', telephone: '', entreprise: '' });
@@ -70,13 +67,11 @@ const BrochuresPageClient = () => {
     } catch (error) {
       window.location.href = `mailto:${siteConfig.email}?subject=${encodeURIComponent('[Brochures] Demande de catalogues')}&body=${encodeURIComponent(`Nom: ${formData.nom}\nEmail: ${formData.email}\nEntreprise: ${formData.entreprise}`)}`;
     }
-
     setIsSubmitting(false);
   };
 
   return (
     <>
-      
     <div className="min-h-screen bg-gray-50">
       <section className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-16">
         <div className="container mx-auto px-4">
@@ -97,14 +92,7 @@ const BrochuresPageClient = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {plaquettes.map((p) => (
-              <CatalogueCard
-                key={p.id}
-                title={p.title}
-                subtitle={p.category}
-                description={p.description}
-                file={p.file}
-                color={p.color}
-              />
+              <CatalogueCard key={p.id} title={p.title} subtitle={p.category} description={p.description} file={p.file} color={p.color} />
             ))}
           </div>
         </div>
@@ -119,15 +107,7 @@ const BrochuresPageClient = () => {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {brandCatalogues.map((b) => (
-              <CatalogueCard
-                key={b.slug}
-                title={b.nom}
-                subtitle={formatCategories(b.categories)}
-                description={b.description}
-                file={b.file}
-                color={b.color}
-                logoSlug={b.slug}
-              />
+              <CatalogueCard key={b.slug} title={b.nom} subtitle={formatCategories(b.categories)} description={b.description} file={b.file} color={b.color} logoSlug={b.slug} />
             ))}
           </div>
         </div>

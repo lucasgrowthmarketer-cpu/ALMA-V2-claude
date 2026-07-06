@@ -15,6 +15,9 @@ load_dotenv(ROOT_DIR / '.env')
 # Brevo API
 BREVO_API_KEY = os.environ.get('BREVO_API_KEY', '')
 BREVO_API_URL = 'https://api.brevo.com/v3/smtp/email'
+BREVO_CONTACTS_URL = 'https://api.brevo.com/v3/contacts'
+BREVO_CATALOGUE_LIST_ID = int(os.environ.get('BREVO_CATALOGUE_LIST_ID', '5'))
+SITE_URL = 'https://www.alma-machines-outils.fr'
 RECIPIENT_EMAIL = 'jean-baptiste@alma-machines-outils.fr'
 RECIPIENT_NAME = 'Jean-Baptiste BORRON'
 SENDER_EMAIL = 'noreply@alma-machines-outils.fr'
@@ -64,6 +67,16 @@ class BrochureForm(BaseModel):
     telephone: Optional[str] = ''
     entreprise: Optional[str] = ''
 
+class CatalogueLeadForm(BaseModel):
+    nom: str
+    societe: str
+    telephone: str
+    email: str
+    catalogue: str
+    catalogue_url: Optional[str] = ''
+    source: Optional[str] = ''
+    consent: Optional[bool] = False
+
 
 # ============ BREVO HELPER ============
 
@@ -97,6 +110,30 @@ async def send_brevo_email(subject, html_content, reply_to_email=None, reply_to_
     else:
         logger.error(f"Brevo error {response.status_code}: {response.text}")
         raise HTTPException(status_code=500, detail="Erreur lors de l envoi")
+
+
+async def add_brevo_contact(email, nom, societe, telephone):
+    """Enregistre / met a jour le contact dans Brevo et l'ajoute a la liste dediee (best-effort)."""
+    if not BREVO_API_KEY:
+        return False
+    payload = {
+        "email": email,
+        "attributes": {"NOM": nom},
+        "updateEnabled": True,
+    }
+    if BREVO_CATALOGUE_LIST_ID:
+        payload["listIds"] = [BREVO_CATALOGUE_LIST_ID]
+    headers = {"accept": "application/json", "content-type": "application/json", "api-key": BREVO_API_KEY}
+    try:
+        async with httpx.AsyncClient() as client:
+            response = await client.post(BREVO_CONTACTS_URL, json=payload, headers=headers, timeout=10.0)
+        if response.status_code in (200, 201, 204):
+            logger.info(f"Brevo contact upserted: {email}")
+            return True
+        logger.error(f"Brevo contact error {response.status_code}: {response.text}")
+    except Exception as e:
+        logger.error(f"Brevo contact exception: {e}")
+    return False
 
 
 def email_template(title, content_rows, accent_color="#ef6110"):
@@ -171,6 +208,29 @@ async def submit_brochure(form: BrochureForm):
     ])
     await send_brevo_email(subject, html, reply_to_email=form.email, reply_to_name=form.nom)
     return {"success": True, "message": "Votre demande de brochures a ete envoyee."}
+
+@api_router.post("/catalogue-lead")
+async def submit_catalogue_lead(form: CatalogueLeadForm):
+    # 1) Enregistrement du lead dans Brevo (liste dediee) - best effort
+    await add_brevo_contact(form.email, form.nom, form.societe, form.telephone)
+    # 2) Email recap a Jean-Baptiste
+    lien = ''
+    if form.catalogue_url:
+        url = f"{SITE_URL}{form.catalogue_url}"
+        lien = f'<a href="{url}">{url}</a>'
+    subject = f"[Catalogue] {form.catalogue} - {form.nom}"
+    html = email_template("Nouveau lead - telechargement catalogue", [
+        ("Nom et prenom", form.nom),
+        ("Societe", form.societe),
+        ("Telephone", form.telephone),
+        ("Email", form.email),
+        ("Catalogue", form.catalogue),
+        ("Lien", lien),
+        ("Source", form.source),
+        ("Consentement", "Oui" if form.consent else "Non"),
+    ])
+    await send_brevo_email(subject, html, reply_to_email=form.email, reply_to_name=form.nom)
+    return {"success": True, "message": "Merci, votre telechargement va demarrer."}
 
 
 app.include_router(api_router)

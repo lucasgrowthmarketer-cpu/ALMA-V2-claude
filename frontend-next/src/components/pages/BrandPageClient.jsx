@@ -1,7 +1,7 @@
 'use client';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
-import { ArrowLeft, ArrowRight, MapPin, Phone, Mail, Building2, FileText, Download } from 'lucide-react';
+import { ArrowLeft, ArrowRight, MapPin, Phone, Mail, Building2, FileText } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { machinesData } from '@/data/machinesData';
@@ -9,6 +9,7 @@ import { brandsSimple } from '@/data/brandsSimple';
 import { images } from '@/data/images';
 import BrandLogo from '@/components/BrandLogo';
 import { getBrandCatalogue } from '@/data/catalogues';
+import CatalogueDownloadButton from '@/components/pages/CatalogueDownloadButton';
 
 const BrandPage = ({ brandSlug }) => {
   // brandSlug from props
@@ -133,12 +134,13 @@ const BrandPage = ({ brandSlug }) => {
                       <p className="text-sm text-gray-600">Documentation complète de la gamme {brandInfo.nom} au format PDF.</p>
                     </div>
                   </div>
-                  <a href={brandCatalogue.file} target="_blank" rel="noopener noreferrer" download className="flex-shrink-0">
-                    <Button className="bg-[#ef6110] hover:bg-[#d45510] text-white font-semibold whitespace-nowrap">
-                      <Download size={18} className="mr-2" />
-                      Télécharger le catalogue
-                    </Button>
-                  </a>
+                  <CatalogueDownloadButton
+                    catalogueName={'Catalogue ' + brandInfo.nom}
+                    catalogueFile={brandCatalogue.file}
+                    source={'Marque : ' + brandInfo.nom}
+                    label="Télécharger le catalogue"
+                    className="whitespace-nowrap flex-shrink-0"
+                  />
                 </CardContent>
               </Card>
             </div>

@@ -1,12 +1,13 @@
 'use client';
 import Link from 'next/link';
 import React from 'react';
-import { ArrowLeft, ExternalLink, CheckCircle, ChevronLeft, ChevronRight, FileText, Download } from 'lucide-react';
+import { ArrowLeft, ExternalLink, CheckCircle, ChevronLeft, ChevronRight, FileText } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 import { getMachineBySlug, getBrandBySlug } from '@/data/machinesData';
 import { getBrandCatalogue } from '@/data/catalogues';
+import CatalogueDownloadButton from '@/components/pages/CatalogueDownloadButton';
 import { images } from '@/data/images';
 
 const MachinePage = ({ machineSlug }) => {
@@ -280,12 +281,13 @@ const MachinePage = ({ machineSlug }) => {
                     <p className="text-sm text-gray-600 mb-4">
                       Téléchargez la documentation complète {machine.fabricant} au format PDF.
                     </p>
-                    <a href={machineCatalogue.file} target="_blank" rel="noopener noreferrer" download>
-                      <Button className="w-full bg-[#ef6110] hover:bg-[#d45510] text-white font-semibold">
-                        <Download size={16} className="mr-2" />
-                        Télécharger le catalogue
-                      </Button>
-                    </a>
+                    <CatalogueDownloadButton
+                      catalogueName={'Catalogue ' + machine.fabricant}
+                      catalogueFile={machineCatalogue.file}
+                      source={'Machine : ' + machine.designation}
+                      label="Télécharger le catalogue"
+                      className="w-full"
+                    />
                   </CardContent>
                 </Card>
               )}
