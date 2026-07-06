@@ -2,9 +2,12 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
-import { Menu, X, Search, Phone, Mail, ChevronDown, ChevronRight, ArrowRight } from 'lucide-react';
+import { Menu, X, Search, Phone, Mail, ChevronDown, ChevronRight, ArrowRight, Wrench, LifeBuoy, Puzzle, Banknote } from 'lucide-react';
 import { Button } from './ui/button';
 import { siteConfig, mainCategories, machinesData } from '@/data/machinesData';
+import { services } from '@/data/services';
+
+const SERVICE_ICONS = { Wrench, LifeBuoy, Puzzle, Banknote };
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,6 +15,7 @@ const Header = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [searchResults, setSearchResults] = useState([]);
   const [isGammesOpen, setIsGammesOpen] = useState(false);
+  const [isServicesOpen, setIsServicesOpen] = useState(false);
   const pathname = usePathname();
   const router = useRouter();
 
@@ -20,6 +24,7 @@ const Header = () => {
     setIsMenuOpen(false);
     setIsSearchOpen(false);
     setIsGammesOpen(false);
+    setIsServicesOpen(false);
   }, [pathname]);
 
   // Prevent body scroll when menu is open
@@ -35,6 +40,7 @@ const Header = () => {
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const toggleSearch = () => setIsSearchOpen(!isSearchOpen);
   const toggleGammes = () => setIsGammesOpen(!isGammesOpen);
+  const toggleServices = () => setIsServicesOpen(!isServicesOpen);
 
   const handleSearch = (e) => {
     e.preventDefault();
@@ -143,6 +149,37 @@ const Header = () => {
             <Link href="/occasion" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base">
               Occasion
             </Link>
+
+            {/* Services Dropdown */}
+            <div className="relative group">
+              <Link href="/services" className="inline-flex items-center gap-1 text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base">
+                Services
+                <ChevronDown size={14} className="relative top-px" />
+              </Link>
+              <div className="absolute left-1/2 -translate-x-1/2 top-full mt-2 w-[420px] bg-white border border-border rounded-xl shadow-2xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50 p-4">
+                <div className="grid grid-cols-1 gap-1">
+                  {services.map((s) => {
+                    const Icon = SERVICE_ICONS[s.icon];
+                    return (
+                      <Link key={s.slug} href={'/services/' + s.slug} className="flex items-start gap-3 px-3 py-2 rounded-lg hover:bg-gray-50 transition-colors">
+                        {Icon && <span className="text-[#ef6110] mt-0.5"><Icon size={18} /></span>}
+                        <span>
+                          <span className="block font-semibold text-gray-900 text-sm">{s.menuLabel}</span>
+                          <span className="block text-xs text-muted-foreground line-clamp-1">{s.excerpt}</span>
+                        </span>
+                      </Link>
+                    );
+                  })}
+                </div>
+                <div className="border-t mt-2 pt-2">
+                  <Link href="/services" className="flex items-center justify-between px-3 py-2 rounded-lg hover:bg-gray-50 transition-colors">
+                    <span className="text-sm font-medium text-gray-700">Tous nos services</span>
+                    <ArrowRight size={14} className="text-[#ef6110]" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+
             <Link href="/brochures" className="text-foreground hover:text-primary transition-colors font-medium text-sm xl:text-base">
               Nos Brochures
             </Link>
@@ -310,6 +347,39 @@ const Header = () => {
             >
               Occasion
             </Link>
+
+            {/* Mobile Services - Expandable */}
+            <div className="border-b border-border">
+              <button 
+                onClick={toggleServices}
+                className="w-full py-4 flex items-center justify-between text-lg font-medium text-foreground"
+              >
+                <span>Services</span>
+                <ChevronRight size={20} className={'transition-transform ' + (isServicesOpen ? 'rotate-90' : '')} />
+              </button>
+              {isServicesOpen && (
+                <div className="pb-4 pl-4 space-y-1">
+                  {services.map((s) => (
+                    <Link
+                      key={s.slug}
+                      href={'/services/' + s.slug}
+                      onClick={toggleMenu}
+                      className="block py-3 px-4 text-foreground hover:text-primary hover:bg-gray-50 rounded-lg transition-colors"
+                    >
+                      <div className="font-medium">{s.menuLabel}</div>
+                    </Link>
+                  ))}
+                  <Link
+                    href="/services"
+                    onClick={toggleMenu}
+                    className="block py-3 px-4 text-[#ef6110] font-medium hover:bg-gray-50 rounded-lg transition-colors"
+                  >
+                    Tous nos services →
+                  </Link>
+                </div>
+              )}
+            </div>
+
             <Link 
               href="/brochures" 
               onClick={toggleMenu} 

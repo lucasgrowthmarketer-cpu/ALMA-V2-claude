@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import { siteConfig, mainCategories } from '@/data/machinesData';
+import { services } from '@/data/services';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -127,6 +128,22 @@ const Footer = () => {
                 </Link>
               </li>
             </ul>
+
+            <h3 className="text-white font-semibold text-base sm:text-lg mb-2 sm:mb-3 mt-6">Nos Services</h3>
+            <ul className="space-y-1">
+              {services.map((s) => (
+                <li key={s.slug}>
+                  <Link href={'/services/' + s.slug} className="text-xs hover:text-primary transition-colors block py-0.5">
+                    {s.menuLabel}
+                  </Link>
+                </li>
+              ))}
+              <li>
+                <Link href="/ernault-services" className="text-xs hover:text-primary transition-colors block py-0.5">
+                  Ernault Services
+                </Link>
+              </li>
+            </ul>
           </div>
 
           {/* Contact - Full width on small mobile */}
@@ -157,6 +174,24 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+        </div>
+      </div>
+
+      {/* Ernault Services */}
+      <div className="border-t border-gray-800">
+        <div className="container mx-auto px-4 sm:px-6 py-6 sm:py-8">
+          <Link href="/ernault-services" className="flex flex-col sm:flex-row items-center justify-center gap-4 group">
+            <img 
+              src="/images/ernault-services-logo.png" 
+              alt="Ernault Services" 
+              className="h-10 sm:h-12 w-auto object-contain bg-white rounded-lg px-3 py-1.5"
+            />
+            <div className="text-center sm:text-left">
+              <p className="text-xs sm:text-sm text-gray-400 group-hover:text-white transition-colors">
+                <span className="text-white font-semibold">ERNAULT SERVICES</span>, le SAV machines-outils du réseau Arcane Group. Installation, maintenance, options et pièces détachées, héritier de la maison Ernault depuis 1892.
+              </p>
+            </div>
+          </Link>
         </div>
       </div>
 
