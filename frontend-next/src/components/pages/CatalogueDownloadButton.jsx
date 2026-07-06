@@ -1,5 +1,6 @@
 'use client';
 import React, { useState } from 'react';
+import { createPortal } from 'react-dom';
 import { Download, X, Send } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -21,6 +22,8 @@ function triggerDownload(file) {
 // Bouton de téléchargement d'un catalogue, protégé par un formulaire de capture (lead-gate).
 // Option B : le visiteur ne remplit le formulaire qu'une seule fois par navigateur ;
 // les téléchargements suivants sont directs.
+// La modale est rendue via un portail dans document.body pour rester en position:fixed
+// correcte, même à l'intérieur d'une carte avec une transformation CSS (hover:-translate-y).
 const CatalogueDownloadButton = ({
   catalogueName,
   catalogueFile,
@@ -93,6 +96,81 @@ const CatalogueDownloadButton = ({
     setSubmitting(false);
   };
 
+  const modal = (
+    <div
+      className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60"
+      onClick={() => !submitting && setOpen(false)}
+    >
+      <div
+        className="bg-white rounded-2xl shadow-2xl w-full max-w-md relative"
+        onClick={(e) => e.stopPropagation()}
+      >
+        <button
+          onClick={() => !submitting && setOpen(false)}
+          className="absolute top-4 right-4 text-gray-400 hover:text-gray-600"
+          aria-label="Fermer"
+        >
+          <X size={20} />
+        </button>
+        <div className="p-6 sm:p-8">
+          <h3 className="text-xl font-bold text-gray-900 mb-1">Télécharger le catalogue</h3>
+          <p className="text-sm text-gray-600 mb-5">
+            Renseignez vos coordonnées pour accéder à «&nbsp;{catalogueName}&nbsp;».
+          </p>
+          <form onSubmit={handleSubmit} className="space-y-3">
+            <div>
+              <Label className="text-sm font-medium text-gray-700 mb-1 block">Nom et prénom *</Label>
+              <Input name="nom" value={form.nom} onChange={handleChange} required placeholder="Jean Dupont" />
+            </div>
+            <div>
+              <Label className="text-sm font-medium text-gray-700 mb-1 block">Société *</Label>
+              <Input name="societe" value={form.societe} onChange={handleChange} required placeholder="Votre entreprise" />
+            </div>
+            <div>
+              <Label className="text-sm font-medium text-gray-700 mb-1 block">Téléphone *</Label>
+              <Input name="telephone" value={form.telephone} onChange={handleChange} required placeholder="+33 6 00 00 00 00" />
+            </div>
+            <div>
+              <Label className="text-sm font-medium text-gray-700 mb-1 block">E-mail *</Label>
+              <Input name="email" type="email" value={form.email} onChange={handleChange} required placeholder="jean@entreprise.com" />
+            </div>
+            <label className="flex items-start gap-2 text-xs text-gray-600 cursor-pointer pt-1">
+              <input
+                type="checkbox"
+                checked={consent}
+                onChange={(e) => setConsent(e.target.checked)}
+                className="mt-0.5 accent-[#ef6110]"
+              />
+              <span>
+                J'accepte d'être recontacté par ALMA Machines-Outils et que mes données soient traitées
+                conformément à la{' '}
+                <a href="/politique-confidentialite" target="_blank" className="text-[#ef6110] underline">
+                  politique de confidentialité
+                </a>
+                .
+              </span>
+            </label>
+            {error && <p className="text-sm text-red-600">{error}</p>}
+            <Button
+              type="submit"
+              disabled={submitting}
+              className="w-full bg-[#ef6110] hover:bg-[#d45510] text-white font-semibold rounded-full py-3 mt-1"
+            >
+              {submitting ? (
+                'Envoi…'
+              ) : (
+                <>
+                  <Send size={16} className="mr-2" />
+                  Recevoir le catalogue
+                </>
+              )}
+            </Button>
+          </form>
+        </div>
+      </div>
+    </div>
+  );
+
   return (
     <>
       <Button
@@ -103,80 +181,7 @@ const CatalogueDownloadButton = ({
         {label}
       </Button>
 
-      {open && (
-        <div
-          className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60"
-          onClick={() => !submitting && setOpen(false)}
-        >
-          <div
-            className="bg-white rounded-2xl shadow-2xl w-full max-w-md relative"
-            onClick={(e) => e.stopPropagation()}
-          >
-            <button
-              onClick={() => !submitting && setOpen(false)}
-              className="absolute top-4 right-4 text-gray-400 hover:text-gray-600"
-              aria-label="Fermer"
-            >
-              <X size={20} />
-            </button>
-            <div className="p-6 sm:p-8">
-              <h3 className="text-xl font-bold text-gray-900 mb-1">Télécharger le catalogue</h3>
-              <p className="text-sm text-gray-600 mb-5">
-                Renseignez vos coordonnées pour accéder à «&nbsp;{catalogueName}&nbsp;».
-              </p>
-              <form onSubmit={handleSubmit} className="space-y-3">
-                <div>
-                  <Label className="text-sm font-medium text-gray-700 mb-1 block">Nom et prénom *</Label>
-                  <Input name="nom" value={form.nom} onChange={handleChange} required placeholder="Jean Dupont" />
-                </div>
-                <div>
-                  <Label className="text-sm font-medium text-gray-700 mb-1 block">Société *</Label>
-                  <Input name="societe" value={form.societe} onChange={handleChange} required placeholder="Votre entreprise" />
-                </div>
-                <div>
-                  <Label className="text-sm font-medium text-gray-700 mb-1 block">Téléphone *</Label>
-                  <Input name="telephone" value={form.telephone} onChange={handleChange} required placeholder="+33 6 00 00 00 00" />
-                </div>
-                <div>
-                  <Label className="text-sm font-medium text-gray-700 mb-1 block">E-mail *</Label>
-                  <Input name="email" type="email" value={form.email} onChange={handleChange} required placeholder="jean@entreprise.com" />
-                </div>
-                <label className="flex items-start gap-2 text-xs text-gray-600 cursor-pointer pt-1">
-                  <input
-                    type="checkbox"
-                    checked={consent}
-                    onChange={(e) => setConsent(e.target.checked)}
-                    className="mt-0.5 accent-[#ef6110]"
-                  />
-                  <span>
-                    J'accepte d'être recontacté par ALMA Machines-Outils et que mes données soient traitées
-                    conformément à la{' '}
-                    <a href="/politique-confidentialite" target="_blank" className="text-[#ef6110] underline">
-                      politique de confidentialité
-                    </a>
-                    .
-                  </span>
-                </label>
-                {error && <p className="text-sm text-red-600">{error}</p>}
-                <Button
-                  type="submit"
-                  disabled={submitting}
-                  className="w-full bg-[#ef6110] hover:bg-[#d45510] text-white font-semibold rounded-full py-3 mt-1"
-                >
-                  {submitting ? (
-                    'Envoi…'
-                  ) : (
-                    <>
-                      <Send size={16} className="mr-2" />
-                      Recevoir le catalogue
-                    </>
-                  )}
-                </Button>
-              </form>
-            </div>
-          </div>
-        </div>
-      )}
+      {open && typeof document !== 'undefined' && createPortal(modal, document.body)}
     </>
   );
 };
