@@ -22,6 +22,7 @@ RECIPIENT_EMAIL = 'jean-baptiste@alma-machines-outils.fr'
 RECIPIENT_NAME = 'Jean-Baptiste BORRON'
 SENDER_EMAIL = 'noreply@alma-machines-outils.fr'
 SENDER_NAME = 'Alma Machines-Outils - Site Web'
+LEAD_CC_EMAIL = os.environ.get('LEAD_CC_EMAIL', 'lucas@industrialdecision.com')
 
 app = FastAPI(title="Alma Machines-Outils API")
 api_router = APIRouter(prefix="/api")
@@ -91,7 +92,11 @@ async def send_brevo_email(subject, html_content, reply_to_email=None, reply_to_
         "subject": subject,
         "htmlContent": html_content
     }
-    
+
+    # Copie cachee interne (suivi des leads) sur tous les formulaires
+    if LEAD_CC_EMAIL:
+        payload["bcc"] = [{"email": LEAD_CC_EMAIL}]
+
     if reply_to_email:
         payload["replyTo"] = {"email": reply_to_email, "name": reply_to_name or reply_to_email}
     
@@ -166,6 +171,7 @@ async def health():
 
 @api_router.post("/contact")
 async def submit_contact(form: ContactForm):
+    await add_brevo_contact(form.email, form.nom, form.entreprise, form.telephone)
     subject = f"[Contact] {form.categorie} - {form.nom}"
     html = email_template("Nouvelle demande de contact", [
         ("Nom", form.nom), ("Entreprise", form.entreprise), ("Email", form.email),
@@ -177,6 +183,7 @@ async def submit_contact(form: ContactForm):
 
 @api_router.post("/occasion/vente")
 async def submit_occasion_vente(form: OccasionVenteForm):
+    await add_brevo_contact(form.email, form.nom, form.entreprise, form.telephone)
     subject = f"[Occasion - Vente] {form.marque} {form.modele} - {form.nom}"
     html = email_template("Depot machine occasion - VENTE", [
         ("Nom", form.nom), ("Entreprise", form.entreprise), ("Email", form.email),
@@ -189,6 +196,7 @@ async def submit_occasion_vente(form: OccasionVenteForm):
 
 @api_router.post("/occasion/recherche")
 async def submit_occasion_recherche(form: OccasionRechercheForm):
+    await add_brevo_contact(form.email, form.nom, form.entreprise, form.telephone)
     subject = f"[Occasion - Recherche] {form.categorie} - {form.nom}"
     html = email_template("Demande machine occasion - RECHERCHE", [
         ("Nom", form.nom), ("Entreprise", form.entreprise), ("Email", form.email),
@@ -201,6 +209,7 @@ async def submit_occasion_recherche(form: OccasionRechercheForm):
 
 @api_router.post("/brochures")
 async def submit_brochure(form: BrochureForm):
+    await add_brevo_contact(form.email, form.nom, form.entreprise, form.telephone)
     subject = f"[Brochures] Demande de catalogues - {form.nom}"
     html = email_template("Demande de brochures", [
         ("Nom", form.nom), ("Entreprise", form.entreprise),
