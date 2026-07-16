@@ -50,14 +50,10 @@ const OccasionPageClient = () => {
         setFormData({ type: formData.type, nom: '', entreprise: '', email: '', telephone: '', categorie: '', marque: '', modele: '', annee: '', etat: '', localisation: '', description: '' });
       }
     } catch (error) {
-      // Fallback mailto
-      const subject = encodeURIComponent(isVenteSubmit 
-        ? `[Occasion - Vente] ${formData.marque} ${formData.modele}` 
-        : `[Occasion - Recherche] ${formData.categorie}`);
-      window.location.href = `mailto:${siteConfig.email}?subject=${subject}`;
       toast({
-        title: "Redirection vers votre messagerie...",
-        description: "Envoyez le message pour finaliser votre demande.",
+        title: "L'envoi a échoué",
+        description: `Merci de réessayer dans quelques instants, ou de nous joindre directement à ${siteConfig.email}.`,
+        variant: "destructive",
       });
     }
 

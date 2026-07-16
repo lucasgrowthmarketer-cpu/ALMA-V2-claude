@@ -50,13 +50,10 @@ const ContactPageClient = () => {
         setFormData({ nom: '', entreprise: '', email: '', telephone: '', categorie: 'Demande de devis', message: '' });
       }
     } catch (error) {
-      // Fallback mailto si l'API ne répond pas
-      const subject = encodeURIComponent(`[Site Web] ${formData.categorie} - ${formData.nom}`);
-      const body = encodeURIComponent(`Nom: ${formData.nom}\nEntreprise: ${formData.entreprise}\nEmail: ${formData.email}\nTéléphone: ${formData.telephone}\nType: ${formData.categorie}\n\nMessage:\n${formData.message}`);
-      window.location.href = `mailto:${siteConfig.email}?subject=${subject}&body=${body}`;
       toast({
-        title: "Redirection vers votre messagerie...",
-        description: "Envoyez le message pré-rempli pour finaliser votre demande.",
+        title: "L'envoi a échoué",
+        description: `Merci de réessayer dans quelques instants, ou de nous joindre directement à ${siteConfig.email}.`,
+        variant: "destructive",
       });
     }
 

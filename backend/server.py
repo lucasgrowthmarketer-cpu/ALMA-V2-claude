@@ -16,12 +16,20 @@ load_dotenv(ROOT_DIR / '.env')
 BREVO_API_KEY = os.environ.get('BREVO_API_KEY', '')
 BREVO_API_URL = 'https://api.brevo.com/v3/smtp/email'
 BREVO_CONTACTS_URL = 'https://api.brevo.com/v3/contacts'
-BREVO_CATALOGUE_LIST_ID = int(os.environ.get('BREVO_CATALOGUE_LIST_ID', '5'))
+
+# Une liste Brevo par type de demande (surchargeable par variable d'environnement)
+BREVO_LIST_CONTACT = int(os.environ.get('BREVO_LIST_CONTACT', '6'))
+BREVO_LIST_OCCASION_VENTE = int(os.environ.get('BREVO_LIST_OCCASION_VENTE', '7'))
+BREVO_LIST_OCCASION_RECHERCHE = int(os.environ.get('BREVO_LIST_OCCASION_RECHERCHE', '8'))
+BREVO_LIST_BROCHURES = int(os.environ.get('BREVO_LIST_BROCHURES', '9'))
+BREVO_LIST_CATALOGUES = int(os.environ.get('BREVO_CATALOGUE_LIST_ID', '5'))
+
 SITE_URL = 'https://www.alma-machines-outils.fr'
 RECIPIENT_EMAIL = 'jean-baptiste@alma-machines-outils.fr'
 RECIPIENT_NAME = 'Jean-Baptiste BORRON'
 SENDER_EMAIL = 'noreply@alma-machines-outils.fr'
 SENDER_NAME = 'Alma Machines-Outils - Site Web'
+# Copie cachee interne (suivi des leads) sur tous les formulaires
 LEAD_CC_EMAIL = os.environ.get('LEAD_CC_EMAIL', 'lucas@industrialdecision.com')
 
 app = FastAPI(title="Alma Machines-Outils API")
@@ -117,25 +125,46 @@ async def send_brevo_email(subject, html_content, reply_to_email=None, reply_to_
         raise HTTPException(status_code=500, detail="Erreur lors de l envoi")
 
 
-async def add_brevo_contact(email, nom, societe, telephone):
-    """Enregistre / met a jour le contact dans Brevo et l'ajoute a la liste dediee (best-effort)."""
-    if not BREVO_API_KEY:
+async def add_brevo_contact(email, nom, societe='', telephone='', source='', list_id=None):
+    """Enregistre / met a jour le contact dans Brevo et l'ajoute a sa liste.
+    Best-effort : ne bloque jamais l'envoi du formulaire."""
+    if not BREVO_API_KEY or not email:
         return False
-    payload = {
-        "email": email,
-        "attributes": {"NOM": nom},
-        "updateEnabled": True,
-    }
-    if BREVO_CATALOGUE_LIST_ID:
-        payload["listIds"] = [BREVO_CATALOGUE_LIST_ID]
+
+    attributes = {"NOM": nom}
+    if societe:
+        attributes["SOCIETE"] = societe
+    if telephone:
+        attributes["TELEPHONE"] = telephone
+    if source:
+        attributes["SOURCE"] = source
+
+    payload = {"email": email, "attributes": attributes, "updateEnabled": True}
+    if list_id:
+        payload["listIds"] = [list_id]
+
     headers = {"accept": "application/json", "content-type": "application/json", "api-key": BREVO_API_KEY}
+
     try:
         async with httpx.AsyncClient() as client:
             response = await client.post(BREVO_CONTACTS_URL, json=payload, headers=headers, timeout=10.0)
-        if response.status_code in (200, 201, 204):
-            logger.info(f"Brevo contact upserted: {email}")
-            return True
-        logger.error(f"Brevo contact error {response.status_code}: {response.text}")
+            if response.status_code in (200, 201, 204):
+                logger.info(f"Brevo contact OK: {email} -> liste {list_id}")
+                return True
+
+            logger.error(f"Brevo contact error {response.status_code}: {response.text}")
+
+            # Filet de securite : si un attribut est refuse (400), on reessaie en version
+            # minimale pour ne jamais perdre le contact.
+            if response.status_code == 400:
+                fallback = {"email": email, "attributes": {"NOM": nom}, "updateEnabled": True}
+                if list_id:
+                    fallback["listIds"] = [list_id]
+                retry = await client.post(BREVO_CONTACTS_URL, json=fallback, headers=headers, timeout=10.0)
+                if retry.status_code in (200, 201, 204):
+                    logger.info(f"Brevo contact OK (fallback sans attributs): {email} -> liste {list_id}")
+                    return True
+                logger.error(f"Brevo contact fallback error {retry.status_code}: {retry.text}")
     except Exception as e:
         logger.error(f"Brevo contact exception: {e}")
     return False
@@ -171,7 +200,8 @@ async def health():
 
 @api_router.post("/contact")
 async def submit_contact(form: ContactForm):
-    await add_brevo_contact(form.email, form.nom, form.entreprise, form.telephone)
+    await add_brevo_contact(form.email, form.nom, form.entreprise, form.telephone,
+                            source=f"Contact - {form.categorie}", list_id=BREVO_LIST_CONTACT)
     subject = f"[Contact] {form.categorie} - {form.nom}"
     html = email_template("Nouvelle demande de contact", [
         ("Nom", form.nom), ("Entreprise", form.entreprise), ("Email", form.email),
@@ -183,7 +213,9 @@ async def submit_contact(form: ContactForm):
 
 @api_router.post("/occasion/vente")
 async def submit_occasion_vente(form: OccasionVenteForm):
-    await add_brevo_contact(form.email, form.nom, form.entreprise, form.telephone)
+    await add_brevo_contact(form.email, form.nom, form.entreprise, form.telephone,
+                            source=f"Occasion vente - {form.marque} {form.modele}",
+                            list_id=BREVO_LIST_OCCASION_VENTE)
     subject = f"[Occasion - Vente] {form.marque} {form.modele} - {form.nom}"
     html = email_template("Depot machine occasion - VENTE", [
         ("Nom", form.nom), ("Entreprise", form.entreprise), ("Email", form.email),
@@ -196,7 +228,9 @@ async def submit_occasion_vente(form: OccasionVenteForm):
 
 @api_router.post("/occasion/recherche")
 async def submit_occasion_recherche(form: OccasionRechercheForm):
-    await add_brevo_contact(form.email, form.nom, form.entreprise, form.telephone)
+    await add_brevo_contact(form.email, form.nom, form.entreprise, form.telephone,
+                            source=f"Occasion recherche - {form.categorie}",
+                            list_id=BREVO_LIST_OCCASION_RECHERCHE)
     subject = f"[Occasion - Recherche] {form.categorie} - {form.nom}"
     html = email_template("Demande machine occasion - RECHERCHE", [
         ("Nom", form.nom), ("Entreprise", form.entreprise), ("Email", form.email),
@@ -209,7 +243,9 @@ async def submit_occasion_recherche(form: OccasionRechercheForm):
 
 @api_router.post("/brochures")
 async def submit_brochure(form: BrochureForm):
-    await add_brevo_contact(form.email, form.nom, form.entreprise, form.telephone)
+    await add_brevo_contact(form.email, form.nom, form.entreprise, form.telephone,
+                            source="Brochures - demande de selection",
+                            list_id=BREVO_LIST_BROCHURES)
     subject = f"[Brochures] Demande de catalogues - {form.nom}"
     html = email_template("Demande de brochures", [
         ("Nom", form.nom), ("Entreprise", form.entreprise),
@@ -220,9 +256,11 @@ async def submit_brochure(form: BrochureForm):
 
 @api_router.post("/catalogue-lead")
 async def submit_catalogue_lead(form: CatalogueLeadForm):
-    # 1) Enregistrement du lead dans Brevo (liste dediee) - best effort
-    await add_brevo_contact(form.email, form.nom, form.societe, form.telephone)
-    # 2) Email recap a Jean-Baptiste
+    # 1) Enregistrement du lead dans Brevo (liste catalogues)
+    await add_brevo_contact(form.email, form.nom, form.societe, form.telephone,
+                            source=f"Catalogue - {form.catalogue}",
+                            list_id=BREVO_LIST_CATALOGUES)
+    # 2) Email recap
     lien = ''
     if form.catalogue_url:
         url = f"{SITE_URL}{form.catalogue_url}"
