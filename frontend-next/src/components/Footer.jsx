@@ -4,6 +4,42 @@ import { Mail, Phone, MapPin } from 'lucide-react';
 import { siteConfig, mainCategories } from '@/data/machinesData';
 import { services } from '@/data/services';
 
+// Liens sociaux / contact du footer
+const SOCIAL_LINKS = [
+  {
+    label: 'Fiche Google',
+    href: 'https://share.google/hXEfQhul6ZRADjCFx',
+    external: true,
+    icon: (
+      <svg viewBox="0 0 24 24" className="h-[18px] w-[18px]" fill="currentColor" aria-hidden="true">
+        <path d="M21.35 11.1H12v2.9h5.35c-.5 2.5-2.6 4.3-5.35 4.3a5.8 5.8 0 1 1 0-11.6c1.48 0 2.82.55 3.86 1.45l2.16-2.16A8.9 8.9 0 0 0 12 3.1a8.9 8.9 0 1 0 0 17.8c5.14 0 8.55-3.61 8.55-8.7 0-.38-.07-.75-.2-1.1z" />
+      </svg>
+    ),
+  },
+  {
+    label: 'LinkedIn',
+    href: 'https://www.linkedin.com/company/alma-machines-outils/posts/?feedView=all',
+    external: true,
+    icon: (
+      <svg viewBox="0 0 24 24" className="h-[18px] w-[18px]" fill="currentColor" aria-hidden="true">
+        <path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z" />
+      </svg>
+    ),
+  },
+  {
+    label: 'Téléphone',
+    href: 'tel:+33603315688',
+    external: false,
+    icon: <Phone size={18} />,
+  },
+  {
+    label: 'Email',
+    href: 'mailto:jean-baptiste@alma-machines-outils.fr',
+    external: false,
+    icon: <Mail size={18} />,
+  },
+];
+
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -22,25 +58,19 @@ const Footer = () => {
             <p className="text-xs sm:text-sm mb-4 max-w-xs">
               {siteConfig.description}
             </p>
-            <div className="flex gap-3 mt-4">
-              <a 
-                href={siteConfig.linkedin} 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="p-2.5 sm:p-2 bg-gray-800 hover:bg-primary rounded-full transition-colors"
-                aria-label="LinkedIn"
-              >
-                
-              </a>
-              <a 
-                href={siteConfig.whatsappLink} 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="p-2.5 sm:p-2 bg-gray-800 hover:bg-primary rounded-full transition-colors"
-                aria-label="WhatsApp"
-              >
-                <Phone size={18} />
-              </a>
+            <div className="flex items-center gap-3 mt-4 flex-wrap">
+              {SOCIAL_LINKS.map((s) => (
+                <a
+                  key={s.label}
+                  href={s.href}
+                  {...(s.external ? { target: '_blank', rel: 'noopener noreferrer' } : {})}
+                  aria-label={s.label}
+                  title={s.label}
+                  className="inline-flex items-center justify-center h-10 w-10 rounded-lg border border-gray-700 bg-gray-800 text-gray-300 hover:text-white hover:border-primary hover:bg-primary hover:scale-110 transition-all duration-300"
+                >
+                  {s.icon}
+                </a>
+              ))}
             </div>
           </div>
 
@@ -218,7 +248,15 @@ const Footer = () => {
         <div className="container mx-auto px-4 sm:px-6 py-4 sm:py-6">
           <div className="flex flex-col sm:flex-row justify-between items-center gap-3 sm:gap-4 text-xs sm:text-sm">
             <p className="text-center sm:text-left">
-              © {currentYear} {siteConfig.nom}. Tous droits réservés.
+              © {currentYear} {siteConfig.nom}. Tous droits réservés. · Site conçu par{' '}
+              <a
+                href="https://www.industrialdecision.com/home"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-primary underline underline-offset-2 transition-colors"
+              >
+                Industrial Decision
+              </a>
             </p>
             <div className="flex gap-4 sm:gap-6">
               <Link href="/mentions-legales" className="hover:text-primary transition-colors">

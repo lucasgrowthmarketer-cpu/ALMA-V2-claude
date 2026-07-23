@@ -2,6 +2,7 @@ import './globals.css';
 import Script from 'next/script';
 import HeaderWrapper from '@/components/pages/HeaderWrapper';
 import FooterWrapper from '@/components/pages/FooterWrapper';
+import SiteCursor from '@/components/SiteCursor';
 export const metadata = {
   metadataBase: new URL('https://www.alma-machines-outils.fr'),
   title: {
@@ -34,6 +35,7 @@ export default function RootLayout({ children }) {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       </head>
       <body className="font-sans">
+        <SiteCursor />
         <div className="App">
           <div className="flex flex-col min-h-screen">
             <HeaderWrapper />
