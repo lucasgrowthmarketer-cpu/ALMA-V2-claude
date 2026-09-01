@@ -1,7 +1,7 @@
 // Images réelles d'ateliers et de machines
 export const images = {
   // Hero et ateliers
-  heroWorkshop: 'https://images.unsplash.com/photo-1738162837335-3745e5d16c09?w=1920&q=80',
+  heroWorkshop: '/images/hero-usinage.webp',
   workshopFloor: 'https://images.unsplash.com/photo-1720036236694-d0a231c52563?w=1920&q=80',
   
   // Machines par catégorie - Usinage

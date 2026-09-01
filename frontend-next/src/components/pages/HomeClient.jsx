@@ -23,23 +23,12 @@ const HomeClient = () => {
     <div className="min-h-screen">
       {/* Hero Section with Video */}
       <section className="relative h-[100dvh] min-h-[600px] w-full overflow-hidden">
-        {/* Video Background */}
+        {/* Photo de fond */}
         <div className="absolute inset-0" style={{ backgroundColor: '#1a1c1b' }}>
           <div 
             className="absolute inset-0 bg-cover bg-center"
             style={{ backgroundImage: 'url(' + images.heroWorkshop + ')' }}
           ></div>
-          <video
-            autoPlay
-            muted
-            loop
-            playsInline
-            className="absolute inset-0 w-full h-full object-cover"
-            poster={images.heroWorkshop}
-          >
-            <source src="https://videos.pexels.com/video-files/6196564/6196564-hd_1280_720_30fps.mp4" type="video/mp4" />
-            <source src="https://cdn.coverr.co/videos/coverr-cnc-machine-precision-manufacturing-4623/1080p.mp4" type="video/mp4" />
-          </video>
           <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70"></div>
         </div>
 
