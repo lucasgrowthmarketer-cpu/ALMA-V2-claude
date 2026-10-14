@@ -22,19 +22,19 @@ export const plaquettes = [
   },
   {
     id: 'usinage',
-    title: "Catalogue Machines d'Usinage",
+    title: 'Programme de vente 2026 · Usinage',
     category: 'Usinage',
     description:
-      "Tours CNC, centres d'usinage, rectifieuses, électroérosion, marquage laser et contrôle dimensionnel de nos constructeurs partenaires.",
+      "21 marques partenaires, 96 machines : tournage, fraisage, rectification, électroérosion, marquage laser, robotisation et contrôle dimensionnel.",
     file: '/catalogues/plaquette-alma-usinage.pdf',
     color: 'from-[#ef6110] to-[#d45510]',
   },
   {
     id: 'chaudronnerie',
-    title: 'Catalogue Chaudronnerie',
+    title: 'Programme de vente 2026 · Chaudronnerie',
     category: 'Chaudronnerie',
     description:
-      "Cisailles, presses plieuses, rouleuses, découpe laser, plasma et jet d'eau, scies, perçage et systèmes de stockage automatisé.",
+      "12 marques partenaires, 65 machines : cisaillage, pliage, découpe laser, plasma et jet d'eau, roulage, poinçonnage, débit et stockage.",
     file: '/catalogues/plaquette-alma-chaudronnerie.pdf',
     color: 'from-blue-900 to-blue-950',
   },

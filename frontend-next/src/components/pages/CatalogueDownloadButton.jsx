@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Checkbox } from '@/components/ui/checkbox';
+import { submitForm } from '@/lib/api';
 
 const LEAD_FLAG = 'alma_catalogue_lead_done';
 
@@ -69,22 +70,16 @@ const CatalogueDownloadButton = ({
     }
     setSubmitting(true);
     try {
-      const backendUrl = process.env.REACT_APP_API_URL || '';
-      const res = await fetch(`${backendUrl}/api/catalogue-lead`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          nom: form.nom,
-          societe: form.societe,
-          telephone: form.telephone,
-          email: form.email,
-          catalogue: catalogueName,
-          catalogue_url: catalogueFile,
-          source,
-          consent: true,
-        }),
+      await submitForm('/catalogue-lead', {
+        nom: form.nom,
+        societe: form.societe,
+        telephone: form.telephone,
+        email: form.email,
+        catalogue: catalogueName,
+        catalogue_url: catalogueFile,
+        source,
+        consent: true,
       });
-      if (!res.ok) throw new Error('fail');
       try {
         localStorage.setItem(LEAD_FLAG, '1');
       } catch (e) {}

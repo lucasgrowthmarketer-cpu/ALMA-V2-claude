@@ -11,6 +11,7 @@ import { useToast } from '@/hooks/use-toast';
 import { plaquettes, brandCatalogues } from '@/data/catalogues';
 import BrandLogo from '@/components/BrandLogo';
 import CatalogueDownloadButton from '@/components/pages/CatalogueDownloadButton';
+import { submitForm } from '@/lib/api';
 
 // Carte de catalogue téléchargeable (disposition commune plaquettes + marques)
 const CatalogueCard = ({ title, subtitle, description, file, color, logoSlug }) => (
@@ -52,20 +53,15 @@ const BrochuresPageClient = () => {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      const backendUrl = process.env.REACT_APP_API_URL || '';
-      const response = await fetch(`${backendUrl}/api/brochures`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData),
-      });
-      if (response.ok) {
-        toast({ title: "Demande envoyée !", description: "Vous recevrez nos brochures par email très prochainement." });
-        setFormData({ nom: '', email: '', telephone: '', entreprise: '' });
-      } else {
-        throw new Error('Erreur');
-      }
+      await submitForm('/brochures', formData);
+      toast({ title: "Demande envoyée !", description: "Vous recevrez nos brochures par email très prochainement." });
+      setFormData({ nom: '', email: '', telephone: '', entreprise: '' });
     } catch (error) {
-      window.location.href = `mailto:${siteConfig.email}?subject=${encodeURIComponent('[Brochures] Demande de catalogues')}&body=${encodeURIComponent(`Nom: ${formData.nom}\nEmail: ${formData.email}\nEntreprise: ${formData.entreprise}`)}`;
+      toast({
+        title: "L'envoi a échoué",
+        description: `Merci de réessayer dans quelques instants, ou de nous joindre directement à ${siteConfig.email}.`,
+        variant: "destructive",
+      });
     }
     setIsSubmitting(false);
   };

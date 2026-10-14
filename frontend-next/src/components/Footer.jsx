@@ -157,6 +157,11 @@ const Footer = () => {
                   Arcane Group
                 </Link>
               </li>
+              <li>
+                <Link href="/installations" className="text-xs sm:text-sm hover:text-primary transition-colors block py-1">
+                  Installations récentes
+                </Link>
+              </li>
             </ul>
 
             <h3 className="text-white font-semibold text-base sm:text-lg mb-2 sm:mb-3 mt-6">Nos Services</h3>
