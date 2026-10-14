@@ -8,7 +8,7 @@ import { installations, lieuInstallation } from '@/data/installations';
 const InstallationsPageClient = () => (
   <div className="min-h-screen bg-white">
     {/* Hero */}
-    <section className="bg-[#1a1c1b] text-white">
+    <section className="bg-gray-900 text-white">
       <div className="container mx-auto px-4 py-20 md:py-24">
         <Link href="/" className="inline-flex items-center text-gray-300 hover:text-white mb-8 transition-colors text-sm">
           <ArrowLeft size={16} className="mr-1" /> Retour à l'accueil

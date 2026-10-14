@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import { siteConfig, mainCategories } from '@/data/machinesData';
 import { services } from '@/data/services';
+import { installations } from '@/data/installations';
 
 // Liens sociaux / contact du footer
 const SOCIAL_LINKS = [
@@ -157,11 +158,6 @@ const Footer = () => {
                   Arcane Group
                 </Link>
               </li>
-              <li>
-                <Link href="/installations" className="text-xs sm:text-sm hover:text-primary transition-colors block py-1">
-                  Installations récentes
-                </Link>
-              </li>
             </ul>
 
             <h3 className="text-white font-semibold text-base sm:text-lg mb-2 sm:mb-3 mt-6">Nos Services</h3>
@@ -208,6 +204,29 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
+
+            {/* Installations récentes : menu déroulant natif (details/summary), sans JavaScript */}
+            <h3 className="text-white font-semibold text-base sm:text-lg mb-2 sm:mb-3 mt-6">Installations récentes</h3>
+            <details className="group">
+              <summary className="list-none cursor-pointer select-none inline-flex items-center gap-2 text-xs sm:text-sm text-gray-300 hover:text-primary transition-colors py-1 [&::-webkit-details-marker]:hidden">
+                Voir les {installations.length} projets
+                <span className="text-primary transition-transform group-open:rotate-180" aria-hidden="true">▾</span>
+              </summary>
+              <ul className="space-y-1 mt-2 border-l border-gray-700 pl-3">
+                {installations.map((inst) => (
+                  <li key={inst.slug}>
+                    <Link href={'/installations/' + inst.slug} className="text-xs hover:text-primary transition-colors block py-0.5">
+                      {inst.menuLabel}
+                    </Link>
+                  </li>
+                ))}
+                <li>
+                  <Link href="/installations" className="text-xs text-primary hover:underline block py-0.5">
+                    Toutes les installations
+                  </Link>
+                </li>
+              </ul>
+            </details>
           </div>
         </div>
       </div>

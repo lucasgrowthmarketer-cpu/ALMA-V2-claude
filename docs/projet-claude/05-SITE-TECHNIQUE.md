@@ -64,6 +64,11 @@ Chaque endpoint : (1) envoie un email à JB via Brevo, (2) met `lucas@industrial
 - **Hero d'accueil** : vidéo remplacée par la photo `/images/hero-usinage.webp` (`images.js` → `heroWorkshop`). Présent dans le repo (zip du 14/10).
 - **Plaquettes ALMA** : `plaquette-alma-usinage.pdf` (8 p.) et `plaquette-alma-chaudronnerie.pdf` (6 p.) remplacées le 14/10 par les versions « Programme de vente 2026 » au design du catalogue général final. Mêmes noms de fichiers, donc les liens existants restent valides. `plaquette-alma-generale.pdf` est encore l'ancienne version de 22 pages.
 
+## 7 bis. Rubrique Installations récentes
+- Données : `src/data/installations.js` (une entrée = une page `/installations/[slug]` + une carte + une ligne du menu déroulant du footer via `menuLabel`). Photos dans `public/images/installations/` (WebP, 1600 px max).
+- Pages : `InstallationsPageClient.jsx` (hub), `InstallationDetailPageClient.jsx` (détail : besoin, solution, formulaire, « ce que ça change pour vous », CTA, autres installations, barre de rappel), `InstallationLeadForm.jsx` (formulaire vers `/api/contact`).
+- Ajouter une installation : une entrée dans `installations.js` + ses photos. Rien d'autre.
+
 ## 8. Workflow de livraison
 ```bash
 cd /workspaces/ALMA-V2-claude
@@ -72,7 +77,7 @@ git status
 cd frontend-next && npm run build    # VERROU : jamais de push si le build échoue
 cd .. && git add -A && git commit -m "..." && git push origin main
 ```
-- Railway déploie automatiquement après push (1 à 2 minutes). **Vérifier que frontend ET backend ont pris le dernier commit** (le backend traîne souvent).
+- Railway déploie automatiquement après push (1 à 2 minutes), à condition que l'application GitHub de Railway ait accès au repo (GitHub → Settings → Applications → Railway). Elle l'avait perdu de mi-septembre au 15/10 : les push arrivaient sur GitHub sans être déployés. Un push manqué ne se rattrape pas : refaire un push (commit vide si besoin). **Vérifier que frontend ET backend ont pris le dernier commit** (le backend traîne souvent).
 - Rollback : Railway → Deployments → Redeploy de la version précédente, ou `git revert HEAD && git push`.
 - Intégrer une livraison : glisser le zip dans l'explorateur VS Code du Codespace, puis `unzip -o` (le `mv` depuis les Téléchargements du poste échoue).
 - Vérification post-déploiement : `curl -I https://www.alma-machines-outils.fr/<chemin>` et test réel du formulaire concerné.

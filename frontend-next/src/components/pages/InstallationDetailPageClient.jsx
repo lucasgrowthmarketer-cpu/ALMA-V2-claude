@@ -1,11 +1,12 @@
 'use client';
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, ArrowRight, Phone } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import brandsSimple from '@/data/brands_simple.json';
 import { installations, lieuInstallation } from '@/data/installations';
 import { siteConfig } from '@/data/machinesData';
+import InstallationLeadForm from '@/components/pages/InstallationLeadForm';
 
 const Eyebrow = ({ children, className = '' }) => (
   <p className={`font-mono text-[11px] uppercase tracking-[0.25em] text-[#ef6110] font-semibold ${className}`}>{children}</p>
@@ -35,6 +36,28 @@ const InstallationDetailPageClient = ({ installation }) => {
   const lieu = lieuInstallation(installation);
   const others = installations.filter((i) => i.slug !== installation.slug).slice(0, 3);
 
+  // Barre de rappel : apparaît une fois la section 02 dépassée, disparaît quand le formulaire est à l'écran.
+  const afterSolutionRef = useRef(null);
+  const formWrapRef = useRef(null);
+  const [pastSolution, setPastSolution] = useState(false);
+  const [formVisible, setFormVisible] = useState(false);
+  useEffect(() => {
+    if (typeof IntersectionObserver === 'undefined') return undefined;
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach((e) => {
+        if (e.target === afterSolutionRef.current) {
+          setPastSolution(e.boundingClientRect.top < 0 || e.isIntersecting);
+        }
+        if (e.target === formWrapRef.current) setFormVisible(e.isIntersecting);
+      });
+    });
+    if (afterSolutionRef.current) obs.observe(afterSolutionRef.current);
+    if (formWrapRef.current) obs.observe(formWrapRef.current);
+    return () => obs.disconnect();
+  }, []);
+  const showBar = pastSolution && !formVisible;
+  const scrollToForm = () => document.getElementById('projet')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
   const facts = [
     { k: 'Client', v: installation.client },
     { k: 'Secteur', v: installation.secteur },
@@ -46,7 +69,7 @@ const InstallationDetailPageClient = ({ installation }) => {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero */}
-      <section className="relative bg-[#1a1c1b] text-white overflow-hidden">
+      <section className="relative bg-gray-900 text-white overflow-hidden">
         {hero && (
           <img
             src={hero.src}
@@ -55,7 +78,7 @@ const InstallationDetailPageClient = ({ installation }) => {
             className="absolute inset-0 w-full h-full object-cover opacity-30"
           />
         )}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#1a1c1b] via-[#1a1c1b]/70 to-transparent" aria-hidden="true" />
+        <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/70 to-transparent" aria-hidden="true" />
         <div className="container mx-auto px-4 relative py-20 md:py-28">
           <Link href="/installations" className="inline-flex items-center text-gray-300 hover:text-white mb-8 transition-colors text-sm">
             <ArrowLeft size={16} className="mr-1" /> Toutes les installations
@@ -67,6 +90,12 @@ const InstallationDetailPageClient = ({ installation }) => {
           <p className="border-l-[3px] border-[#ef6110] pl-5 text-lg md:text-xl text-[#d2cbc8] max-w-3xl leading-relaxed">
             {installation.accroche}
           </p>
+          <Button
+            onClick={scrollToForm}
+            className="mt-8 bg-[#ef6110] hover:bg-[#d45510] text-white font-semibold px-8 py-3 rounded-full"
+          >
+            Un projet similaire ? Être rappelé <ArrowRight className="ml-2" size={18} />
+          </Button>
         </div>
       </section>
 
@@ -108,7 +137,11 @@ const InstallationDetailPageClient = ({ installation }) => {
                 ))}
               </div>
             )}
-            <Block num="03" label="Ce qu'il faut retenir" paragraphs={installation.enseignement} />
+            <div ref={afterSolutionRef} aria-hidden="true" />
+            <div ref={formWrapRef}>
+              <InstallationLeadForm installation={installation} />
+            </div>
+            <Block num="03" label="Ce que ça change pour vous" paragraphs={installation.enseignement} />
 
             {/* Liens machines et marques */}
             {(installation.machines?.some((m) => m.slug) || brands.length > 0) && (
@@ -140,7 +173,7 @@ const InstallationDetailPageClient = ({ installation }) => {
       </section>
 
       {/* CTA */}
-      <section className="bg-[#1a1c1b] text-white py-16">
+      <section className="bg-gray-900 text-white py-16">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto">
             <Eyebrow className="mb-3">Votre projet</Eyebrow>
@@ -151,11 +184,12 @@ const InstallationDetailPageClient = ({ installation }) => {
               Nous étudions votre production et votre parc existant, reprise comprise si elle a du sens. Devis sous 48h après analyse du besoin.
             </p>
             <div className="flex flex-col sm:flex-row gap-3">
-              <Link href="/contact">
-                <Button className="bg-[#ef6110] hover:bg-[#d45510] text-white font-semibold px-8 py-3 rounded-full w-full sm:w-auto">
-                  Demander un devis <ArrowRight className="ml-2" size={18} />
-                </Button>
-              </Link>
+              <Button
+                onClick={scrollToForm}
+                className="bg-[#ef6110] hover:bg-[#d45510] text-white font-semibold px-8 py-3 rounded-full w-full sm:w-auto"
+              >
+                Décrire mon projet <ArrowRight className="ml-2" size={18} />
+              </Button>
               <a href={`tel:${siteConfig.whatsapp}`}>
                 <Button variant="outline" className="border-[#ef6110] bg-transparent text-white hover:bg-[#ef6110] hover:text-white font-semibold px-8 py-3 rounded-full w-full sm:w-auto">
                   <Phone className="mr-2" size={16} /> Appeler Jean-Baptiste
@@ -186,6 +220,28 @@ const InstallationDetailPageClient = ({ installation }) => {
           </div>
         </section>
       )}
+
+      {/* Barre de rappel (après la section 02) */}
+      <div
+        className={`fixed inset-x-0 bottom-0 z-40 transition-transform duration-300 ${showBar ? 'translate-y-0' : 'translate-y-full'}`}
+        aria-hidden={!showBar}
+      >
+        <div className="bg-gray-900/95 backdrop-blur border-t-[3px] border-[#ef6110] pb-safe">
+          <div className="container mx-auto px-4 py-3 flex items-center justify-between gap-3">
+            <p className="text-white text-sm sm:text-base font-semibold leading-tight">
+              Un projet proche de celui-ci ?
+              <span className="hidden sm:inline text-gray-400 font-normal"> Devis sous 48h après analyse du besoin.</span>
+            </p>
+            <Button
+              onClick={scrollToForm}
+              tabIndex={showBar ? 0 : -1}
+              className="bg-[#ef6110] hover:bg-[#d45510] text-white font-semibold rounded-full px-5 flex-shrink-0"
+            >
+              Être rappelé
+            </Button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

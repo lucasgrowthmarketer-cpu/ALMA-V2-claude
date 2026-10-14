@@ -4,7 +4,7 @@
 // (il n'est alors pas affiché), on n'invente rien.
 //
 // Champs :
-//   slug, client (null si non citable), secteur, ville, departement (numéro), region
+//   slug, menuLabel (libellé court du footer), client (null si non citable), secteur, ville, departement (numéro), region
 //   lieuLabel : libellé de lieu à afficher quand la ville n'est pas connue
 //   miseEnService : 'MM/AAAA' ou null
 //   marques : slugs de brands_simple.json (liens vers /marque/[slug])
@@ -16,6 +16,7 @@
 export const installations = [
   {
     slug: 'technidrill-carros-trois-tours-cmz',
+    menuLabel: '3 tours CMZ · Carros (06)',
     client: 'Technidrill',
     secteur: null,
     ville: 'Carros',
@@ -44,6 +45,7 @@ export const installations = [
   },
   {
     slug: 'petras-pourrieres-centre-usinage-hartford-lg1000',
+    menuLabel: 'Hartford LG1000 · Pourrières (83)',
     client: 'Petras',
     secteur: 'Pompes et actionneurs pour la pétrochimie',
     ville: 'Pourrières',
@@ -71,6 +73,7 @@ export const installations = [
   },
   {
     slug: 'vallauris-rectifieuse-plane-ger-sra-40-20',
+    menuLabel: 'Rectifieuse GER · Vallauris (06)',
     client: 'Études et Réalisation Industrielle',
     secteur: null,
     ville: 'Vallauris',
@@ -98,6 +101,7 @@ export const installations = [
   },
   {
     slug: 'marseille-decoupe-laser-haco-nouveau-batiment',
+    menuLabel: 'Découpe laser HACO · Marseille (13)',
     client: null,
     secteur: null,
     ville: 'Marseille',
@@ -125,6 +129,7 @@ export const installations = [
   },
   {
     slug: 'marquage-laser-lasit-compactmark-g9-reception-usine',
+    menuLabel: 'Marquage laser LASIT CompactMark G9',
     client: null,
     secteur: null,
     ville: null,
