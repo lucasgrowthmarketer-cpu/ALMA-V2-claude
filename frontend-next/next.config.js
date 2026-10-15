@@ -11,6 +11,8 @@ const nextConfig = {
   },
   async redirects() {
     return [
+      // Installation anonymisée à la demande du client (15/10/2026)
+      { source: '/installations/petras-pourrieres-centre-usinage-hartford-lg1000', destination: '/installations/var-centre-usinage-hartford-lg1000', permanent: true },
       { source: '/gamme-usinage', destination: '/gamme/usinage', permanent: true },
       { source: '/gamme-chaudronnerie', destination: '/gamme/chaudronnerie', permanent: true },
       { source: '/gamme-tolerie', destination: '/gamme/tolerie', permanent: true },
